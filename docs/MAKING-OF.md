@@ -22,6 +22,9 @@ That creates a hard engineering constraint. If you process videos in parallel wi
 
 ## The pipeline
 
+![The build pipeline](pipeline.png)
+
+
 ```
 [1] SOURCE          198 transcripts + publish dates -> raw/*.md (immutable, timestamped)
          |
