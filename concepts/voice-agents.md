@@ -29,9 +29,12 @@ The recurring practical constraints are latency and audio hygiene. Because every
 ## Tools
 
 - [ElevenLabs](../entities/tools/elevenlabs.md) - text-to-speech for narration and agent replies.
+- [LiveKit](../entities/tools/livekit.md) - Open-source Python framework for building customizable, self-hostable voice AI agents with a swappable STT/LLM/TTS pipeline, tool calling, MCP server support, and a CLI deploy path to LiveKit Cloud.
 - [n8n](../entities/tools/n8n.md) - hosts the text agent that voice is layered onto.
 - [Open Web UI](../entities/tools/open-web-ui.md) - front end that adds built-in voice chat over an n8n agent.
 - [OpenAI](../entities/organizations/openai.md) - real-time voice-to-voice API as the single-model route.
+- [Deepgram](../entities/tools/deepgram.md) - Speech-to-text provider (with a free tier) used as the transcription stage of the deployed LiveKit voice pipeline.
+- [OpenAI Whisper](../entities/tools/whisper.md) - OpenAI's open-source speech-to-text model; Whisper Turbo runs fully locally as Docling's ASR pipeline to transcribe audio and video into timestamped text.
 
 ## Sources
 

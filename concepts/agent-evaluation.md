@@ -39,6 +39,9 @@ Public benchmarks are treated with suspicion. "Our benchmarks just don't resembl
 
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - its test/mock model lets you run evals without paying for real LLM calls.
 - [Claude Code](../entities/tools/claude-code.md)
+- [Google Agents CLI](../entities/tools/google-agents-cli.md) - Google's free open-source CLI and skill collection that instructs a coding agent to build, evaluate, deploy, and monitor agents on the ADK.
+- [Berkeley Function Calling Leaderboard](../entities/tools/berkeley-function-calling-leaderboard.md) - A public benchmark that ranks LLMs on function-calling accuracy using tasks meant to represent real agent and enterprise workflows.
+- [OpenTelemetry](../entities/tools/opentelemetry.md) - The open telemetry standard that agent frameworks (Pydantic AI via Logfire) emit traces through, letting any compatible backend such as Langfuse ingest them without vendor lock-in.
 
 ## Sources
 

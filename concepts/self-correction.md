@@ -29,6 +29,7 @@ Self-correction gets much stronger when the feedback signal is grounded in groun
 
 - [End-to-End Validation](./end-to-end-validation.md) - running the code and returning the real result is the strongest correction signal.
 - [Validation](./validation.md) - the general practice of checking output before trusting it.
+- [Visual Self-Validation Loop](./visual-self-validation.md) - Giving an agent the ability to render its own visual output to an image, look at the screenshot, spot imperfections, and edit the source in place over several iterations.
 - [Guardrails](./guardrails.md) - bounding retries and catching bad output so the loop stays safe.
 - [Reduce Assumptions](./reduce-assumptions.md) - grounding the retry in real errors instead of guesses.
 - [Agent Prompting Techniques](./agent-prompting.md) and [Prompt Engineering](./prompt-engineering.md) - how the error is phrased back to the model shapes whether it corrects.
@@ -36,6 +37,7 @@ Self-correction gets much stronger when the feedback signal is grounded in groun
 - [Webhook Tool Pattern](./webhook-tool-pattern.md) - a tool-call surface where caught errors feed the loop.
 - [Vibe Coding](./vibe-coding.md) - where fast, error-driven retry loops are common.
 - [Agent Observability](./agent-observability.md) - seeing the errors an agent hits is a prerequisite to correcting on them.
+- [Hallucination Detection](./hallucination-detection.md) - Deterministically checking AI-generated code against a ground-truth structure (a parsed knowledge graph of the library) to flag methods and parameters that don't actually exist, then feeding the report back so the agent can fix them.
 
 ## Sources
 

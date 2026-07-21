@@ -23,15 +23,19 @@ He puts it to work as the reasoning brain inside [agentic RAG](../../concepts/ag
 ## Realizes
 
 - [Reasoning Models](../../concepts/reasoning-models.md) - Models that produce explicit reasoning before answering, and when that extra thinking helps versus hurts.
+- [Mixture of Experts](../../concepts/mixture-of-experts.md) - A model architecture that routes each token through a subset of specialized expert networks, contrasted with a dense Transformer, explaining why two similar-looking reasoning LLMs behave very differently.
 
 ## Works with
 
 - [Qwen](./qwen.md) - Alibaba's open-source LLM family Cole cites as among his favorites that stood the test of time.
 - [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
+- [LM Studio](./lm-studio.md) - Desktop app for downloading and running open-weight LLMs locally, the main alternative to Ollama and a requested provider integration for the bolt.new fork.
 - [DeepSeek V3](./deepseek-v3.md) - New open model Cole cites as evidence the local-vs-closed gap is closing fast; he's using it heavily in his own stack and it's performing great.
+- [smolagents](./smolagents.md) - Hugging Face's minimal agent framework whose base agent executes actions through generated code, used here to build an entire agentic RAG workflow in very little code.
 
 ## Related
 
+- [QwQ](./qwq.md) - Alibaba's open reasoning model, cited as the kind of model that could draft a plan or README before any code is generated.
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
 - [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
 - [Model Quantization](../../concepts/model-quantization.md) - Compressing model weights to lower precision so large models fit and run on limited local hardware.

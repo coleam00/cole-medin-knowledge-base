@@ -41,6 +41,7 @@ The pattern generalizes past RAG. In planning versus execution, Cole hands the o
 - [Streamlit](../entities/tools/streamlit.md) - paired with Supabase and Claude in a full-stack build stack.
 - [Supabase](../entities/tools/supabase.md) - ties an app together for auth alongside the other tools in the stack.
 - [n8n](../entities/tools/n8n.md) - the agent backend stacked with a custom front end.
+- [BMAD Method](../entities/tools/bmad-method.md) - An open-source context-engineering framework (installed via npx bmad-method install) that ships expert sub-agent personas (analyst, PM, architect, scrum master, dev, QA) as markdown prompts driving separate greenfield and brownfield planning and development workflows.
 
 ## Sources
 

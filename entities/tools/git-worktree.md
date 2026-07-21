@@ -30,6 +30,7 @@ Worktrees are what let Cole fan work out to several [Claude Code](./claude-code.
 - [Claude Code](./claude-code.md) - Anthropic's terminal coding agent Cole fans out across worktrees.
 - [Codex](./codex.md) - OpenAI's software-engineering agent, another driver run per worktree.
 - [Pi](./pi-coding-agent.md) - A minimalistic open-source coding agent, another per-worktree driver.
+- [tmux](./tmux.md) - Terminal multiplexer (Cole's recommended option) that Claude Code drives to create the split-pane windows showing each agent-team teammate working in real time.
 
 ## Related
 
@@ -37,6 +38,7 @@ Worktrees are what let Cole fan work out to several [Claude Code](./claude-code.
 - [Provider Independence](../../concepts/provider-independence.md) - Swapping the model or client without a rewrite, since each isolated branch can run a different agent.
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task, one per branch.
 - [Human in the Loop](../../concepts/human-in-the-loop.md) - The reviewer of the PRs each worktree produces.
+- [Database Branching](../../concepts/database-branching.md) - Giving each git worktree its own isolated copy of the database (a Neon branch or local SQLite DB) so parallel coding agents' schema and data changes don't collide - database isolation as the counterpart to worktree code isolation.
 
 ## Sources
 

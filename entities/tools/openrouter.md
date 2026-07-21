@@ -32,6 +32,8 @@ OpenRouter is also where new models debut. It was the launch venue for the Quasa
 - [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
 - [bolt.diy](./bolt-diy.md) - Front-end build tools cited as examples of domains that already have strong built-in self-correction, so the knowledge-graph MCP isn't needed there.
+- [DeepSeek Coder V2](./deepseek-coder-v2.md) - Open-source 236B-parameter coding model available via OpenRouter or the DeepSeek API, recommended as roughly 20x cheaper than Claude while remaining highly capable for AI coding.
+- [Gemini 3.5 Flash](./gemini-3-5-flash.md) - Google's cheap, fast LLM that builds unusually beautiful, handcrafted-looking frontends; the design half of Cole's provider-mixing workflow, paired with Opus 4.8 for planning and integrations.
 
 ## Related
 
@@ -39,6 +41,7 @@ OpenRouter is also where new models debut. It was the launch venue for the Quasa
 - [DeepSeek R1](./deepseek-r1.md) - Open-source MIT-licensed reasoning LLM that rivals OpenAI o1, ships in distilled sizes, and is far cheaper to run.
 - [Google Gemini 2.0 Flash](./gemini.md) - Google's LLM line; Gemini 2.5 led general-purpose models for months and Gemini 3 is considered the most powerful general LLM at year-end.
 - [GPT-4o mini](./gpt-4o-mini.md) - A fast, cheap OpenAI model cited as a speed benchmark; Quasar Alpha runs the MCP agent army even faster than it.
+- [Abacus.AI](../organizations/abacus-ai.md) - The AI company behind ChatLLM, offering a consolidated multi-model chat product with connectors to Teams, Jira, Confluence, Google Drive, and Slack.
 
 ## Sources
 

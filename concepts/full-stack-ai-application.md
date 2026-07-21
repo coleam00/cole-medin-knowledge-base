@@ -35,6 +35,7 @@ The payoff is a coherent, deployable app rather than a demo. The right platform 
 - [n8n](../entities/tools/n8n.md) - hosts the agent that a custom full-stack frontend wraps.
 - [Lovable](../entities/tools/lovable.md) - builds the frontend and full app around an AI agent.
 - [Supabase](../entities/tools/supabase.md) - the database and backend layer of a full-stack AI app.
+- [shadcn/ui](../entities/tools/shadcn-ui.md) - The copy-in React component library that v0 emits, so generated UI lands as standard, fully-owned components you can import and customize in your own Next.js project.
 
 ## Sources
 

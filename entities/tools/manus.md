@@ -31,6 +31,7 @@ Manus is also a market signal in Cole's year-in-review: "Meta is going to acquir
 - [Skills](../../concepts/skills.md) - reusable, model-invoked capability packages that load specialized instructions on demand, the later packaging of the same idea.
 - [Vibe Coding](../../concepts/vibe-coding.md) - building software by conversationally prompting an AI, the harness-driven autonomy the harness video connects Manus to.
 - [The Evolution of AI Coding](../../concepts/the-evolution-of-ai-coding.md) - how AI coding assistants moved from novelty to daily driver, where Manus sits in the timeline of general agents.
+- [Auto-GPT](./auto-gpt.md) - Open-source experiment that wraps GPT-4 in an autonomous goal-decomposition-and-execution loop with tool use and optional vector-database memory; the first widely known autonomous agent.
 
 ## Sources
 

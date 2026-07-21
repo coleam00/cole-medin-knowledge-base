@@ -21,6 +21,7 @@ He is candid about its limits. n8n has no single node to extract text from any f
 ## Realizes
 
 - [No-Code AI Agents](../../concepts/no-code-agents.md) - Building functional AI agents by wiring nodes on a visual canvas instead of writing code, trading some control for much faster build and debug time.
+- [Workflow as a Tool](../../concepts/workflow-as-a-tool.md) - Packaging an arbitrary multi-step automation workflow as a single callable agent tool, so the agent inherits the automation platform's hundreds of integrations as capabilities.
 - [Rapid Prototyping](../../concepts/rapid-prototyping.md) - Building a fast proof of concept with managed services first, then hardening only what proves out, instead of over-engineering up front.
 
 ## Contrasts with
@@ -28,6 +29,8 @@ He is candid about its limits. n8n has no single node to extract text from any f
 - [Flowise](./flowise.md) - Low-code LLM app / agent builder included and exposed in the stack.
 - [Voiceflow](./voiceflow.md) - A conversational-AI builder cited as a comparable node-based workflow platform.
 - [Vector Shift](./vector-shift.md) - A visual AI-workflow builder cited as a comparable node-based platform.
+- [Make.com](./make.md) - No-code integration and automation platform, alongside Zapier, that a no-code agent can bridge to for services it doesn't natively integrate.
+- [Bubble](./bubble.md) - Popular no-code app builder Cole criticizes for 'workload unit' usage-based pricing that makes AI app costs unpredictable and ruinous at scale.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
 
 ## Works with
@@ -35,6 +38,7 @@ He is candid about its limits. n8n has no single node to extract text from any f
 - [LangChain](./langchain.md) - The framework used in prior masterclass videos to build the Asana agent; its message objects and invoke/stream methods underpin the chatbot logic.
 - [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
 - [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
+- [n8n Self-Hosted AI Starter Kit](./n8n-self-hosted-ai-starter-kit.md) - n8n's official Docker Compose package bundling Ollama, Qdrant, Postgres, and n8n so a fully local AI stack (LLMs, vector DB, SQL DB, orchestration) starts with one command.
 - [MCP](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
 
 ## Related
@@ -47,6 +51,9 @@ He is candid about its limits. n8n has no single node to extract text from any f
 - [Vector Embeddings](../../concepts/vector-embeddings.md) - Numeric representations of text that enable semantic similarity search, stored and managed in a vector database for retrieval.
 - [Chat Interfaces](../../concepts/chat-interfaces.md) - Wrapping agents in chat surfaces (websites, DMs, platforms) with adapters, a shared message format, and durable history.
 - [Agent as an API Endpoint](../../concepts/agent-as-api-endpoint.md) - Wrapping an AI agent in a web API (typically FastAPI) turns it from a terminal-bound script into a deployable, scalable service any frontend, SaaS, or client can call remotely.
+- [The Seven Node Blueprint](../../concepts/seven-node-blueprint.md) - Cole's mental model that decomposes any AI agent into seven reusable node types (LLM, tool, control, memory, guardrail, fallback, user input) you build individually and combine like Lego bricks.
+- [Production-Ready RAG](../../concepts/production-ready-rag.md) - Building RAG that survives a growing knowledge base, updated documents, and unexpected user questions, unlike toy 'chat with your PDF' demos.
+- [Delete-Before-Insert Re-Ingestion](../../concepts/delete-before-insert-reingestion.md) - Because most vector stores insert rather than upsert, you must delete a document's existing chunks (matched by file ID metadata) before re-inserting an updated version, or stale chunks linger forever.
 
 ## Sources
 

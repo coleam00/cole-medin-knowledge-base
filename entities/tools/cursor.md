@@ -34,6 +34,7 @@ Beyond the IDE, "we install the cursor CLI ourself. And then we invoke the curso
 - [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
 - [Cline](./cline.md) - An early AI coding driver alongside Aider; PRP was inspired by the Cline community's memory-prompting framework.
 - [Kiro](./kiro.md) - Amazon's AI coding assistant, drawing growing enterprise interest after re:Invent.
+- [Codeium](../organizations/codeium.md) - The company behind Windsurf, which coined and marketed the 'AI flows' / flow-state framing for AI IDEs.
 
 ## Related
 

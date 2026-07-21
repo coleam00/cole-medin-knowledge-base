@@ -25,6 +25,7 @@ Reasoning is not free, and on already-capable models, manually forcing step-by-s
 ## Builds on
 
 - [Chain-of-Thought Prompting](./chain-of-thought.md) - the prompting technique reasoning models bake into their weights.
+- [Tree-of-Thought Prompting](./tree-of-thought.md) - letting a model explore many possibilities and outcomes in parallel branches before committing to an answer, rather than a single linear chain of thought.
 
 ## Related
 
@@ -32,10 +33,13 @@ Reasoning is not free, and on already-capable models, manually forcing step-by-s
 - [Effective Prompting](./effective-prompting.md), [Prompt Engineering](./prompt-engineering.md) - why "think step by step" adds little on frontier models that already reason.
 - [The Agent Loop (Reason-Act-Observe)](./agent-loop.md) - reasoning models strengthen the "reason" step of the loop.
 - [Agentic Coding](./agentic-coding.md), [Agentic Workflow Engineering](./agentic-workflow-engineering.md) - where a reasoning model is often placed at the planning front of a workflow.
+- [Reasoning Model as a Tool](./reasoning-model-as-a-tool.md) - Architecture where a fast, lightweight model drives the conversation and calls a slow, powerful reasoning model as just another tool, keeping the flow nimble while still getting reasoning-grade answers on the hard step.
+- [Mixture of Experts](./mixture-of-experts.md) - A model architecture that routes each token through a subset of specialized expert networks, contrasted with a dense Transformer, explaining why two similar-looking reasoning LLMs behave very differently.
 
 ## Tools
 
 - [DeepSeek R1](../entities/tools/deepseek-r1.md) - the open-weight reasoning model whose thinking tags and distilled variants Cole dissects.
+- [QwQ](../entities/tools/qwq.md) - Alibaba's open reasoning model, cited as the kind of model that could draft a plan or README before any code is generated.
 
 ## Sources
 

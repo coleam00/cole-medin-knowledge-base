@@ -23,6 +23,8 @@ Quantization is why even frontier open models are downloadable at all. DeepSeek 
 - [Local & Self-Hosted AI](./local-ai.md) - quantization is the enabling technique; it decides which models fit your GPU and pairs with layer offloading to CPU/RAM.
 - [Model Selection](./model-selection.md) - quantization level is part of choosing a local model: bigger-but-quantized usually beats smaller-at-full-precision.
 - [Fine-Tuning](./fine-tuning.md) - a distilled or fine-tuned open model is then quantized for the last mile onto local hardware.
+- [Local LLM Hardware Requirements](./local-llm-hardware-requirements.md) - The VRAM-per-parameter-tier ladder for local models (7B chat, 14B basic tool-calling, 32B genuinely impressive, 70B near-cloud) that decides which model your hardware can actually run.
+- [Cloud GPU Hosting](./cloud-gpu-hosting.md) - Renting GPU machines in the cloud (VRAM-sized to the model, e.g. a 48GB A40 for Llama 3.1 70B) to self-host models without owning, powering, maintaining, or upgrading hardware.
 
 ## Tools
 

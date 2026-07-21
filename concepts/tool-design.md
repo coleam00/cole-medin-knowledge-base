@@ -32,6 +32,7 @@ Two further design choices matter. First, return only what the model needs: "you
 
 - [Model Context Protocol (MCP)](./mcp.md) - "MCP servers are a great way to find preackaged sets of tools you can bring into your an agent" [0:12:47].
 - [The Problems With MCP Servers](./mcp-problems.md) - overloading an agent with too many MCP tools is the failure mode tool design guards against.
+- [Workflow as a Tool](./workflow-as-a-tool.md) - Packaging an arbitrary multi-step automation workflow as a single callable agent tool, so the agent inherits the automation platform's hundreds of integrations as capabilities.
 - [Context Engineering](./context-engineering.md) - every tool and its description spends the context budget, so fewer, sharper tools pay off.
 - [Agent Core Components](./agent-core-components.md) - tools are one of the core components, alongside the model and instructions.
 - [Few-Shot Prompting](./few-shot-prompting.md) - example calls inside a docstring are few-shot guidance for tool use.

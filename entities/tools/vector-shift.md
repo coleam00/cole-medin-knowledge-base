@@ -33,6 +33,7 @@ He also treats it as a familiar reference point when explaining unfamiliar platf
 
 ## Related
 
+- [Make.com](./make.md) - No-code integration and automation platform, alongside Zapier, that a no-code agent can bridge to for services it doesn't natively integrate.
 - [Voice Agents](../../concepts/voice-agents.md) - Real-time voice-to-voice agents built from speech-to-text and text-to-speech pipelines, where latency is the key constraint.
 - [Embeddable Agent Widget](../../concepts/embeddable-agent-widget.md) - Deploying an agent onto any website with a single script tag - as a floating chat bubble, inline element, iframe, or full-screen page - independent of the site builder.
 - [Knowledge Bases](../../concepts/knowledge-bases.md) - Curated bodies of knowledge an agent can retrieve from, distinct from raw model weights, that ground responses in trusted source material.

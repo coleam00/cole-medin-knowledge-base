@@ -33,6 +33,7 @@ The strongest case for graphs is data that changes over time. [Graphiti](../enti
 
 ## Related
 
+- [Temporal-Aware Knowledge Graphs](./temporal-knowledge-graphs.md) - a knowledge graph that never overwrites a changed fact but stores the new one alongside the old with valid_at/invalidated_at timestamps, so an agent knows both what is true now and how the knowledge evolved.
 - [Agentic RAG](./agentic-rag.md) - combining graph traversal with agent-driven retrieval strategy.
 - [Memory Systems](./memory-systems.md) - a graph backend makes long-term memory relational and time-aware.
 - [The LLM Wiki](./the-llm-wiki.md) - wiki back-links let an agent "traverse through our wiki like a knowledge graph." - ["Finally, an Open Standard for the Karpathy LLM Wiki is HERE"](../sources/finally-an-open-standard-for-the-karpathy-llm-wiki-is-here.md) [0:03:27].
@@ -40,12 +41,14 @@ The strongest case for graphs is data that changes over time. [Graphiti](../enti
 - [Structured vs Unstructured Data](./structured-vs-unstructured-data.md) - graphs impose structure on otherwise unstructured text.
 - [Codebase Indexing](./codebase-indexing.md) - an entire repo turned relational and queryable as a graph.
 - [Model Selection](./model-selection.md) / [Reranking](./reranking.md) / [Progressive Disclosure](./progressive-disclosure.md) - retrieval-quality levers that apply alongside graph search.
+- [Hallucination Detection](./hallucination-detection.md) - Deterministically checking AI-generated code against a ground-truth structure (a parsed knowledge graph of the library) to flag methods and parameters that don't actually exist, then feeding the report back so the agent can fix them.
 
 ## Tools
 
 - [Neo4j](../entities/tools/neo4j.md) - the graph database engine behind the scenes.
 - [Graphiti](../entities/tools/graphiti.md) - extracts entities and relationships and maintains temporal history.
 - [LightRAG](../entities/tools/lightrag.md) - combines vector and graph indexing in one library.
+- [GraphRAG](../entities/tools/graphrag.md) - A popular knowledge-graph RAG implementation Cole groups with LightRAG as built for static, rarely-changing document summarization rather than dynamic incrementally-updated data.
 - [Mem0](../entities/tools/mem0.md) - memory that can be extended with a graph knowledge implementation.
 - [n8n](../entities/tools/n8n.md) - no-code knowledge-graph construction.
 

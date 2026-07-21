@@ -36,6 +36,7 @@ Because the sponsored videos span both AI-coding-workflow and retrieval topics, 
 - [when RAG is dead](../../concepts/when-rag-is-dead.md) - The argument that for code, agents navigating files directly often beats indexed RAG, and when traditional retrieval still earns its place.
 - [structured vs. unstructured data](../../concepts/structured-vs-unstructured-data.md) - Choosing the right representation for RAG, keeping tabular data queryable as SQL while formatting prose as markdown, rather than forcing everything through vector search.
 - [Cole Medin](../people/cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
+- [Andrew Ng](../people/andrew-ng.md) - AI educator behind the Coursera 'AI for Everyone' course and the machine learning, deep learning, and NLP specializations Cole recommends for AI fundamentals.
 
 ## Sources
 

@@ -32,6 +32,8 @@ Configurability is the second pillar. For an agency serving many clients, one au
 
 - [n8n](../entities/tools/n8n.md) - Cole's primary automation canvas, with webhook and chat triggers.
 - [GoHighLevel](../entities/tools/gohighlevel.md) - the agency CRM where per-client agents are configured in sub-accounts.
+- [Google Cloud Functions](../entities/tools/google-cloud-functions.md) - Google's serverless function platform, used as the HTTP endpoint that receives the GoHighLevel webhook and hosts the agent's request-handling backend.
+- [Higgsfield](../entities/tools/higgsfield.md) - A video-generation platform with a CLI used to create marketing videos and UGC-style ads from prompts and branded reference images, driven from inside the coding agent's terminal.
 
 ## Sources
 

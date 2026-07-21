@@ -35,6 +35,7 @@ In the arc of Cole's channel, oTTomator is the predecessor that seeded the commu
 
 - [Dynamous](./dynamous.md) - Cole's community for early AI adopters, home of the Agentic Coding course, weekly workshops, and the shared Context Engineering Hub.
 - [Cole Medin](../people/cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
+- [Eric Simons](../people/eric-simons.md) - CEO and co-founder of StackBlitz (maker of bolt.new) who announces the partnership making the community fork the official open-source bolt.DIY and frames it as a real-world benchmark frontier labs test models against.
 
 ## Sources
 

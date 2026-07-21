@@ -34,6 +34,7 @@ Why it matters: the paradigm is remarkably consistent across the ecosystem, whic
 - [Voice Agents](./voice-agents.md) - enabled by switching a node's I/O type from text to audio.
 - [Context Engineering](./context-engineering.md) - what nodes and variables are ultimately marshalling into each model call.
 - [Learn by Building](./learn-by-building.md) - the shared node paradigm makes hands-on building the fastest way to learn it.
+- [Hybrid No-Code + Code Architecture](./hybrid-no-code-and-code.md) - Reject the either/or: use n8n for orchestration, entry points, and integrations while offloading heavy processing (agents, RAG chunking, large files) to Python microservices deployed on the same instance.
 
 ## Sources
 

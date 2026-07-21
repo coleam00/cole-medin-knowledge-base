@@ -49,6 +49,7 @@ At ingestion, chunks are embedded and stored as records alongside their content 
 - [OpenAI](../entities/organizations/openai.md) - provider of the text-embedding-3 models used as a hosted default.
 - [Crawl4AI](../entities/tools/crawl4ai.md) - produces the content that gets embedded during ingestion.
 - [LangChain](../entities/tools/langchain.md) - supplies embedding and vector-store integrations in code and no-code flows.
+- [Oracle AI Database](../entities/tools/oracle-ai-database.md) - The video's sponsor; a unified AI database with built-in embeddings and semantic, keyword, and knowledge-graph search in one place, used for Cole's agentic RAG demo.
 
 ## Sources
 

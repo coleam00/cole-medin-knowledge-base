@@ -21,12 +21,14 @@ A recurring, important caveat Cole repeats is licensing: local use on your Anthr
 ## Realizes
 
 - [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+- [Embedding a Coding Agent in Your Application](../../concepts/embedding-a-coding-agent.md) - Using a coding agent's SDK to programmatically define and embed the same agent harness inside your own apps and workflows, including non-coding work like note-taking, research, and knowledge management.
 
 ## Contrasts with
 
 - [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI; the near-identical TypeScript alternative Cole pairs it with.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools; preferred for fast, scalable production agents.
 - [LangGraph](./langgraph.md) - The orchestration framework wiring agents into a stateful graph of nodes and edges, used to run agents in parallel and add human-in-the-loop.
+- [Eve (Vercel)](./eve.md) - Vercel's open-source 'file-system first' agent framework where an entire agent is a single folder of markdown/TypeScript, compiled and deployed to production with durable sessions, sandboxing, human-in-the-loop, and evals.
 
 ## Works with
 
@@ -41,6 +43,7 @@ A recurring, important caveat Cole repeats is licensing: local use on your Anthr
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost.
 - [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
 - [PRD-First Development](../../concepts/prd-first-development.md) - Starting every build from a written product requirements document that becomes the contract the agent implements against.
+- [Long-Running Agents](../../concepts/long-running-agents.md) - Coding agents that run autonomously for hours or days as background tasks, chaining dozens of fresh-context sessions through shared artifact files to produce a working proof of concept before a human takes over.
 
 ## Sources
 

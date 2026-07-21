@@ -28,6 +28,7 @@ Limits bite hardest in local and self-hosted setups, where defaults are tiny and
 - [Local & Self-Hosted AI](./local-ai.md), [Model Quantization](./model-quantization.md), [Open-Source & Local AI Coding](./open-source-ai-coding.md) - where small default limits must be raised manually.
 - [Tool Calling](./tool-use.md) - tool instructions are among the first things lost when the limit is hit.
 - [The WHISK Framework](./the-whisk-framework.md) - a workflow built around limited windows.
+- [Ollama's Default Context Window](./ollama-context-window.md) - Every Ollama model ships with a 2048-token context window that silently truncates history and tool output; the fix is a two-line Modelfile that raises num_ctx.
 
 ## Tools
 

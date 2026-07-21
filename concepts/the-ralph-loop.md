@@ -29,6 +29,7 @@ Why loop at all? Because reliability compounds against you. "A lot of times AI a
 ## Contrasts with
 
 - [Vibe Coding](./vibe-coding.md) - naive Ralph can drift toward vibes; Cole insists on planning and a validated exit gate to keep it principled.
+- [Long-Running Agents](./long-running-agents.md) - Coding agents that run autonomously for hours or days as background tasks, chaining dozens of fresh-context sessions through shared artifact files to produce a working proof of concept before a human takes over.
 
 ## Related
 
@@ -39,11 +40,16 @@ Why loop at all? Because reliability compounds against you. "A lot of times AI a
 - [System Evolution](./system-evolution.md) - the loop compounds progress over time with little maintenance.
 - [Human in the Loop](./human-in-the-loop.md) - approval gates keep an autonomous loop honest.
 - [The LLM Wiki](./the-llm-wiki.md) - a knowledge base grown by a question-answer-file loop.
+- [Loop Engineering](./loop-engineering.md) - Designing self-prompting loops (/loop, /goal, /routines) so coding agents pick up and run work autonomously instead of you prompting them each time - a buzzword Cole argues should fold into harness engineering.
+- [Initializer + Task Agent Architecture](./initializer-and-task-agent.md) - The most common harness pattern: an initializer agent scaffolds the project and produces a validated feature list, then a task agent runs in a loop making incremental progress across context-reset sessions.
+- [Geoffrey Huntley](../entities/people/geoffrey-huntley.md) - Creator of the Ralph Wiggum long-running agent loop, who frames it as a planning-heavy philosophy rather than a shiny framework or the Anthropic plugin.
+- [Peter Steinberger](../entities/people/peter-steinberger.md) - Creator of OpenClaw, cited alongside Boris Cherny as a proponent of loop engineering - writing loops instead of prompting agents, backed by a near-infinite token budget.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - the agent most commonly wrapped in the bash loop.
 - [Archon](../entities/tools/archon.md) - packages Ralph-style loops as workflows (video generation, autonomous iteration).
+- [Clerk](../entities/tools/clerk.md) - Drop-in authentication and user-management provider for web apps; Cole seeds a Clerk test account so an autonomous agent can sign in and self-validate the real running app.
 
 ## Sources
 

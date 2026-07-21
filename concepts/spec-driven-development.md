@@ -27,6 +27,8 @@ The practical trade is control for throughput. Handing off larger units of work 
 - [Agentic Coding](./agentic-coding.md) - spec-driven work is the disciplined end of the agentic-coding spectrum.
 - [Dark Factory](./dark-factory.md) - fully autonomous execution that depends on spec quality.
 - [The Evolution of AI Coding](./the-evolution-of-ai-coding.md) - spec-driven development as the current stage of that arc.
+- [BMAD Method](../entities/tools/bmad-method.md) - An open-source context-engineering framework (installed via npx bmad-method install) that ships expert sub-agent personas (analyst, PM, architect, scrum master, dev, QA) as markdown prompts driving separate greenfield and brownfield planning and development workflows.
+- [GitHub Spec Kit](../entities/tools/github-spec-kit.md) - GitHub's spec-driven development toolkit, providing slash commands for vibe planning, initial requirements, and plan creation, cited alongside PRP and BMAD as another expression of the same plan-implement-validate philosophy.
 
 ## Sources
 

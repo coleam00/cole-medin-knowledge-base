@@ -39,6 +39,7 @@ Qdrant is a fixture of Cole's [local AI](../../concepts/local-ai.md) cloud stack
 - [Ollama](./ollama.md) - the local LLM runtime that rounds out the same self-hosted stack.
 - [n8n](./n8n.md) - a no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
 - [Local AI Package](./local-ai-package.md) - Cole's bundled collection of self-hosted AI services that installs the whole stack together for free.
+- [n8n Self-Hosted AI Starter Kit](./n8n-self-hosted-ai-starter-kit.md) - n8n's official Docker Compose package bundling Ollama, Qdrant, Postgres, and n8n so a fully local AI stack (LLMs, vector DB, SQL DB, orchestration) starts with one command.
 
 ## Related
 

@@ -26,7 +26,9 @@ Traditional RAG is inflexible and brittle at scale. It struggles with specificit
 
 - [Agentic RAG](./agentic-rag.md) is the direct successor: it lets the agent reason about, refine, and re-run retrieval instead of accepting a single shot.
 - [Knowledge Graphs](./knowledge-graphs.md) address the relationship-storage gap that vector-only traditional RAG cannot.
+- [Temporal-Aware Knowledge Graphs](./temporal-knowledge-graphs.md) - a knowledge graph that never overwrites a changed fact but stores the new one alongside the old with valid_at/invalidated_at timestamps, so an agent knows both what is true now and how the knowledge evolved.
 - [When RAG Is (and Isn't) Dead](./when-rag-is-dead.md) frames the whole debate this page sits inside.
+- [Production-Ready RAG](./production-ready-rag.md) - Building RAG that survives a growing knowledge base, updated documents, and unexpected user questions, unlike toy 'chat with your PDF' demos.
 
 ## Builds on
 

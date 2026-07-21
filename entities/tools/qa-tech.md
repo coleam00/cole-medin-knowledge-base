@@ -36,6 +36,7 @@ Cole places QA Tech at the outer edge of his agentic build workflow, as the laye
 
 - [Browserbase](./browserbase.md) - browser-automation company Cole partnered with; its Stagehand framework and Director platform bring self-correcting web automation on top of Playwright.
 - [CodeRabbit](./code-rabbit.md) - AI code review tool that automatically and thoroughly reviews every pull request, free for open-source repos, with security vulnerability detection.
+- [Stagehand](./stagehand.md) - Browserbase's open-source browser-automation framework, exposed as an MCP server so a coding agent can navigate a deployed site and validate its own work.
 
 ## Related
 

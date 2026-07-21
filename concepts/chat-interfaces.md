@@ -37,6 +37,9 @@ Persisting the conversation is what makes the interface feel real. In one build 
 - [n8n](../entities/tools/n8n.md) - webhook-triggered agent backend behind many chat front ends.
 - [Open Web UI](../entities/tools/open-web-ui.md) - a self-hosted ChatGPT-style front end for n8n agents.
 - [Streamlit](../entities/tools/streamlit.md) - fast Python chat UIs for prototype agents.
+- [Gradio](../entities/tools/gradio.md) - Python UI framework for ML/LLM apps, integrated directly into smolagents so an agent gets a full chat interface in a single line of code.
+- [Notion](../entities/tools/notion.md) - All-in-one docs and workspace app, supported alongside Confluence and Google Drive as a knowledge-base source for chat assistants.
+- [Abacus.AI](../entities/organizations/abacus-ai.md) - The AI company behind ChatLLM, offering a consolidated multi-model chat product with connectors to Teams, Jira, Confluence, Google Drive, and Slack.
 
 ## Sources
 

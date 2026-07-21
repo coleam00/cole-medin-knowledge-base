@@ -35,6 +35,7 @@ Because the definition hinges on tool use, the classic teaching build is a task-
 - [Human in the Loop](./human-in-the-loop.md) - keeping a person in control as agents take real actions.
 - [Local & Self-Hosted AI](./local-ai.md) - running agents on models you host yourself.
 - [Learn by Building](./learn-by-building.md) - Cole's preferred way to understand agents is to build one.
+- [AI Agent Learning Roadmap](./ai-agent-learning-roadmap.md) - Cole's ordered path for learning to build AI agents, from Python and LLM fundamentals through no-code prototyping, coded agents, RAG, and multi-agent architectures.
 
 ## Implemented by
 

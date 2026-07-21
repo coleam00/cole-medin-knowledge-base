@@ -43,6 +43,7 @@ Hosting choices trade convenience against cost and control. Cole prefers **predi
 
 ## Tools
 
+- [Retool](../entities/tools/retool.md) - Internal-app platform that imports React code and connects to a database to deploy dashboards with a governed, permissioned, audit-trailed path to production.
 - [Docker](../entities/tools/docker.md) - Cole's default way to containerize an agent for deployment anywhere.
 - [FastAPI](../entities/tools/fastapi.md) - the API layer a deployed agent usually sits behind.
 - [Caddy](../entities/tools/caddy.md) - managed HTTPS/TLS reverse proxy for secure cloud endpoints.
@@ -52,6 +53,11 @@ Hosting choices trade convenience against cost and control. Cole prefers **predi
 - [n8n](../entities/tools/n8n.md) - a no-code runtime deployed the same containerized way.
 - [DigitalOcean](../entities/organizations/digital-ocean.md) - a common droplet/app-platform target for deployment.
 - [Groq](../entities/organizations/groq.md) - pay-per-token inference that scales down cost before self-hosting.
+- [Nginx](../entities/tools/nginx.md) - Open-source web server used as the reverse proxy that maps a public URL and domain to a local app's port, with configs symlinked from sites-available to sites-enabled and validated with nginx -t.
+- [Node.js](../entities/tools/nodejs.md) - JavaScript runtime used as an install prerequisite, whose npm scripts act as optional convenience wrappers around the underlying Docker build and run commands.
+- [OpenTelemetry](../entities/tools/opentelemetry.md) - The open telemetry standard that agent frameworks (Pydantic AI via Logfire) emit traces through, letting any compatible backend such as Langfuse ingest them without vendor lock-in.
+- [Coinbase x402](../entities/tools/x402.md) - Coinbase's payment protocol for exposing AI agents over the internet that charge other agents per use, settled in stablecoins like USDC.
+- [Vertex AI](../entities/tools/vertex-ai.md) - Google's cloud AI platform offering powerful agent capabilities out of the box, recommended in Google's agent white paper.
 
 ## Sources
 

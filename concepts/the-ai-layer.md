@@ -31,6 +31,7 @@ The AI layer is also what makes agentic coding portable. Because it is just file
 - [Provider Independence](./provider-independence.md) - a portable layer applies across every coding assistant.
 - [Commandify Everything](./commandify-everything.md) - packaging procedures into the layer.
 - [Agentic Coding](./agentic-coding.md) and [Agentic Experiences](./agentic-experiences.md) - what a strong AI layer enables.
+- [Meta-Harness](./meta-harness.md) - A layer above individual AI coding assistants that orchestrates many of them together on larger tasks, distinct from a single-agent harness.
 
 ## Tools
 

@@ -30,10 +30,13 @@ A key structural distinction is static versus dynamic context. Static context (r
 - [Global Rules](./global-rules.md) - the static-context layer loaded every run.
 - [Progressive Disclosure](./progressive-disclosure.md) - loading capability descriptions up front and detail on demand.
 - [Context Isolation](./context-isolation.md) and [Context Reset](./context-reset.md) - protecting the main window across and between sessions.
+- [The Scout Pattern](./the-scout-pattern.md) - send a sub-agent ahead to explore docs or code and decide whether a piece of context is worth loading into the main window before you commit it.
+- [Training Cutoff](./training-cutoff.md) - an AI model's knowledge is frozen at the date its training data ends, so it silently knows nothing about events, libraries, or versions released afterward.
 - [Context Rot](./context-rot.md) - the failure mode context engineering exists to prevent.
 - [Planning with AI](./planning-with-ai.md) and [PRD-First Development](./prd-first-development.md) - front-loaded context production.
 - [RAG](./rag.md), [MCP](./mcp.md), [Memory Systems](./memory-systems.md) - dynamic context sources.
 - [Skills](./skills.md) - inject docs and capabilities without bloating the window.
+- [Parametric Knowledge](./parametric-knowledge.md) - Leaning on what the model already learned in training, so naming a popular source is enough context without pasting its contents into the prompt.
 
 ## Tools
 

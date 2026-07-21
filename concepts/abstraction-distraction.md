@@ -24,6 +24,7 @@ The antidote is staying close to raw LLM calls while adopting just enough struct
 
 - [Provider Independence](./provider-independence.md) - staying thin and close to raw calls also keeps you free to swap models and providers.
 - [Agentic Workflow Engineering](./agentic-workflow-engineering.md) - building your own optimized workflow instead of inheriting a heavy framework's opinions.
+- [Coding-Agent Bloat](./coding-agent-bloat.md) - The critique that feature-maxed coding tools accumulate bugs, heavy token usage, and an uncontrollable, constantly-shifting system prompt that degrades and obscures results, arguing for minimal, moldable foundations instead.
 
 ## Tools
 

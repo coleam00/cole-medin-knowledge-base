@@ -36,6 +36,7 @@ Validation is not only about code. You validate the plan before executing it ("y
 ## Related
 
 - [End-to-End Validation](./end-to-end-validation.md) - the highest, most rigorous layer of the pyramid.
+- [Visual Self-Validation Loop](./visual-self-validation.md) - Giving an agent the ability to render its own visual output to an image, look at the screenshot, spot imperfections, and edit the source in place over several iterations.
 - [Code Review](./code-review.md) - reading the diff for bugs and quality as a validation gate.
 - [Separate Reviewer](./separate-reviewer.md) - an unbiased grader that improves validation reliability.
 - [Test-Driven Development](./test-driven-development.md) - tests written first give validation an objective target.
@@ -46,11 +47,14 @@ Validation is not only about code. You validate the plan before executing it ("y
 
 ## Tools
 
+- [Pydantic](../entities/tools/pydantic.md) - Python's de facto data-validation library (also the foundation of FastAPI), used as the validation layer by OpenAI, Anthropic, LangChain, and LlamaIndex, and the reason Pydantic AI puts validation at an agent framework's core.
 - [Claude Code](../entities/tools/claude-code.md) - runs the type-check, lint, and test loop and iterates until green.
 - [Vercel Agent Browser CLI](../entities/tools/agent-browser.md) - validates the running app through real user journeys.
 - [Playwright](../entities/tools/playwright.md) - browser automation that pops up to verify code behind the scenes.
 - [CodeRabbit](../entities/tools/code-rabbit.md) - a validation sub-agent that reviews the work.
 - [Archon](../entities/tools/archon.md) - where you validate the brief and PRP before execution.
+- [Zod](../entities/tools/zod.md) - A TypeScript schema/validation library used to type agent tool inputs so the arguments the model passes to a function are reliable.
+- [Guardrails AI](../entities/tools/guardrails-ai.md) - Open-source Python framework Cole leans on for agent input/output guardrails, blocking things like PII entering a prompt or unsafe content leaving the LLM.
 
 ## Sources
 

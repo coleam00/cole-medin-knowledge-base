@@ -40,6 +40,9 @@ Second, **GitHub as version control that doubles as agent memory.** Cole leans o
 - [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
 - [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding that fixes GitHub issues end to end.
 - [Docker](./docker.md) - Containerization prerequisite; containers authenticated with a GitHub token pull code to build and serve agents.
+- [GitHub Actions](./github-actions.md) - GitHub's built-in CI/CD system that runs trigger-based workflows to invoke coding assistants in isolated, GitHub-hosted environments.
+- [GitHub Copilot](./github-copilot.md) - GitHub's AI coding agent, which recently added subagent support for research, code analysis, and code review (distinct from the gh CLI tool already covered).
+- [GitHub Spec Kit](./github-spec-kit.md) - GitHub's spec-driven development toolkit, providing slash commands for vibe planning, initial requirements, and plan creation, cited alongside PRP and BMAD as another expression of the same plan-implement-validate philosophy.
 
 ## Sources
 

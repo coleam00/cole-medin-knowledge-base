@@ -38,6 +38,7 @@ A second brain crosses from note-taking into agent when it acts before you ask. 
 - [Knowledge Bases](./knowledge-bases.md) - the growing corpus a second brain accumulates from conversations.
 - [Human in the Loop](./human-in-the-loop.md) - the personal, review-as-you-go posture versus production governance.
 - [The Ralph Loop](./the-ralph-loop.md) - an autonomous-task pattern Cole is folding into second-brain dashboards.
+- [Coding Agent as General Assistant](./coding-agent-as-general-assistant.md) - A coding agent is really five capabilities (file ops, search, terminal, web search, code intelligence) and removing code intelligence leaves exactly the general on-machine assistant a second brain needs.
 
 ## Tools
 

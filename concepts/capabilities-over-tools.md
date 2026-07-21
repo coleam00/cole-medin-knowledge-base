@@ -32,10 +32,14 @@ Both meanings point the same direction: don't obsess over the vendor, obsess ove
 - [Agentic Workflow Engineering](./agentic-workflow-engineering.md) - engineering reusable workflows out of composed capabilities.
 - [Provider Independence](./provider-independence.md) - capabilities thinking is what lets you swap the underlying tool or model.
 - [Model Selection](./model-selection.md) - the model is one setting inside a capability, not the point of it.
+- [AI Agent Learning Roadmap](./ai-agent-learning-roadmap.md) - Cole's ordered path for learning to build AI agents, from Python and LLM fundamentals through no-code prototyping, coded agents, RAG, and multi-agent architectures.
+- [AI Tech Stack](./ai-tech-stack.md) - Your chosen collection of tools and services (LLM, framework, database, automation, hosting) combined into one working AI system, picked to fit and kept simple and reusable.
 
 ## Tools
 
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - its 2.0 release formalizes capabilities as composable units bundling instructions, tools, hooks, and settings.
+- [Perplexity](../entities/tools/perplexity.md) - AI-powered deep research search engine Cole uses daily to research new LLMs, frameworks, and AI tech.
+- [Prompting Guide](../entities/tools/prompting-guide.md) - promptingguide.ai, the free resource Cole names as the single prompt-engineering guide worth studying end to end.
 
 ## Sources
 

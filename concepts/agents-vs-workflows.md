@@ -20,10 +20,12 @@ Choosing between them is a design decision, and defaulting to "agent" is often o
 
 - [The Agent Loop (Reason-Act-Observe)](./agent-loop.md) - the non-deterministic loop is the agent side of this contrast.
 - [Deterministic Workflows](./deterministic-workflows.md) - the fixed-sequence side, chosen when logic is predictable and stable.
+- [The Seven Node Blueprint](./seven-node-blueprint.md) - Cole's mental model that decomposes any AI agent into seven reusable node types (LLM, tool, control, memory, guardrail, fallback, user input) you build individually and combine like Lego bricks.
 
 ## Related
 
 - [Tool Use](./tool-use.md) - an agent is defined by controlling which tools run and how often.
+- [Workflow as a Tool](./workflow-as-a-tool.md) - Packaging an arbitrary multi-step automation workflow as a single callable agent tool, so the agent inherits the automation platform's hundreds of integrations as capabilities.
 - [Human in the Loop](./human-in-the-loop.md) - a checkpoint that reintroduces control into an otherwise autonomous agent.
 - [Validation](./validation.md) - non-determinism raises the bar for testing agent behavior.
 

@@ -31,6 +31,7 @@ TDD is the up-front, deterministic base of a broader validation strategy. It giv
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - codes against the pre-written test suite and iterates until all cases pass.
+- [Puppeteer](../entities/tools/puppeteer.md) - Browser-automation MCP server that lets a coding agent load pages, click, and screenshot to visually validate that a feature actually works before marking it passed.
 
 ## Sources
 

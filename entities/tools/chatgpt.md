@@ -29,6 +29,7 @@ He is equally clear about its limits, warning that "these AI models like GPT are
 ## Works with
 
 - [GPT-4](./gpt-4.md) - OpenAI's model cited as strong enough that it reasons step by step without being told to; the model behind the ChatGPT he demos.
+- [GPT-3.5 Turbo](./gpt-3-5-turbo.md) - OpenAI's ChatGPT-era chat-completion model called by the proxy server to generate the text that replaces the user's selection in place.
 
 ## Contrasts with
 

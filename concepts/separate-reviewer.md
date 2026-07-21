@@ -28,6 +28,7 @@ The most rigorous form is the hold-out pattern, where the reviewer is deliberate
 ## Contrasts with
 
 - [Sycophancy](./sycophancy.md) - an author reviewing itself tends to agree with itself; a separate grader resists that.
+- [Synthesizer Agent](./synthesizer-agent.md) - the final agent in a parallel architecture that takes every sub-agent's output and summarizes, formats, and optionally validates it into one coherent answer, replacing a dumb non-LLM aggregator.
 
 ## Related
 

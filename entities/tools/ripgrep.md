@@ -31,6 +31,7 @@ But Cole is careful not to oversell it. grep has a scaling ceiling: "Grep by its
 - [Language Server Protocol](../../concepts/language-server-protocol.md) - Using LSP to give agents precise code navigation (definitions, references, symbols) instead of guessing from text.
 - [Keyword Search](../../concepts/keyword-search.md) - Exact-term (lexical) search that complements semantic search, especially for identifiers and rare tokens.
 - [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Serena](./serena.md) - An open-source MCP server for semantic code retrieval and editing that outperforms a coding agent's built-in codebase search as the codebase grows.
 
 ## Works with
 

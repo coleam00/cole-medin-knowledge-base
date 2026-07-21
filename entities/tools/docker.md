@@ -25,12 +25,14 @@ Docker is also his default recommendation for running [MCP](../../concepts/mcp.m
 ## Works with
 
 - [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Ask Gordon](./ask-gordon.md) - The AI agent built directly into Docker Desktop and wired to the MCP Toolkit by default, useful as a quick smoke test for MCP servers before connecting an external client (though its small model gets overwhelmed by large tool lists).
 - [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
 - [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
 - [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
 - [Crawl4AI](./crawl4ai.md) - The open-source crawling library powering Cole's RAG MCP server, handling llms.txt, sitemaps, and recursive scraping.
 - [Render](./render.md) - The cloud deployment platform (used on its free tier) that auto-builds and deploys staging on push and production on commit to main.
 - [RunPod](./runpod.md) - GPU cloud recommended when you need a powerful high-VRAM machine to run large language models like Llama 3.2 90B.
+- [Docker MCP Toolkit](./docker-mcp-toolkit.md) - Docker Desktop's MCP feature set: a curated catalog of hundreds of servers, a toolkit that runs each tool as an ephemeral container, and an open-source gateway for orchestrating them.
 
 ## Related
 

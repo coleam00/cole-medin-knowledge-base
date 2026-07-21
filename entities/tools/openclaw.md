@@ -30,10 +30,12 @@ OpenClaw's biggest influence, though, is on his [second brain](../../concepts/se
 
 - [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
 - [Pi](./pi-coding-agent.md) - A minimalistic, open-source coding agent cited as another example of a company-built harness around a model.
+- [Claw Hub](./claw-hub.md) - OpenClaw's public skills marketplace, where research found hundreds of malicious packages stealing API keys and SSH credentials, the canonical example of untrusted third-party agent capabilities.
 
 ## Related
 
 - [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Peter Steinberger](../people/peter-steinberger.md) - Creator of OpenClaw, cited alongside Boris Cherny as a proponent of loop engineering - writing loops instead of prompting agents, backed by a near-infinite token budget.
 
 ## Sources
 

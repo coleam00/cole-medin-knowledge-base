@@ -40,6 +40,7 @@ He is a fan without being captured. Despite recommending Claude constantly, he p
 - [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
 - [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 - [Cole Medin](../people/cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
+- [Dario Amodei](../people/dario-amodei.md) - CEO of Anthropic, cited as the highest-profile source of the 'AI will write 90% of code' and 'software engineers go extinct in 2026' predictions Cole pushes back on.
 
 ## Sources
 

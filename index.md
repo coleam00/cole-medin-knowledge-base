@@ -4,7 +4,7 @@ okf_version: "0.1"
 
 # Cole Medin - AI Knowledge Base
 
-> **Coverage: 198 long-form videos** (2023-04-05 to 2026-07-15), the full channel back catalog, compiled into **186 concept pages** and **144 entity pages** (112 tools, 8 people, 24 organizations) with **198 source summaries** over 925k words of transcript. This is an [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog) (OKF v0.1) bundle and a Karpathy-style LLM wiki: a synthesized, cross-linked graph of everything Cole teaches on [his channel](https://www.youtube.com/@ColeMedin), navigable with no database and no embeddings.
+> **Coverage: 198 long-form videos** (2023-04-05 to 2026-07-15), the full channel back catalog, compiled into **243 concept pages** and **242 entity pages** (198 tools, 13 people, 31 organizations) with **198 source summaries** over 925k words of transcript. This is an [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog) (OKF v0.1) bundle and a Karpathy-style LLM wiki: a synthesized, cross-linked graph of everything Cole teaches on [his channel](https://www.youtube.com/@ColeMedin), navigable with no database and no embeddings.
 
 **If you are an agent:** read [SCHEMA.md](SCHEMA.md) for how this bundle is structured, then use this index to navigate. Follow the relative links into the pages a question needs, do not load the whole bundle. Every page ends with a `## Sources` section citing the video(s) and timestamps it came from, so you can always trace a claim back to the transcript. When you cannot answer from a page, say so rather than guessing. How-to for querying: [docs/query-guide.md](docs/query-guide.md).
 

@@ -23,6 +23,7 @@ Compared with the fuller Supabase platform, Cole reaches for raw Postgres when h
 - [Supabase](./supabase.md) is Postgres plus a managed dashboard, auth, and pgvector pre-wired; Cole picks bare Postgres when he wants lighter nodes or self-hosting.
 - [Neon](./neon.md) is serverless Postgres with autoscaling and branching, Cole's more recent go-to for the same pgvector workloads.
 - [Pinecone](./pinecone.md) and [Qdrant](./qdrant.md) are the dedicated vector databases pgvector lets you skip.
+- [SQLite](./sqlite.md) - Embedded, file-based SQL database that lets example projects run with zero external database setup.
 
 ## Realizes
 

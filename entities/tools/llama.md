@@ -32,15 +32,18 @@ Second, as the cheap [model-selection](../../concepts/model-selection.md) tier i
 - [Claude](./claude.md) - named as an example of a large language model that can be turned into an agent.
 - [GPT-4](./gpt-4.md) - OpenAI's model cited as strong enough that it reasons step by step without being told to.
 - [Qwen 2.5 Coder 32B](./qwen.md) - Alibaba's open-source LLM family Cole cites as among his favorites that stood the test of time.
+- [Code Llama](./code-llama.md) - Meta's open-source code-specialized LLM family whose larger 34B variant fails builds that the smaller Qwen 2.5 Coder 32B handles, showing capability beats parameter count.
 
 ## Works with
 
 - [Ollama](./ollama.md) - local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
+- [Together AI](../organizations/together-ai.md) - Pay-per-token inference provider serving open models like Llama 3.1; cheaper on its lite 70B variant but pricier than Groq once you want turbo-speed inference.
 
 ## Related
 
 - [RAG](../../concepts/rag.md) - grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 - [Agent Evaluation](../../concepts/agent-evaluation.md) - systematically scoring agent behavior with evals and benchmarks, including as a gate before deployment.
+- [Berkeley Function Calling Leaderboard](./berkeley-function-calling-leaderboard.md) - A public benchmark that ranks LLMs on function-calling accuracy using tasks meant to represent real agent and enterprise workflows.
 
 ## Sources
 

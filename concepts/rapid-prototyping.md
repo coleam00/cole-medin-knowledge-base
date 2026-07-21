@@ -37,6 +37,7 @@ Prototyping also polices whether you should build at all. The killer question is
 
 - [n8n](../entities/tools/n8n.md) and [Flowise](../entities/tools/flowise.md) - the fastest no-code/low-code combo for a working agent POC.
 - [Python](../entities/tools/python.md) - the migration target when a prototype needs to scale.
+- [Gradio](../entities/tools/gradio.md) - Python UI framework for ML/LLM apps, integrated directly into smolagents so an agent gets a full chat interface in a single line of code.
 
 ## Sources
 

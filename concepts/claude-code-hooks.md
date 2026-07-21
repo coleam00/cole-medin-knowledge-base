@@ -37,6 +37,7 @@ Cole's key reframe, echoing Anthropic, is that hooks are not just guardrails. "M
 - [Skills](./skills.md) - the other deterministic building block hooks sit beside.
 - [Subagents Pattern](./subagents-pattern.md) - hooks can now be defined at the subagent level.
 - [Agentic Experiences](./agentic-experiences.md) - hooks power richer, safer agent-driven UX.
+- [Permission Management](./permission-management.md) - Allowlisting the specific safe commands an agent may run unattended, and using an isolated firewalled container when you do skip permissions entirely.
 
 ## Sources
 

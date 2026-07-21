@@ -40,6 +40,7 @@ Cole is candid that Windsurf is where he learned the failure modes too, an early
 - [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
 - [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [Codeium](../organizations/codeium.md) - The company behind Windsurf, which coined and marketed the 'AI flows' / flow-state framing for AI IDEs.
 
 ## Sources
 

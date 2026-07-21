@@ -21,6 +21,8 @@ There are two related flavors of the same move. The model can critique its answe
 - [Self-Correcting Agents](./self-correction.md) is the agent-loop generalization: self-criticism wired into a runtime feedback cycle.
 - [Adversarial Agents](./adversarial-agents.md) externalize the critique into a separate critic model rather than the same model reviewing itself.
 - [Effective Prompting](./effective-prompting.md) and [Agentic Coding](./agentic-coding.md) are where this technique is applied in practice.
+- [Auto-GPT](../entities/tools/auto-gpt.md) - Open-source experiment that wraps GPT-4 in an autonomous goal-decomposition-and-execution loop with tool use and optional vector-database memory; the first widely known autonomous agent.
+- [Visual Self-Validation Loop](./visual-self-validation.md) - Giving an agent the ability to render its own visual output to an image, look at the screenshot, spot imperfections, and edit the source in place over several iterations.
 
 ## Sources
 

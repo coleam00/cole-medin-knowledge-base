@@ -31,6 +31,9 @@ Cole runs this as a deliberately extreme public experiment. "I've also been work
 - [Deterministic Workflows](./deterministic-workflows.md) - the repeatable pipeline stages a spec flows through.
 - [Spec-Driven Development](./spec-driven-development.md) - the spec is the sole input to the factory.
 - [Separate Reviewer](./separate-reviewer.md) - the independent review stage in the pipeline.
+- [MiniMax M2.7](../entities/tools/minimax-m2.md) - A cheap, fast, capable LLM that Cole routes Claude Code to (via environment variables) to drive the entire dark factory economically at high throughput instead of Anthropic models.
+- [Agents That Build Agents](./agents-that-build-agents.md) - A meta-agent whose specialty is generating, iterating on, and eventually running other AI agents on demand, so the agents it produces become reusable sub-agents themselves.
+- [The Five Levels of AI Coding Autonomy](./five-levels-of-ai-coding-autonomy.md) - Dan Shapiro's framework mapping the SAE five levels of driving automation onto how much control you hand a coding agent, from 'spicy autocomplete' (level 0) to the 'dark factory' (level 5).
 
 ## Sources
 

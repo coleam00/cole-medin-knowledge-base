@@ -25,6 +25,7 @@ The recurring theme is ownership: a knowledge base you control, scoped to your s
 - [Retrieval-Augmented Generation (RAG)](./rag.md) - the retrieval pattern a knowledge base feeds.
 - [Chunking](./chunking.md) - how documents are split before they enter the base.
 - [Vector Embeddings](./vector-embeddings.md) - the representation that makes semantic lookup possible.
+- [Document Extraction](./document-extraction.md) - Pulling clean raw text out of source files (PDFs, Excel, HTML, JSON) is the real bottleneck in RAG ingestion, solved by branching on each file's MIME type to a format-specific extractor rather than one universal node.
 
 ## Contrasts with
 
@@ -39,6 +40,9 @@ The recurring theme is ownership: a knowledge base you control, scoped to your s
 - [Context Engineering](./context-engineering.md) - deciding what retrieved knowledge actually enters the prompt.
 - [Agent Protocols](./agent-protocols.md) - OKF standardizes agent-to-knowledge-base communication the way MCP did agent-to-tool: "It's like what MCP did for agent-to-tool communication, this OKF is doing for agent to knowledgebased communication." - [Finally, an Open Standard](../sources/finally-an-open-standard-for-the-karpathy-llm-wiki-is-here.md) [0:09:36].
 - [Chat Interfaces](./chat-interfaces.md) / [Embeddable Agent Widget](./embeddable-agent-widget.md) - front ends that surface a grounded knowledge base to users.
+- [Delete-Before-Insert Re-Ingestion](./delete-before-insert-reingestion.md) - Because most vector stores insert rather than upsert, you must delete a document's existing chunks (matched by file ID metadata) before re-inserting an updated version, or stale chunks linger forever.
+- [Open Knowledge Format (OKF)](./open-knowledge-format.md) - A minimal open standard layered on the Karpathy LLM wiki that fixes how a knowledge base is organized and what metadata its pages carry, so any agent can navigate one it has never seen.
+- [Parametric Knowledge](./parametric-knowledge.md) - Leaning on what the model already learned in training, so naming a popular source is enough context without pasting its contents into the prompt.
 
 ## Tools
 
@@ -46,9 +50,12 @@ The recurring theme is ownership: a knowledge base you control, scoped to your s
 - [Crawl4AI](../entities/tools/crawl4ai.md) / [Crawl4AI RAG MCP Server](../entities/tools/crawl4ai-rag-mcp.md) - crawl any website into a knowledge base.
 - [Supabase](../entities/tools/supabase.md) - the private Postgres store behind many of these builds.
 - [n8n](../entities/tools/n8n.md) - no-code ingestion workflows into a knowledge base.
+- [Airtable](../entities/tools/airtable.md) - Spreadsheet-database platform wired to an agent via its MCP server, backing the 'AI research base' where the agent army writes and reads structured records.
 - [Google Drive](../entities/tools/google-drive.md) - a common document source polled for new files.
 - [Vector Shift](../entities/tools/vector-shift.md) - no-code knowledge-base ingestion.
 - [Context7](../entities/tools/context7.md) - an out-of-the-box docs option contrasted with a private base.
+- [Confluence](../entities/tools/confluence.md) - Atlassian's team documentation wiki, connected via API key as the ingested knowledge-base source that grounds a RAG assistant's answers.
+- [Oracle AI Database](../entities/tools/oracle-ai-database.md) - The video's sponsor; a unified AI database with built-in embeddings and semantic, keyword, and knowledge-graph search in one place, used for Cole's agentic RAG demo.
 
 ## Sources
 

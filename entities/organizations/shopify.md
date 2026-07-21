@@ -27,6 +27,7 @@ A third, lighter role: Shopify is a common integration target for the business a
 
 ## Related
 
+- [Roast](../tools/roast.md) - Shopify's open-source structured AI workflow engine that combines deterministic and agentic nodes, Cole's recommended starting point for building your own harness.
 - [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
 - [RAG](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 - [Andrej Karpathy](../people/andrej-karpathy.md) - AI engineer who coined 'vibe coding' in February 2025 and popularized the LLM-built personal knowledge base (the 'Karpathy LLM Wiki').

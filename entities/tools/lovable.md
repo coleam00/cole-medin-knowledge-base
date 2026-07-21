@@ -27,6 +27,7 @@ Against [bolt.new](./bolt-new.md) and [bolt.diy](./bolt-diy.md), Cole finds the 
 
 - [bolt.new](./bolt-new.md) - StackBlitz's commercial AI coding platform that generates entire full-stack applications; Cole finds the two comparable but with distinct strengths.
 - [bolt.diy](./bolt-diy.md) - the open fork Cole hands Lovable builds off to for further improvements.
+- [v0](./v0.md) - Vercel's AI front-end generator that builds Next.js/shadcn UI components and whole front ends from natural-language prompts, with an npx install command to pull the generated component into a local project.
 
 ## Related
 

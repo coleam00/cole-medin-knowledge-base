@@ -23,12 +23,15 @@ Because ACP is a standard, it also opens the door to custom agents. "Since ACP i
 ## Related
 
 - [Model Context Protocol (MCP)](./mcp.md) - the direct analog; ACP connects editors to agents, MCP connects agents to tools.
+- [Agent2Agent (A2A) Protocol](./a2a-protocol.md) - Google's open standard for how independently-built agents discover and talk to each other over HTTP via agent cards and tasks, the agent-to-agent counterpart to MCP.
 - [Language Server Protocol](./language-server-protocol.md) - the older editor-standardization pattern ACP echoes for agents.
 - [Provider Independence](./provider-independence.md) - the freedom to swap agents and editors that ACP enables.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - bridged into Zed through a ~600-line ACP adapter over the Claude Agent SDK.
+- [Zed](../entities/tools/zed.md) - A free, open-source code editor from the team that created the Agent Client Protocol, shipping the first beta ACP implementation with native Gemini CLI and adapter-based Claude Code support.
+- [Visual Studio Code](../entities/tools/vs-code.md) - Microsoft's editor where Cole drops LLM-generated Python, fills in placeholders, and runs the app from the integrated terminal.
 
 ## Sources
 

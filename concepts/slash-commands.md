@@ -27,12 +27,14 @@ Crucially, slash commands are portable because they are just files. Cole stresse
 - [The Prime Command](./prime-command.md) - a canonical command that loads codebase context at session start.
 - [Agentic Workflow Engineering](./agentic-workflow-engineering.md), [Planning with AI](./planning-with-ai.md), [PRD-First Development](./prd-first-development.md), [The PRP Framework](./prp-framework.md) - the planning and execution procedures most often packaged as commands.
 - [Agentic Coding](./agentic-coding.md), [Git as Long-Term Memory](./git-as-long-term-memory.md), [Memory Systems](./memory-systems.md) - where a standardized `/commit` and context commands pay off.
+- [Loop Engineering](./loop-engineering.md) - Designing self-prompting loops (/loop, /goal, /routines) so coding agents pick up and run work autonomously instead of you prompting them each time - a buzzword Cole argues should fold into harness engineering.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - native `/command` support reading the `.claude/commands/` folder.
 - [Codex](../entities/tools/codex.md), [Cursor](../entities/tools/cursor.md), [Gemini CLI](../entities/tools/gemini-cli.md), [Windsurf](../entities/tools/windsurf.md) - either support commands directly or run the same markdown as a pasted prompt.
 - [Archon](../entities/tools/archon.md) - packages the same reusable planning workflows into portable command files.
+- [GitHub Spec Kit](../entities/tools/github-spec-kit.md) - GitHub's spec-driven development toolkit, providing slash commands for vibe planning, initial requirements, and plan creation, cited alongside PRP and BMAD as another expression of the same plan-implement-validate philosophy.
 
 ## Sources
 

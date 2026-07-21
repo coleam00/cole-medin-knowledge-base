@@ -47,6 +47,8 @@ Mechanically, the loop is a router plus recursion. A router node checks the mode
 - [LangChain](../entities/tools/langchain.md) - provides the tool-calling primitives the loop recurses over.
 - [n8n](../entities/tools/n8n.md) - runs the loop inside a no-code agent node.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - handles the reason-act-observe cycle for you.
+- [Auto-GPT](../entities/tools/auto-gpt.md) - Open-source experiment that wraps GPT-4 in an autonomous goal-decomposition-and-execution loop with tool use and optional vector-database memory; the first widely known autonomous agent.
+- [Claude 3.5 Sonnet](../entities/tools/claude-3-5-sonnet.md) - Anthropic's mid-2024 flagship model and the only LLM Cole could not break in his agentic stress test, making it his clear winner for multi-step tool-using workflows.
 
 ## Sources
 

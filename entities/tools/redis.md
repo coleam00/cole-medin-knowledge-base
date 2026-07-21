@@ -18,6 +18,7 @@ Unlike Postgres, Supabase, or Neon, Redis is not the system of record in Cole's 
 
 ## Works with
 
+- [Redis Iris](./redis-iris.md) - A preview Redis product that wraps the database with a Context Retriever (auto-generated MCP tools over defined entities/schema) and Agent Memory (short/long-term with background promotion to vector-indexed memory), demoed as the production-agent substitute for markdown second brains.
 - [Ollama](./ollama.md) - the local LLM runtime that rounds out the same self-hosted stack Redis caches for.
 - [Local & Self-Hosted AI](../../concepts/local-ai.md) - running open-weight models on your own hardware or cloud; the setting where Cole runs Redis as part of a private, fully self-hosted stack.
 

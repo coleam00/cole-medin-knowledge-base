@@ -33,6 +33,8 @@ A third angle is reusable, open-source agents as a community and portfolio. The 
 
 - [GoHighLevel](../entities/tools/gohighlevel.md) - the marketing-agency CRM at the center of the platform niche.
 - [Live Agent Studio](../entities/tools/live-agent-studio.md) - the community platform for open-source, reusable agents.
+- [Google Cloud Functions](../entities/tools/google-cloud-functions.md) - Google's serverless function platform, used as the HTTP endpoint that receives the GoHighLevel webhook and hosts the agent's request-handling backend.
+- [Coinbase x402](../entities/tools/x402.md) - Coinbase's payment protocol for exposing AI agents over the internet that charge other agents per use, settled in stablecoins like USDC.
 
 ## Sources
 

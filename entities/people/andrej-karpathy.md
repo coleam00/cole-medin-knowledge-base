@@ -29,6 +29,7 @@ Karpathy functions in this catalog as the origin point Cole builds on and, gentl
 - [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
 - [Progressive Disclosure](../../concepts/progressive-disclosure.md) - Loading context, skills, and tools on demand only when a task needs them instead of front-loading everything into the context window.
 - [Cole Medin](./cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
+- [Open Knowledge Format (OKF)](../../concepts/open-knowledge-format.md) - A minimal open standard layered on the Karpathy LLM wiki that fixes how a knowledge base is organized and what metadata its pages carry, so any agent can navigate one it has never seen.
 
 ## Sources
 

@@ -27,6 +27,7 @@ Graphiti recurs across his stack in both code and no-code contexts. It "gives us
 ## Realizes
 
 - [Knowledge Graphs](../../concepts/knowledge-graphs.md) - Structuring knowledge as entities and relationships (often temporal) so agents can traverse connections a vector store can't express.
+- [Temporal-Aware Knowledge Graphs](../../concepts/temporal-knowledge-graphs.md) - A knowledge graph that never overwrites a changed fact but stores the new one alongside the old with valid_at/invalidated_at timestamps, so an agent knows both what is true now and how the knowledge evolved.
 - [Agentic RAG](../../concepts/agentic-rag.md) - Giving an agent retrieval as a tool so it decides when and how to search a knowledge base, picking strategies and issuing follow-up queries instead of a single static lookup.
 - [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
 
@@ -40,6 +41,7 @@ Graphiti recurs across his stack in both code and no-code contexts. It "gives us
 ## Contrasts with
 
 - [LightRAG](./lightrag.md) - A knowledge-graph RAG solution Cole previously covered; suited to static document summarization but slower to build and query than Graphiti.
+- [GraphRAG](./graphrag.md) - A popular knowledge-graph RAG implementation Cole groups with LightRAG as built for static, rarely-changing document summarization rather than dynamic incrementally-updated data.
 
 ## Related
 

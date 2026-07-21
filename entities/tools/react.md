@@ -34,6 +34,7 @@ React is also, plainly, Cole's preferred framework. In his developer-roadmap vid
 - [AG-UI](./ag-ui.md) - open protocol that standardizes connecting AI agents to front ends via emitted events.
 - [Vercel AI SDK](./vercel-ai-sdk.md) - the front-end AI library whose llms.txt documentation Cole crawls as a demo knowledge base and uses to build a chat UI.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents that sit behind the endpoint React talks to.
+- [shadcn/ui](./shadcn-ui.md) - The copy-in React component library that v0 emits, so generated UI lands as standard, fully-owned components you can import and customize in your own Next.js project.
 
 ## Related
 

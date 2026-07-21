@@ -38,10 +38,12 @@ Priming is deliberately load-bearing before planning: "sometimes we need our age
 - [Context Isolation](./context-isolation.md) - a lightweight prime keeps the main agent's context focused before subagents fan out.
 - [Subagents Pattern](./subagents-pattern.md) - Cole primes the main agent first, before any subagents are dispatched.
 - [AI Coding Harness](./ai-coding-harness.md) - priming is how a harness fills a fresh agent's memory concisely.
+- [Greenfield vs. Brownfield Projects](./greenfield-vs-brownfield.md) - The branch point in AI-assisted planning between building a brand-new project, where the agent grounds itself in external documentation research, and working in an existing codebase, where it must reference the repo's existing patterns instead.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - Cole's primary driver for prime commands, invoked as `/prime` at the start of each session.
+- [Serena](../entities/tools/serena.md) - An open-source MCP server for semantic code retrieval and editing that outperforms a coding agent's built-in codebase search as the codebase grows.
 
 ## Sources
 

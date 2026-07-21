@@ -37,6 +37,9 @@ Claude also anchors his access story. It is one of the models he shows unified b
 
 ## Related
 
+- [Claude Opus 4.8](./claude-opus-4-8.md) - Anthropic's reasoning-heavy Claude release that owns planning, page copy, integrations, and fixes in Cole's mixed-provider frontend workflow.
+- [Claude Sonnet 4.5](./claude-sonnet-4-5.md) - Anthropic's coding-focused model release that topped the coding and agentic-tool-use benchmarks over Opus 4.1 and shipped as the default model in Claude Code 2.0.
+- [Claude 3.5 Sonnet](./claude-3-5-sonnet.md) - Anthropic's mid-2024 flagship model and the only LLM Cole could not break in his agentic stress test, making it his clear winner for multi-step tool-using workflows.
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
 - [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
 

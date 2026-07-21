@@ -29,14 +29,17 @@ The second layer takes one feature from that project plan and expands it into a 
 
 ## Related
 
+- [Vibe Planning](./vibe-planning.md) - the deliberately unstructured first stage of planning: free-form exploration of ideas, architecture, and tech stack with the coding assistant as a research companion, before any structure or requirements doc is imposed.
 - [Context Engineering](./context-engineering.md) - each plan is curated context handed into the next stage.
 - [Context Isolation](./context-isolation.md) - the two layers run in separate, focused sessions.
 - [Context Reset](./context-reset.md) - the layer-two plan lets you start implementation with a clean window.
 - [PRP Framework](./prp-framework.md) - turning initial requirements into a structured, task-level prompt.
+- [Greenfield vs. Brownfield Projects](./greenfield-vs-brownfield.md) - The branch point in AI-assisted planning between building a brand-new project, where the agent grounds itself in external documentation research, and working in an existing codebase, where it must reference the repo's existing patterns instead.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - Cole's planner, used with a strong model for the high-level layer.
+- [Claude Opus 4.8](../entities/tools/claude-opus-4-8.md) - Anthropic's reasoning-heavy Claude release that owns planning, page copy, integrations, and fixes in Cole's mixed-provider frontend workflow.
 
 ## Sources
 

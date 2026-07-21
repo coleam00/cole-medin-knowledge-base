@@ -27,6 +27,7 @@ Across Cole's bolt.diy coverage, StackBlitz is the reason the fork could pursue 
 
 - [bolt.new](../tools/bolt-new.md) - StackBlitz's commercial AI coding platform that generates entire full-stack applications; the stable product bolt.DIY forks from.
 - [bolt.diy](../tools/bolt-diy.md) - Front-end build tools cited as examples of domains that already have strong built-in self-correction, so the knowledge-graph MCP isn't needed there.
+- [Eric Simons](../people/eric-simons.md) - CEO and co-founder of StackBlitz (maker of bolt.new) who announces the partnership making the community fork the official open-source bolt.DIY and frames it as a real-world benchmark frontier labs test models against.
 
 ## Related
 

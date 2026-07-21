@@ -29,6 +29,8 @@ Because it is a closed, hosted model, GPT-4o also sits on the opposite side of C
 ## Contrasts with
 
 - [Claude](./claude.md) - Named as an example of a large language model that can be turned into an agent, the "Claude 3.5" contemporary Cole flags as the one rival to GPT-4o.
+- [Claude 3.5 Sonnet](./claude-3-5-sonnet.md) - Anthropic's mid-2024 flagship model and the only LLM Cole could not break in his agentic stress test, making it his clear winner for multi-step tool-using workflows.
+- [Berkeley Function Calling Leaderboard](./berkeley-function-calling-leaderboard.md) - A public benchmark that ranks LLMs on function-calling accuracy using tasks meant to represent real agent and enterprise workflows.
 
 ## Related
 

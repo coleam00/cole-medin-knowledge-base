@@ -30,6 +30,7 @@ That portability is exactly why Claude Desktop also illustrates the limits of na
 
 ## Contrasts with
 
+- [Ask Gordon](./ask-gordon.md) - The AI agent built directly into Docker Desktop and wired to the MCP Toolkit by default, useful as a quick smoke test for MCP servers before connecting an external client (though its small model gets overwhelmed by large tool lists).
 - [Cursor](./cursor.md) - AI coding assistant that can consume AG-UI's llms.txt docs to help build with the protocol.
 - [Windsurf](./windsurf.md) - AI coding IDE Cole used to build the Python AG-UI backend and consume the protocol docs.
 

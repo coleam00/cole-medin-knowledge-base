@@ -24,6 +24,7 @@ Archon is the orchestration backbone across Cole's builds. It ships default work
 
 ## Realizes
 
+- [Agents That Build Agents](../../concepts/agents-that-build-agents.md) - A meta-agent whose specialty is generating, iterating on, and eventually running other AI agents on demand, so the agents it produces become reusable sub-agents themselves.
 - [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
 - [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
 
@@ -32,10 +33,16 @@ Archon is the orchestration backbone across Cole's builds. It ships default work
 - [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
 - [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
 - [Pi](./pi-coding-agent.md) - A minimalistic, open-source coding agent cited as another example of a company-built harness around a model.
+- [Roast](./roast.md) - Shopify's open-source structured AI workflow engine that combines deterministic and agentic nodes, Cole's recommended starting point for building your own harness.
 - [Git Worktrees](./git-worktree.md) - Git feature that duplicates the codebase across isolated branches so multiple coding agents can run in parallel without collisions.
 - [MCP (Model Context Protocol)](./mcp.md) - The protocol used to connect Claude Code to external tools and servers.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
 - [LangGraph](./langgraph.md) - The orchestration framework wiring agents into a stateful graph of nodes and edges, used here to run agents in parallel and add human-in-the-loop.
+- [Airtable](./airtable.md) - Spreadsheet-database platform wired to an agent via its MCP server, backing the 'AI research base' where the agent army writes and reads structured records.
+- [BMAD Method](./bmad-method.md) - An open-source context-engineering framework (installed via npx bmad-method install) that ships expert sub-agent personas (analyst, PM, architect, scrum master, dev, QA) as markdown prompts driving separate greenfield and brownfield planning and development workflows.
+- [Higgsfield](./higgsfield.md) - A video-generation platform with a CLI used to create marketing videos and UGC-style ads from prompts and branded reference images, driven from inside the coding agent's terminal.
+- [HyperFrames](./hyperframes.md) - An HTML-based video rendering tool with a built-in preview editor that lets AI agents generate and mold animated scenes, positioned as a more reliable step up from Remotion.
+- [Kokoro](./kokoro.md) - A free, open-source text-to-speech model that lets you run the entire AI video-generation workflow at no cost.
 
 ## Related
 
@@ -47,6 +54,7 @@ Archon is the orchestration backbone across Cole's builds. It ships default work
 - [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) - Dispatching agents to background tasks in isolated git worktrees, each fed repo context and returning a reviewable PR.
 - [Context Isolation](../../concepts/context-isolation.md) - Giving each agent or subagent its own clean context window so unrelated tokens never dilute the task at hand.
 - [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
+- [Geoffrey Huntley](../people/geoffrey-huntley.md) - Creator of the Ralph Wiggum long-running agent loop, who frames it as a planning-heavy philosophy rather than a shiny framework or the Anthropic plugin.
 
 ## Sources
 

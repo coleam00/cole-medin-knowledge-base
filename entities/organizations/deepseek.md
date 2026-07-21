@@ -21,6 +21,7 @@ Its coder models earn repeated praise. In the [oTToDev](../tools/ottodev.md) for
 ## Realizes
 
 - [Reasoning Models](../../concepts/reasoning-models.md) - Models that produce explicit reasoning before answering, and when that extra thinking helps versus hurts.
+- [Mixture of Experts](../../concepts/mixture-of-experts.md) - A model architecture that routes each token through a subset of specialized expert networks, contrasted with a dense Transformer, explaining why two similar-looking reasoning LLMs behave very differently.
 
 ## Works with
 
@@ -39,6 +40,7 @@ Its coder models earn repeated praise. In the [oTToDev](../tools/ottodev.md) for
 - [Community-Driven Development](../../concepts/community-driven-development.md) - Building products and open source in public with a community, using a public roadmap and shared learning.
 - [Vibe Coding](../../concepts/vibe-coding.md) - Building software by conversationally prompting an AI without closely reading the code, useful for prototypes but risky for production.
 - [Nvidia](./nvidia.md) - Co-sponsor of the AI agents developer contest whose technologies Cole must integrate to qualify.
+- [Mistral](./mistral.md) - French AI lab and LLM provider whose models were added to the bolt.new fork as a first-class API integration by popular community request.
 
 ## Sources
 

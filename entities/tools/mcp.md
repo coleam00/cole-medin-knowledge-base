@@ -38,6 +38,9 @@ Cole also stresses MCP's limits and its place in a larger stack. It is "the laye
 - [Context7](./context7.md) - A hosted MCP RAG server for 8,000+ library docs; impressive but too broad, can't include private repos, and its core logic is closed-source.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
 - [AG-UI](./ag-ui.md) - Open protocol (by the CopilotKit team) that standardizes connecting AI agents to front ends via emitted events; ~16 event types.
+- [Docker MCP Toolkit](./docker-mcp-toolkit.md) - Docker Desktop's MCP feature set: a curated catalog of hundreds of servers, a toolkit that runs each tool as an ephemeral container, and an open-source gateway for orchestrating them.
+- [FastMCP](./fastmcp.md) - Anthropic's high-level Python interface in the MCP SDK for spinning up an MCP server in one line (name, description, lifespan, host, port) and registering tools with the @mcp.tool decorator.
+- [Cloudflare](../organizations/cloudflare.md) - Cloud platform whose Workers runtime and Wrangler CLI are the deployment target the MCP-specific PRP template is built around.
 
 ## Related
 

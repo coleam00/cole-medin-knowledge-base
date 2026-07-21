@@ -34,6 +34,9 @@ The tradeoff is flexibility bought with predictability: "this makes rag very fle
 - [Reranking](./reranking.md), [Query Expansion](./query-expansion.md), [Multi-Query RAG](./multi-query-rag.md), [Hierarchical RAG](./hierarchical-rag.md), [Contextual Retrieval](./contextual-retrieval.md) - complementary accuracy strategies stacked underneath agentic tools.
 - [Model Context Protocol (MCP)](./mcp.md) - a common way to ship a RAG knowledge base as a tool to a coding assistant.
 - [Structured vs. Unstructured Data](./structured-vs-unstructured-data.md), [Human in the Loop](./human-in-the-loop.md).
+- [Production-Ready RAG](./production-ready-rag.md) - Building RAG that survives a growing knowledge base, updated documents, and unexpected user questions, unlike toy 'chat with your PDF' demos.
+- [Reasoning Model as a Tool](./reasoning-model-as-a-tool.md) - Architecture where a fast, lightweight model drives the conversation and calls a slow, powerful reasoning model as just another tool, keeping the flow nimble while still getting reasoning-grade answers on the hard step.
+- [Metadata Filtering](./metadata-filtering.md) - Tagging every embedded chunk with source metadata so retrieval can be scoped to one document set and answers can cite which document they came from.
 
 ## Tools
 
@@ -41,6 +44,7 @@ The tradeoff is flexibility bought with predictability: "this makes rag very fle
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - Cole's Python framework for wiring retrieval as agent tools.
 - [n8n](../entities/tools/n8n.md), [Supabase](../entities/tools/supabase.md), [Chroma](../entities/tools/chroma.md), [Qdrant](../entities/tools/qdrant.md) - no-code and vector-store building blocks for agentic RAG agents.
 - [LightRAG](../entities/tools/lightrag.md) - combines vector retrieval and knowledge-graph search behind one agent-facing interface.
+- [OpenAI o3-mini](../entities/tools/o3-mini.md) - OpenAI's small reasoning model, used as Archon's reasoner to write the scope document before the coder agent builds, and the head-to-head rival to DeepSeek R1 for coding.
 
 ## Sources
 

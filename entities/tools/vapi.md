@@ -31,6 +31,7 @@ That said, Cole is fair about where Vapi wins: latency. Comparing it to a genera
 - [Agent Deployment](../../concepts/agent-deployment.md) - Getting agents to production, containerizing, networking, reverse-proxying, and choosing a provider-agnostic, cost-predictable host.
 - [Tool Calling](../../concepts/tool-use.md) - Letting an LLM invoke external functions and APIs so it can take actions and fetch data beyond its parametric knowledge.
 - [Clarifying Questions](../../concepts/clarifying-questions.md) - Having the agent ask targeted questions up front to infer intent and reduce assumptions before it plans or builds.
+- [LiveKit](./livekit.md) - Open-source Python framework for building customizable, self-hostable voice AI agents with a swappable STT/LLM/TTS pipeline, tool calling, MCP server support, and a CLI deploy path to LiveKit Cloud.
 - [ElevenLabs](./elevenlabs.md) - The paid text-to-speech provider used for high-quality narration and voice cloning (though cloning takes work to make reliable).
 - [Aqua Voice](./aqua-voice.md) - Speech-to-text platform Cole uses to dictate into any text box, especially for communicating with LLMs.
 - [Remotion](./remotion.md) - The earlier tool that first gave Claude Code a skill to generate videos; Cole found it less reliable than HyperFrames.

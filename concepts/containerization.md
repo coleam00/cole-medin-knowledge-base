@@ -36,6 +36,8 @@ Containerization is also the escape hatch for tools you cannot install natively.
 - [Open Web UI](../entities/tools/open-web-ui.md) - the front-end container that must address Ollama, not itself.
 - [Supabase](../entities/tools/supabase.md) - a database run in-network alongside the agent.
 - [DigitalOcean](../entities/organizations/digital-ocean.md) - an app platform that hands a Dockerized service a full HTTPS endpoint.
+- [Nginx](../entities/tools/nginx.md) - Open-source web server used as the reverse proxy that maps a public URL and domain to a local app's port, with configs symlinked from sites-available to sites-enabled and validated with nginx -t.
+- [Node.js](../entities/tools/nodejs.md) - JavaScript runtime used as an install prerequisite, whose npm scripts act as optional convenience wrappers around the underlying Docker build and run commands.
 
 ## Sources
 

@@ -36,6 +36,7 @@ Structured outputs are also the mechanism underneath [tool use](./tool-use.md). 
 
 ## Tools
 
+- [Pydantic](../entities/tools/pydantic.md) - Python's de facto data-validation library (also the foundation of FastAPI), used as the validation layer by OpenAI, Anthropic, LangChain, and LlamaIndex, and the reason Pydantic AI puts validation at an agent framework's core.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - the validation layer Cole reaches for; set `result_type` to a class and it enforces the schema.
 - [OpenAI Agents SDK](../entities/tools/openai-agents-sdk.md) - supports structured outputs to standardize agent responses.
 - [LangChain](../entities/tools/langchain.md) - provides JSON output parsers that enforce a defined shape.

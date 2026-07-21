@@ -30,6 +30,7 @@ Mechanically the integration follows the client side of [MCP architecture](./mcp
 ## Tools
 
 - [MCP](../entities/tools/mcp.md) - the servers your custom agent connects to as a client.
+- [Sequential Thinking MCP Server](../entities/tools/sequential-thinking-mcp.md) - A stdio MCP server that instructs a model to reason step by step, used to buy extra thinking tokens and attached to custom Claude Agent SDK agents via JSON config.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - a framework for building the custom agent that leverages MCP servers.
 
 ## Sources

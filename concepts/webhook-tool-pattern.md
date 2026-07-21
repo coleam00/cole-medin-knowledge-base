@@ -35,6 +35,7 @@ Because every tool is just an HTTP endpoint with the same shape, the calling sid
 - [n8n](../entities/tools/n8n.md)
 - [Flowise](../entities/tools/flowise.md)
 - [LangChain](../entities/tools/langchain.md)
+- [ngrok](../entities/tools/ngrok.md) - Tunneling tool that exposes a local dev server on a public HTTPS URL so third-party webhooks (here ChargeBee's) can reach a local endpoint during development.
 
 ## Sources
 

@@ -40,6 +40,7 @@ Why it matters is adoption: "no one is going to use your AI app if it's ugly," a
 - [Streamlit](../entities/tools/streamlit.md) - rerun-on-change Python UIs for agent prototypes.
 - [Vercel AI SDK](../entities/tools/vercel-ai-sdk.md) - Cole's favorite SDK for robust AI front ends.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - backend agent whose typed output feeds the UI.
+- [Builder.io](../entities/tools/builder-io.md) - Figma-to-code product Cole cites as the canonical case where training a custom model beat general GPT, then used GPT to refine the generated code.
 
 ## Sources
 

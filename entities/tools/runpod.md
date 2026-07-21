@@ -20,6 +20,7 @@ Positioned against his other infrastructure picks, RunPod occupies the heavy end
 
 ## Realizes
 
+- [Cloud GPU Hosting](../../concepts/cloud-gpu-hosting.md) - Renting GPU machines in the cloud (VRAM-sized to the model, e.g. a 48GB A40 for Llama 3.1 70B) to self-host models without owning, powering, maintaining, or upgrading hardware.
 - [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
 
 ## Works with

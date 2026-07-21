@@ -34,6 +34,8 @@ Knowing the patterns also drives the build-versus-buy decision. Cole frames the 
 - [Self-Correcting Agents](./self-correction.md) - the evaluator pattern applied to an agent judging its own work.
 - [Buy vs. Build](./buy-vs-build.md) - the decision the patterns inform: build the shape yourself or adopt a platform that already has it.
 - [What Is an AI Agent](./what-is-an-ai-agent.md) - the primitive these patterns arrange.
+- [Reasoning Model as a Tool](./reasoning-model-as-a-tool.md) - Architecture where a fast, lightweight model drives the conversation and calls a slow, powerful reasoning model as just another tool, keeping the flow nimble while still getting reasoning-grade answers on the hard step.
+- [The Seven Node Blueprint](./seven-node-blueprint.md) - Cole's mental model that decomposes any AI agent into seven reusable node types (LLM, tool, control, memory, guardrail, fallback, user input) you build individually and combine like Lego bricks.
 
 ## Tools
 

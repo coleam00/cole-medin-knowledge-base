@@ -30,6 +30,7 @@ The A record is only the first half of a presentable deployment. It gets traffic
 
 - [DigitalOcean](../entities/organizations/digital-ocean.md) - the droplet whose IPv4 address the A record points to.
 - [n8n](../entities/tools/n8n.md) - the example service reached by subdomain instead of IP and port.
+- [Certbot](../entities/tools/certbot.md) - EFF tool that obtains and installs free Let's Encrypt SSL certificates and rewrites the web-server config so a deployed site is served over HTTPS.
 
 ## Sources
 

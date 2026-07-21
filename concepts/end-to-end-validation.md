@@ -31,6 +31,7 @@ Done well, this replaces most manual QA and closes the autonomous loop. "I basic
 ## Related
 
 - [Code Review](./code-review.md) - reading the diff, the complement to exercising the running system.
+- [Visual Self-Validation Loop](./visual-self-validation.md) - Giving an agent the ability to render its own visual output to an image, look at the screenshot, spot imperfections, and edit the source in place over several iterations.
 - [Adversarial Agents](./adversarial-agents.md) - a hold-out validator given only the diff and the user journey.
 - [Human in the Loop](./human-in-the-loop.md) - your final check after the agent's end-to-end pass.
 - [Agentic Coding](./agentic-coding.md) - the broader practice this validation discipline underpins.
@@ -45,6 +46,7 @@ Done well, this replaces most manual QA and closes the autonomous loop. "I basic
 - [Playwright](../entities/tools/playwright.md) - browser automation Cole's harness uses to validate rendered pages.
 - [Claude Code](../entities/tools/claude-code.md) - orchestrates the end-to-end passes and frame-by-frame review.
 - [Google Gemini 2.0 Flash](../entities/tools/gemini.md) - autonomous browser verification inside Anti-Gravity, including timed screenshots.
+- [ngrok](../entities/tools/ngrok.md) - Tunneling tool that exposes a local dev server on a public HTTPS URL so third-party webhooks (here ChargeBee's) can reach a local endpoint during development.
 
 ## Sources
 

@@ -31,12 +31,15 @@ The second problem is that a raw API key must never live in browser-side code, w
 - [Webhook Tool Pattern](./webhook-tool-pattern.md)
 - [Chat Interfaces](./chat-interfaces.md)
 - [Local & Self-Hosted AI](./local-ai.md)
+- [MCP Authentication with OAuth](./mcp-oauth.md) - Putting an OAuth provider (e.g. GitHub) in front of an MCP server as an authentication gateway so only authorized users can reach its tools.
 
 ## Tools
 
 - [n8n](../entities/tools/n8n.md) - where header auth is added to protect a public webhook.
 - [Open Web UI](../entities/tools/open-web-ui.md) - the client that supplies the bearer token on each call.
 - [OpenAI](../entities/organizations/openai.md) - the model provider whose key the backend proxy keeps hidden.
+- [Google Cloud Functions](../entities/tools/google-cloud-functions.md) - Google's serverless function platform, used as the HTTP endpoint that receives the GoHighLevel webhook and hosts the agent's request-handling backend.
+- [GPT-3.5 Turbo](../entities/tools/gpt-3-5-turbo.md) - OpenAI's ChatGPT-era chat-completion model called by the proxy server to generate the text that replaces the user's selection in place.
 
 ## Sources
 

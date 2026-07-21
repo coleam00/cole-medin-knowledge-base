@@ -33,6 +33,7 @@ His deeper critique is what motivated him to build his own alternative. First, t
 ## Contrasts with
 
 - [Crawl4AI RAG MCP Server](./crawl4ai-rag-mcp.md) - Cole's open-source MCP server that gives coding assistants external knowledge via RAG and now knowledge-graph hallucination detection.
+- [Serena](./serena.md) - An open-source MCP server for semantic code retrieval and editing that outperforms a coding agent's built-in codebase search as the codebase grows.
 
 ## Related
 

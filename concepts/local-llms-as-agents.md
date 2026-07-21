@@ -30,6 +30,10 @@ Local agents are typically stood up with a runtime like Ollama that serves an op
 - [Open-Source & Local AI Coding](./open-source-ai-coding.md) - the same open-weights models applied to coding assistants.
 - [Multi-Model Agents](./multi-model-agent.md) - mixing a local model in alongside hosted ones.
 - [What Is an AI Agent](./what-is-an-ai-agent.md) - the definition a local model has to satisfy to qualify.
+- [Ollama's Default Context Window](./ollama-context-window.md) - Every Ollama model ships with a 2048-token context window that silently truncates history and tool output; the fix is a two-line Modelfile that raises num_ctx.
+- [Model-Specific Prompts](./model-specific-prompts.md) - Different LLMs need different prompts, so a serious system keeps a library of model-tuned system prompts instead of reusing one prompt written for a single frontier model.
+- [Local LLM Hardware Requirements](./local-llm-hardware-requirements.md) - The VRAM-per-parameter-tier ladder for local models (7B chat, 14B basic tool-calling, 32B genuinely impressive, 70B near-cloud) that decides which model your hardware can actually run.
+- [Local vs. Cloud Decision Framework](./local-vs-cloud-decision-framework.md) - A four-question decision tree (POC or production? sensitive data? frontier-model capability needed? scaling past ~1,000 users?) that decides whether an AI stack should be self-hosted or run on managed services, instead of treating local-vs-cloud as a dogmatic all-or-nothing rule.
 
 ## Tools
 

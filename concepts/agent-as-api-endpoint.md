@@ -40,6 +40,7 @@ Mechanically it is thin: you define an HTTP route that accepts a request, runs t
 - [FastAPI](../entities/tools/fastapi.md) - Cole's default framework for putting an agent behind an HTTP endpoint.
 - [LangServe](../entities/tools/langserve.md) - adds routes that drop a LangChain runnable straight into FastAPI.
 - [Live Agent Studio](../entities/tools/live-agent-studio.md) - a platform that consumes agents exposed as API endpoints.
+- [Express.js](../entities/tools/express.md) - Minimal JavaScript web framework used to stand up the small backend API that holds the OpenAI key and proxies chat-completion requests for the browser client.
 
 ## Sources
 

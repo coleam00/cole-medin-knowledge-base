@@ -30,13 +30,16 @@ Cole values it for real low-level control rather than hand-holding: "it's an exp
 
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
 - [LangChain](./langchain.md) - The framework used in prior masterclass videos to build the Asana agent; its message objects and invoke/stream methods underpin the chatbot logic.
+- [LangChain Deep Agents](./langchain-deep-agents.md) - LangChain's harness implementation for long-running (not just coding) agents that manages context by offloading to file-system tools.
 - [LangServe](./langserve.md) - LangChain's library that wraps any chain or LangGraph runnable in a FastAPI web server via a single add_routes call, plus a RemoteRunnable client.
 - [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Claude 3.5 Sonnet](./claude-3-5-sonnet.md) - Anthropic's mid-2024 flagship model and the only LLM Cole could not break in his agentic stress test, making it his clear winner for multi-step tool-using workflows.
 
 ## Contrasts with
 
 - [OpenAI Agents SDK](./openai-agents-sdk.md) - OpenAI's agent framework, which their guide leans on heavily with code examples.
 - [CrewAI](./crewai.md) - Multi-agent framework named as one of the interchangeable backends AG-UI supports.
+- [smolagents](./smolagents.md) - Hugging Face's minimal agent framework whose base agent executes actions through generated code, used here to build an entire agentic RAG workflow in very little code.
 
 ## Related
 

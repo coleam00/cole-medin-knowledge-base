@@ -22,13 +22,18 @@ The distinction Cole draws is between *true* concurrency and the appearance of i
 
 ## Related
 
+- [Synthesizer Agent](./synthesizer-agent.md) - the final agent in a parallel architecture that takes every sub-agent's output and summarizes, formats, and optionally validates it into one coherent answer, replacing a dumb non-LLM aggregator.
 - [Subagents Pattern](./subagents-pattern.md) - subagents are the usual unit that gets run in parallel, each with its own isolated context.
 - [Parallel Agentic Coding](./parallel-agentic-coding.md) - the same concurrency idea applied to running multiple coding agents on separate worktrees.
 - [Agent Teams](./agent-teams.md) - coordinated groups of agents where parallelism is one of the coordination modes.
+- [Disposable Agent Sandboxes](./disposable-agent-sandboxes.md) - Running each agent in an ephemeral, preloaded cloud dev box ('cattle, not pets') instead of a local worktree, so many unattended agents can run in parallel with scoped permissions.
 
 ## Tools
 
 - [n8n](../entities/tools/n8n.md) - the no-code workflow tool Cole names as lacking true parallel execution.
+- [Higgsfield](../entities/tools/higgsfield.md) - A video-generation platform with a CLI used to create marketing videos and UGC-style ads from prompts and branded reference images, driven from inside the coding agent's terminal.
+- [iTerm2](../entities/tools/iterm2.md) - macOS terminal application with split-pane support; one of only two terminals Claude Code can drive to display agent teams live.
+- [tmux](../entities/tools/tmux.md) - Terminal multiplexer (Cole's recommended option) that Claude Code drives to create the split-pane windows showing each agent-team teammate working in real time.
 
 ## Sources
 

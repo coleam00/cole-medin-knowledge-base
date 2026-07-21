@@ -25,6 +25,7 @@ This is the scoping-side statement of the same idea that [Iterative Prompting](.
 - [Context Engineering](./context-engineering.md) - narrow scope keeps the context window lean and focused, the underlying reason this works.
 - [Iterative Prompting](./iterative-prompting.md) - the same "one change at a time" rule applied across a whole build sequence.
 - [Phases of Work](./phases-of-work.md) - the same principle scaled up: one coherent chunk per agent session.
+- [Granular Task Management](./granular-task-management.md) - Breaking a large request into small focused tasks on a shared, persistent task board the agent works through one at a time, so its plan stays visible and steerable.
 
 ## Sources
 

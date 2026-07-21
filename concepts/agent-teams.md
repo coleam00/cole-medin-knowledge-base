@@ -31,6 +31,7 @@ Claude Code's Agent Teams feature pushes this further by letting the workers tal
 
 - [Agent Architecture Patterns](./agent-architecture-patterns.md) - orchestrator-workers, routing, and handoffs are the patterns teams are built from.
 - [Parallel Agent Execution](./parallel-agent-execution.md) - teams whose members run at the same time.
+- [Synthesizer Agent](./synthesizer-agent.md) - the final agent in a parallel architecture that takes every sub-agent's output and summarizes, formats, and optionally validates it into one coherent answer, replacing a dumb non-LLM aggregator.
 - [Parallel Agentic Coding](./parallel-agentic-coding.md) - agent teams applied to shipping code on separate branches.
 - [Multi-Model Agents](./multi-model-agent.md) - mixture of experts where teammates run on different models.
 - [Agent Protocols](./agent-protocols.md) - A2A and friends, the wire protocols that let cross-framework agents coordinate.
@@ -51,6 +52,9 @@ Claude Code's Agent Teams feature pushes this further by letting the workers tal
 - [Archon](../entities/tools/archon.md) - assigns tasks and documents to distinct agents that coordinate on a shared plan.
 - [n8n](../entities/tools/n8n.md) - routes to a primary agent or a cheap metadata model based on session state.
 - [Ollama](../entities/tools/ollama.md) - runs a local router-plus-specialists team over a database.
+- [BMAD Method](../entities/tools/bmad-method.md) - An open-source context-engineering framework (installed via npx bmad-method install) that ships expert sub-agent personas (analyst, PM, architect, scrum master, dev, QA) as markdown prompts driving separate greenfield and brownfield planning and development workflows.
+- [iTerm2](../entities/tools/iterm2.md) - macOS terminal application with split-pane support; one of only two terminals Claude Code can drive to display agent teams live.
+- [tmux](../entities/tools/tmux.md) - Terminal multiplexer (Cole's recommended option) that Claude Code drives to create the split-pane windows showing each agent-team teammate working in real time.
 
 ## Sources
 

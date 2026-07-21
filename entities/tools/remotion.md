@@ -35,6 +35,9 @@ In his full video-rendering workflow, though, Cole is candid that reliability is
 - [Voice Agents](../../concepts/voice-agents.md) - real-time voice-to-voice agents built from speech-to-text and text-to-speech pipelines.
 - [Aqua Voice](./aqua-voice.md) - speech-to-text platform Cole uses to dictate into any text box; a sibling voice-and-media tool.
 - [Vapi](./vapi.md) - no-code voice AI platform cited as easy but a black box; a sibling voice-and-media tool.
+- [HyperFrames](./hyperframes.md) - An HTML-based video rendering tool with a built-in preview editor that lets AI agents generate and mold animated scenes, positioned as a more reliable step up from Remotion.
+- [Kokoro](./kokoro.md) - A free, open-source text-to-speech model that lets you run the entire AI video-generation workflow at no cost.
+- [Sora 2](./sora-2.md) - OpenAI's video-plus-audio generation model that took the world by storm in 2025 and drew a $1B Disney investment.
 
 ## Sources
 

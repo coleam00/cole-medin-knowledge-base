@@ -21,6 +21,7 @@ Adoption, not novelty, is the gating factor. "In order for it to be useful, we h
 ## Related
 
 - [Model Context Protocol (MCP)](./mcp.md) - the tool-connection standard that anchored the whole family.
+- [Agent2Agent (A2A) Protocol](./a2a-protocol.md) - Google's open standard for how independently-built agents discover and talk to each other over HTTP via agent cards and tasks, the agent-to-agent counterpart to MCP.
 - [Agent Client Protocol (ACP)](./agent-client-protocol.md) - the agent-to-editor member of the family.
 - [Build Your Own MCP Server](./build-your-own-mcp-server.md) - implementing the tool side of the protocol.
 - [Provider Independence](./provider-independence.md) - the strategic reason to bet on standards.

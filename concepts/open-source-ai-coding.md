@@ -30,12 +30,16 @@ The flagship example in these videos is the Bolt.new fork that grew into oTToDev
 - [Provider Independence](./provider-independence.md) - not being locked to one paid model vendor.
 - [Model Selection](./model-selection.md) - choosing a local model good enough for the coding task.
 - [Strategy Stacking](./strategy-stacking.md) - e.g. prototype on a hosted tool, then finish for free on the open-source fork.
+- [File Diffs Instead of Full Rewrites](./file-diffs-vs-rewrites.md) - Applying targeted diffs (file walking) rather than rewriting whole files makes an AI coding tool faster, cheaper, and less destructive on edits.
 
 ## Tools
 
 - [oTToDev](../entities/tools/ottodev.md) / [Bolt.diy](../entities/tools/bolt-diy.md) - the community fork of Bolt.new built for local LLMs.
 - [Bolt.new](../entities/tools/bolt-new.md), [Lovable](../entities/tools/lovable.md) - the commercial tools whose output the fork lets you keep editing for free.
 - [Ollama](../entities/tools/ollama.md) - a common way to serve the local models these tools target.
+- [DeepSeek Coder V2](../entities/tools/deepseek-coder-v2.md) - Open-source 236B-parameter coding model available via OpenRouter or the DeepSeek API, recommended as roughly 20x cheaper than Claude while remaining highly capable for AI coding.
+- [Node.js](../entities/tools/nodejs.md) - JavaScript runtime used as an install prerequisite, whose npm scripts act as optional convenience wrappers around the underlying Docker build and run commands.
+- [Zed](../entities/tools/zed.md) - A free, open-source code editor from the team that created the Agent Client Protocol, shipping the first beta ACP implementation with native Gemini CLI and adapter-based Claude Code support.
 
 ## Sources
 

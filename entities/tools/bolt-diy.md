@@ -22,6 +22,7 @@ He also cites front-end builders like bolt.diy as a domain that already has stro
 
 - [Community-Driven Development](../../concepts/community-driven-development.md) - Building products and open source in public with a community, using a public roadmap and shared learning.
 - [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
+- [File Diffs Instead of Full Rewrites](../../concepts/file-diffs-vs-rewrites.md) - Applying targeted diffs (file walking) rather than rewriting whole files makes an AI coding tool faster, cheaper, and less destructive on edits.
 
 ## Contrasts with
 
@@ -30,12 +31,16 @@ He also cites front-end builders like bolt.diy as a domain that already has stro
 
 ## Related
 
+- [QwQ](./qwq.md) - Alibaba's open reasoning model, cited as the kind of model that could draft a plan or README before any code is generated.
 - [oTToDev (autod Dev)](./ottodev.md) - Community fork of bolt.new that adds support for any LLM, including local models via Ollama; the tool this video is built around.
+- [LM Studio](./lm-studio.md) - Desktop app for downloading and running open-weight LLMs locally, the main alternative to Ollama and a requested provider integration for the bolt.new fork.
 - [autodev (bolt.new fork)](./autodev.md) - Cole's community-built fork of bolt.new, used to generate the front-end wrapper (vanilla JS/HTML) that embeds the Voiceflow chat widget.
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
 - [Vibe Coding](../../concepts/vibe-coding.md) - Building software by conversationally prompting an AI without closely reading the code, useful for prototypes but risky for production.
 - [Agentic Coding](../../concepts/agentic-coding.md) - Letting an AI agent drive software development end-to-end, from planning through implementation and validation, with human steering.
 - [Agent Security](../../concepts/agent-security.md) - Sandboxing agents, scoping permissions, and keeping secrets out of the model to limit blast radius and prevent abuse.
+- [Eric Simons](../people/eric-simons.md) - CEO and co-founder of StackBlitz (maker of bolt.new) who announces the partnership making the community fork the official open-source bolt.DIY and frames it as a real-world benchmark frontier labs test models against.
+- [Mistral](../organizations/mistral.md) - French AI lab and LLM provider whose models were added to the bolt.new fork as a first-class API integration by popular community request.
 
 ## Sources
 

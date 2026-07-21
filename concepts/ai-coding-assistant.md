@@ -23,6 +23,7 @@ The other half is the human. A recurring theme is that most poor results come fr
 - [Open-Source & Local AI Coding](./open-source-ai-coding.md) - assistants you can run on your own models and infrastructure.
 - [AI Coding Harness](./ai-coding-harness.md) - the scaffolding that elevates a raw assistant into a reliable system.
 - [Limitations of AI Coding Models](./ai-coding-limitations.md) - why the underlying model still hallucinates and goes stale.
+- [Coding Agent as General Assistant](./coding-agent-as-general-assistant.md) - A coding agent is really five capabilities (file ops, search, terminal, web search, code intelligence) and removing code intelligence leaves exactly the general on-machine assistant a second brain needs.
 
 ## Tools
 
@@ -30,6 +31,9 @@ The other half is the human. A recurring theme is that most poor results come fr
 - [Cursor](../entities/tools/cursor.md), [Windsurf](../entities/tools/windsurf.md), [GitHub](../entities/tools/github.md) Copilot - IDE-based assistants that apply inline edits.
 - [ChatGPT](../entities/tools/chatgpt.md) and [DeepSeek R1](../entities/tools/deepseek-r1.md) - chat models frequently used as ad-hoc coding assistants.
 - [Claude Code](../entities/tools/claude-code.md) - a terminal assistant built around powerful file search and edit tools.
+- [GitHub Copilot](../entities/tools/github-copilot.md) - GitHub's AI coding agent, which recently added subagent support for research, code analysis, and code review (distinct from the gh CLI tool already covered).
+- [Visual Studio Code](../entities/tools/vs-code.md) - Microsoft's editor where Cole drops LLM-generated Python, fills in placeholders, and runs the app from the integrated terminal.
+- [Tabnine](../entities/tools/tabnine.md) - An AI code-completion assistant that fills in large blocks of code, inferring things like a full database schema from just the name you type.
 
 ## Sources
 

@@ -28,15 +28,19 @@ Chain-of-thought is a prompting technique that induces reasoning in an ordinary 
 
 ## Related
 
+- [Tree-of-Thought Prompting](./tree-of-thought.md) - letting a model explore many possibilities and outcomes in parallel branches before committing to an answer, rather than a single linear chain of thought.
 - [Planning with AI](./planning-with-ai.md)
 - [The Agent Loop (Reason-Act-Observe)](./agent-loop.md)
 - [Few-Shot Prompting](./few-shot-prompting.md)
+- [Zero-Shot Prompting](./zero-shot-prompting.md) - Asking an LLM to perform a task with no examples at all, relying purely on the instruction and the model's pretrained knowledge; the baseline counterpart to few-shot prompting.
 - [Effective Prompting](./effective-prompting.md)
 
 ## Tools
 
 - [Bolt.new](../entities/tools/bolt-new.md)
 - [Bolt.diy](../entities/tools/bolt-diy.md)
+- [OpenAI o1](../entities/tools/o1.md) - OpenAI's reasoning model line that thinks before answering via inference-time compute, cited as the leading example of reasoning LLMs that reduce hallucinations and bad agent decisions.
+- [Sequential Thinking MCP Server](../entities/tools/sequential-thinking-mcp.md) - A stdio MCP server that instructs a model to reason step by step, used to buy extra thinking tokens and attached to custom Claude Agent SDK agents via JSON config.
 
 ## Sources
 

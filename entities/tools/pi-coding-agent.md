@@ -26,11 +26,15 @@ Pi is Cole's preferred driver for orchestrated workflows. He runs it against non
 - [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) - Dispatching agents to background tasks in isolated git worktrees, each fed repo context and returning a reviewable PR.
 - [Context Isolation](../../concepts/context-isolation.md) - Giving each agent or subagent its own clean context window so unrelated tokens never dilute the task at hand.
 - [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Coding-Agent Bloat](../../concepts/coding-agent-bloat.md) - The critique that feature-maxed coding tools accumulate bugs, heavy token usage, and an uncontrollable, constantly-shifting system prompt that degrades and obscures results, arguing for minimal, moldable foundations instead.
 
 ## Works with
 
 - [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Retool](./retool.md) - Internal-app platform that imports React code and connects to a database to deploy dashboards with a governed, permissioned, audit-trailed path to production.
 - [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
+- [Gemini 3.5 Flash](./gemini-3-5-flash.md) - Google's cheap, fast LLM that builds unusually beautiful, handcrafted-looking frontends; the design half of Cole's provider-mixing workflow, paired with Opus 4.8 for planning and integrations.
+- [Kimi K2](./kimi-k2.md) - Moonshot's Kimi model (K2.7), used as a cheap driver and exploration model in Cole's harness via a Kimi subscription to control per-token cost.
 
 ## Contrasts with
 

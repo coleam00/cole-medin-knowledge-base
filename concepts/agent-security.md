@@ -34,15 +34,19 @@ The threat is real and current. An OpenClaw instance carried "a one-click remote
 - [Build Your Own MCP Server](./build-your-own-mcp-server.md)
 - [Local & Self-Hosted AI](./local-ai.md)
 - [Agentic Coding](./agentic-coding.md)
+- [Permission Management](./permission-management.md) - Allowlisting the specific safe commands an agent may run unattended, and using an isolated firewalled container when you do skip permissions entirely.
 
 ## Tools
 
 - [Arcade](../entities/tools/arcade.md) - solves tool authentication and per-user OAuth scoping.
 - [Claude Code](../entities/tools/claude-code.md) - permission allowlists and `settings.json` file blocks.
 - [OpenClaw](../entities/tools/openclaw.md) - the cautionary example of an over-permissioned agent.
+- [Claw Hub](../entities/tools/claw-hub.md) - OpenClaw's public skills marketplace, where research found hundreds of malicious packages stealing API keys and SSH credentials, the canonical example of untrusted third-party agent capabilities.
 - [MCP](../entities/tools/mcp.md) - secured with OAuth and role-based access.
 - [Supabase](../entities/tools/supabase.md)
 - [GitHub](../entities/tools/github.md)
+- [Gmail](../entities/tools/gmail.md) - Google's email service, the canonical per-user integration in this video: hardcoded Gmail credentials illustrate the scaling problem, and a Gmail toolkit is what the agent authorizes per user.
+- [Guardrails AI](../entities/tools/guardrails-ai.md) - Open-source Python framework Cole leans on for agent input/output guardrails, blocking things like PII entering a prompt or unsafe content leaving the LLM.
 
 ## Sources
 

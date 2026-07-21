@@ -19,6 +19,7 @@ A subtler UX pattern is intent inference, where the assistant fills in structure
 ## Related
 
 - [AI Coding Assistant](./ai-coding-assistant.md) - the tool whose interaction surface these patterns describe.
+- [File Diffs Instead of Full Rewrites](./file-diffs-vs-rewrites.md) - Applying targeted diffs (file walking) rather than rewriting whole files makes an AI coding tool faster, cheaper, and less destructive on edits.
 
 ## Tools
 

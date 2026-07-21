@@ -26,12 +26,16 @@ oTToDev is a stage in a single evolving [open-source](../../concepts/open-source
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
 - [Context Window Limits](../../concepts/context-window-limits.md) - Managing finite context by summarizing, compacting, and sizing what you load so the model stays sharp on long tasks.
 - [Iterative Prompting](../../concepts/iterative-prompting.md) - Build complex software by prompting for a minimal baseline first and adding one change at a time to minimize hallucination.
+- [Model-Specific Prompts](../../concepts/model-specific-prompts.md) - Different LLMs need different prompts, so a serious system keeps a library of model-tuned system prompts instead of reusing one prompt written for a single frontier model.
+- [Ollama's Default Context Window](../../concepts/ollama-context-window.md) - Every Ollama model ships with a 2048-token context window that silently truncates history and tool output; the fix is a two-line Modelfile that raises num_ctx.
 
 ## Related
 
 - [bolt.new](./bolt-new.md) - StackBlitz's commercial AI coding platform that generates entire full-stack applications; the stable product bolt.DIY forks from.
 - [autodev (bolt.new fork)](./autodev.md) - Cole's community-built fork of bolt.new, used to generate the front-end wrapper (vanilla JS/HTML) that embeds the Voiceflow chat widget.
 - [bolt.diy](./bolt-diy.md) - Front-end build tools cited as examples of domains that already have strong built-in self-correction, so the knowledge-graph MCP isn't needed there.
+- [DeepSeek Coder V2](./deepseek-coder-v2.md) - Open-source 236B-parameter coding model available via OpenRouter or the DeepSeek API, recommended as roughly 20x cheaper than Claude while remaining highly capable for AI coding.
+- [Mistral](../organizations/mistral.md) - French AI lab and LLM provider whose models were added to the bolt.new fork as a first-class API integration by popular community request.
 
 ## Sources
 

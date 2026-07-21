@@ -33,6 +33,7 @@ Because Cole treats it as an alternative he name-checks rather than a tool he de
 - [OpenAI Agents SDK](./openai-agents-sdk.md) - OpenAI's agent framework, which their guide leans on heavily with code examples; Cole ranks it above CrewAI.
 - [OpenAI Swarm](./openai-swarm.md) - OpenAI's experimental multi-agent framework for building teams of agents that hand off to each other; defaults to OpenAI models but accepts a custom client.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, named interchangeably with CrewAI as an AG-UI backend but the one he reaches for instead.
+- [smolagents](./smolagents.md) - Hugging Face's minimal agent framework whose base agent executes actions through generated code, used here to build an entire agentic RAG workflow in very little code.
 
 ## Works with
 

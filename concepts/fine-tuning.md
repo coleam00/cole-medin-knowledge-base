@@ -21,6 +21,7 @@ A powerful special case is **distillation**, where a smaller model is fine-tuned
 ## Contrasts with
 
 - [Knowledge Bases](./knowledge-bases.md) and [When RAG Is (and Isn't) Dead](./when-rag-is-dead.md) - retrieval injects fresh facts at query time without retraining. Fine-tuning bakes behavior and style into the weights but does not fix the training cutoff: a model "is stuck at a point in time where it's trained it has all the past knowledge but nothing in the future and so this is the biggest weakness" [0:01:03].
+- [Training Cutoff](./training-cutoff.md) - an AI model's knowledge is frozen at the date its training data ends, so it silently knows nothing about events, libraries, or versions released afterward.
 - [Model Selection](./model-selection.md) - often the cheaper move is to just prompt a stronger general model that already knows your domain. On finance books: "GPT is trained on so much information it already knows about Rich Dad poordin and a lot of other really popular Finance books and so that's all you have to say for it to have all the context it needs" [0:02:29].
 
 ## Related
@@ -29,12 +30,14 @@ A powerful special case is **distillation**, where a smaller model is fine-tuned
 - [Reasoning Models](./reasoning-models.md) - R1's reasoning was distilled into smaller open models via fine-tuning.
 - [Model Quantization](./model-quantization.md) - a complementary compression lever; quantize the fine-tuned model to fit local hardware.
 - [The LLM Wiki](./the-llm-wiki.md) - an alternative to fine-tuning for teaching a model your material: curate knowledge as readable pages instead of retraining.
+- [Andrew Ng](../entities/people/andrew-ng.md) - AI educator behind the Coursera 'AI for Everyone' course and the machine learning, deep learning, and NLP specializations Cole recommends for AI fundamentals.
 
 ## Tools
 
 - [DeepSeek R1](../entities/tools/deepseek-r1.md) - its distilled variants are fine-tuned [Qwen](../entities/tools/qwen.md) and [Llama](../entities/tools/llama.md) models.
 - [ChatGPT](../entities/tools/chatgpt.md) / [GPT-4](../entities/tools/gpt-4.md) - the general models Cole contrasts against custom fine-tunes.
 - [Hugging Face](../entities/organizations/hugging-face.md) - where fine-tuned and distilled open-weight models are published.
+- [Builder.io](../entities/tools/builder-io.md) - Figma-to-code product Cole cites as the canonical case where training a custom model beat general GPT, then used GPT to refine the generated code.
 
 ## Sources
 

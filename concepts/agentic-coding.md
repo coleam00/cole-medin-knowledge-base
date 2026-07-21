@@ -34,6 +34,7 @@ What makes an agent "agentic" is that it decides its own steps. Watching a tool 
 - [MCP](./mcp.md) - how agents reach documentation and external tools.
 - [Human in the Loop](./human-in-the-loop.md) - the steering the engineer still provides.
 - [Model Selection](./model-selection.md) - which model drives the implementation.
+- [Remote Agentic Coding](./remote-agentic-coding.md) - Kicking off a coding request from anywhere (phone, chat app) to an agent that runs entirely remotely in an isolated container, cloning the GitHub repo, branching, and deploying on its own.
 
 ## Tools
 

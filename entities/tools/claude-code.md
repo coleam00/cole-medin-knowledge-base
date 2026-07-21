@@ -46,6 +46,8 @@ What makes it stand apart, in Cole's telling, is how [agentic](../../concepts/ag
 ## Related
 
 - [Claude](./claude.md) - Named as an example of a large language model that can be turned into an agent.
+- [Claude Opus 4.8](./claude-opus-4-8.md) - Anthropic's reasoning-heavy Claude release that owns planning, page copy, integrations, and fixes in Cole's mixed-provider frontend workflow.
+- [Claude Sonnet 4.5](./claude-sonnet-4-5.md) - Anthropic's coding-focused model release that topped the coding and agentic-tool-use benchmarks over Opus 4.1 and shipped as the default model in Claude Code 2.0.
 - [Claude Desktop](./claude-desktop.md) - The MCP client used to demo connecting to the server, configured via developer settings and mcp-remote pointed at the streamable HTTP endpoint.
 
 ## Sources

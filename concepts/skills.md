@@ -33,6 +33,7 @@ Skills are how a single generalist agent becomes many specialists. "we really on
 - [System Evolution](./system-evolution.md) - a skill that writes skills is how capabilities compound.
 - [Second Brain](./second-brain.md) and [Agent Teams](./agent-teams.md) - skills give a personal assistant its arms and give teammates shared capabilities.
 - [AI Coding Harness](./ai-coding-harness.md) - skills are a harness building block.
+- [Dynamic System Prompt](./dynamic-system-prompt.md) - Assembling an agent's system prompt at runtime by scanning a skills/context directory and injecting each file's front-matter description and path onto the static base instructions, which is what makes skills portable to any framework.
 
 ## Tools
 
@@ -40,6 +41,8 @@ Skills are how a single generalist agent becomes many specialists. "we really on
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - Cole added his own skills support via a dynamic system prompt loaded from a skills directory.
 - [Archon](../entities/tools/archon.md) - wraps skills in workflows for parallel execution and durability.
 - [Agent Browser](../entities/tools/agent-browser.md) and [Remotion](../entities/tools/remotion.md) - example integrations that ship a `skill.md`; [Pi Coding Agent](../entities/tools/pi-coding-agent.md) supports skills out of the box.
+- [Claw Hub](../entities/tools/claw-hub.md) - OpenClaw's public skills marketplace, where research found hundreds of malicious packages stealing API keys and SSH credentials, the canonical example of untrusted third-party agent capabilities.
+- [Excalidraw](../entities/tools/excalidraw.md) - Free, open-source hand-drawn-style diagramming tool whose JSON format coding agents can generate directly, rendered at excalidraw.com or through the Obsidian Excalidraw plugin.
 
 ## Sources
 

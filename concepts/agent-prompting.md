@@ -25,6 +25,7 @@ Two more techniques make agents feel autonomous. First, internal thought message
 
 ## Related
 
+- [Tree-of-Thought Prompting](./tree-of-thought.md) - Letting a model explore many possibilities and outcomes in parallel branches before committing to an answer, rather than a single linear chain of thought.
 - [The Agent Loop (Reason-Act-Observe)](./agent-loop.md)
 - [Tool Use](./tool-use.md)
 - [Agentic Workflow Engineering](./agentic-workflow-engineering.md)
@@ -36,6 +37,8 @@ Two more techniques make agents feel autonomous. First, internal thought message
 
 - [Pydantic AI](../entities/tools/pydantic-ai.md)
 - [Asana](../entities/tools/asana.md)
+- [Google Calendar](../entities/tools/google-calendar.md) - Google's calendar service, integrated via API as the action target for agents that turn extracted meeting action items into scheduled events.
+- [Prompting Guide](../entities/tools/prompting-guide.md) - promptingguide.ai, the free resource Cole names as the single prompt-engineering guide worth studying end to end.
 
 ## Sources
 

@@ -29,12 +29,15 @@ The most interesting answer, though, is *not choosing*. Cole's preferred setup i
 - [Rapid Prototyping](./rapid-prototyping.md) - the speed advantage that argues for starting no-code.
 - [Agent Deployment](./agent-deployment.md) - where control requirements often force the move to code.
 - [Parallel Agent Execution](./parallel-agent-execution.md) - heavy processing better handled in code.
+- [Hybrid No-Code + Code Architecture](./hybrid-no-code-and-code.md) - Reject the either/or: use n8n for orchestration, entry points, and integrations while offloading heavy processing (agents, RAG chunking, large files) to Python microservices deployed on the same instance.
 
 ## Tools
 
 - [n8n](../entities/tools/n8n.md) - the no-code half, best for orchestration, entry points, and integrations.
 - [LangChain](../entities/tools/langchain.md) - the Python agent framework in the hybrid trifecta.
 - [Cursor](../entities/tools/cursor.md) and [Windsurf](../entities/tools/windsurf.md) - AI coding assistants that lower the barrier to migrating to code.
+- [Bubble](../entities/tools/bubble.md) - Popular no-code app builder Cole criticizes for 'workload unit' usage-based pricing that makes AI app costs unpredictable and ruinous at scale.
+- [Visual Studio Code](../entities/tools/vs-code.md) - Microsoft's editor where Cole drops LLM-generated Python, fills in placeholders, and runs the app from the integrated terminal.
 
 ## Sources
 

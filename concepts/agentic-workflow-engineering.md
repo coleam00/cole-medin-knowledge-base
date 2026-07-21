@@ -34,6 +34,8 @@ This is where custom beats off-the-shelf. Cole is blunt: "I really believe that 
 - [Human in the Loop](./human-in-the-loop.md) - where the engineer still steers the orchestrator.
 - [MCP](./mcp.md), [Tool Calling](./tool-use.md), [RAG](./rag.md) - the capabilities a workflow wires together.
 - [Chat Interfaces](./chat-interfaces.md) - the natural-language surface for driving the system.
+- [Loop Engineering](./loop-engineering.md) - Designing self-prompting loops (/loop, /goal, /routines) so coding agents pick up and run work autonomously instead of you prompting them each time - a buzzword Cole argues should fold into harness engineering.
+- [Meta-Harness](./meta-harness.md) - A layer above individual AI coding assistants that orchestrates many of them together on larger tasks, distinct from a single-agent harness.
 
 ## Tools
 

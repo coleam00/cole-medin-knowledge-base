@@ -21,6 +21,7 @@ Google's biggest contributions in this catalog are standards and pedagogy. It "r
 - [The LLM Wiki](../../concepts/the-llm-wiki.md) - An LLM-maintained knowledge base of plain markdown pages that compiles sources into a navigable, self-referential wiki.
 - [Progressive Disclosure](../../concepts/progressive-disclosure.md) - Loading context, skills, and tools on demand only when a task needs them instead of front-loading everything into the context window.
 - [Agent Protocols](../../concepts/agent-protocols.md) - Emerging standards (A2A, agent cards, discovery) that let agents interoperate and be called across clients.
+- [Agent2Agent (A2A) Protocol](../../concepts/a2a-protocol.md) - Google's open standard for how independently-built agents discover and talk to each other over HTTP via agent cards and tasks, the agent-to-agent counterpart to MCP.
 - [Generative UI](../../concepts/generative-ui.md) - Interfaces the agent generates or drives at runtime, streaming tool activity and reasoning into a live, stateful UI.
 
 ## Related
@@ -33,6 +34,7 @@ Google's biggest contributions in this catalog are standards and pedagogy. It "r
 - [Anthropic](./anthropic.md) - Maker of Claude and Claude Code, creator of MCP, and Cole's pick for the best coding LLM and the lab whose research most shapes his practice.
 - [OpenAI](./openai.md) - Maker of GPT-4o mini (affordable-but-strong chat model) and text-embedding-3-small (recommended RAG embedding model).
 - [Meta AI](./meta.md) - Cited as an example of a model trained with ~10x fewer parameters than GPT, pointing toward faster/cheaper training.
+- [Vertex AI](../tools/vertex-ai.md) - Google's cloud AI platform offering powerful agent capabilities out of the box, recommended in Google's agent white paper.
 
 ## Sources
 

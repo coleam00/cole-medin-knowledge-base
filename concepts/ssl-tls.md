@@ -24,6 +24,8 @@ Why it matters: without a certificate, browsers flag the site as insecure and tr
 - [Firewall Configuration](./firewall-configuration.md)
 - [Agent Deployment](./agent-deployment.md)
 - [Full-Stack AI Application](./full-stack-ai-application.md)
+- [Certbot](../entities/tools/certbot.md) - EFF tool that obtains and installs free Let's Encrypt SSL certificates and rewrites the web-server config so a deployed site is served over HTTPS.
+- [Nginx](../entities/tools/nginx.md) - Open-source web server used as the reverse proxy that maps a public URL and domain to a local app's port, with configs symlinked from sites-available to sites-enabled and validated with nginx -t.
 
 ## Sources
 

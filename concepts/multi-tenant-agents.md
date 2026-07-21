@@ -22,6 +22,7 @@ Two problems separate a demo agent from a multi-tenant one. First, **per-user me
 
 ## Related
 
+- [Agent Authorization](./agent-authorization.md) - Letting an agent obtain scoped OAuth access to each user's own accounts, requested just in time when a tool is first needed, instead of hardcoding one set of credentials.
 - [Memory Systems](./memory-systems.md) - per-user memory is one half of what makes each tenant's agent feel personalized.
 - [Agent Security](./agent-security.md) - scoped tokens and least-privilege access are the security backbone of serving many users.
 - [Model Context Protocol (MCP)](./mcp.md) - a common way to expose the per-user tools an agent authorizes into.

@@ -25,6 +25,7 @@ The trigger for splitting is tool overload, and Cole gives a concrete threshold:
 - [Agent Teams](./agent-teams.md) - a multi-agent arrangement where several agents work together under coordination.
 - [Agentic Workflow Engineering](./agentic-workflow-engineering.md) - designing the orchestration and handoffs that a multi-agent system needs.
 - [Context Window Limits](./context-window-limits.md) - tool overload is one symptom; too many tools bloat context and degrade tool choice.
+- [Compounding Error Rates](./compounding-error-rates.md) - Because agentic systems chain many steps that must each succeed, per-step error rates multiply, so a chain of 95%-reliable steps collapses to low end-to-end reliability.
 
 ## Tools
 

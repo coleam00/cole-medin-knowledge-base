@@ -27,6 +27,8 @@ The practical upside is resilience and quality: if one model is weak at a step, 
 - [Local LLMs as Agents](./local-llms-as-agents.md) - a local model can be one of the models in the mix.
 - [Agent Architecture Patterns](./agent-architecture-patterns.md) - routing is the pattern that decides which model handles a given request.
 - [What Is an AI Agent](./what-is-an-ai-agent.md) - the primitive that a multi-model setup varies the backing model of.
+- [Reasoning Model as a Tool](./reasoning-model-as-a-tool.md) - Architecture where a fast, lightweight model drives the conversation and calls a slow, powerful reasoning model as just another tool, keeping the flow nimble while still getting reasoning-grade answers on the hard step.
+- [LLM Cost Optimization](./llm-cost-optimization.md) - Systematically cutting the bill for running LLM applications at scale by sending the bulk of cheap-to-serve traffic to far cheaper models and paying premium rates only for the rare hard requests.
 
 ## Tools
 
@@ -34,6 +36,7 @@ The practical upside is resilience and quality: if one model is weak at a step, 
 - [Claude](../entities/tools/claude.md) - one of the models Cole swaps between for different response styles.
 - [GPT-4o](../entities/tools/gpt-4o.md) - the OpenAI model paired against Claude in the same agent.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - lets the backing model be a swappable parameter of the agent.
+- [Builder.io](../entities/tools/builder-io.md) - Figma-to-code product Cole cites as the canonical case where training a custom model beat general GPT, then used GPT to refine the generated code.
 
 ## Sources
 

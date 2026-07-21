@@ -28,6 +28,12 @@ At the harness layer, independence means the [AI layer](./the-ai-layer.md) and w
 - [Local & Self-Hosted AI](./local-ai.md) - OpenAI-compatible base URLs make local a drop-in provider.
 - [Agent Client Protocol (ACP)](./agent-client-protocol.md) and [Generative UI](./generative-ui.md) - protocols (ACP, AG-UI) that standardize swapping editors and front ends.
 - [Agentic Workflow Engineering](./agentic-workflow-engineering.md), [Global Rules](./global-rules.md), [Agent Deployment](./agent-deployment.md) - where portability pays off across the lifecycle.
+- [Self-Hosting Cost Crossover](./self-hosting-cost-crossover.md) - The napkin-math point where monthly per-token spend exceeds a fixed cloud-GPU bill, which is exactly when self-hosting an open model starts paying for itself.
+- [Coding-Agent Bloat](./coding-agent-bloat.md) - The critique that feature-maxed coding tools accumulate bugs, heavy token usage, and an uncontrollable, constantly-shifting system prompt that degrades and obscures results, arguing for minimal, moldable foundations instead.
+- [Meta-Harness](./meta-harness.md) - A layer above individual AI coding assistants that orchestrates many of them together on larger tasks, distinct from a single-agent harness.
+- [Long-Running Agents](./long-running-agents.md) - Coding agents that run autonomously for hours or days as background tasks, chaining dozens of fresh-context sessions through shared artifact files to produce a working proof of concept before a human takes over.
+- [LLM Data Privacy Tiers](./llm-data-privacy-tiers.md) - The privacy ladder from closed models that may train on your data, to hosted open-model providers, to true self-hosting - and using mock data until you reach the tier your workload requires.
+- [Local vs. Cloud Decision Framework](./local-vs-cloud-decision-framework.md) - A four-question decision tree (POC or production? sensitive data? frontier-model capability needed? scaling past ~1,000 users?) that decides whether an AI stack should be self-hosted or run on managed services, instead of treating local-vs-cloud as a dogmatic all-or-nothing rule.
 
 ## Tools
 
@@ -35,6 +41,8 @@ At the harness layer, independence means the [AI layer](./the-ai-layer.md) and w
 - [Ollama](../entities/tools/ollama.md) and [OpenRouter](../entities/tools/openrouter.md) - OpenAI-compatible gateways to local and hosted models; [Llama](../entities/tools/llama.md) and [Gemini](../entities/tools/gemini.md) as swap targets.
 - [Claude Code](../entities/tools/claude-code.md) and the [Claude Agent SDK](../entities/tools/claude-agent-sdk.md), [Codex](../entities/tools/codex.md), [Pi Coding Agent](../entities/tools/pi-coding-agent.md), [OpenClaw](../entities/tools/openclaw.md) - interchangeable harnesses over the same artifact files.
 - [OpenAI Agents SDK](../entities/tools/openai-agents-sdk.md), [OpenAI Swarm](../entities/tools/openai-swarm.md), [AG-UI](../entities/tools/ag-ui.md), [bolt.diy](../entities/tools/bolt-diy.md) - SDKs and forks that expose provider choice.
+- [Gemini 3.5 Flash](../entities/tools/gemini-3-5-flash.md) - Google's cheap, fast LLM that builds unusually beautiful, handcrafted-looking frontends; the design half of Cole's provider-mixing workflow, paired with Opus 4.8 for planning and integrations.
+- [Zed](../entities/tools/zed.md) - A free, open-source code editor from the team that created the Agent Client Protocol, shipping the first beta ACP implementation with native Gemini CLI and adapter-based Claude Code support.
 
 ## Sources
 

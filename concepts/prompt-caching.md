@@ -20,6 +20,7 @@ The technique earns its keep wherever the same block of context is fed to the mo
 
 - [Contextual Retrieval](./contextual-retrieval.md) - the flagship use case, where caching the source document makes per-chunk situating affordable.
 - [Model Selection](./model-selection.md) - cache discounts differ sharply by provider (roughly 50% vs 90%), which factors into cost-driven model choice.
+- [LLM Cost Optimization](./llm-cost-optimization.md) - Systematically cutting the bill for running LLM applications at scale by sending the bulk of cheap-to-serve traffic to far cheaper models and paying premium rates only for the rare hard requests.
 
 ## Sources
 

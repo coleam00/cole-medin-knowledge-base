@@ -25,10 +25,13 @@ Beyond prototyping, his [model selection](../../concepts/model-selection.md) heu
 - [Claude](./claude.md) - Named as an example of a large language model that can be turned into an agent, a sibling frontier model.
 - [GPT-4](./gpt-4.md) - OpenAI's model cited as strong enough that it reasons step by step without being told to.
 - [DeepSeek V3](./deepseek-v3.md) - Open model Cole cites as evidence the local-vs-closed gap is closing fast.
+- [Gemini 3](./gemini-3.md) - Google's flagship LLM release, genuinely strong on abstract reasoning (a large ARC-AGI-2 jump) and especially good at frontend and design work, though its real-world edge is hard to separate from the tooling layered on top of it.
+- [Gemini 3.5 Flash](./gemini-3-5-flash.md) - Google's cheap, fast LLM that builds unusually beautiful, handcrafted-looking frontends; the design half of Cole's provider-mixing workflow, paired with Opus 4.8 for planning and integrations.
 
 ## Works with
 
 - [Gemini CLI](./gemini-cli.md) - Google's terminal-based coding agent running on the same Gemini model line.
+- [Vertex AI](./vertex-ai.md) - Google's cloud AI platform offering powerful agent capabilities out of the box, recommended in Google's agent white paper.
 
 ## Related
 

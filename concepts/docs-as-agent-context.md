@@ -34,6 +34,7 @@ Docs can be pulled statically (paste `llms.txt`, drop a template repo in the pro
 - [Crawl4AI](../entities/tools/crawl4ai.md) - crawls a docs site into a RAG knowledge base for the assistant.
 - [Context7](../entities/tools/context7.md) - serves version-specific documentation to coding agents on demand.
 - [Claude Code](../entities/tools/claude-code.md) - fetches up-to-date docs in real time to explain and apply new features.
+- [Notion](../entities/tools/notion.md) - All-in-one docs and workspace app, supported alongside Confluence and Google Drive as a knowledge-base source for chat assistants.
 
 ## Sources
 

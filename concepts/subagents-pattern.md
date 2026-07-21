@@ -37,6 +37,8 @@ Cole's sharpest guidance is where **not** to use them: "my word of warning is do
 
 - [Agent Teams](./agent-teams.md) - subagents with no inter-agent coordination contrast with team setups where agents work together.
 - [Parallel Agent Execution](./parallel-agent-execution.md) - subagents are the unit most often fanned out to run concurrently.
+- [Synthesizer Agent](./synthesizer-agent.md) - the final agent in a parallel architecture that takes every sub-agent's output and summarizes, formats, and optionally validates it into one coherent answer, replacing a dumb non-LLM aggregator.
+- [The Scout Pattern](./the-scout-pattern.md) - send a sub-agent ahead to explore docs or code and decide whether a piece of context is worth loading into the main window before you commit it.
 - [Parallel Agentic Coding](./parallel-agentic-coding.md) - spinning up specialized subagents to check that an implementation is ideal.
 - [Model Selection](./model-selection.md) - assigning a specific model per subagent to manage cost and tokens.
 - [Validation](./validation.md) - a validator subagent with a tight system prompt is a favored use.
@@ -46,11 +48,14 @@ Cole's sharpest guidance is where **not** to use them: "my word of warning is do
 - [AI Coding Harness](./ai-coding-harness.md) - harnesses for large codebases split exploration from editing via subagents.
 - [Agent Graphs](./agent-graphs.md) - an alternative structure for wiring specialized agents together.
 - [The Agent Loop (Reason-Act-Observe)](./agent-loop.md) - each subagent runs its own loop before returning.
+- [Handoff Documents](./handoff-documents.md) - Because isolated agents share no conversation history, they communicate by writing and reading markdown handoff files (initial.md, prompts.md) in a shared planning folder, passing only the distilled context each next step needs.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - provides native subagents (research only, no built-in implementation agents) plus per-subagent hooks and rules.
 - [Archon](../entities/tools/archon.md) - treats subagents as role-based prompts that hand off to one another, usable even in assistants without native subagent support.
+- [GPT-5.4 Mini & Nano](../entities/tools/gpt-5-4-mini-nano.md) - OpenAI's small/fast model releases marketed explicitly for subagents and AI coding; nano reportedly beats Claude Haiku 4.5 at a fifth the price and ~188 tok/s, anchoring the "subagent era" thesis.
+- [GitHub Copilot](../entities/tools/github-copilot.md) - GitHub's AI coding agent, which recently added subagent support for research, code analysis, and code review (distinct from the gh CLI tool already covered).
 
 ## Sources
 

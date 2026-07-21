@@ -33,6 +33,7 @@ Agent Browser is Cole's default final smoke test. After an agent spins up the ba
 - [Pi](./pi-coding-agent.md) - a coding agent Cole drives the browser smoke test from.
 - [Archon](./archon.md) - Cole's free open-source AI agent that builds other agents.
 - [Gemini](./gemini.md) - Google's LLM line used in his frontend builds.
+- [Clerk](./clerk.md) - Drop-in authentication and user-management provider for web apps; Cole seeds a Clerk test account so an autonomous agent can sign in and self-validate the real running app.
 
 ## Related
 

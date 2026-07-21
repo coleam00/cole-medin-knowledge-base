@@ -23,6 +23,7 @@ The mental model is that the firewall is a default-deny gate: nothing external r
 ## Prerequisites for
 
 - [SSL/TLS](./ssl-tls.md) - ports 80 and 443 must be open or certificate provisioning for HTTPS fails.
+- [Certbot](../entities/tools/certbot.md) - EFF tool that obtains and installs free Let's Encrypt SSL certificates and rewrites the web-server config so a deployed site is served over HTTPS.
 
 ## Related
 
@@ -30,6 +31,7 @@ The mental model is that the firewall is a default-deny gate: nothing external r
 - [Containerization & Docker Networking](./containerization.md) - the containers that must be reachable through the firewall.
 - [Custom Domain via DNS A Record](./custom-domain-dns.md) - points a domain at the server whose ports you have opened.
 - [Securing Agent APIs](./api-security.md) - the broader security posture the firewall contributes to.
+- [Permission Management](./permission-management.md) - Allowlisting the specific safe commands an agent may run unattended, and using an isolated firewalled container when you do skip permissions entirely.
 
 ## Implemented by
 

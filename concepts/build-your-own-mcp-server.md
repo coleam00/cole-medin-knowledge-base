@@ -31,6 +31,9 @@ The reason to own the server is reach and reuse. One server serves everything: y
 - [Agent Security](./agent-security.md) - auth, sanitization, and role-based access on your server.
 - [Subagents Pattern](./subagents-pattern.md) - servers published as reusable sub-agents.
 - [Vibe Coding](./vibe-coding.md) - having an LLM scaffold the server from docs.
+- [Remote MCP Server](./remote-mcp-server.md) - An MCP server hosted in the cloud rather than run locally, making tool access scalable, shareable, and deployable behind a production URL.
+- [MCP Transports](./mcp-transports.md) - The ways an MCP client and server talk: stdio, where the client launches the server as a fast local subprocess, versus SSE and its successor streamable HTTP for remote servers.
+- [MCP Authentication with OAuth](./mcp-oauth.md) - Putting an OAuth provider (e.g. GitHub) in front of an MCP server as an authentication gateway so only authorized users can reach its tools.
 
 ## Tools
 
@@ -39,6 +42,8 @@ The reason to own the server is reach and reuse. One server serves everything: y
 - [Archon](../entities/tools/archon.md) - publishes agents as MCP sub-agents in a marketplace.
 - [n8n](../entities/tools/n8n.md) - connects self-hosted servers to no-code agents.
 - [Claude Code](../entities/tools/claude-code.md) - builds full MCP servers from pasted documentation.
+- [FastMCP](../entities/tools/fastmcp.md) - Anthropic's high-level Python interface in the MCP SDK for spinning up an MCP server in one line (name, description, lifespan, host, port) and registering tools with the @mcp.tool decorator.
+- [TypeScript](../entities/tools/typescript.md) - The go-to language for building MCP servers, especially remote ones deployed to Cloudflare.
 
 ## Sources
 

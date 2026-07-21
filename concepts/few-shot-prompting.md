@@ -25,6 +25,7 @@ Cole treats this as one of the most reliable levers in all of agent building. Hi
 ## Related
 
 - [Effective Prompting](./effective-prompting.md)
+- [Zero-Shot Prompting](./zero-shot-prompting.md) - Asking an LLM to perform a task with no examples at all, relying purely on the instruction and the model's pretrained knowledge; the baseline counterpart to few-shot prompting.
 - [Reduce Assumptions](./reduce-assumptions.md)
 - [Avoid Negative Instructions](./avoid-negative-instructions.md)
 - [Structured Outputs](./structured-outputs.md)

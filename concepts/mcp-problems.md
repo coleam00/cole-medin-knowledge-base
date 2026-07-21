@@ -29,6 +29,7 @@ For all its reach, [MCP](./mcp.md) has real failure modes, and the headline one 
 - [Skills](./skills.md) - the more token-efficient, load-on-demand alternative to always-on MCP tools.
 - [Code Execution](./code-execution.md) - calling tools from code instead of flooding the prompt with definitions.
 - [Progressive Disclosure](./progressive-disclosure.md) - revealing capability only when needed, the antidote to tool overload.
+- [Remote MCP Server](./remote-mcp-server.md) - An MCP server hosted in the cloud rather than run locally, making tool access scalable, shareable, and deployable behind a production URL.
 
 ## Related
 
@@ -40,11 +41,14 @@ For all its reach, [MCP](./mcp.md) has real failure modes, and the headline one 
 - [Agent Teams](./agent-teams.md) - splitting tools across specialized agents to avoid overload.
 - [Knowledge Graphs](./knowledge-graphs.md)
 - [Retrieval-Augmented Generation (RAG)](./rag.md)
+- [MCP Transports](./mcp-transports.md) - The ways an MCP client and server talk: stdio, where the client launches the server as a fast local subprocess, versus SSE and its successor streamable HTTP for remote servers.
+- [MCP Authentication with OAuth](./mcp-oauth.md) - Putting an OAuth provider (e.g. GitHub) in front of an MCP server as an authentication gateway so only authorized users can reach its tools.
 
 ## Tools
 
 - [MCP](../entities/tools/mcp.md) - the servers whose problems are described here.
 - [Docker](../entities/tools/docker.md) - removes the JSON setup friction with one-click installs.
+- [Ask Gordon](../entities/tools/ask-gordon.md) - The AI agent built directly into Docker Desktop and wired to the MCP Toolkit by default, useful as a quick smoke test for MCP servers before connecting an external client (though its small model gets overwhelmed by large tool lists).
 - [Claude Code](../entities/tools/claude-code.md) - where MCP tool definitions consume nearly half the context window.
 
 ## Sources

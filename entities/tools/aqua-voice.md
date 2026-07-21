@@ -23,6 +23,7 @@ Aqua has also sponsored Cole's content, and in that read he highlights two diffe
 - [ElevenLabs](./elevenlabs.md) - the mirror-image sibling: text-to-speech rather than speech-to-text.
 - [Vapi](./vapi.md) - no-code voice AI platform; a sibling voice tool in Cole's stack.
 - [Remotion](./remotion.md) - sibling media-generation tool in Cole's voice-and-media set.
+- [Perplexity](./perplexity.md) - AI-powered deep research search engine Cole uses daily to research new LLMs, frameworks, and AI tech.
 
 ## Related
 

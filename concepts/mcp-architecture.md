@@ -28,11 +28,16 @@ MCP architecture is a two-sided design: servers expose tools, clients consume th
 - [Docstrings as Tool Descriptions](./docstrings-as-tool-descriptions.md) - the docstrings that tell the client when to call each tool.
 - [Tool Design](./tool-design.md) - shaping tools clients can use reliably.
 - [Tool Use](./tool-use.md) - how the LLM actually invokes the registered tools.
+- [Remote MCP Server](./remote-mcp-server.md) - An MCP server hosted in the cloud rather than run locally, making tool access scalable, shareable, and deployable behind a production URL.
+- [MCP Transports](./mcp-transports.md) - The ways an MCP client and server talk: stdio, where the client launches the server as a fast local subprocess, versus SSE and its successor streamable HTTP for remote servers.
+- [MCP Authentication with OAuth](./mcp-oauth.md) - Putting an OAuth provider (e.g. GitHub) in front of an MCP server as an authentication gateway so only authorized users can reach its tools.
 
 ## Tools
 
 - [MCP](../entities/tools/mcp.md) - the server and client protocol described here.
 - [Docker](../entities/tools/docker.md) - containerized, on-demand tool execution and server aggregation.
+- [Docker MCP Toolkit](../entities/tools/docker-mcp-toolkit.md) - Docker Desktop's MCP feature set: a curated catalog of hundreds of servers, a toolkit that runs each tool as an ephemeral container, and an open-source gateway for orchestrating them.
+- [FastMCP](../entities/tools/fastmcp.md) - Anthropic's high-level Python interface in the MCP SDK for spinning up an MCP server in one line (name, description, lifespan, host, port) and registering tools with the @mcp.tool decorator.
 
 ## Sources
 

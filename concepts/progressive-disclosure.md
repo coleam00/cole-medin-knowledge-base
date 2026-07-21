@@ -29,18 +29,22 @@ The governing heuristic is "just in time, not just in case": "Load your context 
 - [Capabilities Over Tools](./capabilities-over-tools.md) - Pydantic AI capabilities apply progressive disclosure so an agent can hold hundreds of them.
 - [The LLM Wiki](./the-llm-wiki.md) - the wiki index is a progressive-disclosure entry point into a large knowledge base.
 - [Code Execution](./code-execution.md) - loading tool definitions as executable code the agent calls on demand is a progressive-disclosure alternative to eager tool schemas.
+- [Dynamic System Prompt](./dynamic-system-prompt.md) - Assembling an agent's system prompt at runtime by scanning a skills/context directory and injecting each file's front-matter description and path onto the static base instructions, which is what makes skills portable to any framework.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - Claude Code skills are Cole's reference implementation of progressive disclosure.
+- [Google Agents CLI](../entities/tools/google-agents-cli.md) - Google's free open-source CLI and skill collection that instructs a coding agent to build, evaluate, deploy, and monitor agents on the ADK.
 
 ## Related
 
 - [Global Rules](./global-rules.md) - a reference section in global rules points to on-demand context loaded per task type.
 - [Agentic Search](./agentic-search.md) - the agent searches a folder in real time to discover capabilities as it needs them.
+- [The Scout Pattern](./the-scout-pattern.md) - send a sub-agent ahead to explore docs or code and decide whether a piece of context is worth loading into the main window before you commit it.
 - [Commandify Everything](./commandify-everything.md) - commands and skills both keep the base context small until invoked.
 - [Prime Command](./prime-command.md) - priming loads a lean high-level overview first, deferring detail until needed.
 - [The AI Layer](./the-ai-layer.md) - progressive disclosure is a structural principle of the reusable AI layer Cole builds on top of a codebase.
+- [Open Knowledge Format (OKF)](./open-knowledge-format.md) - A minimal open standard layered on the Karpathy LLM wiki that fixes how a knowledge base is organized and what metadata its pages carry, so any agent can navigate one it has never seen.
 
 ## Sources
 

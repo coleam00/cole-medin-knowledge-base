@@ -34,6 +34,8 @@ Tool calling is also the dividing line between an agent and a chatbot: "the tool
 - [Provider Independence](./provider-independence.md) - most providers converge on the same OpenAI-style calling format.
 - [Agent Graphs](./agent-graphs.md) - tool nodes are where graph-based agents perform actions.
 - [Context Window Limits](./context-window-limits.md) - every tool result consumes context and can bloat the conversation.
+- [Berkeley Function Calling Leaderboard](../entities/tools/berkeley-function-calling-leaderboard.md) - A public benchmark that ranks LLMs on function-calling accuracy using tasks meant to represent real agent and enterprise workflows.
+- [OpenAI o1](../entities/tools/o1.md) - OpenAI's reasoning model line that thinks before answering via inference-time compute, cited as the leading example of reasoning LLMs that reduce hallucinations and bad agent decisions.
 
 ## Implemented by
 
@@ -42,6 +44,8 @@ Tool calling is also the dividing line between an agent and a chatbot: "the tool
 - [n8n](../entities/tools/n8n.md), [Flowise](../entities/tools/flowise.md), and [Voiceflow](../entities/tools/voiceflow.md) - no-code builders that attach workflows and API endpoints as tools.
 - [Ollama](../entities/tools/ollama.md) and [Llama](../entities/tools/llama.md) - local runtimes; only tool-labeled models can call functions.
 - [Asana](../entities/tools/asana.md), [Brave Search API](../entities/tools/brave-search.md), and [GoHighLevel](../entities/tools/gohighlevel.md) - external services frequently wrapped as agent tools.
+- [Zod](../entities/tools/zod.md) - A TypeScript schema/validation library used to type agent tool inputs so the arguments the model passes to a function are reliable.
+- [Puppeteer](../entities/tools/puppeteer.md) - Browser-automation MCP server that lets a coding agent load pages, click, and screenshot to visually validate that a feature actually works before marking it passed.
 
 ## Sources
 

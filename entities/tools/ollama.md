@@ -25,18 +25,23 @@ Ollama is the model engine at the heart of Cole's [Local AI Package](./local-ai-
 - [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
 - [Local LLMs as Agents](../../concepts/local-llms-as-agents.md) - Using openly downloadable, self-hosted models for agentic work, which hinges on the model's ability to do reliable function calling.
 - [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+- [Ollama's Default Context Window](../../concepts/ollama-context-window.md) - Every Ollama model ships with a 2048-token context window that silently truncates history and tool output; the fix is a two-line Modelfile that raises num_ctx.
+- [Model-Specific Prompts](../../concepts/model-specific-prompts.md) - Different LLMs need different prompts, so a serious system keeps a library of model-tuned system prompts instead of reusing one prompt written for a single frontier model.
 
 ## Contrasts with
 
 - [OpenRouter](./openrouter.md) - Unified API gateway to many LLMs; here it hosts Quasar Alpha, its first stealth/cloaked pre-release Foundation model, free to use.
+- [LM Studio](./lm-studio.md) - Desktop app for downloading and running open-weight LLMs locally, the main alternative to Ollama and a requested provider integration for the bolt.new fork.
 
 ## Works with
 
 - [Local AI Package](./local-ai-package.md) - Cole's bundled collection of self-hosted AI services (database, n8n, Ollama, Open Web UI) that installs the whole stack together for free.
+- [n8n Self-Hosted AI Starter Kit](./n8n-self-hosted-ai-starter-kit.md) - n8n's official Docker Compose package bundling Ollama, Qdrant, Postgres, and n8n so a fully local AI stack (LLMs, vector DB, SQL DB, orchestration) starts with one command.
 - [Open Web UI](./open-web-ui.md) - Free, open-source, self-hostable ChatGPT-style chat interface; the frontend used to give n8n agents a polished UI with history, functions, and voice.
 - [Qwen](./qwen.md) - Alibaba's open-source LLM family Cole cites as among his favorites that stood the test of time.
 - [Llama](./llama.md) - The open LLM model powering the agent, served via Groq in the current build.
 - [nomic-embed-text](./nomic-embed-text.md) - Embedding model added to the Ollama container pull so RAG embeddings are available in the workflows.
+- [Code Llama](./code-llama.md) - Meta's open-source code-specialized LLM family whose larger 34B variant fails builds that the smaller Qwen 2.5 Coder 32B handles, showing capability beats parameter count.
 
 ## Related
 
@@ -44,6 +49,8 @@ Ollama is the model engine at the heart of Cole's [Local AI Package](./local-ai-
 - [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 - [Agentic RAG](../../concepts/agentic-rag.md) - Giving an agent retrieval as a tool so it decides when and how to search a knowledge base, picking strategies and issuing follow-up queries instead of a single static lookup.
 - [Agent Teams](../../concepts/agent-teams.md) - Coordinating multiple specialized agents, via orchestrators, routers, and handoffs, to solve a task no single agent handles well.
+- [LLM Data Privacy Tiers](../../concepts/llm-data-privacy-tiers.md) - The privacy ladder from closed models that may train on your data, to hosted open-model providers, to true self-hosting - and using mock data until you reach the tier your workload requires.
+- [Local LLM Hardware Requirements](../../concepts/local-llm-hardware-requirements.md) - The VRAM-per-parameter-tier ladder for local models (7B chat, 14B basic tool-calling, 32B genuinely impressive, 70B near-cloud) that decides which model your hardware can actually run.
 
 ## Sources
 

@@ -24,6 +24,7 @@ It is also the database that powers Archon. "You'll want Supabase because it's t
 - [Neon](./neon.md) - Serverless Postgres platform Cole favors, acquired by Databricks in 2025.
 - [Pinecone](./pinecone.md) - Vector database used optionally by Auto-GPT to provide long-term memory.
 - [Qdrant](./qdrant.md) - Vector database with an MCP server that lets agents do RAG without implementing custom retrieval tools.
+- [SQLite](./sqlite.md) - Embedded, file-based SQL database that lets example projects run with zero external database setup.
 
 ## Works with
 

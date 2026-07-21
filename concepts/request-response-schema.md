@@ -31,6 +31,7 @@ The purpose of fixing this schema is standardization. Once every agent accepts t
 ## Implemented by
 
 - [Live Agent Studio](../entities/tools/live-agent-studio.md) - the platform whose common request/response contract every registered agent conforms to.
+- [Zod](../entities/tools/zod.md) - A TypeScript schema/validation library used to type agent tool inputs so the arguments the model passes to a function are reliable.
 
 ## Sources
 

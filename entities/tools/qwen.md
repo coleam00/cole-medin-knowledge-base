@@ -29,9 +29,11 @@ He also leans on Qwen's range of sizes for [model selection](../../concepts/mode
 
 - [Llama](./llama.md) - the open LLM model powering the agent, served via Groq; Cole ranks Qwen 2.5 above it.
 - [DeepSeek R1](./deepseek-r1.md) - open-source MIT-licensed reasoning LLM that rivals OpenAI o1, ships in distilled sizes, and is far cheaper to run.
+- [Code Llama](./code-llama.md) - Meta's open-source code-specialized LLM family whose larger 34B variant fails builds that the smaller Qwen 2.5 Coder 32B handles, showing capability beats parameter count.
 
 ## Works with
 
+- [QwQ](./qwq.md) - Alibaba's open reasoning model, cited as the kind of model that could draft a plan or README before any code is generated.
 - [Ollama](./ollama.md) - the local LLM runtime through which Cole serves Qwen.
 - [Model Selection](../../concepts/model-selection.md) - choosing the right LLM per task; Cole mixes Qwen sizes for router vs. agent roles.
 

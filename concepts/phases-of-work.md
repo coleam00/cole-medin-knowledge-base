@@ -34,6 +34,7 @@ Phasing carries a hard gate between chunks. In an adversarial split, "both the i
 - [Context Isolation](./context-isolation.md) - each phase runs in its own focused session.
 - [Commandify Everything](./commandify-everything.md) - phases are often driven by numbered slash-command workflows.
 - [Contract-First](./contract-first.md), [Issue Is the Spec](./issue-is-the-spec.md), [Reduce Assumptions](./reduce-assumptions.md) - complementary disciplines for defining what each phase must deliver.
+- [Granular Task Management](./granular-task-management.md) - Breaking a large request into small focused tasks on a shared, persistent task board the agent works through one at a time, so its plan stays visible and steerable.
 
 ## Sources
 

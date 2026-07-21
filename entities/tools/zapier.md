@@ -33,6 +33,7 @@ Two other framings recur. First, Zapier as the **no-code automation baseline** h
 ## Contrasts with
 
 - [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
+- [Make.com](./make.md) - No-code integration and automation platform, alongside Zapier, that a no-code agent can bridge to for services it doesn't natively integrate.
 
 ## Related
 

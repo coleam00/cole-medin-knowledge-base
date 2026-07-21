@@ -33,6 +33,7 @@ A good docstring earns its keep by making vague parameters legible. Even a gener
 
 - [Pydantic AI](../entities/tools/pydantic-ai.md)
 - [Python](../entities/tools/python.md)
+- [FastMCP](../entities/tools/fastmcp.md) - Anthropic's high-level Python interface in the MCP SDK for spinning up an MCP server in one line (name, description, lifespan, host, port) and registering tools with the @mcp.tool decorator.
 
 ## Sources
 

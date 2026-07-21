@@ -38,6 +38,7 @@ Cole is not uncritical. When he built his own [MCP](../../concepts/mcp.md) serve
 
 ## Related
 
+- [Redis Iris](./redis-iris.md) - A preview Redis product that wraps the database with a Context Retriever (auto-generated MCP tools over defined entities/schema) and Agent Memory (short/long-term with background promotion to vector-indexed memory), demoed as the production-agent substitute for markdown second brains.
 - [Knowledge Bases](../../concepts/knowledge-bases.md) - Curated bodies of knowledge an agent can retrieve from, distinct from raw model weights, that ground responses in trusted source material.
 - [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 - [Knowledge Graphs](../../concepts/knowledge-graphs.md) - Structuring knowledge as entities and relationships (often temporal) so agents can traverse connections a vector store can't express.

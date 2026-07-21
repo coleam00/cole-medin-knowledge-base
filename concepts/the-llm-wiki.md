@@ -25,6 +25,7 @@ The unsolved problem was interoperability: everyone built wikis their own way, s
 
 - [Fine-Tuning](./fine-tuning.md) - an alternative way to give a model durable knowledge; the wiki keeps knowledge external, editable, and inspectable rather than baked into weights.
 - [When RAG Is Dead](./when-rag-is-dead.md) - the navigational, index-plus-links model sidesteps embedding-based retrieval entirely.
+- [Redis Iris](../entities/tools/redis-iris.md) - A preview Redis product that wraps the database with a Context Retriever (auto-generated MCP tools over defined entities/schema) and Agent Memory (short/long-term with background promotion to vector-indexed memory), demoed as the production-agent substitute for markdown second brains.
 
 ## Implemented by
 
@@ -42,6 +43,7 @@ The unsolved problem was interoperability: everyone built wikis their own way, s
 - [Context Engineering](./context-engineering.md) - the wiki exists to feed an agent exactly the right context.
 - [Model Context Protocol (MCP)](./mcp.md) - a common way agents actually reach into a knowledge base at query time.
 - [Validation](./validation.md) - conformance checks (like OKF linting) keep the wiki's links and metadata honest.
+- [Open Knowledge Format (OKF)](./open-knowledge-format.md) - A minimal open standard layered on the Karpathy LLM wiki that fixes how a knowledge base is organized and what metadata its pages carry, so any agent can navigate one it has never seen.
 
 ## Sources
 

@@ -33,6 +33,8 @@ The discipline is to defer complexity until it earns its place: "you need to kee
 - [Agent Evaluation](./agent-evaluation.md) - how you know the agent actually works.
 - [Agent Observability](./agent-observability.md) - the monitoring layer added after the first seven steps.
 - [Production-Grade Agents](./production-grade-agents.md) - the deferred complexity the lifecycle ends on.
+- [Agents That Build Agents](./agents-that-build-agents.md) - A meta-agent whose specialty is generating, iterating on, and eventually running other AI agents on demand, so the agents it produces become reusable sub-agents themselves.
+- [Google ADK (Agent Development Kit)](../entities/tools/google-adk.md) - Google's minimalistic agent framework giving full control over prompting and tooling, with sandboxed code execution and one-command deployment to Google Cloud.
 
 ## Sources
 

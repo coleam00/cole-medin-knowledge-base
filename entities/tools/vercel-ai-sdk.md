@@ -27,6 +27,7 @@ The SDK's core value is provider independence at the call site. When forking Bol
 
 - [Bolt.new](./bolt-new.md) - StackBlitz's commercial AI coding platform that generates entire full-stack applications; the stable product bolt.DIY forks from.
 - [MCP](./mcp.md) - The protocol used to connect Claude Code to external tools and servers.
+- [Eve (Vercel)](./eve.md) - Vercel's open-source 'file-system first' agent framework where an entire agent is a single folder of markdown/TypeScript, compiled and deployed to production with durable sessions, sandboxing, human-in-the-loop, and evals.
 
 ## Related
 

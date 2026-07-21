@@ -32,6 +32,9 @@ Next.js is also Cole's default scaffold for greenfield builds. In the Ralph Wigg
 - [CopilotKit](./copilotkit.md) - Open-source front-end library for building agentic applications; the team that built AG-UI, providing React components to wire agents into a UI.
 - [AG-UI](./ag-ui.md) - Open protocol (by the CopilotKit team) that standardizes connecting AI agents to front ends via emitted events; ~16 event types.
 - [Vercel AI SDK](./vercel-ai-sdk.md) - The front-end AI library whose llms.txt documentation Cole crawls as the demo knowledge base and uses to build a Claude 4 chat UI.
+- [Clerk](./clerk.md) - Drop-in authentication and user-management provider for web apps; Cole seeds a Clerk test account so an autonomous agent can sign in and self-validate the real running app.
+- [shadcn/ui](./shadcn-ui.md) - The copy-in React component library that v0 emits, so generated UI lands as standard, fully-owned components you can import and customize in your own Next.js project.
+- [v0](./v0.md) - Vercel's AI front-end generator that builds Next.js/shadcn UI components and whole front ends from natural-language prompts, with an npx install command to pull the generated component into a local project.
 
 ## Contrasts with
 

@@ -26,6 +26,7 @@ Docling sits alongside the rest of Cole's data tooling, "Graphiti for knowledge 
 
 - [Chunking](../../concepts/chunking.md) - Splitting source documents into appropriately sized, embeddable segments, the foundational preprocessing step that determines RAG retrieval quality.
 - [Context-Aware Chunking](../../concepts/context-aware-chunking.md) - Splitting documents along semantic boundaries and enriching chunks with surrounding context to improve retrieval quality.
+- [Document Extraction](../../concepts/document-extraction.md) - Pulling clean raw text out of source files (PDFs, Excel, HTML, JSON) is the real bottleneck in RAG ingestion, solved by branching on each file's MIME type to a format-specific extractor rather than one universal node.
 
 ## Contrasts with
 

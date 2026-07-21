@@ -13,6 +13,8 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Tool Design](tool-design.md) - Designing agent tools to be few, single-purpose, and well-described (often via docstrings) so the model uses them reliably.
 - [Tool Calling](tool-use.md) - Letting an LLM invoke external functions and APIs so it can take actions and fetch data beyond its parametric knowledge.
 - [What Is an AI Agent](what-is-an-ai-agent.md) - An AI agent is a large language model given tools to interact with the outside world and take actions, making it far more capable than the LLM alone.
+- [AI Agent Learning Roadmap](ai-agent-learning-roadmap.md) - Cole's ordered path for learning to build AI agents, from Python and LLM fundamentals through no-code prototyping, coded agents, RAG, and multi-agent architectures.
+- [The Seven Node Blueprint](seven-node-blueprint.md) - Cole's mental model that decomposes any AI agent into seven reusable node types (LLM, tool, control, memory, guardrail, fallback, user input) you build individually and combine like Lego bricks.
 
 ## Agent architecture & multi-agent systems
 - [Agent Architecture Patterns](agent-architecture-patterns.md) - Reusable agent design patterns like prompt chaining, routing, parallelization, orchestrator-workers, and evaluator loops for structuring agentic systems.
@@ -28,6 +30,11 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Production vs. Personal Agents](production-vs-personal-agents.md) - The architectural divide between quick personal-use agents and systems built to scale in production, and what has to change (structure, storage, reliability) to cross that line.
 - [Single vs. Multi-Agent Architecture](single-vs-multi-agent.md) - The core architectural decision between one capable agent and a coordinated system of specialized agents with handoffs, and when the added complexity of multi-agent orchestration is actually worth it.
 - [Subagents Pattern](subagents-pattern.md) - Delegating scoped tasks to isolated subagents to parallelize work and protect the main agent's context window.
+- [File-System-Based Agents](file-system-based-agents.md) - An architecture where an entire AI agent is defined as a single folder of organized markdown and TypeScript primitives rather than hand-wired framework code.
+- [Initializer + Task Agent Architecture](initializer-and-task-agent.md) - The most common harness pattern: an initializer agent scaffolds the project and produces a validated feature list, then a task agent runs in a loop making incremental progress across context-reset sessions.
+- [Synthesizer Agent](synthesizer-agent.md) - The final agent in a parallel architecture that takes every sub-agent's output and summarizes, formats, and optionally validates it into one coherent answer, replacing a dumb non-LLM aggregator.
+- [Agents That Build Agents](agents-that-build-agents.md) - A meta-agent whose specialty is generating, iterating on, and eventually running other AI agents on demand, so the agents it produces become reusable sub-agents themselves.
+- [Reasoning Model as a Tool](reasoning-model-as-a-tool.md) - Architecture where a fast, lightweight model drives the conversation and calls a slow, powerful reasoning model as just another tool, keeping the flow nimble while still getting reasoning-grade answers on the hard step.
 
 ## Agent reliability, safety & evaluation
 - [Adversarial Agents](adversarial-agents.md) - Pitting a generator against an adversarial critic so an agent's output is stress-tested before it's accepted.
@@ -39,6 +46,9 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [The Lethal Trifecta](lethal-trifecta.md) - The dangerous combination of private data access, untrusted content, and external communication that enables prompt-injection exfiltration.
 - [Self-Correcting Agents](self-correction.md) - Feeding tool errors and results back to the model so it can reason about mistakes, avoid repeating calls, and retry until it gets the action right.
 - [Sycophancy](sycophancy.md) - LLMs' tendency to agree with and flatter the user, which can mask real problems in their output.
+- [Compounding Error Rates](compounding-error-rates.md) - Because agentic systems chain many steps that must each succeed, per-step error rates multiply, so a chain of 95%-reliable steps collapses to low end-to-end reliability.
+- [Permission Management](permission-management.md) - Allowlisting the specific safe commands an agent may run unattended, and using an isolated firewalled container when you do skip permissions entirely.
+- [Agent Authorization](agent-authorization.md) - Letting an agent obtain scoped OAuth access to each user's own accounts, requested just in time when a tool is first needed, instead of hardcoding one set of credentials.
 
 ## Context engineering
 - [Context Engineering](context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
@@ -54,6 +64,9 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [PRP Framework](prp-framework.md) - The Product Requirements Prompt pattern: a structured, context-rich prompt blueprint that hands an agent everything it needs to one-pass a feature.
 - [Stacking Context-Engineering Strategies](strategy-stacking.md) - Composing complementary methods (e.g. BMAD for planning, PRP for execution) rather than replacing one with another.
 - [The WHISK Framework](the-whisk-framework.md) - Cole's mnemonic framework for structuring the context you feed an agent to reliably build anything with it.
+- [The Scout Pattern](the-scout-pattern.md) - Send a sub-agent ahead to explore docs or code and decide whether a piece of context is worth loading into the main window before you commit it.
+- [Handoff Documents](handoff-documents.md) - Because isolated agents share no conversation history, they communicate by writing and reading markdown handoff files (initial.md, prompts.md) in a shared planning folder, passing only the distilled context each next step needs.
+- [Training Cutoff](training-cutoff.md) - An AI model's knowledge is frozen at the date its training data ends, so it silently knows nothing about events, libraries, or versions released afterward.
 
 ## Prompt engineering
 - [Agent Prompting Techniques](agent-prompting.md) - Prompt-level techniques that shape agent behavior: a system/goal/do/don't template, dynamic runtime injection, internal thought messages, current-date grounding, and intent inference.
@@ -69,6 +82,10 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Role Prompting](role-prompting.md) - Assigning the model a specific role or persona (e.g. 'an expert at growing Twitter accounts') to set the tone and expectations for its response, which Cole calls the overarching concept behind all prompt engineering.
 - [Self-Criticism Prompting](self-criticism-prompting.md) - Having the model critique and revise its own output in the prompt loop so it catches errors and improves the answer before returning it.
 - [System Prompt Engineering](system-prompt-engineering.md) - Crafting an agent's system prompt (persona, rules, output shape, routing logic, reusable templates) to steer its behavior consistently across turns.
+- [Tree-of-Thought Prompting](tree-of-thought.md) - Letting a model explore many possibilities and outcomes in parallel branches before committing to an answer, rather than a single linear chain of thought.
+- [Zero-Shot Prompting](zero-shot-prompting.md) - Asking an LLM to perform a task with no examples at all, relying purely on the instruction and the model's pretrained knowledge; the baseline counterpart to few-shot prompting.
+- [Model-Specific Prompts](model-specific-prompts.md) - Different LLMs need different prompts, so a serious system keeps a library of model-tuned system prompts instead of reusing one prompt written for a single frontier model.
+- [Parametric Knowledge](parametric-knowledge.md) - Leaning on what the model already learned in training, so naming a popular source is enough context without pasting its contents into the prompt.
 
 ## RAG & retrieval
 - [Agentic RAG](agentic-rag.md) - Giving an agent retrieval as a tool so it decides when and how to search a knowledge base, picking strategies and issuing follow-up queries instead of a single static lookup.
@@ -86,6 +103,8 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Semantic Search](semantic-search.md) - Retrieving content by embedding-based similarity so results match on meaning rather than exact keywords.
 - [Traditional RAG](traditional-rag.md) - The classic one-shot, static RAG pipeline that embeds a query, runs a single vector similarity search, and stuffs the top chunks into the prompt.
 - [When RAG Is (and Isn't) Dead](when-rag-is-dead.md) - The argument that for code, agents navigating files directly often beats indexed RAG, and when traditional retrieval still earns its place.
+- [Metadata Filtering](metadata-filtering.md) - Tagging every embedded chunk with source metadata so retrieval can be scoped to one document set and answers can cite which document they came from.
+- [Production-Ready RAG](production-ready-rag.md) - Building RAG that survives a growing knowledge base, updated documents, and unexpected user questions, unlike toy 'chat with your PDF' demos.
 
 ## Chunking, embeddings & data
 - [Chunking](chunking.md) - Splitting source documents into appropriately sized, embeddable segments, the foundational preprocessing step that determines RAG retrieval quality.
@@ -94,6 +113,8 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Late Chunking](late-chunking.md) - Embedding a full document first and only then splitting it, so each chunk carries whole-document context.
 - [Structured vs Unstructured Data](structured-vs-unstructured-data.md) - Choosing the right representation for RAG, keeping tabular data queryable as SQL while formatting prose as markdown, rather than forcing everything through vector search.
 - [Vector Embeddings](vector-embeddings.md) - Numeric representations of text that enable semantic similarity search, stored and managed in a vector database for retrieval.
+- [Document Extraction](document-extraction.md) - Pulling clean raw text out of source files (PDFs, Excel, HTML, JSON) is the real bottleneck in RAG ingestion, solved by branching on each file's MIME type to a format-specific extractor rather than one universal node.
+- [Delete-Before-Insert Re-Ingestion](delete-before-insert-reingestion.md) - Because most vector stores insert rather than upsert, you must delete a document's existing chunks (matched by file ID metadata) before re-inserting an updated version, or stale chunks linger forever.
 
 ## Knowledge bases & memory
 - [Git as Long-Term Memory](git-as-long-term-memory.md) - Treating the git history and versioned files as durable, inspectable memory for agents instead of opaque model state.
@@ -105,6 +126,9 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Self-Evolving Memory](self-evolving-memory.md) - A memory system that reflects on and rewrites its own notes over time, promoting and pruning what it stores.
 - [The LLM Wiki](the-llm-wiki.md) - An LLM-maintained knowledge base of plain markdown pages that compiles sources into a navigable, self-referential wiki.
 - [Web Crawling & Ingestion](web-crawling.md) - Crawling sites and documentation (sitemaps, recursion, parallelism) and converting them to clean markdown for a knowledge base.
+- [Open Knowledge Format (OKF)](open-knowledge-format.md) - A minimal open standard layered on the Karpathy LLM wiki that fixes how a knowledge base is organized and what metadata its pages carry, so any agent can navigate one it has never seen.
+- [Temporal-Aware Knowledge Graphs](temporal-knowledge-graphs.md) - A knowledge graph that never overwrites a changed fact but stores the new one alongside the old with valid_at/invalidated_at timestamps, so an agent knows both what is true now and how the knowledge evolved.
+- [llms.txt](llms-txt.md) - An emerging convention where a project publishes all of its documentation as a single LLM-formatted page (llms.txt / llms-full.txt), so one fetch yields complete, chunk-ready knowledge for an agent.
 
 ## Agentic coding workflow
 - [Agentic Coding](agentic-coding.md) - Letting an AI agent drive software development end-to-end, from planning through implementation and validation, with human steering.
@@ -125,6 +149,14 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [The Ralph Loop](the-ralph-loop.md) - Re-running an agent against the same prompt/state in a tight loop, letting each pass fix errors and compound reliability.
 - [Two-Layer Planning](two-layer-planning.md) - Separating high-level strategic planning from detailed task planning, using a stronger model for the former.
 - [Vibe Coding](vibe-coding.md) - Building software by conversationally prompting an AI without closely reading the code, useful for prototypes but risky for production.
+- [Loop Engineering](loop-engineering.md) - Designing self-prompting loops (/loop, /goal, /routines) so coding agents pick up and run work autonomously instead of you prompting them each time - a buzzword Cole argues should fold into harness engineering.
+- [Database Branching](database-branching.md) - Giving each git worktree its own isolated copy of the database (a Neon branch or local SQLite DB) so parallel coding agents' schema and data changes don't collide - database isolation as the counterpart to worktree code isolation.
+- [Disposable Agent Sandboxes](disposable-agent-sandboxes.md) - Running each agent in an ephemeral, preloaded cloud dev box ('cattle, not pets') instead of a local worktree, so many unattended agents can run in parallel with scoped permissions.
+- [Long-Running Agents](long-running-agents.md) - Coding agents that run autonomously for hours or days as background tasks, chaining dozens of fresh-context sessions through shared artifact files to produce a working proof of concept before a human takes over.
+- [Remote Agentic Coding](remote-agentic-coding.md) - Kicking off a coding request from anywhere (phone, chat app) to an agent that runs entirely remotely in an isolated container, cloning the GitHub repo, branching, and deploying on its own.
+- [Vibe Planning](vibe-planning.md) - The deliberately unstructured first stage of planning: free-form exploration of ideas, architecture, and tech stack with the coding assistant as a research companion, before any structure or requirements doc is imposed.
+- [Granular Task Management](granular-task-management.md) - Breaking a large request into small focused tasks on a shared, persistent task board the agent works through one at a time, so its plan stays visible and steerable.
+- [Greenfield vs. Brownfield Projects](greenfield-vs-brownfield.md) - The branch point in AI-assisted planning between building a brand-new project, where the agent grounds itself in external documentation research, and working in an existing codebase, where it must reference the repo's existing patterns instead.
 
 ## AI coding landscape & tooling
 - [AI Coding Assistant](ai-coding-assistant.md) - A tool that generates or completes code from short prompts, applying targeted edits and offloading low-leverage software work.
@@ -141,6 +173,13 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Parallel Agentic Coding](parallel-agentic-coding.md) - Dispatching agents to background tasks in isolated git worktrees, each fed repo context and returning a reviewable PR.
 - [Prompt Caching](prompt-caching.md) - Caching repeated portions of prompts to cut cost and latency across an AI coding session.
 - [The Evolution of AI Coding](the-evolution-of-ai-coding.md) - How AI coding assistants moved from novelty to daily driver, and where the landscape, adoption, and commentary are heading.
+- [The Five Levels of AI Coding Autonomy](five-levels-of-ai-coding-autonomy.md) - Dan Shapiro's framework mapping the SAE five levels of driving automation onto how much control you hand a coding agent, from 'spicy autocomplete' (level 0) to the 'dark factory' (level 5).
+- [Meta-Harness](meta-harness.md) - A layer above individual AI coding assistants that orchestrates many of them together on larger tasks, distinct from a single-agent harness.
+- [Coding-Agent Bloat](coding-agent-bloat.md) - The critique that feature-maxed coding tools accumulate bugs, heavy token usage, and an uncontrollable, constantly-shifting system prompt that degrades and obscures results, arguing for minimal, moldable foundations instead.
+- [The Evolving Role of the Software Engineer](evolving-role-of-the-engineer.md) - The argument that software engineering is not dying but shifting: as agents absorb the typing, the human owns requirements, architecture, orchestration, and review.
+- [Coding Agent as General Assistant](coding-agent-as-general-assistant.md) - A coding agent is really five capabilities (file ops, search, terminal, web search, code intelligence) and removing code intelligence leaves exactly the general on-machine assistant a second brain needs.
+- [AI Tech Stack](ai-tech-stack.md) - Your chosen collection of tools and services (LLM, framework, database, automation, hosting) combined into one working AI system - pick a stack that fits, keep it simple and reusable, and stick with it instead of over-researching every option.
+- [File Diffs Instead of Full Rewrites](file-diffs-vs-rewrites.md) - Applying targeted diffs (file walking) rather than rewriting whole files makes an AI coding tool faster, cheaper, and less destructive on edits.
 
 ## Commands, skills & self-evolving systems
 - [Abstraction Distraction](abstraction-distraction.md) - The trap of reaching for heavy frameworks and abstractions that get in the way instead of writing simple, direct code.
@@ -156,6 +195,7 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Slash Commands](slash-commands.md) - User-defined command files that package a prompt and arguments into a callable shortcut inside the coding agent.
 - [System Evolution](system-evolution.md) - Building systems that improve themselves over time, including agents that generate and refine other agents.
 - [The AI Layer](the-ai-layer.md) - The layer of rules, commands, skills, and context you own on top of a codebase that makes AI coding effective and portable.
+- [Dynamic System Prompt](dynamic-system-prompt.md) - Assembling an agent's system prompt at runtime by scanning a skills/context directory and injecting each file's front-matter description and path onto the static base instructions, which is what makes skills portable to any framework.
 
 ## Validation & code review
 - [Code Review](code-review.md) - Using AI to review diffs for bugs and quality as a gate before merging, ideally with a reviewer separate from the author.
@@ -163,6 +203,8 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Separate Reviewer](separate-reviewer.md) - Splitting authoring and grading across different agents so the reviewer isn't biased by having written the code.
 - [Test-Driven Development](test-driven-development.md) - Writing tests first so the agent has an objective target and a validation signal to code against.
 - [Validation](validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+- [Visual Self-Validation Loop](visual-self-validation.md) - Giving an agent the ability to render its own visual output to an image, look at the screenshot, spot imperfections, and edit the source in place over several iterations.
+- [Hallucination Detection](hallucination-detection.md) - Deterministically checking AI-generated code against a ground-truth structure (a parsed knowledge graph of the library) to flag methods and parameters that don't actually exist, then feeding the report back so the agent can fix them.
 
 ## MCP & agent protocols
 - [Agent Client Protocol (ACP)](agent-client-protocol.md) - An open standard for connecting any coding agent to any code editor, the agent-to-editor analog of MCP.
@@ -173,6 +215,10 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [The Problems With MCP Servers](mcp-problems.md) - MCP's practical failure modes, tool overload and context/token bloat that overwhelm LLMs, JSON setup friction, and early production gaps like missing built-in auth and security.
 - [MCP with Custom Agents](mcp-with-custom-agents.md) - Integrating MCP servers directly into agents you build yourself, so you control the front end, tool selection, and how the tools are used.
 - [Tool Standardization (USB-C for AI)](tool-standardization.md) - MCP standardizes how tools are exposed to LLMs, like a USB-C port for AI, so the same tools can be reused identically across any agent framework or host instead of hand-coding every capability.
+- [Remote MCP Server](remote-mcp-server.md) - An MCP server hosted in the cloud rather than run locally, making tool access scalable, shareable, and deployable behind a production URL.
+- [MCP Transports](mcp-transports.md) - The ways an MCP client and server talk: stdio, where the client launches the server as a fast local subprocess, versus SSE and its successor streamable HTTP for remote servers.
+- [MCP Authentication with OAuth](mcp-oauth.md) - Putting an OAuth provider (e.g. GitHub) in front of an MCP server as an authentication gateway so only authorized users can reach its tools.
+- [Agent2Agent (A2A) Protocol](a2a-protocol.md) - Google's open standard for how independently-built agents discover and talk to each other over HTTP via agent cards and tasks, the agent-to-agent counterpart to MCP.
 
 ## Deployment & production APIs
 - [Agent as an API Endpoint](agent-as-api-endpoint.md) - Wrapping an AI agent in a web API (typically FastAPI) turns it from a terminal-bound script into a deployable, scalable service any frontend, SaaS, or client can call remotely.
@@ -193,6 +239,8 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [HTTPS via Certbot / Let's Encrypt](ssl-tls.md) - Using Certbot to obtain and install a free Let's Encrypt SSL certificate so the deployed site is served securely over HTTPS.
 - [Webhook-Driven Agents](webhook-driven-agent.md) - Triggering agents from external events via webhooks so they run reactively as part of automated workflows rather than only through direct chat.
 - [Webhook Tool Pattern](webhook-tool-pattern.md) - Exposing and wiring no-code agents through webhooks: an n8n workflow starts with a webhook trigger and ends with respond-to-webhook, gets a public URL any frontend can call, and a reusable Python wrapper makes adding new webhook-backed tools nearly free.
+- [Embedding a Coding Agent in Your Application](embedding-a-coding-agent.md) - Using a coding agent's SDK to programmatically define and embed the same agent harness inside your own apps and workflows, including non-coding work like note-taking, research, and knowledge management.
+- [LLM Cost Optimization](llm-cost-optimization.md) - Systematically cutting the bill for running LLM applications at scale by sending the bulk of cheap-to-serve traffic to far cheaper models and paying premium rates only for the rare hard requests.
 
 ## Agent UX & interfaces
 - [Agentic Experiences](agentic-experiences.md) - Building apps where the agent drives a live, generative UI and front-end/back-end state stay in sync, instead of a static chat box.
@@ -214,6 +262,8 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Reusable Components and Variables](reusable-components.md) - Packaging sub-workflows as reusable components and storing conversation state in variables so context can be referenced later in prompts and tool calls.
 - [Usage-Based Pricing Trap](usage-based-pricing-trap.md) - Metering a no-code app per database or API operation makes costs unpredictable and explode at scale, since every page load spends multiple billable units.
 - [Visual Workflow Builder](visual-workflow-builder.md) - A drag-and-drop canvas of nodes (triggers, messages, AI responses, logic, API calls, and typed audio/text I/O) wired together to define how a conversation or automation flows.
+- [Hybrid No-Code + Code Architecture](hybrid-no-code-and-code.md) - Reject the either/or: use n8n for orchestration, entry points, and integrations while offloading heavy processing (agents, RAG chunking, large files) to Python microservices deployed on the same instance.
+- [Workflow as a Tool](workflow-as-a-tool.md) - Packaging an arbitrary multi-step automation workflow as a single callable agent tool, so the agent inherits the automation platform's hundreds of integrations as capabilities.
 
 ## Local & self-hosted models
 - [Fine-Tuning](fine-tuning.md) - Adapting a base model to a task or domain via additional training, weighed against just prompting a stronger general model.
@@ -221,3 +271,10 @@ Ideas, techniques, patterns, and mental models mined from the videos. Grouped by
 - [Model Quantization](model-quantization.md) - Compressing model weights to lower precision so large models fit and run on limited local hardware.
 - [Model Selection](model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
 - [Reasoning Models](reasoning-models.md) - Models that produce explicit reasoning before answering, and when that extra thinking helps versus hurts.
+- [Local LLM Hardware Requirements](local-llm-hardware-requirements.md) - The VRAM-per-parameter-tier ladder for local models (7B chat, 14B basic tool-calling, 32B genuinely impressive, 70B near-cloud) that decides which model your hardware can actually run.
+- [Mixture of Experts](mixture-of-experts.md) - A model architecture that routes each token through a subset of specialized expert networks, contrasted with a dense Transformer, explaining why two similar-looking reasoning LLMs behave very differently.
+- [Ollama's Default Context Window](ollama-context-window.md) - Every Ollama model ships with a 2048-token context window that silently truncates history and tool output; the fix is a two-line Modelfile that raises num_ctx.
+- [Self-Hosting Cost Crossover](self-hosting-cost-crossover.md) - The napkin-math point where monthly per-token spend exceeds a fixed cloud-GPU bill, which is exactly when self-hosting an open model starts paying for itself.
+- [Cloud GPU Hosting](cloud-gpu-hosting.md) - Renting GPU machines in the cloud (VRAM-sized to the model, e.g. a 48GB A40 for Llama 3.1 70B) to self-host models without owning, powering, maintaining, or upgrading hardware.
+- [LLM Data Privacy Tiers](llm-data-privacy-tiers.md) - The privacy ladder from closed models that may train on your data, to hosted open-model providers, to true self-hosting - and using mock data until you reach the tier your workload requires.
+- [Local vs. Cloud Decision Framework](local-vs-cloud-decision-framework.md) - A four-question decision tree (POC or production? sensitive data? frontier-model capability needed? scaling past ~1,000 users?) that decides whether an AI stack should be self-hosted or run on managed services, instead of treating local-vs-cloud as a dogmatic all-or-nothing rule.

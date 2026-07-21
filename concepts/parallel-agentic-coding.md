@@ -34,6 +34,8 @@ Orchestration is the other half. A harness like Archon dispatches worktree-isola
 - [Code Review](./code-review.md) - each parallel branch returns a reviewable PR.
 - [The Issue Is the Spec](./issue-is-the-spec.md), [PRP Framework](./prp-framework.md), [Slash Commands](./slash-commands.md), [The PIV Loop](./the-piv-loop.md) - how each dispatched agent gets a crisp, self-contained brief.
 - [Agentic Coding](./agentic-coding.md) - the single-agent baseline this scales out.
+- [Remote Agentic Coding](./remote-agentic-coding.md) - Kicking off a coding request from anywhere (phone, chat app) to an agent that runs entirely remotely in an isolated container, cloning the GitHub repo, branching, and deploying on its own.
+- [Database Branching](./database-branching.md) - Giving each git worktree its own isolated copy of the database (a Neon branch or local SQLite DB) so parallel coding agents' schema and data changes don't collide - database isolation as the counterpart to worktree code isolation.
 
 ## Tools
 
@@ -41,6 +43,8 @@ Orchestration is the other half. A harness like Archon dispatches worktree-isola
 - [Claude Code](../entities/tools/claude-code.md) - native git worktree support and agent teams.
 - [Codex](../entities/tools/codex.md), [Cursor](../entities/tools/cursor.md), [GitHub](../entities/tools/github.md) - branch-suffixed parallel fixes with no conflicts.
 - [Pi Coding Agent](../entities/tools/pi-coding-agent.md) - reusable workflows executed in parallel via worktrees.
+- [Omnigent](../entities/tools/omnigent.md) - Open-source meta-harness from Databricks that orchestrates multiple AI coding agents (Claude Code, Codex, Pi) from one customizable AI layer with sandboxing, guardrails, and cross-device collaboration.
+- [GitHub Actions](../entities/tools/github-actions.md) - GitHub's built-in CI/CD system that runs trigger-based workflows to invoke coding assistants in isolated, GitHub-hosted environments.
 
 ## Sources
 

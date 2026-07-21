@@ -29,6 +29,8 @@ His influence is large enough that his words get over-read, and Cole is careful 
 - [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
 - [Cole Medin](./cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
 - [Nick Baumann](./nick-baumann.md) - An original creator of Cline who argued the RAG narrative is a 'mind virus' for autonomous coding agents.
+- [Dario Amodei](./dario-amodei.md) - CEO of Anthropic, cited as the highest-profile source of the 'AI will write 90% of code' and 'software engineers go extinct in 2026' predictions Cole pushes back on.
+- [Peter Steinberger](./peter-steinberger.md) - Creator of OpenClaw, cited alongside Boris Cherny as a proponent of loop engineering - writing loops instead of prompting agents, backed by a near-infinite token budget.
 
 ## Sources
 

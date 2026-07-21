@@ -37,6 +37,7 @@ Because GPT-4 already reasons step by step, Cole uses it to make a teaching poin
 
 - [Claude](./claude.md) - Named as an example of a large language model that can be turned into an agent, the closed-model rival Cole benchmarks against.
 - [Llama](./llama.md) - The open LLM model powering the agent, the open challenger measured against GPT-4's quality bar.
+- [GPT-3.5 Turbo](./gpt-3-5-turbo.md) - OpenAI's ChatGPT-era chat-completion model called by the proxy server to generate the text that replaces the user's selection in place.
 
 ## Related
 

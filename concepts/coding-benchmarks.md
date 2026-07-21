@@ -26,6 +26,9 @@ Synthetic benchmarks saturate and stop discriminating. Cole and guests note that
 - [Model Selection](./model-selection.md) - where benchmark skepticism turns into a real decision.
 - [Git as Long-Term Memory](./git-as-long-term-memory.md) - repo snapshots and diffs are the ground truth for a real-task benchmark.
 - [AI Coding Harness](./ai-coding-harness.md), [Local & Self-Hosted AI Coding](./local-ai.md) - the surrounding setup whose value the benchmark is trying to measure.
+- [Google Antigravity](../entities/tools/google-antigravity.md) - Google's agentic coding environment pairing a traditional IDE with an agent-manager surface and Chrome integration, used as an alternative harness for running Gemini models.
+- [GPT-5 Codex](../entities/tools/gpt-5-codex.md) - OpenAI's coding-specialized GPT-5 model, the head-to-head opponent Cole benchmarks against Sonnet 4.5 on an identical real-world Stripe integration task.
+- [Gemini 3](../entities/tools/gemini-3.md) - Google's flagship LLM release, genuinely strong on abstract reasoning (a large ARC-AGI-2 jump) and especially good at frontend and design work, though its real-world edge is hard to separate from the tooling layered on top of it.
 
 ## Sources
 

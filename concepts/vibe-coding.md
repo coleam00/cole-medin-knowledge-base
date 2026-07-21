@@ -21,8 +21,10 @@ The nuance Cole has come to accept is that vibe coding has a legitimate niche: t
 - [Agentic Coding](./agentic-coding.md) - the engineered alternative that replaces vibes with a defined process.
 - [The PIV Loop](./the-piv-loop.md) - the plan/implement/validate discipline vibe coding skips.
 - [Planning with AI](./planning-with-ai.md) - vibe coding sends a prompt "without much planning."
+- [Vibe Planning](./vibe-planning.md) - the deliberately unstructured first stage of planning: free-form exploration of ideas, architecture, and tech stack with the coding assistant as a research companion, before any structure or requirements doc is imposed.
 - [Validation](./validation.md) - the quality gate that is "just never" present in vibe coding.
 - [Context Engineering](./context-engineering.md) - "the new vibe coding": structure and curated context instead of intuition.
+- [The Evolving Role of the Software Engineer](./evolving-role-of-the-engineer.md) - The argument that software engineering is not dying but shifting: as agents absorb the typing, the human owns requirements, architecture, orchestration, and review.
 
 ## Related
 

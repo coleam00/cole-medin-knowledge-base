@@ -19,12 +19,14 @@ Why it matters: this is a decision that binds you before you have any traffic an
 ## Contrasts with
 
 - [No-Code vs. Code](./no-code-vs-code.md) - operation-metered pricing is a major reason the no-code convenience can lose to a coded or self-hosted stack at scale.
+- [Self-Hosting Cost Crossover](./self-hosting-cost-crossover.md) - The napkin-math point where monthly per-token spend exceeds a fixed cloud-GPU bill, which is exactly when self-hosting an open model starts paying for itself.
 
 ## Related
 
 - [Agent Deployment](./agent-deployment.md) - where the pricing model of your hosting platform becomes a live production cost.
 - [No-Code AI Agents](./no-code-agents.md) - the class of apps most exposed to per-operation billing.
 - [Buy vs. Build](./buy-vs-build.md) - pricing structure, not just features, belongs in the buy-or-build decision.
+- [Bubble](../entities/tools/bubble.md) - Popular no-code app builder Cole criticizes for 'workload unit' usage-based pricing that makes AI app costs unpredictable and ruinous at scale.
 
 ## Sources
 

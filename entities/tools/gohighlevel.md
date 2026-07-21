@@ -31,6 +31,8 @@ The second reason Cole highlights it is its open extension model. GoHighLevel ac
 - [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
 - [Agent Teams](../../concepts/agent-teams.md) - Coordinating multiple specialized agents, via orchestrators, routers, and handoffs, to solve a task no single agent handles well.
 - [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Google Calendar](./google-calendar.md) - Google's calendar service, integrated via API as the action target for agents that turn extracted meeting action items into scheduled events.
+- [Google Cloud Functions](./google-cloud-functions.md) - Google's serverless function platform, used as the HTTP endpoint that receives the GoHighLevel webhook and hosts the agent's request-handling backend.
 
 ## Sources
 

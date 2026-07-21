@@ -32,12 +32,15 @@ Programmatically he drives it through the Codex SDK: "I'm using the Codex SDK to
 - [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant; the harness Codex is paired against, with Claude implementing and Codex reviewing.
 - [Pi](./pi-coding-agent.md) - A minimalistic, open-source coding agent cited as another example of a company-built harness around a model.
 - [Gemini CLI](./gemini-cli.md) - Google's coding CLI, where subagent support is experimental and which has a direct integration with the Agent Client Protocol.
+- [Google Antigravity](./google-antigravity.md) - Google's agentic coding environment pairing a traditional IDE with an agent-manager surface and Chrome integration, used as an alternative harness for running Gemini models.
 
 ## Works with
 
 - [GitHub](./github.md) - The gh command-line tool that lets Claude Code manage issues and pull requests directly on a remote GitHub repository.
 - [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
 - [CodeRabbit](./code-rabbit.md) - AI code review tool that automatically and thoroughly reviews every pull request, free for open-source repos, with security vulnerability detection.
+- [GPT-5 Codex](./gpt-5-codex.md) - OpenAI's coding-specialized GPT-5 model, the head-to-head opponent Cole benchmarks against Sonnet 4.5 on an identical real-world Stripe integration task.
+- [GPT-5.4 Mini & Nano](./gpt-5-4-mini-nano.md) - OpenAI's small/fast model releases marketed explicitly for subagents and AI coding; nano reportedly beats Claude Haiku 4.5 at a fifth the price and ~188 tok/s, anchoring the "subagent era" thesis.
 
 ## Sources
 

@@ -23,9 +23,11 @@ Why it keeps winning: it stays fast and provider-flexible while adopting new sta
 - [The Core Components of an Agent](../../concepts/agent-core-components.md) - the dependencies, agent, tools shape Cole codes against.
 - [Agent Dependency Injection](../../concepts/agent-dependencies.md) - runtime dependencies (API keys, DB connections, vector stores) injected into the agent.
 - [Docstrings as Tool Descriptions](../../concepts/docstrings-as-tool-descriptions.md) - how a tool function's docstring tells the agent when to call it.
+- [Dynamic System Prompt](../../concepts/dynamic-system-prompt.md) - Assembling an agent's system prompt at runtime by scanning a skills/context directory and injecting each file's front-matter description and path onto the static base instructions, which is what makes skills portable to any framework.
 
 ## Works with
 
+- [Pydantic](./pydantic.md) - Python's de facto data-validation library (also the foundation of FastAPI), used as the validation layer by OpenAI, Anthropic, LangChain, and LlamaIndex, and the reason Pydantic AI puts validation at an agent framework's core.
 - [LangGraph](./langgraph.md) - the multi-agent orchestrator Cole pairs it with; Pydantic AI builds the individual agents.
 - [Logfire](./logfire.md) - the observability library Pydantic AI uses under the hood.
 - [MCP](./mcp.md) - Pydantic AI adopted MCP-server tool integration early.

@@ -17,3 +17,6 @@ scripts/build_manifest.py
 scripts/fan_out.py
 scripts/authored_pages.txt
 scripts/entity_pages.txt
+scripts/sample_slugs.txt
+scripts/gaps/
+scripts/add_manifest.json

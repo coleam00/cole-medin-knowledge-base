@@ -38,6 +38,8 @@ Graphs also model the loops that drive long-running agent harnesses. The Ralph l
 - [End-to-End Validation](./end-to-end-validation.md) - the check on the exit edge of a build loop.
 - [Containerization](./containerization.md) - where a long-running graph is often executed.
 - [Agent Teams](./agent-teams.md) - multiple agents wired together are just a larger graph.
+- [The Seven Node Blueprint](./seven-node-blueprint.md) - Cole's mental model that decomposes any AI agent into seven reusable node types (LLM, tool, control, memory, guardrail, fallback, user input) you build individually and combine like Lego bricks.
+- [File-System-Based Agents](./file-system-based-agents.md) - An architecture where an entire AI agent is defined as a single folder of organized markdown and TypeScript primitives rather than hand-wired framework code.
 
 ## Tools
 

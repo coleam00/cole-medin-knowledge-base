@@ -29,6 +29,9 @@ A specialized case is the router prompt, where the system prompt encodes decisio
 - [Prompt Versioning](./prompt-versioning.md) tracks changes to the system prompt over time.
 - [Reduce Assumptions](./reduce-assumptions.md) and [Avoid Negative Instructions](./avoid-negative-instructions.md) are the clarity rules that keep a system prompt unambiguous.
 - [Chat Interfaces](./chat-interfaces.md) and [Model Selection](./model-selection.md).
+- [Model-Specific Prompts](./model-specific-prompts.md) - Different LLMs need different prompts, so a serious system keeps a library of model-tuned system prompts instead of reusing one prompt written for a single frontier model.
+- [Dynamic System Prompt](./dynamic-system-prompt.md) - Assembling an agent's system prompt at runtime by scanning a skills/context directory and injecting each file's front-matter description and path onto the static base instructions, which is what makes skills portable to any framework.
+- [Prompting Guide](../entities/tools/prompting-guide.md) - promptingguide.ai, the free resource Cole names as the single prompt-engineering guide worth studying end to end.
 
 ## Sources
 

@@ -19,12 +19,16 @@ The corollary is that "buy" is not universal. The same channel that ships a pers
 ## Contrasts with
 
 - [No-Code vs. Code](./no-code-vs-code.md) - the closely related build-it-yourself axis of visual vs. coded; buy-vs-build adds the third option of adopting a finished product.
+- [Local vs. Cloud Decision Framework](./local-vs-cloud-decision-framework.md) - A four-question decision tree (POC or production? sensitive data? frontier-model capability needed? scaling past ~1,000 users?) that decides whether an AI stack should be self-hosted or run on managed services, instead of treating local-vs-cloud as a dogmatic all-or-nothing rule.
 
 ## Related
 
 - [Chat Interfaces](./chat-interfaces.md) - the assistant surface a bought platform typically provides.
 - [No-Code AI Agents](./no-code-agents.md) - the middle ground between buying a finished product and coding from scratch.
 - [Agentic Automation](./agentic-automation.md) - where a platform's speed most often wins over hand-built plumbing.
+- [AI Tech Stack](./ai-tech-stack.md) - Your chosen collection of tools and services (LLM, framework, database, automation, hosting) combined into one working AI system, picked to fit and kept simple and reusable.
+- [Notion](../entities/tools/notion.md) - All-in-one docs and workspace app, supported alongside Confluence and Google Drive as a knowledge-base source for chat assistants.
+- [Vertex AI](../entities/tools/vertex-ai.md) - Google's cloud AI platform offering powerful agent capabilities out of the box, recommended in Google's agent white paper.
 
 ## Sources
 

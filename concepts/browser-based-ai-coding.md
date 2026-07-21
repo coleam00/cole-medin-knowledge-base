@@ -23,6 +23,7 @@ The takeaway is a division of labor rather than a winner. Browser-based tools re
 ## Contrasts with
 
 - [Vibe Coding](./vibe-coding.md) - browser tools are a natural home for unstructured, prompt-first building; they hit a ceiling on precision.
+- [Remote Agentic Coding](./remote-agentic-coding.md) - Kicking off a coding request from anywhere (phone, chat app) to an agent that runs entirely remotely in an isolated container, cloning the GitHub repo, branching, and deploying on its own.
 
 ## Related
 

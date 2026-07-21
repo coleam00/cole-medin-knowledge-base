@@ -35,7 +35,9 @@ Cole is also a builder in public. He created his own [Second Brain](../../concep
 - [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
 - [Second Brain](../../concepts/second-brain.md) - A personal, always-on AI system that captures, recalls, and acts on your knowledge and daily context.
 - [Dark Factory](../../concepts/dark-factory.md) - A self-evolving codebase where autonomous workflows build and improve a product with minimal human touch.
+- [The Evolving Role of the Software Engineer](../../concepts/evolving-role-of-the-engineer.md) - The argument that software engineering is not dying but shifting: as agents absorb the typing, the human owns requirements, architecture, orchestration, and review.
 - [Andrej Karpathy](./andrej-karpathy.md) - AI engineer who coined 'vibe coding' in February 2025 and popularized the LLM-built personal knowledge base (the 'Karpathy LLM Wiki').
+- [Andrew Ng](./andrew-ng.md) - AI educator behind the Coursera 'AI for Everyone' course and the machine learning, deep learning, and NLP specializations Cole recommends for AI fundamentals.
 - [Dynamous](../organizations/dynamous.md) - Cole's community for early AI adopters, home of the Agentic Coding course, weekly workshops, and the shared Context Engineering Hub.
 - [oTTomator](../organizations/ottomator.md) - Cole's earlier open-source AI community (ottomator.ai), pitched as a one-stop shop for AI tools, networking, and knowledge; home of the Live Agent Studio.
 

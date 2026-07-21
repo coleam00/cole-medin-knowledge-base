@@ -20,6 +20,7 @@ For Cole, Python is the answer whenever an agent outgrows no-code tools. He fram
 
 - [No-Code vs. Code](../../concepts/no-code-vs-code.md) is the recurring decision where Python represents the full-control, code-first side against no-code builders.
 - [n8n](./n8n.md) is the no-code alternative Cole weighs against Python for building agents.
+- [TypeScript](./typescript.md) - The go-to language for building MCP servers, especially remote ones deployed to Cloudflare.
 
 ## Works with
 

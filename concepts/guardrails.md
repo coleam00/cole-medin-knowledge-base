@@ -41,6 +41,7 @@ Cole singles out guardrails as an underserved feature, "something super importan
 - [OpenAI Agents SDK](../entities/tools/openai-agents-sdk.md) - first-class guardrails with custom tripwires.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - built-in model retry on overload/validation errors.
 - [Neo4j](../entities/tools/neo4j.md) - the knowledge graph behind deterministic hallucination detection.
+- [Guardrails AI](../entities/tools/guardrails-ai.md) - Open-source Python framework Cole leans on for agent input/output guardrails, blocking things like PII entering a prompt or unsafe content leaving the LLM.
 
 ## Sources
 

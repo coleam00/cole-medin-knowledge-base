@@ -26,6 +26,7 @@ Effective prompting scales through reusable structure. Templates encode length, 
 - [Role Prompting](./role-prompting.md)
 - [Self-Criticism Prompting](./self-criticism-prompting.md)
 - [Few-Shot Prompting](./few-shot-prompting.md)
+- [Zero-Shot Prompting](./zero-shot-prompting.md) - Asking an LLM to perform a task with no examples at all, relying purely on the instruction and the model's pretrained knowledge; the baseline counterpart to few-shot prompting.
 - [Prompt Variable Templating](./prompt-templating.md)
 - [Reasoning Models](./reasoning-models.md)
 - [Structured Outputs](./structured-outputs.md)
@@ -39,6 +40,7 @@ Effective prompting scales through reusable structure. Templates encode length, 
 - [Claude Code](../entities/tools/claude-code.md)
 - [Remotion](../entities/tools/remotion.md)
 - [ChatGPT](../entities/tools/chatgpt.md)
+- [Prompting Guide](../entities/tools/prompting-guide.md) - promptingguide.ai, the free resource Cole names as the single prompt-engineering guide worth studying end to end.
 
 ## Sources
 

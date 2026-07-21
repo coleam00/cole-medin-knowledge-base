@@ -23,6 +23,7 @@ Because the agent lives behind a clean FastAPI endpoint, Cole can keep the frame
 
 ## Works with
 
+- [Pydantic](./pydantic.md) - Python's de facto data-validation library (also the foundation of FastAPI), used as the validation layer by OpenAI, Anthropic, LangChain, and LlamaIndex, and the reason Pydantic AI puts validation at an agent framework's core.
 - [Python](./python.md) - Language Auto-GPT is built in; requires Python 3.8+ to run.
 - [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
 - [LangGraph](./langgraph.md) - The orchestration framework wiring agents into a stateful graph of nodes and edges, used here to run agents in parallel and add human-in-the-loop.
@@ -34,6 +35,7 @@ Because the agent lives behind a clean FastAPI endpoint, Cole can keep the frame
 - [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
 - [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [Express.js](./express.md) - Minimal JavaScript web framework used to stand up the small backend API that holds the OpenAI key and proxies chat-completion requests for the browser client.
 
 ## Sources
 

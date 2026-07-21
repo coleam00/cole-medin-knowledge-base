@@ -28,6 +28,7 @@ Crucially, community-driven does not mean directionless. Cole is explicit that a
 - [Skills](./skills.md) - shareable, community-contributed units of capability (e.g. Second Brain's brand/voice and PowerPoint skills).
 - [AI Agent Business Niches](./ai-agent-business-niches.md) - thousands of businesses building around a shared platform like GoHighLevel.
 - [No-Code Automation](./no-code-automation.md) - a common contribution surface for community-built agents.
+- [Eric Simons](../entities/people/eric-simons.md) - CEO and co-founder of StackBlitz (maker of bolt.new) who announces the partnership making the community fork the official open-source bolt.DIY and frames it as a real-world benchmark frontier labs test models against.
 
 ## Tools
 

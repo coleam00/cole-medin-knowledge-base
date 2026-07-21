@@ -24,6 +24,7 @@ Cole's later verdict is more measured, and it is where LightRAG's fit gets defin
 
 - [Graphiti](./graphiti.md) - a temporal graph layer built for constantly-ingesting, ever-changing data, faster to update than LightRAG's rebuild.
 - [Traditional RAG](../../concepts/traditional-rag.md) - plain vector similarity, which LightRAG augments with a graph rather than replaces.
+- [GraphRAG](./graphrag.md) - A popular knowledge-graph RAG implementation Cole groups with LightRAG as built for static, rarely-changing document summarization rather than dynamic incrementally-updated data.
 
 ## Realizes
 

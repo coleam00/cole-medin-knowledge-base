@@ -20,6 +20,7 @@ Neon's standout feature for Cole is database branching, which pairs perfectly wi
 
 - [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
 - [Postgres + pgvector](./postgres-pgvector.md) - A Postgres extension for storing vector embeddings, used within Supabase as a production-ready vector store for RAG.
+- [SQLite](./sqlite.md) - Embedded, file-based SQL database that lets example projects run with zero external database setup.
 
 ## Related
 
@@ -30,6 +31,10 @@ Neon's standout feature for Cole is database branching, which pairs perfectly wi
 - [Vibe Coding](../../concepts/vibe-coding.md) - Building software by conversationally prompting an AI without closely reading the code, useful for prototypes but risky for production.
 - [Global Rules](../../concepts/global-rules.md) - Persistent project- or user-level rule files that inject standing context and conventions into every agent run.
 - [Skills](../../concepts/skills.md) - Reusable, model-invoked capability packages that load specialized instructions and tools on demand to extend an agent.
+- [Database Branching](../../concepts/database-branching.md) - Giving each git worktree its own isolated copy of the database (a Neon branch or local SQLite DB) so parallel coding agents' schema and data changes don't collide - database isolation as the counterpart to worktree code isolation.
+- [Clerk](./clerk.md) - Drop-in authentication and user-management provider for web apps; Cole seeds a Clerk test account so an autonomous agent can sign in and self-validate the real running app.
+- [Retool](./retool.md) - Internal-app platform that imports React code and connects to a database to deploy dashboards with a governed, permissioned, audit-trailed path to production.
+- [Databricks](../organizations/databricks.md) - Data and AI company that open-sourced Omnigent (driven by its CTO and dogfooded internally); also the acquirer of Neon.
 
 ## Sources
 

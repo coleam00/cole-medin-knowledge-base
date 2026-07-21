@@ -30,6 +30,8 @@ Its newest layer is a hallucination check built on a repository [knowledge graph
 - [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
 - [Codebase Indexing](../../concepts/codebase-indexing.md) - Building a searchable index or map of a codebase so the agent can retrieve the right files instead of scanning everything.
 - [Contextual Retrieval](../../concepts/contextual-retrieval.md) - Prepending LLM-generated context to each chunk before embedding so retrieval understands where the chunk sits in the larger document.
+- [llms.txt](../../concepts/llms-txt.md) - An emerging convention where a project publishes all of its documentation as a single LLM-formatted page (llms.txt / llms-full.txt), so one fetch yields complete, chunk-ready knowledge for an agent.
+- [Hallucination Detection](../../concepts/hallucination-detection.md) - Deterministically checking AI-generated code against a ground-truth structure (a parsed knowledge graph of the library) to flag methods and parameters that don't actually exist, then feeding the report back so the agent can fix them.
 
 ## Contrasts with
 

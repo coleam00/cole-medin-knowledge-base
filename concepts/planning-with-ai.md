@@ -33,12 +33,14 @@ The process starts unstructured and converges to structure. "I start really unst
 
 ## Related
 
+- [Vibe Planning](./vibe-planning.md) - the deliberately unstructured first stage of planning: free-form exploration of ideas, architecture, and tech stack with the coding assistant as a research companion, before any structure or requirements doc is imposed.
 - [PRD-First Development](./prd-first-development.md) and [Spec-Driven Development](./spec-driven-development.md) - the artifacts a planning session produces.
 - [Phases of Work](./phases-of-work.md) - the plan is sharded into ordered, buildable phases.
 - [Global Rules](./global-rules.md) - static guidance loaded alongside the plan.
 - [Context Reset](./context-reset.md) - the finished plan becomes the only context for a fresh implementation session.
 - [Agent Teams](./agent-teams.md) - research subagents feed a plan that an agent team then implements.
 - [AI Coding Harness](./ai-coding-harness.md) - harnesses "do not work well if you don't have very clearly defined goals."
+- [Greenfield vs. Brownfield Projects](./greenfield-vs-brownfield.md) - The branch point in AI-assisted planning between building a brand-new project, where the agent grounds itself in external documentation research, and working in an existing codebase, where it must reference the repo's existing patterns instead.
 
 ## Tools
 

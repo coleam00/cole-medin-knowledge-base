@@ -27,6 +27,9 @@ The framing is not just tidy taxonomy, it is a debugging discipline. "Whenever y
 - [Tool Design](./tool-design.md) - how to build the actions the agent calls.
 - [Model Selection](./model-selection.md) - choosing the brain.
 - [System Prompt Engineering](./system-prompt-engineering.md) - writing the instructions.
+- [The Seven Node Blueprint](./seven-node-blueprint.md) - Cole's mental model that decomposes any AI agent into seven reusable node types (LLM, tool, control, memory, guardrail, fallback, user input) you build individually and combine like Lego bricks.
+- [Coding Agent as General Assistant](./coding-agent-as-general-assistant.md) - A coding agent is really five capabilities (file ops, search, terminal, web search, code intelligence) and removing code intelligence leaves exactly the general on-machine assistant a second brain needs.
+- [File-System-Based Agents](./file-system-based-agents.md) - An architecture where an entire AI agent is defined as a single folder of organized markdown and TypeScript primitives rather than hand-wired framework code.
 
 ## Tools
 

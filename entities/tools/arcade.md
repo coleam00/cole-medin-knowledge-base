@@ -20,6 +20,7 @@ Arcade has grown into part of Cole's recommended 2026 stack, and the reason is a
 
 ## Realizes
 
+- [Agent Authorization](../../concepts/agent-authorization.md) - Letting an agent obtain scoped OAuth access to each user's own accounts, requested just in time when a tool is first needed, instead of hardcoding one set of credentials.
 - [Multi-Tenant Agents](../../concepts/multi-tenant-agents.md) - Building a single agent that serves many users, each with personalized tools, memory, and securely authorized access to their own accounts.
 - [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
 

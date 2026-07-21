@@ -25,6 +25,7 @@ He flags the whole model layer as "the most volatile" part of the stack, which i
 - [DeepSeek R1](./deepseek-r1.md) - Open-source MIT-licensed reasoning LLM that rivals OpenAI o1, ships in distilled sizes, and is far cheaper to run.
 - [Qwen](./qwen.md) - Alibaba's open-source LLM family Cole cites as among his favorites that stood the test of time.
 - [Llama](./llama.md) - The open LLM model powering the agent, served via Groq in the current build.
+- [DeepSeek Coder V2](./deepseek-coder-v2.md) - Open-source 236B-parameter coding model available via OpenRouter or the DeepSeek API, recommended as roughly 20x cheaper than Claude while remaining highly capable for AI coding.
 
 ## Works with
 

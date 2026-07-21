@@ -31,6 +31,7 @@ Third, **Slack as a stock connector to set up.** He repeatedly walks through the
 - [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
 - [Docker](./docker.md) - Containerization prerequisite; a single docker compose command spins up Archon's four containers (agents, MCP server, UI, API server).
 - [Zapier](./zapier.md) - Automation platform whose MCP server connects agents to 8,000+ apps (video sponsor).
+- [Confluence](./confluence.md) - Atlassian's team documentation wiki, connected via API key as the ingested knowledge-base source that grounds a RAG assistant's answers.
 
 ## Contrasts with
 

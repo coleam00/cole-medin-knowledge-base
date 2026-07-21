@@ -40,6 +40,7 @@ In practice, work begins by triaging issues against a higher-level goal, "whenev
 - [GitHub](../entities/tools/github.md) - issues (and the pull requests they produce) are the canonical artifacts.
 - [Linear](../entities/tools/linear.md) - an issue tracker used as the shared source of truth across agents.
 - [Claude Code](../entities/tools/claude-code.md) - reads an issue and drives it to a pull request.
+- [Stripe Minions](../entities/tools/stripe-minions.md) - Stripe's internal agent harness that runs 'blueprints' interweaving agent nodes with deterministic code steps, shipping 1,300+ fully AI-written PRs every week.
 
 ## Sources
 

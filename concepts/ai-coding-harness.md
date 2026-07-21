@@ -37,16 +37,27 @@ Why this matters strategically: as models plateau, the edge moves to the harness
 - [Provider Independence](./provider-independence.md) - a harness of "just a bunch of prompts and files" works with any coding assistant.
 - [Human in the Loop](./human-in-the-loop.md) - reliability that a harness bakes in for long-running tasks.
 - [Skills](./skills.md) - packaged instructions the harness loads to tell the model how to use its capabilities.
+- [Long-Running Agents](./long-running-agents.md) - Coding agents that run autonomously for hours or days as background tasks, chaining dozens of fresh-context sessions through shared artifact files to produce a working proof of concept before a human takes over.
+- [Loop Engineering](./loop-engineering.md) - Designing self-prompting loops (/loop, /goal, /routines) so coding agents pick up and run work autonomously instead of you prompting them each time - a buzzword Cole argues should fold into harness engineering.
+- [Meta-Harness](./meta-harness.md) - A layer above individual AI coding assistants that orchestrates many of them together on larger tasks, distinct from a single-agent harness.
+- [Coding-Agent Bloat](./coding-agent-bloat.md) - The critique that feature-maxed coding tools accumulate bugs, heavy token usage, and an uncontrollable, constantly-shifting system prompt that degrades and obscures results, arguing for minimal, moldable foundations instead.
+- [Initializer + Task Agent Architecture](./initializer-and-task-agent.md) - The most common harness pattern: an initializer agent scaffolds the project and produces a validated feature list, then a task agent runs in a loop making incremental progress across context-reset sessions.
+- [Embedding a Coding Agent in Your Application](./embedding-a-coding-agent.md) - Using a coding agent's SDK to programmatically define and embed the same agent harness inside your own apps and workflows, including non-coding work like note-taking, research, and knowledge management.
+- [Geoffrey Huntley](../entities/people/geoffrey-huntley.md) - Creator of the Ralph Wiggum long-running agent loop, who frames it as a planning-heavy philosophy rather than a shiny framework or the Anthropic plugin.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - "the agent harness that powers Claude Code" per Anthropic; a wrapper of file search, read, and edit tools on top of Claude.
 - [Claude Agent SDK](../entities/tools/claude-agent-sdk.md) and [Codex](../entities/tools/codex.md) - batteries-included SDKs used as a harness foundation for custom agents.
+- [LangChain Deep Agents](../entities/tools/langchain-deep-agents.md) - LangChain's harness implementation for long-running (not just coding) agents that manages context by offloading to file-system tools.
 - [Archon](../entities/tools/archon.md) - where Cole builds Ralph loops and custom harnesses for content and code.
 - [Pi](../entities/tools/pi-coding-agent.md) - an open-source harness builder for packaging your plan-implement-validate process.
 - [OpenClaw](../entities/tools/openclaw.md) - a coding agent whose creators build harnesses for longer-running tasks.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - splits its framework into a lean core plus a harness lane of optional capabilities.
 - [Windsurf](../entities/tools/windsurf.md) - a harness tuned for a cohesive, in-flow human-agent experience.
+- [Omnigent](../entities/tools/omnigent.md) - Open-source meta-harness from Databricks that orchestrates multiple AI coding agents (Claude Code, Codex, Pi) from one customizable AI layer with sandboxing, guardrails, and cross-device collaboration.
+- [Puppeteer](../entities/tools/puppeteer.md) - Browser-automation MCP server that lets a coding agent load pages, click, and screenshot to visually validate that a feature actually works before marking it passed.
+- [Stripe Minions](../entities/tools/stripe-minions.md) - Stripe's internal agent harness that runs 'blueprints' interweaving agent nodes with deterministic code steps, shipping 1,300+ fully AI-written PRs every week.
 
 ## Sources
 

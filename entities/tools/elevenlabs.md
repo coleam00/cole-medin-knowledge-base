@@ -25,11 +25,16 @@ Because ElevenLabs is a hosted API driven entirely by the text you feed it, its 
 - [Voice Agents](../../concepts/voice-agents.md) - Real-time voice-to-voice agents built from speech-to-text and text-to-speech pipelines, where latency is the key constraint.
 - [Voice Agent Pipeline](../../concepts/voice-pipeline.md) - The speech-to-text, LLM reasoning, and text-to-speech pipeline architecture that turns an agent into a real-time voice assistant (e.g. with LiveKit).
 - [Remotion](./remotion.md) - The earlier tool that first gave Claude Code a skill to generate videos; Cole found it less reliable than HyperFrames.
+- [Deepgram](./deepgram.md) - Speech-to-text provider (with a free tier) used as the transcription stage of the deployed LiveKit voice pipeline.
+- [LiveKit](./livekit.md) - Open-source Python framework for building customizable, self-hostable voice AI agents with a swappable STT/LLM/TTS pipeline, tool calling, MCP server support, and a CLI deploy path to LiveKit Cloud.
+- [Sora 2](./sora-2.md) - OpenAI's video-plus-audio generation model that took the world by storm in 2025 and drew a $1B Disney investment.
+- [HyperFrames](./hyperframes.md) - An HTML-based video rendering tool with a built-in preview editor that lets AI agents generate and mold animated scenes, positioned as a more reliable step up from Remotion.
 
 ## Contrasts with
 
 - [Vapi](./vapi.md) - No-code voice AI platform cited as easy but a black box, which Cole and clients have moved off of for custom solutions.
 - [Aqua Voice](./aqua-voice.md) - Speech-to-text platform Cole uses to dictate into any text box, especially for communicating with LLMs (the mirror image: STT rather than TTS).
+- [Kokoro](./kokoro.md) - A free, open-source text-to-speech model that lets you run the entire AI video-generation workflow at no cost.
 
 ## Related
 

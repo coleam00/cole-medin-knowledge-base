@@ -29,6 +29,7 @@ When two ranked result lists are merged, a fusion step decides the final orderin
 - [Reranking](./reranking.md) - often applied after fusion to reorder combined results.
 - [Agentic RAG](./agentic-rag.md) - hybrid vs. semantic is frequently a per-query choice the agent makes.
 - [Retrieval-Augmented Generation (RAG)](./rag.md), [Traditional RAG](./traditional-rag.md), [Chunking](./chunking.md), [Hierarchical RAG](./hierarchical-rag.md), [Knowledge Graphs](./knowledge-graphs.md) - the surrounding retrieval stack.
+- [Metadata Filtering](./metadata-filtering.md) - Tagging every embedded chunk with source metadata so retrieval can be scoped to one document set and answers can cite which document they came from.
 
 ## Tools
 

@@ -31,13 +31,22 @@ The landscape narrative also covers how the tools and their discourse spread. Pr
 
 - [The PIV Loop](./the-piv-loop.md) - intent engineering, the stage Cole names after context engineering.
 - [Vibe Coding](./vibe-coding.md), [Dark Factory](./dark-factory.md) - endpoints on the autonomy spectrum.
+- [The Five Levels of AI Coding Autonomy](./five-levels-of-ai-coding-autonomy.md) - Dan Shapiro's framework mapping the SAE five levels of driving automation onto how much control you hand a coding agent, from 'spicy autocomplete' (level 0) to the 'dark factory' (level 5).
 - [Human in the Loop](./human-in-the-loop.md) - the recurring argument that more autonomy is not always the right setting.
 - [Agent Teams](./agent-teams.md), [System Evolution](./system-evolution.md), [Agent Protocols](./agent-protocols.md), [Model Context Protocol (MCP)](./mcp.md) - the multi-agent, self-improving, and protocol layers the newest stage depends on.
+- [Dario Amodei](../entities/people/dario-amodei.md) - CEO of Anthropic, cited as the highest-profile source of the 'AI will write 90% of code' and 'software engineers go extinct in 2026' predictions Cole pushes back on.
+- [The Evolving Role of the Software Engineer](./evolving-role-of-the-engineer.md) - The argument that software engineering is not dying but shifting: as agents absorb the typing, the human owns requirements, architecture, orchestration, and review.
+- [Codeium](../entities/organizations/codeium.md) - The company behind Windsurf, which coined and marketed the 'AI flows' / flow-state framing for AI IDEs.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - the tool Cole credits with leading the multi-agent orchestration turn.
 - [Windsurf](../entities/tools/windsurf.md), [Codex](../entities/tools/codex.md), [n8n](../entities/tools/n8n.md) - waypoints in the landscape's shift from IDE assistants to agents.
+- [Auto-GPT](../entities/tools/auto-gpt.md) - Open-source experiment that wraps GPT-4 in an autonomous goal-decomposition-and-execution loop with tool use and optional vector-database memory; the first widely known autonomous agent.
+- [GitHub Copilot](../entities/tools/github-copilot.md) - GitHub's AI coding agent, which recently added subagent support for research, code analysis, and code review (distinct from the gh CLI tool already covered).
+- [Visual Studio Code](../entities/tools/vs-code.md) - Microsoft's editor where Cole drops LLM-generated Python, fills in placeholders, and runs the app from the integrated terminal.
+- [Zed](../entities/tools/zed.md) - A free, open-source code editor from the team that created the Agent Client Protocol, shipping the first beta ACP implementation with native Gemini CLI and adapter-based Claude Code support.
+- [Tabnine](../entities/tools/tabnine.md) - An AI code-completion assistant that fills in large blocks of code, inferring things like a full database schema from just the name you type.
 
 ## Sources
 

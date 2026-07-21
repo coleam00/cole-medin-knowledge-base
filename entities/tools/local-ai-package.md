@@ -29,6 +29,7 @@ The package is also load-bearing for Cole's broader work. He calls it the founda
 
 ## Works with
 
+- [n8n Self-Hosted AI Starter Kit](./n8n-self-hosted-ai-starter-kit.md) - n8n's official Docker Compose package bundling Ollama, Qdrant, Postgres, and n8n so a fully local AI stack (LLMs, vector DB, SQL DB, orchestration) starts with one command.
 - [Ollama](./ollama.md) - local LLM runtime that serves the models in the stack.
 - [Open Web UI](./open-web-ui.md) - free, open-source, self-hostable ChatGPT-style chat interface used as the frontend.
 - [n8n](./n8n.md) - a no-code AI automation platform for building agents and workflows that integrate with 500+ applications.

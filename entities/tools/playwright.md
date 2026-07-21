@@ -36,6 +36,7 @@ Playwright is Cole's long-standing default for browser automation, and he is can
 - [Crawl4AI](./crawl4ai.md) - installs and drives Playwright under the hood as its website-scraping engine.
 - [QA Tech](./qa-tech.md) - the AI testing platform Cole pairs with deterministic Playwright checks.
 - [Claude Code](./claude-code.md) - the coding assistant that pops up a Playwright browser to validate its own code.
+- [Stagehand](./stagehand.md) - Browserbase's open-source browser-automation framework, exposed as an MCP server so a coding agent can navigate a deployed site and validate its own work.
 
 ## Related
 

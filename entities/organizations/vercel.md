@@ -36,6 +36,8 @@ Vercel is also a source of AI engineering ideas, not just hosting. Cole cites it
 - [Skills](../../concepts/skills.md) - Reusable, model-invoked capability packages that load specialized instructions and tools on demand to extend an agent.
 - [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
 - [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Cloudflare](./cloudflare.md) - Cloud platform whose Workers runtime and Wrangler CLI are the deployment target the MCP-specific PRP template is built around.
+- [v0](../tools/v0.md) - Vercel's AI front-end generator that builds Next.js/shadcn UI components and whole front ends from natural-language prompts, with an npx install command to pull the generated component into a local project.
 
 ## Sources
 

@@ -37,6 +37,7 @@ For years semantic search was synonymous with retrieval itself. "In 2024, no one
 - [Agentic RAG](./agentic-rag.md) lets an agent choose semantic search among other tools: "maybe it can do a classic semantic search, but also if it wants to, it can read the entire text of a single document" (every-rag-strategy, 0:03:32).
 - [Knowledge Bases](./knowledge-bases.md) and [Memory Systems](./memory-systems.md) are built on semantic retrieval; mem0-style memory searches "the most relevant memories" this way (build-ai-agents-that-evolve, 0:08:09).
 - [Structured vs Unstructured Data](./structured-vs-unstructured-data.md) frames when embedding-based search fits and when it does not.
+- [Oracle AI Database](../entities/tools/oracle-ai-database.md) - The video's sponsor; a unified AI database with built-in embeddings and semantic, keyword, and knowledge-graph search in one place, used for Cole's agentic RAG demo.
 
 ## Sources
 

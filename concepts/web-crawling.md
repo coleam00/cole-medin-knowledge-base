@@ -39,6 +39,7 @@ Two disciplines keep ingestion healthy. First, crawl ethically: "there are a lot
 - [Knowledge Graphs](./knowledge-graphs.md) - crawled episodes can feed a graph where "we have this dynamic creation of our knowledge graph just based on how the LLM is understanding the data" [0:10:52].
 - [No-Code Automation](./no-code-automation.md) - crawling is a frequent building block in automated ingestion workflows.
 - [Agentic Coding](./agentic-coding.md) - crawled documentation is a prime source of up-to-date context for coding agents.
+- [llms.txt](./llms-txt.md) - An emerging convention where a project publishes all of its documentation as a single LLM-formatted page (llms.txt / llms-full.txt), so one fetch yields complete, chunk-ready knowledge for an agent.
 
 ## Sources
 

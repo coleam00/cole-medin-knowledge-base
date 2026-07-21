@@ -37,6 +37,7 @@ The other lever is multimodal input: handing the model an image of a target UI i
 - [Claude](../entities/tools/claude.md)
 - [Ollama](../entities/tools/ollama.md)
 - [Qwen](../entities/tools/qwen.md)
+- [Prompting Guide](../entities/tools/prompting-guide.md) - promptingguide.ai, the free resource Cole names as the single prompt-engineering guide worth studying end to end.
 
 ## Sources
 

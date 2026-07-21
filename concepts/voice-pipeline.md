@@ -24,7 +24,10 @@ The pipeline shape is what makes each stage independently swappable: you can cha
 
 ## Tools
 
+- [LiveKit](../entities/tools/livekit.md) - Open-source Python framework for building customizable, self-hostable voice AI agents with a swappable STT/LLM/TTS pipeline, tool calling, MCP server support, and a CLI deploy path to LiveKit Cloud.
 - [OpenAI](../entities/organizations/openai.md) - supplies STT, LLM, and TTS stages, or a single real-time voice-to-voice alternative to the pipeline.
+- [Deepgram](../entities/tools/deepgram.md) - Speech-to-text provider (with a free tier) used as the transcription stage of the deployed LiveKit voice pipeline.
+- [Kokoro](../entities/tools/kokoro.md) - A free, open-source text-to-speech model that lets you run the entire AI video-generation workflow at no cost.
 
 ## Sources
 

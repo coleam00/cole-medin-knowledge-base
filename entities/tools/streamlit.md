@@ -29,6 +29,8 @@ Functionally, Streamlit is the demonstration surface for nearly every agent arch
 
 - [FastAPI](./fastapi.md) - Python web framework used to serve the swapped-in Python agent endpoint that streams AG-UI events.
 - [Uvicorn](./uvicorn.md) - The ASGI server used to host the FastAPI app, running on 0.0.0.0:8000.
+- [Gradio](./gradio.md) - Python UI framework for ML/LLM apps, integrated directly into smolagents so an agent gets a full chat interface in a single line of code.
+- [v0](./v0.md) - Vercel's AI front-end generator that builds Next.js/shadcn UI components and whole front ends from natural-language prompts, with an npx install command to pull the generated component into a local project.
 
 ## Works with
 

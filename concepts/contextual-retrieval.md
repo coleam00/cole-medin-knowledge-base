@@ -38,6 +38,7 @@ The obvious cost is running a prompt per chunk over the full document, which is 
 
 - [Anthropic](../entities/organizations/anthropic.md) - introduced contextual embeddings / contextual retrieval.
 - [Archon](../entities/tools/archon.md) - implements contextual embeddings as one of its selectable RAG strategies.
+- [GPT-4.1 Nano](../entities/tools/gpt-4-1-nano.md) - OpenAI's smallest, cheapest model in the GPT-4.1 line, used for the per-chunk context-generation call in contextual retrieval because the task needs almost no reasoning power.
 
 ## Sources
 

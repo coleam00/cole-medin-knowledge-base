@@ -33,6 +33,7 @@ The larger reason Gemini CLI shows up in Cole's videos is interoperability. It i
 - [Gemini](./gemini.md) - Google's LLM line that powers the CLI, including cheap high-throughput models like Gemini 3.1 Flash Light.
 - [Git Worktrees](./git-worktree.md) - Git feature that duplicates the codebase across isolated branches so multiple coding agents run in parallel.
 - [Archon](./archon.md) - Cole's open-source harness builder that orchestrates coding agents across isolated environments.
+- [Gemini 3](./gemini-3.md) - Google's flagship LLM release, genuinely strong on abstract reasoning (a large ARC-AGI-2 jump) and especially good at frontend and design work, though its real-world edge is hard to separate from the tooling layered on top of it.
 
 ## Related
 

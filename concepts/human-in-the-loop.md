@@ -38,6 +38,8 @@ It is also what separates disciplined agentic engineering from vibe coding: "you
 - [Deterministic Workflows](./deterministic-workflows.md)
 - [Agentic Experiences](./agentic-experiences.md)
 - [Agentic RAG](./agentic-rag.md)
+- [Compounding Error Rates](./compounding-error-rates.md) - Because agentic systems chain many steps that must each succeed, per-step error rates multiply, so a chain of 95%-reliable steps collapses to low end-to-end reliability.
+- [The Five Levels of AI Coding Autonomy](./five-levels-of-ai-coding-autonomy.md) - Dan Shapiro's framework mapping the SAE five levels of driving automation onto how much control you hand a coding agent, from 'spicy autocomplete' (level 0) to the 'dark factory' (level 5).
 
 ## Tools
 
@@ -51,6 +53,7 @@ It is also what separates disciplined agentic engineering from vibe coding: "you
 - [Windsurf](../entities/tools/windsurf.md) - accept/reject changes per file.
 - [Pi Coding Agent](../entities/tools/pi-coding-agent.md)
 - [Stripe](../entities/organizations/stripe.md) - human review at the end of every agent run at scale.
+- [Gmail](../entities/tools/gmail.md) - Google's email service, the canonical per-user integration in this video: hardcoded Gmail credentials illustrate the scaling problem, and a Gmail toolkit is what the agent authorizes per user.
 
 ## Sources
 

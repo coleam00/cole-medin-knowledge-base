@@ -39,6 +39,7 @@ The trade-offs are real and worth naming. Performance carries overhead: "for per
 - [n8n](../entities/tools/n8n.md) - the primary no-code automation canvas.
 - [Crawl4AI](../entities/tools/crawl4ai.md) - no-code web scraping for RAG.
 - [Vector Shift](../entities/tools/vector-shift.md) - visual automation with voice-agent features.
+- [Make.com](../entities/tools/make.md) - No-code integration and automation platform, alongside Zapier, that a no-code agent can bridge to for services it doesn't natively integrate.
 - [LangChain](../entities/tools/langchain.md) - the agent nodes behind n8n's LangChain integration.
 - [bolt.diy](../entities/tools/bolt-diy.md) - extensible open-source builder with a plugin marketplace.
 

@@ -28,6 +28,7 @@ Over time Cole moved his agent-building to Pydantic AI and now flags LangChain a
 
 ## Works with
 
+- [LangChain Deep Agents](./langchain-deep-agents.md) - LangChain's harness implementation for long-running (not just coding) agents that manages context by offloading to file-system tools.
 - [LangGraph](./langgraph.md) - The orchestration framework wiring agents into a stateful graph of nodes and edges, used here to run agents in parallel and add human-in-the-loop.
 - [LangServe](./langserve.md) - LangChain's library that wraps any chain or LangGraph runnable in a FastAPI web server via a single add_routes call, plus a RemoteRunnable client.
 - [Flowise](./flowise.md) - Low-code LLM app / agent builder included and exposed in the stack.

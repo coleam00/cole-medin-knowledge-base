@@ -24,6 +24,7 @@ Groq's pitch across the catalog is speed and price. "1,200 tokens per second tha
 
 - [OpenAI](./openai.md) - Maker of GPT-4o mini (affordable-but-strong chat model) and text-embedding-3-small (recommended RAG embedding model).
 - [Anthropic](./anthropic.md) - Maker of Claude and Claude Code, creator of MCP, and Cole's pick for the best coding LLM and the lab whose research most shapes his practice.
+- [Together AI](./together-ai.md) - Pay-per-token inference provider serving open models like Llama 3.1; cheaper on its lite 70B variant but pricier than Groq once you want turbo-speed inference.
 
 ## Related
 
@@ -34,6 +35,7 @@ Groq's pitch across the catalog is speed and price. "1,200 tokens per second tha
 - [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
 - [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 - [Nvidia](./nvidia.md) - Co-sponsor of the AI agents developer contest whose technologies Cole must integrate to qualify.
+- [Mistral](./mistral.md) - French AI lab and LLM provider whose models were added to the bolt.new fork as a first-class API integration by popular community request.
 
 ## Sources
 

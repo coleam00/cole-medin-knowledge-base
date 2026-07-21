@@ -27,12 +27,16 @@ Testing is the load-bearing discipline. Cole is emphatic: "you do not want to sk
 - [Guardrails](./guardrails.md) - runtime checks that keep a live agent inside safe behavior.
 - [Structured Outputs](./structured-outputs.md) - validated, typed responses are a core reliability feature of a production agent.
 - [Agent Observability](./agent-observability.md) - the logging and tracing that make production behavior visible.
+- [Production-Ready RAG](./production-ready-rag.md) - Building RAG that survives a growing knowledge base, updated documents, and unexpected user questions, unlike toy 'chat with your PDF' demos.
 
 ## Tools
 
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - the framework Cole cites as built to make production-grade agents less painful.
 - [Logfire](../entities/tools/logfire.md) - observability/monitoring for agents in production.
 - [Voiceflow](../entities/tools/voiceflow.md) - a no-code platform with the debug and monitoring features Cole looks for.
+- [Google ADK (Agent Development Kit)](../entities/tools/google-adk.md) - Google's minimalistic agent framework giving full control over prompting and tooling, with sandboxed code execution and one-command deployment to Google Cloud.
+- [OpenTelemetry](../entities/tools/opentelemetry.md) - The open telemetry standard that agent frameworks (Pydantic AI via Logfire) emit traces through, letting any compatible backend such as Langfuse ingest them without vendor lock-in.
+- [Zod](../entities/tools/zod.md) - A TypeScript schema/validation library used to type agent tool inputs so the arguments the model passes to a function are reliable.
 
 ## Sources
 

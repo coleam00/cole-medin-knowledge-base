@@ -28,6 +28,7 @@ The decisive advantage over Notion is direct file-system access, which removes a
 ## Works with
 
 - [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
+- [Excalidraw](./excalidraw.md) - Free, open-source hand-drawn-style diagramming tool whose JSON format coding agents can generate directly, rendered at excalidraw.com or through the Obsidian Excalidraw plugin.
 
 ## Related
 

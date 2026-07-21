@@ -22,9 +22,11 @@ The loop's power comes from what it sandwiches. The human owns the two ends and 
 ## Implemented by
 
 - [Planning with AI](./planning-with-ai.md) and [Two-Layer Planning](./two-layer-planning.md) - the "P" step, producing a structured plan document.
+- [Vibe Planning](./vibe-planning.md) - the deliberately unstructured first stage of planning: free-form exploration of ideas, architecture, and tech stack with the coding assistant as a research companion, before any structure or requirements doc is imposed.
 - [Prime Command](./prime-command.md) - the research/priming pass that fronts the loop.
 - [Validation](./validation.md) and [End-to-End Validation](./end-to-end-validation.md) - the "V" step and its quality gates.
 - [Context Isolation](./context-isolation.md) - each stage runs in a separate, token-efficient session with the plan as the handoff.
+- [Granular Task Management](./granular-task-management.md) - Breaking a large request into small focused tasks on a shared, persistent task board the agent works through one at a time, so its plan stays visible and steerable.
 
 ## Contrasts with
 
@@ -36,12 +38,15 @@ The loop's power comes from what it sandwiches. The human owns the two ends and 
 - [Context Engineering](./context-engineering.md) - the plan is the curated context fed into implementation.
 - [AI Coding Harness](./ai-coding-harness.md) - PIV encoded as skills/commands you can rerun.
 - [System Evolution](./system-evolution.md) - the loop is refined over time into your own system.
+- [The Evolving Role of the Software Engineer](./evolving-role-of-the-engineer.md) - The argument that software engineering is not dying but shifting: as agents absorb the typing, the human owns requirements, architecture, orchestration, and review.
 
 ## Tools
 
 - [Claude Code](../entities/tools/claude-code.md) - Cole's primary driver for running each PIV stage in its own session.
 - [Archon](../entities/tools/archon.md) - packages PIV as a workflow across the plan/implement/validate stages.
 - [Pi](../entities/tools/pi-coding-agent.md) - a lightweight agent used to run the same loop without Claude Code bloat.
+- [GitHub Spec Kit](../entities/tools/github-spec-kit.md) - GitHub's spec-driven development toolkit, providing slash commands for vibe planning, initial requirements, and plan creation, cited alongside PRP and BMAD as another expression of the same plan-implement-validate philosophy.
+- [Stripe Minions](../entities/tools/stripe-minions.md) - Stripe's internal agent harness that runs 'blueprints' interweaving agent nodes with deterministic code steps, shipping 1,300+ fully AI-written PRs every week.
 
 ## Sources
 

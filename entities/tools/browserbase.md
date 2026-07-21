@@ -34,6 +34,7 @@ Browserbase is Cole's escalation path above [Playwright](./playwright.md). Playw
 
 - [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
 - [QA Tech](./qa-tech.md) - AI testing platform whose agents crawl your deployed site and generate/evolve regression test cases as the codebase grows (has a free tier).
+- [Stagehand](./stagehand.md) - Browserbase's open-source browser-automation framework, exposed as an MCP server so a coding agent can navigate a deployed site and validate its own work.
 
 ## Related
 

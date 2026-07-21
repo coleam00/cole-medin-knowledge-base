@@ -41,6 +41,7 @@ For unstructured prose, the winning move is to normalize everything into markdow
 
 - [Docling](../entities/tools/docling.md) - converts many file types into markdown, "all of the different file types we're working with, they all just end up as markdown" [0:09:39].
 - [Crawl4AI](../entities/tools/crawl4ai.md) - produces AI-ready markdown from webpages instead of raw HTML.
+- [Airtable](../entities/tools/airtable.md) - Spreadsheet-database platform wired to an agent via its MCP server, backing the 'AI research base' where the agent army writes and reads structured records.
 - [Supabase](../entities/tools/supabase.md) - Postgres-backed, holding both SQL tables and pgvector RAG in one platform.
 - [Neon](../entities/tools/neon.md) - serverless Postgres used as the structured store behind agentic RAG.
 

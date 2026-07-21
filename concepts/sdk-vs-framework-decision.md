@@ -21,6 +21,7 @@ If instead the agent ships to many users on a production platform where speed an
 - [AI Coding Harness](./ai-coding-harness.md) - what a coding-agent SDK packages for you.
 - [Model Selection](./model-selection.md) - an SDK bundles a default model; a framework leaves it open.
 - [Provider Independence](./provider-independence.md) - a framework makes it easier to stay portable across providers.
+- [AI Tech Stack](./ai-tech-stack.md) - Your chosen collection of tools and services (LLM, framework, database, automation, hosting) combined into one working AI system, picked to fit and kept simple and reusable.
 
 ## Tools
 
@@ -28,6 +29,7 @@ If instead the agent ships to many users on a production platform where speed an
 - [Codex](../entities/tools/codex.md) - OpenAI's coding-agent SDK, the other SDK option.
 - [Pydantic AI](../entities/tools/pydantic-ai.md) - the framework Cole names for production, scalable agents.
 - [LangGraph](../entities/tools/langgraph.md) - the other framework named for scale and speed.
+- [Google ADK (Agent Development Kit)](../entities/tools/google-adk.md) - Google's minimalistic agent framework giving full control over prompting and tooling, with sandboxed code execution and one-command deployment to Google Cloud.
 
 ## Sources
 

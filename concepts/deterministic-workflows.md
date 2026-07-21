@@ -34,12 +34,15 @@ This yields a hybrid architecture where "the system is controlling the agent," n
 - [Human in the Loop](./human-in-the-loop.md) - determinism reduces where a human must intervene.
 - [Dark Factory](./dark-factory.md) - a self-shipping system built from mixed deterministic and agentic steps.
 - [Agentic Coding](./agentic-coding.md) - deterministic scaffolding around the parts the agent still writes.
+- [Compounding Error Rates](./compounding-error-rates.md) - Because agentic systems chain many steps that must each succeed, per-step error rates multiply, so a chain of 95%-reliable steps collapses to low end-to-end reliability.
 
 ## Tools
 
 - [Archon](../entities/tools/archon.md) - workflows mix deterministic and agentic nodes in one pipeline.
+- [Roast](../entities/tools/roast.md) - Shopify's open-source structured AI workflow engine that combines deterministic and agentic nodes, Cole's recommended starting point for building your own harness.
 - [Claude Code](../entities/tools/claude-code.md) - the coding agent invoked only for the fuzzy steps.
 - [GitHub](../entities/tools/github.md) - GitHub Action YAML fixes the process; the agent only does the code changes.
+- [GitHub Actions](../entities/tools/github-actions.md) - GitHub's built-in CI/CD system that runs trigger-based workflows to invoke coding assistants in isolated, GitHub-hosted environments.
 
 ## Sources
 

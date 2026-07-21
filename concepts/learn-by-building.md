@@ -31,6 +31,7 @@ Forking is the on-ramp. Open source lets you learn by taking something real and 
 - [Agent as an API Endpoint](./agent-as-api-endpoint.md) and [Agent Protocols](./agent-protocols.md) - patterns best internalized by implementing them.
 - [AI Agent Business Niches](./ai-agent-business-niches.md) - building your own beats adopting weak off-the-shelf platforms.
 - [Visual Workflow Builder](./visual-workflow-builder.md) - a lower-code surface for hands-on building.
+- [AI Agent Learning Roadmap](./ai-agent-learning-roadmap.md) - Cole's ordered path for learning to build AI agents, from Python and LLM fundamentals through no-code prototyping, coded agents, RAG, and multi-agent architectures.
 
 ## Tools
 

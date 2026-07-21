@@ -27,6 +27,7 @@ Cole stretches the term deliberately: "You can extend the definition of rag to r
 - [Archon](../entities/tools/archon.md) performs RAG under the hood for its documentation knowledge base: "It's performing rag under the hood for both keyword and semantic searching" (official-archon-guide, 0:03:06).
 - [Supabase](../entities/tools/supabase.md), [Qdrant](../entities/tools/qdrant.md), [Pinecone](../entities/tools/pinecone.md), and [Chroma](../entities/tools/chroma.md) are the vector stores Cole reaches for as the retrieval backbone.
 - [n8n](../entities/tools/n8n.md) makes a no-code RAG pipeline out of its vector-store and document-loader nodes.
+- [Oracle AI Database](../entities/tools/oracle-ai-database.md) - The video's sponsor; a unified AI database with built-in embeddings and semantic, keyword, and knowledge-graph search in one place, used for Cole's agentic RAG demo.
 
 ## Part of
 
@@ -37,9 +38,15 @@ Cole stretches the term deliberately: "You can extend the definition of rag to r
 - [Semantic Search](./semantic-search.md) is the classic retrieval mechanism at RAG's core; "rag itself is semantic search" in its basic form (all-the-best-rag-strategies, 0:10:45).
 - [Hybrid Search](./hybrid-search.md), [Reranking](./reranking.md), [Query Expansion](./query-expansion.md), and [Multi-Query RAG](./multi-query-rag.md) are the strategies that turn basic RAG into something production-grade.
 - [Traditional RAG](./traditional-rag.md) is the naive one-shot baseline; [Agentic RAG](./agentic-rag.md) is the reasoning-driven successor.
+- [Temporal-Aware Knowledge Graphs](./temporal-knowledge-graphs.md) - a knowledge graph that never overwrites a changed fact but stores the new one alongside the old with valid_at/invalidated_at timestamps, so an agent knows both what is true now and how the knowledge evolved.
+- [Training Cutoff](./training-cutoff.md) - an AI model's knowledge is frozen at the date its training data ends, so it silently knows nothing about events, libraries, or versions released afterward.
 - [Knowledge Bases](./knowledge-bases.md), [Vector Embeddings](./vector-embeddings.md), and [Chunking](./chunking.md) are the ingredients RAG is built from.
 - [Memory Systems](./memory-systems.md) use RAG to give each user long-term recall.
 - [Model Context Protocol (MCP)](./mcp.md) is how Cole exposes RAG to coding assistants as a tool.
+- [Production-Ready RAG](./production-ready-rag.md) - Building RAG that survives a growing knowledge base, updated documents, and unexpected user questions, unlike toy 'chat with your PDF' demos.
+- [Parametric Knowledge](./parametric-knowledge.md) - Leaning on what the model already learned in training, so naming a popular source is enough context without pasting its contents into the prompt.
+- [Metadata Filtering](./metadata-filtering.md) - Tagging every embedded chunk with source metadata so retrieval can be scoped to one document set and answers can cite which document they came from.
+- [Document Extraction](./document-extraction.md) - Pulling clean raw text out of source files (PDFs, Excel, HTML, JSON) is the real bottleneck in RAG ingestion, solved by branching on each file's MIME type to a format-specific extractor rather than one universal node.
 
 ## Sources
 

@@ -25,8 +25,13 @@ The high-leverage insight is portability. "learning how to prompt specifically f
 ## Related
 
 - [Role Prompting](./role-prompting.md), [Few-Shot Prompting](./few-shot-prompting.md), [Chain-of-Thought Prompting](./chain-of-thought.md), and [Effective Prompting](./effective-prompting.md) are the core transferable techniques.
+- [Zero-Shot Prompting](./zero-shot-prompting.md) - Asking an LLM to perform a task with no examples at all, relying purely on the instruction and the model's pretrained knowledge; the baseline counterpart to few-shot prompting.
+- [Tree-of-Thought Prompting](./tree-of-thought.md) - Letting a model explore many possibilities and outcomes in parallel branches before committing to an answer, rather than a single linear chain of thought.
 - [Prompting Techniques for AI Coding](./ai-coding-prompting.md) and [Agent Prompting Techniques](./agent-prompting.md) apply the craft to coding agents.
 - [Reduce Assumptions](./reduce-assumptions.md), [Self-Correcting Agents](./self-correction.md), [Adversarial Agents](./adversarial-agents.md), [Model Selection](./model-selection.md), [Reasoning Models](./reasoning-models.md), [Capabilities Over Tools](./capabilities-over-tools.md), [The Agent Loop (Reason-Act-Observe)](./agent-loop.md), and [Learn by Building](./learn-by-building.md).
+- [Model-Specific Prompts](./model-specific-prompts.md) - Different LLMs need different prompts, so a serious system keeps a library of model-tuned system prompts instead of reusing one prompt written for a single frontier model.
+- [Parametric Knowledge](./parametric-knowledge.md) - Leaning on what the model already learned in training, so naming a popular source is enough context without pasting its contents into the prompt.
+- [Andrew Ng](../entities/people/andrew-ng.md) - AI educator behind the Coursera 'AI for Everyone' course and the machine learning, deep learning, and NLP specializations Cole recommends for AI fundamentals.
 
 ## Sources
 

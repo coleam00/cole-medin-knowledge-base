@@ -25,15 +25,21 @@ Swapping models is riskier than it looks. "Swapping large language models can ac
 ## Contrasts with
 
 - [Reasoning Models](./reasoning-models.md) - a specific selection axis: reasoning models buy accuracy at the cost of latency and tokens, so route hard/logical tasks to them and keep the fast conversational path on a lighter model.
+- [Reasoning Model as a Tool](./reasoning-model-as-a-tool.md) - Architecture where a fast, lightweight model drives the conversation and calls a slow, powerful reasoning model as just another tool, keeping the flow nimble while still getting reasoning-grade answers on the hard step.
 
 ## Related
 
 - [Provider Independence](./provider-independence.md) - the freedom to select any model presumes you have not locked into one vendor.
+- [Training Cutoff](./training-cutoff.md) - an AI model's knowledge is frozen at the date its training data ends, so it silently knows nothing about events, libraries, or versions released afterward.
 - [Local & Self-Hosted AI](./local-ai.md) - the local branch of selection, chosen for privacy and cost ("if you want a local model for privacy reasons... Mistral 3.1 Smaller Qwen 3 are the ones that I recommend" [0:09:46]).
 - [AI Coding Harness](./ai-coding-harness.md) - the system that can make a cheaper model perform like a pricier one.
 - [Subagents Pattern](./subagents-pattern.md), [Agent Teams](./agent-teams.md) - where per-role model assignment lives.
 - [Agent Evaluation](./agent-evaluation.md), [Agent Observability](./agent-observability.md) - how you actually verify a model swap helped rather than hurt.
 - [Deterministic Workflows](./deterministic-workflows.md), [Agentic Coding](./agentic-coding.md), [Agentic RAG](./agentic-rag.md), [Tool Calling](./tool-use.md) - contexts where the right-model-per-step rule is applied.
+- [Mixture of Experts](./mixture-of-experts.md) - A model architecture that routes each token through a subset of specialized expert networks, contrasted with a dense Transformer, explaining why two similar-looking reasoning LLMs behave very differently.
+- [Model-Specific Prompts](./model-specific-prompts.md) - Different LLMs need different prompts, so a serious system keeps a library of model-tuned system prompts instead of reusing one prompt written for a single frontier model.
+- [AI Tech Stack](./ai-tech-stack.md) - Your chosen collection of tools and services (LLM, framework, database, automation, hosting) combined into one working AI system, picked to fit and kept simple and reusable.
+- [LLM Cost Optimization](./llm-cost-optimization.md) - Systematically cutting the bill for running LLM applications at scale by sending the bulk of cheap-to-serve traffic to far cheaper models and paying premium rates only for the rare hard requests.
 
 ## Tools
 
@@ -41,6 +47,18 @@ Swapping models is riskier than it looks. "Swapping large language models can ac
 - [Archon](../entities/tools/archon.md) - assigns a different model to each workflow node.
 - [Claude](../entities/tools/claude.md), [Codex](../entities/tools/codex.md), [GPT-4](../entities/tools/gpt-4.md), [Google Gemini 2.0 Flash](../entities/tools/gemini.md) - the frontier models Cole benchmarks and mixes.
 - [DeepSeek R1](../entities/tools/deepseek-r1.md), [Llama](../entities/tools/llama.md), [Qwen](../entities/tools/qwen.md) - the cheaper and local options routing sends easy work to.
+- [GPT-4.1 Nano](../entities/tools/gpt-4-1-nano.md) - OpenAI's smallest, cheapest model in the GPT-4.1 line, used for the per-chunk context-generation call in contextual retrieval because the task needs almost no reasoning power.
+- [GPT-5.4 Mini & Nano](../entities/tools/gpt-5-4-mini-nano.md) - OpenAI's small/fast model releases marketed explicitly for subagents and AI coding; nano reportedly beats Claude Haiku 4.5 at a fifth the price and ~188 tok/s, anchoring the "subagent era" thesis.
+- [GPT-5 Codex](../entities/tools/gpt-5-codex.md) - OpenAI's coding-specialized GPT-5 model, the head-to-head opponent Cole benchmarks against Sonnet 4.5 on an identical real-world Stripe integration task.
+- [Claude Opus 4.8](../entities/tools/claude-opus-4-8.md) - Anthropic's reasoning-heavy Claude release that owns planning, page copy, integrations, and fixes in Cole's mixed-provider frontend workflow.
+- [Claude Sonnet 4.5](../entities/tools/claude-sonnet-4-5.md) - Anthropic's coding-focused model release that topped the coding and agentic-tool-use benchmarks over Opus 4.1 and shipped as the default model in Claude Code 2.0.
+- [Code Llama](../entities/tools/code-llama.md) - Meta's open-source code-specialized LLM family whose larger 34B variant fails builds that the smaller Qwen 2.5 Coder 32B handles, showing capability beats parameter count.
+- [Berkeley Function Calling Leaderboard](../entities/tools/berkeley-function-calling-leaderboard.md) - A public benchmark that ranks LLMs on function-calling accuracy using tasks meant to represent real agent and enterprise workflows.
+- [Claude 3.5 Sonnet](../entities/tools/claude-3-5-sonnet.md) - Anthropic's mid-2024 flagship model and the only LLM Cole could not break in his agentic stress test, making it his clear winner for multi-step tool-using workflows.
+- [OpenAI o3-mini](../entities/tools/o3-mini.md) - OpenAI's small reasoning model, used as Archon's reasoner to write the scope document before the coder agent builds, and the head-to-head rival to DeepSeek R1 for coding.
+- [Kimi K2](../entities/tools/kimi-k2.md) - Moonshot's Kimi model (K2.7), used as a cheap driver and exploration model in Cole's harness via a Kimi subscription to control per-token cost.
+- [MiniMax M2.7](../entities/tools/minimax-m2.md) - A cheap, fast, capable LLM that Cole routes Claude Code to (via environment variables) to drive the entire dark factory economically at high throughput instead of Anthropic models.
+- [Abacus.AI](../entities/organizations/abacus-ai.md) - The AI company behind ChatLLM, offering a consolidated multi-model chat product with connectors to Teams, Jira, Confluence, Google Drive, and Slack.
 
 ## Sources
 

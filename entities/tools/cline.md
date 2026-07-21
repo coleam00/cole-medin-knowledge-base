@@ -39,6 +39,7 @@ For everyday use Cole positions Cline as a solid [human-in-the-loop](../../conce
 
 - [Aider](./aider.md) - An early AI coding driver Rasmus used when first developing the PRP framework.
 - [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Gemini 3](./gemini-3.md) - Google's flagship LLM release, genuinely strong on abstract reasoning (a large ARC-AGI-2 jump) and especially good at frontend and design work, though its real-world edge is hard to separate from the tooling layered on top of it.
 
 ## Related
 

@@ -24,6 +24,7 @@ MCP servers also let you standardize your own tools for reuse. "So instead of de
 
 ## Related
 
+- [Agent2Agent (A2A) Protocol](./a2a-protocol.md) - Google's open standard for how independently-built agents discover and talk to each other over HTTP via agent cards and tasks, the agent-to-agent counterpart to MCP.
 - [Build Your Own MCP Server](./build-your-own-mcp-server.md) - creating custom servers with FastMCP.
 - [MCP Server & Client Architecture](./mcp-architecture.md) - how servers, clients, and tool registration fit together.
 - [The Problems With MCP Servers](./mcp-problems.md) - token bloat, tool overload, and early production gaps.
@@ -36,6 +37,9 @@ MCP servers also let you standardize your own tools for reuse. "So instead of de
 - [Tool Design](./tool-design.md)
 - [Agent Security](./agent-security.md)
 - [Agentic Experiences](./agentic-experiences.md)
+- [Remote MCP Server](./remote-mcp-server.md) - An MCP server hosted in the cloud rather than run locally, making tool access scalable, shareable, and deployable behind a production URL.
+- [MCP Transports](./mcp-transports.md) - The ways an MCP client and server talk: stdio, where the client launches the server as a fast local subprocess, versus SSE and its successor streamable HTTP for remote servers.
+- [MCP Authentication with OAuth](./mcp-oauth.md) - Putting an OAuth provider (e.g. GitHub) in front of an MCP server as an authentication gateway so only authorized users can reach its tools.
 
 ## Tools
 

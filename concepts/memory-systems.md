@@ -45,12 +45,14 @@ Coding harnesses externalize memory into files that survive a context reset, so 
 
 - [Mem0](../entities/tools/mem0.md) - a library that sandwiches an agent with searchable long-term memory.
 - [Redis](../entities/tools/redis.md) - agent memory that promotes short-term to long-term in the background.
+- [Redis Iris](../entities/tools/redis-iris.md) - A preview Redis product that wraps the database with a Context Retriever (auto-generated MCP tools over defined entities/schema) and Agent Memory (short/long-term with background promotion to vector-indexed memory), demoed as the production-agent substitute for markdown second brains.
 - [Postgres](../entities/tools/postgres-pgvector.md) / [Supabase](../entities/tools/supabase.md) - the SQL stores behind session-scoped chat memory.
 - [Pinecone](../entities/tools/pinecone.md) - a vector database used for long-term memory.
 - [Langfuse](../entities/tools/langfuse.md) - filter stored conversations by user ID for support and debugging.
 - [LangGraph](../entities/tools/langgraph.md) - SQLite/Postgres memory savers for graph state.
 - [Claude Agent SDK](../entities/tools/claude-agent-sdk.md) - built-in plus custom RAG memory for personal agents.
 - [n8n](../entities/tools/n8n.md) - no-code Postgres/Redis chat-memory nodes keyed by session ID.
+- [Gmail](../entities/tools/gmail.md) - Google's email service, the canonical per-user integration in this video: hardcoded Gmail credentials illustrate the scaling problem, and a Gmail toolkit is what the agent authorizes per user.
 
 ## Sources
 

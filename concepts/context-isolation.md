@@ -29,10 +29,12 @@ Isolation applies beyond subagents to whole sessions and infrastructure. Multi-s
 ## Related
 
 - [Context Rot](./context-rot.md) - the degradation isolation prevents by keeping windows small.
+- [The Scout Pattern](./the-scout-pattern.md) - send a sub-agent ahead to explore docs or code and decide whether a piece of context is worth loading into the main window before you commit it.
 - [Separate Reviewer](./separate-reviewer.md) and [Code Review](./code-review.md) - the reviewer gets a fresh, isolated window to remove bias.
 - [Parallel Agentic Coding](./parallel-agentic-coding.md) - worktrees give each parallel agent an isolated workspace.
 - [Agent Teams](./agent-teams.md) and [Agentic Workflow Engineering](./agentic-workflow-engineering.md) - orchestrating many focused, isolated sessions.
 - [The PIV Loop](./the-piv-loop.md) and [The WHISK Framework](./the-whisk-framework.md) - workflows that lean on isolated sessions.
+- [Disposable Agent Sandboxes](./disposable-agent-sandboxes.md) - Running each agent in an ephemeral, preloaded cloud dev box ('cattle, not pets') instead of a local worktree, so many unattended agents can run in parallel with scoped permissions.
 
 ## Tools
 

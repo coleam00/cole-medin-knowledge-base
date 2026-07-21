@@ -30,6 +30,8 @@ As the low-cost tier of the OpenAI lineup, GPT-4o mini is the counterpart to the
 ## Contrasts with
 
 - [Llama](./llama.md) - The open LLM model powering the agent, the local open model tested as a challenger to it.
+- [GPT-4.1 Nano](./gpt-4-1-nano.md) - OpenAI's smallest, cheapest model in the GPT-4.1 line, used for the per-chunk context-generation call in contextual retrieval because the task needs almost no reasoning power.
+- [GPT-5.4 Mini & Nano](./gpt-5-4-mini-nano.md) - OpenAI's small/fast model releases marketed explicitly for subagents and AI coding; nano reportedly beats Claude Haiku 4.5 at a fifth the price and ~188 tok/s, anchoring the "subagent era" thesis.
 
 ## Works with
 

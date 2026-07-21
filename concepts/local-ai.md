@@ -34,13 +34,19 @@ Two hardware realities shape everything. Larger models need [quantization](./mod
 - [Fine-Tuning](./fine-tuning.md) - customizing the open-weight models you self-host.
 - [Provider Independence](./provider-independence.md) - the strategic reason to avoid a single API vendor.
 - [Agent Deployment](./agent-deployment.md) - shipping self-hosted agents to a cloud box you own.
+- [Cloud GPU Hosting](./cloud-gpu-hosting.md) - Renting GPU machines in the cloud (VRAM-sized to the model, e.g. a 48GB A40 for Llama 3.1 70B) to self-host models without owning, powering, maintaining, or upgrading hardware.
 - [Retrieval-Augmented Generation (RAG)](./rag.md), [Agentic RAG](./agentic-rag.md), [Knowledge Bases](./knowledge-bases.md), [Vector Embeddings](./vector-embeddings.md) - the local RAG stack (Ollama plus a self-hosted vector store).
 - [Tool Calling](./tool-use.md) - the capability many smaller local models lack out of the box.
 - [No-Code vs. Code](./no-code-vs-code.md), [Chat Interfaces](./chat-interfaces.md) - n8n and Open Web UI as no-code local building blocks.
+- [LLM Data Privacy Tiers](./llm-data-privacy-tiers.md) - The privacy ladder from closed models that may train on your data, to hosted open-model providers, to true self-hosting - and using mock data until you reach the tier your workload requires.
+- [Local LLM Hardware Requirements](./local-llm-hardware-requirements.md) - The VRAM-per-parameter-tier ladder for local models (7B chat, 14B basic tool-calling, 32B genuinely impressive, 70B near-cloud) that decides which model your hardware can actually run.
+- [Local vs. Cloud Decision Framework](./local-vs-cloud-decision-framework.md) - A four-question decision tree (POC or production? sensitive data? frontier-model capability needed? scaling past ~1,000 users?) that decides whether an AI stack should be self-hosted or run on managed services, instead of treating local-vs-cloud as a dogmatic all-or-nothing rule.
+- [Self-Hosting Cost Crossover](./self-hosting-cost-crossover.md) - The napkin-math point where monthly per-token spend exceeds a fixed cloud-GPU bill, which is exactly when self-hosting an open model starts paying for itself.
 
 ## Tools
 
 - [Ollama](../entities/tools/ollama.md) - the default local model server behind almost every setup here.
+- [LM Studio](../entities/tools/lm-studio.md) - Desktop app for downloading and running open-weight LLMs locally, the main alternative to Ollama and a requested provider integration for the bolt.new fork.
 - [Open Web UI](../entities/tools/open-web-ui.md) - the offline ChatGPT-style front end for local models and n8n agents.
 - [n8n](../entities/tools/n8n.md) - open-source, self-hostable workflow automation for local agents.
 - [Supabase](../entities/tools/supabase.md) - self-hosted Postgres and vector store, folded into the local AI package.
@@ -49,6 +55,8 @@ Two hardware realities shape everything. Larger models need [quantization](./mod
 - [Llama](../entities/tools/llama.md), [Qwen](../entities/tools/qwen.md), [DeepSeek R1](../entities/tools/deepseek-r1.md) - the open-weight models people actually run locally.
 - [bolt.diy](../entities/tools/bolt-diy.md), [Flowise](../entities/tools/flowise.md) - open-source coding and agent tools that can point at local LLMs.
 - [Hugging Face](../entities/organizations/hugging-face.md) - the hub the open-weight models are downloaded from.
+- [OpenAI Whisper](../entities/tools/whisper.md) - OpenAI's open-source speech-to-text model; Whisper Turbo runs fully locally as Docling's ASR pipeline to transcribe audio and video into timestamped text.
+- [Kokoro](../entities/tools/kokoro.md) - A free, open-source text-to-speech model that lets you run the entire AI video-generation workflow at no cost.
 
 ## Sources
 

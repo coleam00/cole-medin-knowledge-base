@@ -28,6 +28,7 @@ The naive baseline is a fixed-size character split, often a recursive character 
 
 - [Vector Embeddings](./vector-embeddings.md) - each chunk is embedded into a vector for similarity search.
 - [RAG](./rag.md) - chunking is the ingestion-side foundation of the retrieval pipeline.
+- [Document Extraction](./document-extraction.md) - Pulling clean raw text out of source files (PDFs, Excel, HTML, JSON) is the real bottleneck in RAG ingestion, solved by branching on each file's MIME type to a format-specific extractor rather than one universal node.
 
 ## Related
 
@@ -38,6 +39,9 @@ The naive baseline is a fixed-size character split, often a recursive character 
 - [Web Crawling & Ingestion](./web-crawling.md) - the crawl step that produces the documents you then chunk.
 - [Context Engineering](./context-engineering.md) - chunking as an upstream lever on what fills the context window.
 - [Semantic Search](./semantic-search.md) - the retrieval this preprocessing enables.
+- [Delete-Before-Insert Re-Ingestion](./delete-before-insert-reingestion.md) - Because most vector stores insert rather than upsert, you must delete a document's existing chunks (matched by file ID metadata) before re-inserting an updated version, or stale chunks linger forever.
+- [Metadata Filtering](./metadata-filtering.md) - Tagging every embedded chunk with source metadata so retrieval can be scoped to one document set and answers can cite which document they came from.
+- [llms.txt](./llms-txt.md) - An emerging convention where a project publishes all of its documentation as a single LLM-formatted page (llms.txt / llms-full.txt), so one fetch yields complete, chunk-ready knowledge for an agent.
 
 ## Tools
 
@@ -45,6 +49,7 @@ The naive baseline is a fixed-size character split, often a recursive character 
 - [LangChain](../entities/tools/langchain.md) - provides the recursive character text splitter used as a simple default.
 - [Crawl4AI](../entities/tools/crawl4ai.md) - returns clean markdown that makes structure-aware splitting easy.
 - [LightRAG](../entities/tools/lightrag.md) - abstracts chunking away, auto-chunking on `rag.insert`.
+- [OpenAI Whisper](../entities/tools/whisper.md) - OpenAI's open-source speech-to-text model; Whisper Turbo runs fully locally as Docling's ASR pipeline to transcribe audio and video into timestamped text.
 
 ## Sources
 

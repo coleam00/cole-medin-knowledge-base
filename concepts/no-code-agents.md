@@ -31,14 +31,17 @@ The historical friction was control: "it is hard to find platforms out there tha
 - [Learn by Building](./learn-by-building.md) - why beginners should start here.
 - [Retrieval-Augmented Generation (RAG)](./rag.md) and [Agentic RAG](./agentic-rag.md) - grounding no-code agents in a knowledge base.
 - [Chat Interfaces](./chat-interfaces.md) and [Tool Use](./tool-use.md) - the surface and the capability that make it an agent.
+- [Workflow as a Tool](./workflow-as-a-tool.md) - Packaging an arbitrary multi-step automation workflow as a single callable agent tool, so the agent inherits the automation platform's hundreds of integrations as capabilities.
 - [Agent Deployment](./agent-deployment.md) - shipping the finished agent, often as an embed.
 - [Intents and Entities](./intents-and-entities.md) - how tools are defined inside some no-code builders.
+- [Hybrid No-Code + Code Architecture](./hybrid-no-code-and-code.md) - Reject the either/or: use n8n for orchestration, entry points, and integrations while offloading heavy processing (agents, RAG chunking, large files) to Python microservices deployed on the same instance.
 
 ## Tools
 
 - [n8n](../entities/tools/n8n.md), [Flowise](../entities/tools/flowise.md), [Voiceflow](../entities/tools/voiceflow.md) - Cole's recommended no-code agent builders.
 - [autodev (bolt.new fork)](../entities/tools/autodev.md) and [bolt.diy](../entities/tools/bolt-diy.md) - for generating a front-end around the agent.
 - [Supabase](../entities/tools/supabase.md) - the datastore behind a no-code RAG agent.
+- [Bubble](../entities/tools/bubble.md) - Popular no-code app builder Cole criticizes for 'workload unit' usage-based pricing that makes AI app costs unpredictable and ruinous at scale.
 
 ## Sources
 

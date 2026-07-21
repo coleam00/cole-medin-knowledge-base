@@ -33,6 +33,8 @@ Stripe plays a second, unrelated role: the stand-in external API in agent demos.
 - [StrongDM](./strongdm.md) - Company that went viral for running a dark factory shipping thousands of lines of production code no human writes or reviews; source of the hold-out pattern Cole adopts for reliability.
 - [Shopify](./shopify.md) - E-commerce platform whose CEO Toby Lütke framed context engineering vs. prompt engineering (a framing Karpathy endorsed); also built its own AI workflow engine, Roast.
 - [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [Stripe Minions](../tools/stripe-minions.md) - Stripe's internal agent harness that runs 'blueprints' interweaving agent nodes with deterministic code steps, shipping 1,300+ fully AI-written PRs every week.
+- [AWS](./aws.md) - Cloud provider whose EC2 instances host Stripe's isolated minion dev boxes, and which is building its own internal agentic coding tooling.
 
 ## Sources
 

@@ -33,6 +33,7 @@ Beyond routing, the pattern is a security boundary. In the local AI package, Cad
 - [Caddy](../entities/tools/caddy.md)
 - [Local AI Package](../entities/tools/local-ai-package.md)
 - [Docker](../entities/tools/docker.md)
+- [Certbot](../entities/tools/certbot.md) - EFF tool that obtains and installs free Let's Encrypt SSL certificates and rewrites the web-server config so a deployed site is served over HTTPS.
 
 ## Sources
 
