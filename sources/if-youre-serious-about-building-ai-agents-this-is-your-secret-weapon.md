@@ -1,6 +1,6 @@
 ---
 type: source
-title: "If You’re Serious About Building AI Agents, This is Your Secret Weapon"
+title: "If You're Serious About Building AI Agents, This is Your Secret Weapon"
 description: "Agent observability via Langfuse is the most underrated, must-have capability for anyone building production AI agents, and it can be wired into any framework (especially Pydantic AI) in minutes."
 youtube_id: DpPVEw4dd0w
 url: https://www.youtube.com/watch?v=DpPVEw4dd0w
@@ -14,7 +14,7 @@ created: 2026-07-21
 updated: 2026-07-21
 ---
 
-# If You’re Serious About Building AI Agents, This is Your Secret Weapon
+# If You're Serious About Building AI Agents, This is Your Secret Weapon
 
 Cole argues that most AI agent development is guesswork, and the single biggest thing separating hobby projects from production-ready agents is observability: the ability to monitor every action an agent takes, what each request costs, response times, and the full record of user conversations. Without it, once an agent is running in the wild you are flying blind when it fails, spending money you can't account for, and unable to iterate on specific responses or bottlenecks. His recommended tool is Langfuse, a fully open-source LLM engineering platform whose core feature is tracing agent executions.
 
