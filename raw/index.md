@@ -1,0 +1,202 @@
+# Raw Transcripts
+
+Immutable, timestamped transcripts (the source of truth); never hand-edit. Synthesized summaries live in [sources/](../sources/index.md).
+
+- [10 n8n Tips in 10 Minutes to 10x Your AI Automations](10-n8n-tips-in-10-minutes-to-10x-your-ai-automations.md) - 0:11:11
+- [10x Your AI Agents with this ONE Agent Architecture](10x-your-ai-agents-with-this-one-agent-architecture.md) - 0:41:36
+- [3 MOST Important Prompt Engineering Techniques you NEED to know!](3-most-important-prompt-engineering-techniques-you-need-to-know.md) - 0:10:46
+- [A Complete Guide to Claude Code - Here are ALL the Best Strategies](a-complete-guide-to-claude-code-here-are-all-the-best-strategies.md) - 0:50:18
+- [AG-UI Just Released: The NEW WAVE of AI Agent Apps](ag-ui-just-released-the-new-wave-of-ai-agent-apps.md) - 0:21:40
+- [AI Agents Can Now Build Their Own UI in Real Time (Personalized to You)](ai-agents-can-now-build-their-own-ui-in-real-time-personalized-to-you.md) - 0:15:18
+- [AI Agents Just Got Sexy - AI Agents Masterclass #3](ai-agents-just-got-sexy-ai-agents-masterclass-3.md) - 0:16:18
+- [AI Agents: The Future of AI or a Passing Fad?](ai-agents-the-future-of-ai-or-a-passing-fad.md) - 0:11:42
+- [AI Code That Fixes Itself (An MCP You Can Try Now)](ai-code-that-fixes-itself-an-mcp-you-can-try-now.md) - 0:23:28
+- [AI Exploded in 2025 - Here’s Everything That Happened](ai-exploded-in-2025-heres-everything-that-happened.md) - 0:17:41
+- [AI Fixes My Code Better than Me Now?! (Here's How)](ai-fixes-my-code-better-than-me-now-heres-how.md) - 0:12:53
+- [AI is TOO EXPENSIVE if You Don't Do This](ai-is-too-expensive-if-you-dont-do-this.md) - 0:11:26
+- [AI YouTube Is Only Claude Hype Now](ai-youtube-is-only-claude-hype-now.md) - 0:07:30
+- [All the BEST RAG Strategies in ONE MCP for AI Coding Assistants](all-the-best-rag-strategies-in-one-mcp-for-ai-coding-assistants.md) - 0:21:10
+- [Anthropic Just Dropped a Masterclass on Building Agent Harnesses (for Large Codebases)](anthropic-just-dropped-a-masterclass-on-building-agent-harnesses-for-large-codebases.md) - 0:28:11
+- [Archon Beta Launch Livestream - What You Missed!](archon-beta-launch-livestream-what-you-missed.md)
+- [Are Agent Harnesses Bringing Back Vibe Coding?](are-agent-harnesses-bringing-back-vibe-coding.md) - 0:25:42
+- [Are You Building REAL AI Agents or Just Using LLMs?](are-you-building-real-ai-agents-or-just-using-llms.md) - 0:18:29
+- [bolt.diy: The Future of Open Source AI Coding - What's Next?](boltdiy-the-future-of-open-source-ai-coding-whats-next.md) - 0:20:48
+- [BRAND NEW \"Stealth\" LLM Released on OpenRouter (It's a BEAST)](brand-new-stealth-llm-released-on-openrouter-its-a-beast.md) - 0:14:42
+- [BREAKING NEWS: oTToDev is Now the OFFICIAL Open Source Bolt.new](breaking-news-ottodev-is-now-the-official-open-source-boltnew.md) - 0:11:45
+- [Bubble is My BIGGEST Regret for No Code AI Apps - What I Use Instead](bubble-is-my-biggest-regret-for-no-code-ai-apps-what-i-use-instead.md) - 0:12:02
+- [Build a Chatbot for Your Website in 4 Minutes (No Code)](build-a-chatbot-for-your-website-in-4-minutes-no-code.md) - 0:03:59
+- [Build a ChatGPT Style App for Your n8n AI Agents in MINUTES](build-a-chatgpt-style-app-for-your-n8n-ai-agents-in-minutes.md) - 0:22:03
+- [Build a FULL Stack App for your n8n AI Agent in 20 Minutes](build-a-full-stack-app-for-your-n8n-ai-agent-in-20-minutes.md) - 0:20:27
+- [Build a Hilarious AI Game from SCRATCH in 10 Minutes](build-a-hilarious-ai-game-from-scratch-in-10-minutes.md) - 0:13:07
+- [Build a RAG AI Agent with REAL-TIME Source Validation (CopilotKit + Pydantic AI)](build-a-rag-ai-agent-with-real-time-source-validation-copilotkit-pydantic-ai.md) - 0:17:04
+- [Build AI Agents that EVOLVE Over Time](build-ai-agents-that-evolve-over-time.md) - 0:25:06
+- [Build an ARMY of AI Agents on Autopilot with Archon, Here's How](build-an-army-of-ai-agents-on-autopilot-with-archon-heres-how.md) - 0:19:46
+- [Build and Ship Any MCP Server in MINUTES (Full Guide)](build-and-ship-any-mcp-server-in-minutes-full-guide.md) - 0:31:01
+- [Build ANY AI Agent with this Context Engineering Blueprint](build-any-ai-agent-with-this-context-engineering-blueprint.md) - 0:24:52
+- [Build BEAUTIFUL Diagrams with Claude Code (Full Workflow)](build-beautiful-diagrams-with-claude-code-full-workflow.md) - 0:09:54
+- [Build + Render ENTIRE Videos with Claude Code (Full Workflow)](build-render-entire-videos-with-claude-code-full-workflow.md) - 0:15:14
+- [Build Your First Voice AI Agent in 20 Minutes with LiveKit (Open Source)](build-your-first-voice-ai-agent-in-20-minutes-with-livekit-open-source.md) - 0:19:01
+- [ChatGPT is the GIFT that keeps on GIVING - Introducing Auto-GPT](chatgpt-is-the-gift-that-keeps-on-giving-introducing-auto-gpt.md) - 0:16:48
+- [ChatGPT Teaches the Secrets to Financial Freedom!?](chatgpt-teaches-the-secrets-to-financial-freedom.md) - 0:14:50
+- [ChatGPT Users BE AWARE of this Major Weakness](chatgpt-users-be-aware-of-this-major-weakness.md) - 0:09:32
+- [Claude Code Web JUST Dropped but I Already Built Something BETTER (with Codex!)](claude-code-web-just-dropped-but-i-already-built-something-better-with-codex.md) - 0:18:01
+- [Claude Code's Agent Teams Are Insane - Multiple AI Agents Coding Together in Real Time](claude-codes-agent-teams-are-insane-multiple-ai-agents-coding-together-in-real-time.md) - 0:20:17
+- [Claude Code's Real Purpose (It's Bigger Than You Think)](claude-codes-real-purpose-its-bigger-than-you-think.md) - 0:21:31
+- [Claude Computer Use + Bolt.new - The ULTIMATE AI Coding Combo?!](claude-computer-use-boltnew-the-ultimate-ai-coding-combo.md) - 0:10:31
+- [Claude MCP has Changed AI Forever - Here's What You NEED to Know](claude-mcp-has-changed-ai-forever-heres-what-you-need-to-know.md) - 0:24:27
+- [Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends](claude-plans-gemini-designs-the-workflow-to-build-beautiful-frontends.md) - 0:18:05
+- [Claude Skills Aren't Just for Claude - Here's How to Build Them for ANY Agent](claude-skills-arent-just-for-claude-heres-how-to-build-them-for-any-agent.md) - 0:24:28
+- [Claude Sonnet 4.5 - The New Coding King? (Sonnet 4.5 vs. GPT 5 Codex)](claude-sonnet-45-the-new-coding-king-sonnet-45-vs-gpt-5-codex.md) - 0:11:15
+- [Code 100x Faster with AI, Here's How (No Hype, FULL Process)](code-100x-faster-with-ai-heres-how-no-hype-full-process.md) - 0:32:10
+- [Coding Agent Reliability EXPLODES When They Argue (New Adversarial Dev Technique)](coding-agent-reliability-explodes-when-they-argue-new-adversarial-dev-technique.md) - 0:17:37
+- [Coding Subagents - The Next Evolution of AI IDEs](coding-subagents-the-next-evolution-of-ai-ides.md) - 0:26:59
+- [COMPLETE Guide to LangServe - Make Your AI Agent Actually Useful](complete-guide-to-langserve-make-your-ai-agent-actually-useful.md) - 0:17:18
+- [Context Engineering 101 - The Simple Strategy to 100x AI Coding](context-engineering-101-the-simple-strategy-to-100x-ai-coding.md) - 0:37:46
+- [Context Engineering is the New Vibe Coding (Learn this Now)](context-engineering-is-the-new-vibe-coding-learn-this-now.md) - 0:22:57
+- [Create Your Own Private Local AI Cloud Stack in Under 20 Minutes](create-your-own-private-local-ai-cloud-stack-in-under-20-minutes.md) - 0:16:51
+- [DeepSeek R1 Just Revolutionized AI Forever](deepseek-r1-just-revolutionized-ai-forever.md) - 0:21:08
+- [Deploy ANY AI App to the Cloud FAST](deploy-any-ai-app-to-the-cloud-fast.md) - 0:21:20
+- [Deploying Billions of AI Agents is Easier than You Think](deploying-billions-of-ai-agents-is-easier-than-you-think.md) - 0:19:40
+- [Developers, THIS is How you Stay Relevant with AI - AI Agents Masterclass #1](developers-this-is-how-you-stay-relevant-with-ai-ai-agents-masterclass-1.md) - 0:16:55
+- [Docker Just Made Using MCP Servers 100x Easier (One Click Installs!)](docker-just-made-using-mcp-servers-100x-easier-one-click-installs.md) - 0:23:07
+- [Don't Sleep on the ULTIMATE AI Agent Combo (n8n, LangChain, Python)](dont-sleep-on-the-ultimate-ai-agent-combo-n8n-langchain-python.md) - 0:24:58
+- [Effortless RAG in n8n - Use ALL Your Files (PDFs, Excel, and More)](effortless-rag-in-n8n-use-all-your-files-pdfs-excel-and-more.md) - 0:18:18
+- [Every RAG Strategy Explained in 13 Minutes (No Fluff)](every-rag-strategy-explained-in-13-minutes-no-fluff.md) - 0:12:52
+- [Everything You Thought About Building AI Agents is Wrong](everything-you-thought-about-building-ai-agents-is-wrong.md) - 0:15:53
+- [Finally, an Open Standard for the Karpathy LLM Wiki is HERE](finally-an-open-standard-for-the-karpathy-llm-wiki-is-here.md) - 0:19:39
+- [Flowise + n8n - The BEST No Code + Local AI Agent Combo](flowise-n8n-the-best-no-code-local-ai-agent-combo.md) - 0:29:13
+- [Full Guide - Build Your Own AI Second Brain with Claude Code](full-guide-build-your-own-ai-second-brain-with-claude-code.md) - 0:25:05
+- [FULL Guide to Becoming a Principled Agentic Engineer (Build Anything with AI)](full-guide-to-becoming-a-principled-agentic-engineer-build-anything-with-ai.md) - 1:06:59
+- [Function Calling with ANY LLM for Local AI Agents (Feat. LangChain, HuggingFace, and Llama 3)](function-calling-with-any-llm-for-local-ai-agents-feat-langchain-huggingface-and-llama-3.md) - 0:15:57
+- [Get Qualified Leads While you Sleep with AI](get-qualified-leads-while-you-sleep-with-ai.md) - 0:18:38
+- [GitHub is the Future of AI Coding (Here's Why)](github-is-the-future-of-ai-coding-heres-why.md) - 0:24:01
+- [Give Me 28 Minutes and I'll Completely Change the Way You Build AI Agents](give-me-28-minutes-and-ill-completely-change-the-way-you-build-ai-agents.md) - 0:28:21
+- [Google, Anthropic, and OpenAI's Guides to AI Agents ALL in 18 Minutes](google-anthropic-and-openais-guides-to-ai-agents-all-in-18-minutes.md) - 0:18:02
+- [Google is Quietly Revolutionizing AI Agents (This is HUGE)](google-is-quietly-revolutionizing-ai-agents-this-is-huge.md) - 0:23:22
+- [Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)](google-just-dropped-a-masterclass-on-agentic-engineering-its-so-good.md) - 0:21:57
+- [Google's Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY](googles-agents-cli-the-cli-skills-combination-to-ship-ai-agents-easily.md) - 0:15:19
+- [Harness Engineering: What Separates Top Agentic Engineers Right Now](harness-engineering-what-separates-top-agentic-engineers-right-now.md) - 0:17:10
+- [How I'd Learn AI Agents FAST if I Had to Start Over (Full Roadmap)](how-id-learn-ai-agents-fast-if-i-had-to-start-over-full-roadmap.md) - 0:20:30
+- [How to DOMINATE with AI in 2025](how-to-dominate-with-ai-in-2025.md) - 0:28:50
+- [How to Properly Use Claude Code Agent Teams (FULL LIVE BUILD)](how-to-properly-use-claude-code-agent-teams-full-live-build.md) - 0:50:21
+- [How to Use Bolt.new for FREE with Local LLMs (And NO Rate Limits)](how-to-use-boltnew-for-free-with-local-llms-and-no-rate-limits.md) - 0:16:10
+- [How to Use GPT4 To Grow on Twitter The Right Way](how-to-use-gpt4-to-grow-on-twitter-the-right-way.md) - 0:11:21
+- [I Built a FULL RAG AI Agent with No Code in 4 Minutes with VectorShift](i-built-a-full-rag-ai-agent-with-no-code-in-4-minutes-with-vectorshift.md) - 0:10:07
+- [I Built a Safer OpenClaw Alternative Using Claude Code](i-built-a-safer-openclaw-alternative-using-claude-code.md) - 0:15:15
+- [I Built My Claude Code Subagents DREAM TEAM to Create Any AI Agent](i-built-my-claude-code-subagents-dream-team-to-create-any-ai-agent.md) - 0:26:36
+- [I Built My Second Brain with Claude Code + Obsidian + Skills (Here's How)](i-built-my-second-brain-with-claude-code-obsidian-skills-heres-how.md) - 0:20:44
+- [I Built Self-Evolving Claude Code Memory w/ Karpathy's LLM Knowledge Bases](i-built-self-evolving-claude-code-memory-w-karpathys-llm-knowledge-bases.md) - 0:19:24
+- [I Built the ULTIMATE n8n RAG AI Agent Template](i-built-the-ultimate-n8n-rag-ai-agent-template.md) - 0:34:03
+- [I Built the Ultimate RAG MCP Server for AI Coding (Better than Context7)](i-built-the-ultimate-rag-mcp-server-for-ai-coding-better-than-context7.md) - 0:28:24
+- [I Created the BEST AI Agent Platform in Just 2 MONTHS!](i-created-the-best-ai-agent-platform-in-just-2-months.md) - 0:13:18
+- [I FINALLY Built an AI Agent to Organize my Life - AI Agents Masterclass #4](i-finally-built-an-ai-agent-to-organize-my-life-ai-agents-masterclass-4.md) - 0:13:20
+- [I Forced Claude to Code for 24 Hours NONSTOP, Here's What Happened](i-forced-claude-to-code-for-24-hours-nonstop-heres-what-happened.md) - 0:26:48
+- [I Forked Bolt.new and Made it WAY Better](i-forked-boltnew-and-made-it-way-better.md) - 0:19:30
+- [I Found the Limits of the Most Popular LLMs](i-found-the-limits-of-the-most-popular-llms.md) - 0:32:41
+- [I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.](i-love-the-karpathy-llm-wiki-but-it-doesnt-scale-heres-what-does.md) - 0:18:58
+- [I Made a Custom AI Chatbot Site in 47 Lines of Code](i-made-a-custom-ai-chatbot-site-in-47-lines-of-code.md) - 0:08:46
+- [I Turned Claude Code Into a Complete Video Generation System (with Archon)](i-turned-claude-code-into-a-complete-video-generation-system-with-archon.md) - 0:14:08
+- [I Was Wrong About Ralph Wiggum](i-was-wrong-about-ralph-wiggum.md) - 0:21:23
+- [I Will Win the Nvidia AI Agents Developer Contest](i-will-win-the-nvidia-ai-agents-developer-contest.md) - 0:06:53
+- [If You’re Serious About Building AI Agents, This is Your Secret Weapon](if-youre-serious-about-building-ai-agents-this-is-your-secret-weapon.md) - 0:27:50
+- [I'm Addicted to Windsurf, Send Help](im-addicted-to-windsurf-send-help.md) - 0:19:33
+- [I'm Building an AI Dark Factory That Ships Its Own Code (Public Experiment)](im-building-an-ai-dark-factory-that-ships-its-own-code-public-experiment.md) - 0:25:13
+- [I'm Building the BEST Open Source AI Coding Assistant with YOUR Help](im-building-the-best-open-source-ai-coding-assistant-with-your-help.md) - 0:16:22
+- [I'm Hosting a HUGE AI Hackathon Competition](im-hosting-a-huge-ai-hackathon-competition.md) - 0:06:58
+- [INSANE New Strategy for Building AI Agent Apps](insane-new-strategy-for-building-ai-agent-apps.md) - 0:27:02
+- [Introducing Archon - an AI Agent that BUILDS AI Agents](introducing-archon-an-ai-agent-that-builds-ai-agents.md) - 0:21:56
+- [Introducing Archon - The Revolutionary Operating System for AI Coding](introducing-archon-the-revolutionary-operating-system-for-ai-coding.md) - 0:28:46
+- [Introducing RAG 2.0: Agentic RAG + Knowledge Graphs (FREE Template)](introducing-rag-20-agentic-rag-knowledge-graphs-free-template.md) - 0:38:49
+- [Introducing Trainer's Ally - Nvidia AI Agents Competition Submission](introducing-trainers-ally-nvidia-ai-agents-competition-submission.md) - 0:01:31
+- [Is Gemini 3 Really the Best AI Ever?](is-gemini-3-really-the-best-ai-ever.md) - 0:12:20
+- [Is Software Engineering Finally Dead?](is-software-engineering-finally-dead.md) - 0:17:23
+- [I've Been Holding Back on YouTube... But Not Anymore](ive-been-holding-back-on-youtube-but-not-anymore.md) - 0:07:40
+- [I've Used Claude Code for 2,000+ Hours - Here's How I Build Anything With It](ive-used-claude-code-for-2000-hours-heres-how-i-build-anything-with-it.md) - 0:22:49
+- [Knowledge Graphs in n8n are FINALLY Here!](knowledge-graphs-in-n8n-are-finally-here.md) - 0:18:55
+- [Learn 90% of Building AI Agents in 30 Minutes](learn-90-of-building-ai-agents-in-30-minutes.md) - 0:29:21
+- [Let's Settle the o3-mini Vs. R1 Debate for Coding ONCE and for ALL](lets-settle-the-o3-mini-vs-r1-debate-for-coding-once-and-for-all.md) - 0:19:14
+- [Llama 3.2 is INSANE - But Does it Beat GPT as an AI Agent?](llama-32-is-insane-but-does-it-beat-gpt-as-an-ai-agent.md) - 0:16:31
+- [Local vs. Cloud LLMs/RAG - Let's FINALLY End this Debate](local-vs-cloud-llmsrag-lets-finally-end-this-debate.md) - 0:10:15
+- [Make RAG 100x Better with Real-Time Knowledge Graphs](make-rag-100x-better-with-real-time-knowledge-graphs.md) - 0:26:41
+- [My COMPLETE Agentic Coding Workflow to Build Anything (No Fluff or Overengineering)](my-complete-agentic-coding-workflow-to-build-anything-no-fluff-or-overengineering.md) - 0:42:27
+- [My Top 20 Lessons from Building 100s of AI Agents (Super Actionable)](my-top-20-lessons-from-building-100s-of-ai-agents-super-actionable.md) - 1:03:34
+- [n8n + Crawl4AI - Scrape ANY Website in Minutes with NO Code](n8n-crawl4ai-scrape-any-website-in-minutes-with-no-code.md) - 0:33:47
+- [New Llama 3 Model BEATS GPT and Claude with Function Calling!?](new-llama-3-model-beats-gpt-and-claude-with-function-calling.md) - 0:14:06
+- [No Code RAG Agents? You HAVE to Check out n8n + LangChain](no-code-rag-agents-you-have-to-check-out-n8n-langchain.md) - 0:17:47
+- [Ollama + OpenAI's Swarm - EASILY Run AI Agents Locally](ollama-openais-swarm-easily-run-ai-agents-locally.md) - 0:20:05
+- [Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More](omnigent-the-new-meta-harness-for-every-coding-agent-claude-code-codex-pi-more.md) - 0:14:51
+- [OpenAI’s BRAND NEW Agents SDK (Crash Course)](openais-brand-new-agents-sdk-crash-course.md) - 0:31:19
+- [OpenAI's o1 is Barely Usable, but I Fixed it...](openais-o1-is-barely-usable-but-i-fixed-it.md) - 0:24:47
+- [OpenAI's Swarm - a GAME CHANGER for AI Agents](openais-swarm-a-game-changer-for-ai-agents.md) - 0:20:49
+- [oTToDev is Becoming the BEST Open Source AI Coding Assistant](ottodev-is-becoming-the-best-open-source-ai-coding-assistant.md) - 0:14:55
+- [Our Bolt.new Fork's Most Requested Feature is FINALLY Here](our-boltnew-forks-most-requested-feature-is-finally-here.md) - 0:15:25
+- [Parallel Claude Code + Git Worktrees: This Setup Will Change How You Ship](parallel-claude-code-git-worktrees-this-setup-will-change-how-you-ship.md) - 0:23:55
+- [Pi Coding Agent + Archon: Build ANY AI Coding Workflow (No Claude Code Bloat)](pi-coding-agent-archon-build-any-ai-coding-workflow-no-claude-code-bloat.md) - 0:17:48
+- [\"Prompt Engineering\" is a Bunch of BS - Here's the 5% of it to Learn](prompt-engineering-is-a-bunch-of-bs-heres-the-5-of-it-to-learn.md) - 0:04:47
+- [Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities](pydantic-ai-20-the-new-best-way-to-build-ai-agents-is-composing-capabilities.md) - 0:15:02
+- [Pydantic AI + DeepSeek V3 - The BEST AI Agent Combo](pydantic-ai-deepseek-v3-the-best-ai-agent-combo.md) - 0:29:21
+- [Qwen Just Casually Started the Local AI Revolution](qwen-just-casually-started-the-local-ai-revolution.md) - 0:16:06
+- [Ralph Wiggum is the Final Evolution of Vibe Coding (Here's What Comes Next)](ralph-wiggum-is-the-final-evolution-of-vibe-coding-heres-what-comes-next.md) - 0:20:47
+- [Revealing my COMPLETE AI Agent Blueprint](revealing-my-complete-ai-agent-blueprint.md) - 0:14:40
+- [Run ALL Your AI Locally in Minutes (LLMs, RAG, and more)](run-all-your-ai-locally-in-minutes-llms-rag-and-more.md) - 0:20:21
+- [Run Supabase 100% LOCALLY for Your AI Agents](run-supabase-100-locally-for-your-ai-agents.md) - 0:29:37
+- [Should I Build My AI Agents with n8n or Python?](should-i-build-my-ai-agents-with-n8n-or-python.md) - 0:16:01
+- [STOP Paying for GPT, Claude, & Other LLMs - Get them ALL in One Place](stop-paying-for-gpt-claude-other-llms-get-them-all-in-one-place.md) - 0:10:15
+- [Stripe's Coding Agents Ship 1,300 PRs EVERY Week - Here's How They Do It](stripes-coding-agents-ship-1300-prs-every-week-heres-how-they-do-it.md) - 0:18:51
+- [Super Special Livestream this Weekend! (LIVE AI Agent Build)](super-special-livestream-this-weekend-live-ai-agent-build.md) - 0:07:13
+- [The 3 MUST Have MCP Servers for Any AI Coding (and How to Use Them)](the-3-must-have-mcp-servers-for-any-ai-coding-and-how-to-use-them.md) - 0:19:57
+- [The 5 Techniques Separating Top Agentic Engineers Right Now](the-5-techniques-separating-top-agentic-engineers-right-now.md) - 0:14:57
+- [The Best AI Coding Setup Isn't the Most Autonomous One (Here's Why)](the-best-ai-coding-setup-isnt-the-most-autonomous-one-heres-why.md) - 0:21:15
+- [THE BEST Tool for AI Agent Workflows - LangGraph FULL Guide](the-best-tool-for-ai-agent-workflows-langgraph-full-guide.md) - 0:24:08
+- [The BIG Problem with MCP Servers (and the Solution!)](the-big-problem-with-mcp-servers-and-the-solution.md) - 0:10:22
+- [The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!](the-creators-of-claude-code-and-openclaw-dont-prompt-their-agents-anymore.md) - 0:24:37
+- [The EASIEST Possible Strategy for Accurate RAG (Step by Step Guide)](the-easiest-possible-strategy-for-accurate-rag-step-by-step-guide.md) - 0:26:23
+- [The Future of AI and SaaS is Agentic Experiences (Here's How to Build Them)](the-future-of-ai-and-saas-is-agentic-experiences-heres-how-to-build-them.md) - 0:20:46
+- [The Future of RAG is Agentic - Learn this Strategy NOW](the-future-of-rag-is-agentic-learn-this-strategy-now.md) - 0:45:50
+- [The GLOW-UP Every AI Agent Needs](the-glow-up-every-ai-agent-needs.md) - 0:31:12
+- [The HARD Truth About Hosting Your Own LLMs](the-hard-truth-about-hosting-your-own-llms.md) - 0:14:45
+- [The KING of No Code AI Agent Builders?!](the-king-of-no-code-ai-agent-builders.md) - 0:19:16
+- [The Kiro AI Coding Hackathon has Officially Started! Build ANYTHING, Win Big Prizes.](the-kiro-ai-coding-hackathon-has-officially-started-build-anything-win-big-prizes.md) - 0:08:29
+- [The MCP Integration EVERYONE is Sleeping On (MCP + Custom AI Agents)](the-mcp-integration-everyone-is-sleeping-on-mcp-custom-ai-agents.md) - 0:21:29
+- [The MOST Profitable AI Niche NO ONE is Talking About](the-most-profitable-ai-niche-no-one-is-talking-about.md) - 0:16:22
+- [The Most Value Packed RAG Guide on YouTube (Feat. Llama 3.1 405B!)](the-most-value-packed-rag-guide-on-youtube-feat-llama-31-405b.md) - 0:11:33
+- [The Next Evolution of AI Coding Is Harnesses - Here's How to Build Them](the-next-evolution-of-ai-coding-is-harnesses-heres-how-to-build-them.md) - 0:30:49
+- [The OFFICIAL Archon Guide - 10x Your AI Coding Workflow](the-official-archon-guide-10x-your-ai-coding-workflow.md) - 0:23:19
+- [The ONLY AI Developer Roadmap You Need in 2024](the-only-ai-developer-roadmap-you-need-in-2024.md) - 0:15:53
+- [The ONLY AI Tech Stack You Need in 2026](the-only-ai-tech-stack-you-need-in-2026.md) - 0:34:26
+- [The PROVEN Solution for Unbelievable RAG Performance (LightRAG Guide)](the-proven-solution-for-unbelievable-rag-performance-lightrag-guide.md) - 0:23:05
+- [The Secret Sauce for SIMPLE + POWERFUL AI Apps - AI Agents Masterclass #2](the-secret-sauce-for-simple-powerful-ai-apps-ai-agents-masterclass-2.md) - 0:13:17
+- [The Simplest RAG Stack That Actually Works (Complete Guide)](the-simplest-rag-stack-that-actually-works-complete-guide.md) - 0:24:26
+- [The Subagent Era Is Officially Here - Learn this Now](the-subagent-era-is-officially-here-learn-this-now.md) - 0:15:15
+- [The True Power of AI Coding - Build Your OWN Workflows (Full Guide)](the-true-power-of-ai-coding-build-your-own-workflows-full-guide.md) - 0:26:04
+- [The ULTIMATE Guide to Building Your Own MCP Servers (Free Template)](the-ultimate-guide-to-building-your-own-mcp-servers-free-template.md) - 0:27:54
+- [The Ultimate Guide to Local AI and AI Agents (The Future is Here)](the-ultimate-guide-to-local-ai-and-ai-agents-the-future-is-here.md)
+- [The ULTIMATE n8n RAG AI Agent Template - Local AI Edition](the-ultimate-n8n-rag-ai-agent-template-local-ai-edition.md) - 0:32:41
+- [The Way We Use AI Will Completely Change in 2026 (Hot Takes)](the-way-we-use-ai-will-completely-change-in-2026-hot-takes.md) - 0:16:05
+- [This AI Agent with RAG Manages MY LIFE](this-ai-agent-with-rag-manages-my-life.md) - 0:10:53
+- [This Bolt.new Fork is EXPLODING - Don't Miss out on What's Happening!](this-boltnew-fork-is-exploding-dont-miss-out-on-whats-happening.md) - 0:16:47
+- [This Completely Changes the Way We Build Production AI Agents (Vercel Eve)](this-completely-changes-the-way-we-build-production-ai-agents-vercel-eve.md) - 0:16:25
+- [This is Hands Down the BEST Way to Build AI Agents](this-is-hands-down-the-best-way-to-build-ai-agents.md) - 0:51:25
+- [This MCP Server for AI Coding Assistants Will 10x Your Productivity](this-mcp-server-for-ai-coding-assistants-will-10x-your-productivity.md) - 0:15:33
+- [This New Protocol Will Change AI Coding Forever (ACP)](this-new-protocol-will-change-ai-coding-forever-acp.md) - 0:22:35
+- [This One Command Makes Coding Agents Find All Their Mistakes (Use it Now)](this-one-command-makes-coding-agents-find-all-their-mistakes-use-it-now.md) - 0:20:02
+- [This RAG AI Agent with n8n + Supabase is the Real Deal](this-rag-ai-agent-with-n8n-supabase-is-the-real-deal.md) - 0:16:28
+- [This Slack AI Personal Assistant is Better than a Real Person](this-slack-ai-personal-assistant-is-better-than-a-real-person.md) - 0:12:24
+- [Turn ANY AI Agent into a Live Person - Voice Chat Setup in Minutes](turn-any-ai-agent-into-a-live-person-voice-chat-setup-in-minutes.md) - 0:16:24
+- [Turn ANY File into LLM Knowledge in SECONDS](turn-any-file-into-llm-knowledge-in-seconds.md) - 0:21:22
+- [Turn ANY Website into LLM Knowledge in SECONDS](turn-any-website-into-llm-knowledge-in-seconds.md) - 0:18:46
+- [Turn ANY Website into LLM Knowledge in Seconds - EVOLVED](turn-any-website-into-llm-knowledge-in-seconds-evolved.md) - 0:26:39
+- [Turn Claude Code into Your Full Engineering Team with Subagents](turn-claude-code-into-your-full-engineering-team-with-subagents.md) - 0:20:26
+- [Use ChatGPT in Two Clicks on ANY website with a Custom Chrome Extension](use-chatgpt-in-two-clicks-on-any-website-with-a-custom-chrome-extension.md) - 0:21:56
+- [Use Open WebUI with Your N8N AI Agents - Voice Chat Included!](use-open-webui-with-your-n8n-ai-agents-voice-chat-included.md) - 0:26:08
+- [V0 + Claude: A GAME CHANGER for Building AI Apps](v0-claude-a-game-changer-for-building-ai-apps.md) - 0:21:40
+- [We're Taking this AI Coding Assistant to the MOON (Plus Installation Instructions!)](were-taking-this-ai-coding-assistant-to-the-moon-plus-installation-instructions.md) - 0:13:10
+- [We've Been Building AI Agents WRONG Until Now](weve-been-building-ai-agents-wrong-until-now.md) - 0:19:53
+- [Why is Everyone Missing This with AI Agents?! (Memory + Tools that Scale)](why-is-everyone-missing-this-with-ai-agents-memory-tools-that-scale.md) - 0:28:03
+- [Why the Best AI Coding Tools Abandoned RAG (And What They Use Instead)](why-the-best-ai-coding-tools-abandoned-rag-and-what-they-use-instead.md) - 0:14:53
+- [You HAVE to Try Agentic RAG with DeepSeek R1 (Insane Results)](you-have-to-try-agentic-rag-with-deepseek-r1-insane-results.md) - 0:22:20
+- [You NEED These 5 Tools For Coding!! (Better Than ChatGPT)](you-need-these-5-tools-for-coding-better-than-chatgpt.md) - 0:12:50
+- [Your AI Coding Workflow NEEDS This New Agent Browser CLI](your-ai-coding-workflow-needs-this-new-agent-browser-cli.md) - 0:15:14
+- [Your ULTIMATE n8n RAG AI Agent Template just got a Massive Upgrade](your-ultimate-n8n-rag-ai-agent-template-just-got-a-massive-upgrade.md) - 0:19:20
+- [You're Hardly Using What Claude Code Has to Offer, it's Insane](youre-hardly-using-what-claude-code-has-to-offer-its-insane.md) - 0:14:43
+- [You're WASTING TIME Coding Your AI Agents](youre-wasting-time-coding-your-ai-agents.md) - 0:11:36

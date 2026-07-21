@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Build scratch (intermediate artifacts from the bulk ingest; not part of the bundle)
+scripts/extractions/
+scripts/canon/
+scripts/pages/
+scripts/candidates.json
+scripts/clusters.txt
+scripts/slugs.txt
+scripts/slug_index.json
+scripts/aggregate_candidates.py
+scripts/build_manifest.py
+scripts/fan_out.py

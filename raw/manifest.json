@@ -1,0 +1,1784 @@
+[
+  {
+    "slug": "this-completely-changes-the-way-we-build-production-ai-agents-vercel-eve",
+    "youtube_id": "m8VC2SV2igM",
+    "url": "https://www.youtube.com/watch?v=m8VC2SV2igM",
+    "title": "This Completely Changes the Way We Build Production AI Agents (Vercel Eve)",
+    "published": "2026-07-15",
+    "duration": "0:16:25",
+    "recency_rank": 1
+  },
+  {
+    "slug": "i-turned-claude-code-into-a-complete-video-generation-system-with-archon",
+    "youtube_id": "deeOA6YVfqw",
+    "url": "https://www.youtube.com/watch?v=deeOA6YVfqw",
+    "title": "I Turned Claude Code Into a Complete Video Generation System (with Archon)",
+    "published": "2026-07-12",
+    "duration": "0:14:08",
+    "recency_rank": 2
+  },
+  {
+    "slug": "pydantic-ai-20-the-new-best-way-to-build-ai-agents-is-composing-capabilities",
+    "youtube_id": "PY7xIxybYNc",
+    "url": "https://www.youtube.com/watch?v=PY7xIxybYNc",
+    "title": "Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities",
+    "published": "2026-07-10",
+    "duration": "0:15:02",
+    "recency_rank": 3
+  },
+  {
+    "slug": "i-love-the-karpathy-llm-wiki-but-it-doesnt-scale-heres-what-does",
+    "youtube_id": "R-5_2nsF_ZM",
+    "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM",
+    "title": "I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.",
+    "published": "2026-07-08",
+    "duration": "0:18:58",
+    "recency_rank": 4
+  },
+  {
+    "slug": "the-best-ai-coding-setup-isnt-the-most-autonomous-one-heres-why",
+    "youtube_id": "muwRbfuKbR4",
+    "url": "https://www.youtube.com/watch?v=muwRbfuKbR4",
+    "title": "The Best AI Coding Setup Isn't the Most Autonomous One (Here's Why)",
+    "published": "2026-07-03",
+    "duration": "0:21:15",
+    "recency_rank": 5
+  },
+  {
+    "slug": "finally-an-open-standard-for-the-karpathy-llm-wiki-is-here",
+    "youtube_id": "T33iI6izAKw",
+    "url": "https://www.youtube.com/watch?v=T33iI6izAKw",
+    "title": "Finally, an Open Standard for the Karpathy LLM Wiki is HERE",
+    "published": "2026-07-01",
+    "duration": "0:19:39",
+    "recency_rank": 6
+  },
+  {
+    "slug": "google-just-dropped-a-masterclass-on-agentic-engineering-its-so-good",
+    "youtube_id": "zbmuiaPuiNM",
+    "url": "https://www.youtube.com/watch?v=zbmuiaPuiNM",
+    "title": "Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)",
+    "published": "2026-06-24",
+    "duration": "0:21:57",
+    "recency_rank": 7
+  },
+  {
+    "slug": "the-creators-of-claude-code-and-openclaw-dont-prompt-their-agents-anymore",
+    "youtube_id": "UztrFXaSWv0",
+    "url": "https://www.youtube.com/watch?v=UztrFXaSWv0",
+    "title": "The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!",
+    "published": "2026-06-17",
+    "duration": "0:24:37",
+    "recency_rank": 8
+  },
+  {
+    "slug": "omnigent-the-new-meta-harness-for-every-coding-agent-claude-code-codex-pi-more",
+    "youtube_id": "oGE_Dwz-rMk",
+    "url": "https://www.youtube.com/watch?v=oGE_Dwz-rMk",
+    "title": "Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More",
+    "published": "2026-06-15",
+    "duration": "0:14:51",
+    "recency_rank": 9
+  },
+  {
+    "slug": "googles-agents-cli-the-cli-skills-combination-to-ship-ai-agents-easily",
+    "youtube_id": "1wfY7GCVvh0",
+    "url": "https://www.youtube.com/watch?v=1wfY7GCVvh0",
+    "title": "Google's Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY",
+    "published": "2026-06-10",
+    "duration": "0:15:19",
+    "recency_rank": 10
+  },
+  {
+    "slug": "claude-plans-gemini-designs-the-workflow-to-build-beautiful-frontends",
+    "youtube_id": "iICZTWcryac",
+    "url": "https://www.youtube.com/watch?v=iICZTWcryac",
+    "title": "Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends",
+    "published": "2026-06-03",
+    "duration": "0:18:05",
+    "recency_rank": 11
+  },
+  {
+    "slug": "harness-engineering-what-separates-top-agentic-engineers-right-now",
+    "youtube_id": "ulNsa0sD8N0",
+    "url": "https://www.youtube.com/watch?v=ulNsa0sD8N0",
+    "title": "Harness Engineering: What Separates Top Agentic Engineers Right Now",
+    "published": "2026-05-27",
+    "duration": "0:17:10",
+    "recency_rank": 12
+  },
+  {
+    "slug": "anthropic-just-dropped-a-masterclass-on-building-agent-harnesses-for-large-codebases",
+    "youtube_id": "efRIrLXoOVA",
+    "url": "https://www.youtube.com/watch?v=efRIrLXoOVA",
+    "title": "Anthropic Just Dropped a Masterclass on Building Agent Harnesses (for Large Codebases)",
+    "published": "2026-05-20",
+    "duration": "0:28:11",
+    "recency_rank": 13
+  },
+  {
+    "slug": "build-render-entire-videos-with-claude-code-full-workflow",
+    "youtube_id": "Ya51a1EJPZk",
+    "url": "https://www.youtube.com/watch?v=Ya51a1EJPZk",
+    "title": "Build + Render ENTIRE Videos with Claude Code (Full Workflow)",
+    "published": "2026-05-13",
+    "duration": "0:15:14",
+    "recency_rank": 14
+  },
+  {
+    "slug": "ai-youtube-is-only-claude-hype-now",
+    "youtube_id": "rlsP-T_IxVE",
+    "url": "https://www.youtube.com/watch?v=rlsP-T_IxVE",
+    "title": "AI YouTube Is Only Claude Hype Now",
+    "published": "2026-05-06",
+    "duration": "0:07:30",
+    "recency_rank": 15
+  },
+  {
+    "slug": "full-guide-to-becoming-a-principled-agentic-engineer-build-anything-with-ai",
+    "youtube_id": "luBkbzjo-TA",
+    "url": "https://www.youtube.com/watch?v=luBkbzjo-TA",
+    "title": "FULL Guide to Becoming a Principled Agentic Engineer (Build Anything with AI)",
+    "published": "2026-04-29",
+    "duration": "1:06:59",
+    "recency_rank": 16
+  },
+  {
+    "slug": "parallel-claude-code-git-worktrees-this-setup-will-change-how-you-ship",
+    "youtube_id": "rFGlJ4oIlhw",
+    "url": "https://www.youtube.com/watch?v=rFGlJ4oIlhw",
+    "title": "Parallel Claude Code + Git Worktrees: This Setup Will Change How You Ship",
+    "published": "2026-04-22",
+    "duration": "0:23:55",
+    "recency_rank": 17
+  },
+  {
+    "slug": "pi-coding-agent-archon-build-any-ai-coding-workflow-no-claude-code-bloat",
+    "youtube_id": "XSmI7OYd7iM",
+    "url": "https://www.youtube.com/watch?v=XSmI7OYd7iM",
+    "title": "Pi Coding Agent + Archon: Build ANY AI Coding Workflow (No Claude Code Bloat)",
+    "published": "2026-04-20",
+    "duration": "0:17:48",
+    "recency_rank": 18
+  },
+  {
+    "slug": "im-building-an-ai-dark-factory-that-ships-its-own-code-public-experiment",
+    "youtube_id": "6woc6ii-zoE",
+    "url": "https://www.youtube.com/watch?v=6woc6ii-zoE",
+    "title": "I'm Building an AI Dark Factory That Ships Its Own Code (Public Experiment)",
+    "published": "2026-04-15",
+    "duration": "0:25:13",
+    "recency_rank": 19
+  },
+  {
+    "slug": "the-next-evolution-of-ai-coding-is-harnesses-heres-how-to-build-them",
+    "youtube_id": "qMnClynCAmM",
+    "url": "https://www.youtube.com/watch?v=qMnClynCAmM",
+    "title": "The Next Evolution of AI Coding Is Harnesses - Here's How to Build Them",
+    "published": "2026-04-08",
+    "duration": "0:30:49",
+    "recency_rank": 20
+  },
+  {
+    "slug": "i-built-self-evolving-claude-code-memory-w-karpathys-llm-knowledge-bases",
+    "youtube_id": "7huCP6RkcY4",
+    "url": "https://www.youtube.com/watch?v=7huCP6RkcY4",
+    "title": "I Built Self-Evolving Claude Code Memory w/ Karpathy's LLM Knowledge Bases",
+    "published": "2026-04-06",
+    "duration": "0:19:24",
+    "recency_rank": 21
+  },
+  {
+    "slug": "full-guide-build-your-own-ai-second-brain-with-claude-code",
+    "youtube_id": "1FiER-40zng",
+    "url": "https://www.youtube.com/watch?v=1FiER-40zng",
+    "title": "Full Guide - Build Your Own AI Second Brain with Claude Code",
+    "published": "2026-04-01",
+    "duration": "0:25:05",
+    "recency_rank": 22
+  },
+  {
+    "slug": "coding-agent-reliability-explodes-when-they-argue-new-adversarial-dev-technique",
+    "youtube_id": "HAkSUBdsd6M",
+    "url": "https://www.youtube.com/watch?v=HAkSUBdsd6M",
+    "title": "Coding Agent Reliability EXPLODES When They Argue (New Adversarial Dev Technique)",
+    "published": "2026-03-30",
+    "duration": "0:17:37",
+    "recency_rank": 23
+  },
+  {
+    "slug": "everything-you-thought-about-building-ai-agents-is-wrong",
+    "youtube_id": "gmaHRwijOXs",
+    "url": "https://www.youtube.com/watch?v=gmaHRwijOXs",
+    "title": "Everything You Thought About Building AI Agents is Wrong",
+    "published": "2026-03-25",
+    "duration": "0:15:53",
+    "recency_rank": 24
+  },
+  {
+    "slug": "youre-hardly-using-what-claude-code-has-to-offer-its-insane",
+    "youtube_id": "uegyRTOrXSU",
+    "url": "https://www.youtube.com/watch?v=uegyRTOrXSU",
+    "title": "You're Hardly Using What Claude Code Has to Offer, it's Insane",
+    "published": "2026-03-23",
+    "duration": "0:14:43",
+    "recency_rank": 25
+  },
+  {
+    "slug": "the-subagent-era-is-officially-here-learn-this-now",
+    "youtube_id": "GX_EsbcXfw8",
+    "url": "https://www.youtube.com/watch?v=GX_EsbcXfw8",
+    "title": "The Subagent Era Is Officially Here - Learn this Now",
+    "published": "2026-03-18",
+    "duration": "0:15:15",
+    "recency_rank": 26
+  },
+  {
+    "slug": "ive-used-claude-code-for-2000-hours-heres-how-i-build-anything-with-it",
+    "youtube_id": "nxHKBq5ZU9U",
+    "url": "https://www.youtube.com/watch?v=nxHKBq5ZU9U",
+    "title": "I've Used Claude Code for 2,000+ Hours - Here's How I Build Anything With It",
+    "published": "2026-03-16",
+    "duration": "0:22:49",
+    "recency_rank": 27
+  },
+  {
+    "slug": "stripes-coding-agents-ship-1300-prs-every-week-heres-how-they-do-it",
+    "youtube_id": "NMWgXvm--to",
+    "url": "https://www.youtube.com/watch?v=NMWgXvm--to",
+    "title": "Stripe's Coding Agents Ship 1,300 PRs EVERY Week - Here's How They Do It",
+    "published": "2026-03-11",
+    "duration": "0:18:51",
+    "recency_rank": 28
+  },
+  {
+    "slug": "is-software-engineering-finally-dead",
+    "youtube_id": "tjBpm91ZQM0",
+    "url": "https://www.youtube.com/watch?v=tjBpm91ZQM0",
+    "title": "Is Software Engineering Finally Dead?",
+    "published": "2026-03-04",
+    "duration": "0:17:23",
+    "recency_rank": 29
+  },
+  {
+    "slug": "build-beautiful-diagrams-with-claude-code-full-workflow",
+    "youtube_id": "m3fqyXZ4k4I",
+    "url": "https://www.youtube.com/watch?v=m3fqyXZ4k4I",
+    "title": "Build BEAUTIFUL Diagrams with Claude Code (Full Workflow)",
+    "published": "2026-03-02",
+    "duration": "0:09:54",
+    "recency_rank": 30
+  },
+  {
+    "slug": "this-one-command-makes-coding-agents-find-all-their-mistakes-use-it-now",
+    "youtube_id": "YeCHI1dmpZY",
+    "url": "https://www.youtube.com/watch?v=YeCHI1dmpZY",
+    "title": "This One Command Makes Coding Agents Find All Their Mistakes (Use it Now)",
+    "published": "2026-02-25",
+    "duration": "0:20:02",
+    "recency_rank": 31
+  },
+  {
+    "slug": "my-complete-agentic-coding-workflow-to-build-anything-no-fluff-or-overengineering",
+    "youtube_id": "goOZSXmrYQ4",
+    "url": "https://www.youtube.com/watch?v=goOZSXmrYQ4",
+    "title": "My COMPLETE Agentic Coding Workflow to Build Anything (No Fluff or Overengineering)",
+    "published": "2026-02-23",
+    "duration": "0:42:27",
+    "recency_rank": 32
+  },
+  {
+    "slug": "why-the-best-ai-coding-tools-abandoned-rag-and-what-they-use-instead",
+    "youtube_id": "60G93MXT4DI",
+    "url": "https://www.youtube.com/watch?v=60G93MXT4DI",
+    "title": "Why the Best AI Coding Tools Abandoned RAG (And What They Use Instead)",
+    "published": "2026-02-18",
+    "duration": "0:14:53",
+    "recency_rank": 33
+  },
+  {
+    "slug": "how-to-properly-use-claude-code-agent-teams-full-live-build",
+    "youtube_id": "uvs1Igr4u6g",
+    "url": "https://www.youtube.com/watch?v=uvs1Igr4u6g",
+    "title": "How to Properly Use Claude Code Agent Teams (FULL LIVE BUILD)",
+    "published": "2026-02-16",
+    "duration": "0:50:21",
+    "recency_rank": 34
+  },
+  {
+    "slug": "i-built-a-safer-openclaw-alternative-using-claude-code",
+    "youtube_id": "XmweZ4fLkcI",
+    "url": "https://www.youtube.com/watch?v=XmweZ4fLkcI",
+    "title": "I Built a Safer OpenClaw Alternative Using Claude Code",
+    "published": "2026-02-11",
+    "duration": "0:15:15",
+    "recency_rank": 35
+  },
+  {
+    "slug": "claude-codes-agent-teams-are-insane-multiple-ai-agents-coding-together-in-real-time",
+    "youtube_id": "-1K_ZWDKpU0",
+    "url": "https://www.youtube.com/watch?v=-1K_ZWDKpU0",
+    "title": "Claude Code's Agent Teams Are Insane - Multiple AI Agents Coding Together in Real Time",
+    "published": "2026-02-09",
+    "duration": "0:20:17",
+    "recency_rank": 36
+  },
+  {
+    "slug": "ai-agents-can-now-build-their-own-ui-in-real-time-personalized-to-you",
+    "youtube_id": "MD8VQzvMVek",
+    "url": "https://www.youtube.com/watch?v=MD8VQzvMVek",
+    "title": "AI Agents Can Now Build Their Own UI in Real Time (Personalized to You)",
+    "published": "2026-02-04",
+    "duration": "0:15:18",
+    "recency_rank": 37
+  },
+  {
+    "slug": "turn-claude-code-into-your-full-engineering-team-with-subagents",
+    "youtube_id": "-GyX21BL1Nw",
+    "url": "https://www.youtube.com/watch?v=-GyX21BL1Nw",
+    "title": "Turn Claude Code into Your Full Engineering Team with Subagents",
+    "published": "2026-02-01",
+    "duration": "0:20:26",
+    "recency_rank": 38
+  },
+  {
+    "slug": "claude-skills-arent-just-for-claude-heres-how-to-build-them-for-any-agent",
+    "youtube_id": "-iTNOaCmLcw",
+    "url": "https://www.youtube.com/watch?v=-iTNOaCmLcw",
+    "title": "Claude Skills Aren't Just for Claude - Here's How to Build Them for ANY Agent",
+    "published": "2026-01-28",
+    "duration": "0:24:28",
+    "recency_rank": 39
+  },
+  {
+    "slug": "i-built-my-second-brain-with-claude-code-obsidian-skills-heres-how",
+    "youtube_id": "jYMhDEzNAN0",
+    "url": "https://www.youtube.com/watch?v=jYMhDEzNAN0",
+    "title": "I Built My Second Brain with Claude Code + Obsidian + Skills (Here's How)",
+    "published": "2026-01-25",
+    "duration": "0:20:44",
+    "recency_rank": 40
+  },
+  {
+    "slug": "i-was-wrong-about-ralph-wiggum",
+    "youtube_id": "NIv9x7vLeJY",
+    "url": "https://www.youtube.com/watch?v=NIv9x7vLeJY",
+    "title": "I Was Wrong About Ralph Wiggum",
+    "published": "2026-01-21",
+    "duration": "0:21:23",
+    "recency_rank": 41
+  },
+  {
+    "slug": "your-ai-coding-workflow-needs-this-new-agent-browser-cli",
+    "youtube_id": "7aEQnTsI6zs",
+    "url": "https://www.youtube.com/watch?v=7aEQnTsI6zs",
+    "title": "Your AI Coding Workflow NEEDS This New Agent Browser CLI",
+    "published": "2026-01-18",
+    "duration": "0:15:14",
+    "recency_rank": 42
+  },
+  {
+    "slug": "ralph-wiggum-is-the-final-evolution-of-vibe-coding-heres-what-comes-next",
+    "youtube_id": "5xvP9O4msLM",
+    "url": "https://www.youtube.com/watch?v=5xvP9O4msLM",
+    "title": "Ralph Wiggum is the Final Evolution of Vibe Coding (Here's What Comes Next)",
+    "published": "2026-01-14",
+    "duration": "0:20:47",
+    "recency_rank": 43
+  },
+  {
+    "slug": "the-5-techniques-separating-top-agentic-engineers-right-now",
+    "youtube_id": "ttdWPDmBN_4",
+    "url": "https://www.youtube.com/watch?v=ttdWPDmBN_4",
+    "title": "The 5 Techniques Separating Top Agentic Engineers Right Now",
+    "published": "2026-01-07",
+    "duration": "0:14:57",
+    "recency_rank": 44
+  },
+  {
+    "slug": "the-kiro-ai-coding-hackathon-has-officially-started-build-anything-win-big-prizes",
+    "youtube_id": "O8KI2paEBbM",
+    "url": "https://www.youtube.com/watch?v=O8KI2paEBbM",
+    "title": "The Kiro AI Coding Hackathon has Officially Started! Build ANYTHING, Win Big Prizes.",
+    "published": "2026-01-05",
+    "duration": "0:08:29",
+    "recency_rank": 45
+  },
+  {
+    "slug": "ai-exploded-in-2025-heres-everything-that-happened",
+    "youtube_id": "-FVl-hbBTOY",
+    "url": "https://www.youtube.com/watch?v=-FVl-hbBTOY",
+    "title": "AI Exploded in 2025 - Here’s Everything That Happened",
+    "published": "2025-12-31",
+    "duration": "0:17:41",
+    "recency_rank": 46
+  },
+  {
+    "slug": "build-a-rag-ai-agent-with-real-time-source-validation-copilotkit-pydantic-ai",
+    "youtube_id": "Be2OQ3LQZcQ",
+    "url": "https://www.youtube.com/watch?v=Be2OQ3LQZcQ",
+    "title": "Build a RAG AI Agent with REAL-TIME Source Validation (CopilotKit + Pydantic AI)",
+    "published": "2025-12-21",
+    "duration": "0:17:04",
+    "recency_rank": 47
+  },
+  {
+    "slug": "are-agent-harnesses-bringing-back-vibe-coding",
+    "youtube_id": "13HP_bSeNjU",
+    "url": "https://www.youtube.com/watch?v=13HP_bSeNjU",
+    "title": "Are Agent Harnesses Bringing Back Vibe Coding?",
+    "published": "2025-12-17",
+    "duration": "0:25:42",
+    "recency_rank": 48
+  },
+  {
+    "slug": "the-simplest-rag-stack-that-actually-works-complete-guide",
+    "youtube_id": "Tz2YXg61aPo",
+    "url": "https://www.youtube.com/watch?v=Tz2YXg61aPo",
+    "title": "The Simplest RAG Stack That Actually Works (Complete Guide)",
+    "published": "2025-12-10",
+    "duration": "0:24:26",
+    "recency_rank": 49
+  },
+  {
+    "slug": "i-forced-claude-to-code-for-24-hours-nonstop-heres-what-happened",
+    "youtube_id": "usQ2HBTTWxs",
+    "url": "https://www.youtube.com/watch?v=usQ2HBTTWxs",
+    "title": "I Forced Claude to Code for 24 Hours NONSTOP, Here's What Happened",
+    "published": "2025-12-03",
+    "duration": "0:26:48",
+    "recency_rank": 50
+  },
+  {
+    "slug": "the-way-we-use-ai-will-completely-change-in-2026-hot-takes",
+    "youtube_id": "nz8VjAtY_Mc",
+    "url": "https://www.youtube.com/watch?v=nz8VjAtY_Mc",
+    "title": "The Way We Use AI Will Completely Change in 2026 (Hot Takes)",
+    "published": "2025-11-26",
+    "duration": "0:16:05",
+    "recency_rank": 51
+  },
+  {
+    "slug": "is-gemini-3-really-the-best-ai-ever",
+    "youtube_id": "YyoqKHpH1EU",
+    "url": "https://www.youtube.com/watch?v=YyoqKHpH1EU",
+    "title": "Is Gemini 3 Really the Best AI Ever?",
+    "published": "2025-11-24",
+    "duration": "0:12:20",
+    "recency_rank": 52
+  },
+  {
+    "slug": "ai-fixes-my-code-better-than-me-now-heres-how",
+    "youtube_id": "d40gE6bKxPk",
+    "url": "https://www.youtube.com/watch?v=d40gE6bKxPk",
+    "title": "AI Fixes My Code Better than Me Now?! (Here's How)",
+    "published": "2025-11-19",
+    "duration": "0:12:53",
+    "recency_rank": 53
+  },
+  {
+    "slug": "github-is-the-future-of-ai-coding-heres-why",
+    "youtube_id": "upwbqZ67UBA",
+    "url": "https://www.youtube.com/watch?v=upwbqZ67UBA",
+    "title": "GitHub is the Future of AI Coding (Here's Why)",
+    "published": "2025-11-12",
+    "duration": "0:24:01",
+    "recency_rank": 54
+  },
+  {
+    "slug": "the-big-problem-with-mcp-servers-and-the-solution",
+    "youtube_id": "1_z3h2r93OY",
+    "url": "https://www.youtube.com/watch?v=1_z3h2r93OY",
+    "title": "The BIG Problem with MCP Servers (and the Solution!)",
+    "published": "2025-11-09",
+    "duration": "0:10:22",
+    "recency_rank": 55
+  },
+  {
+    "slug": "the-only-ai-tech-stack-you-need-in-2026",
+    "youtube_id": "21_k2St8bBI",
+    "url": "https://www.youtube.com/watch?v=21_k2St8bBI",
+    "title": "The ONLY AI Tech Stack You Need in 2026",
+    "published": "2025-11-05",
+    "duration": "0:34:26",
+    "recency_rank": 56
+  },
+  {
+    "slug": "every-rag-strategy-explained-in-13-minutes-no-fluff",
+    "youtube_id": "tLMViADvSNE",
+    "url": "https://www.youtube.com/watch?v=tLMViADvSNE",
+    "title": "Every RAG Strategy Explained in 13 Minutes (No Fluff)",
+    "published": "2025-11-02",
+    "duration": "0:12:52",
+    "recency_rank": 57
+  },
+  {
+    "slug": "learn-90-of-building-ai-agents-in-30-minutes",
+    "youtube_id": "i5kwX7jeWL8",
+    "url": "https://www.youtube.com/watch?v=i5kwX7jeWL8",
+    "title": "Learn 90% of Building AI Agents in 30 Minutes",
+    "published": "2025-10-29",
+    "duration": "0:29:21",
+    "recency_rank": 58
+  },
+  {
+    "slug": "super-special-livestream-this-weekend-live-ai-agent-build",
+    "youtube_id": "pjF-0dliYhg",
+    "url": "https://www.youtube.com/watch?v=pjF-0dliYhg",
+    "title": "Super Special Livestream this Weekend! (LIVE AI Agent Build)",
+    "published": "2025-10-24",
+    "duration": "0:07:13",
+    "recency_rank": 59
+  },
+  {
+    "slug": "claude-code-web-just-dropped-but-i-already-built-something-better-with-codex",
+    "youtube_id": "injqJTy5Tus",
+    "url": "https://www.youtube.com/watch?v=injqJTy5Tus",
+    "title": "Claude Code Web JUST Dropped but I Already Built Something BETTER (with Codex!)",
+    "published": "2025-10-22",
+    "duration": "0:18:01",
+    "recency_rank": 60
+  },
+  {
+    "slug": "should-i-build-my-ai-agents-with-n8n-or-python",
+    "youtube_id": "V-0ExE6imTg",
+    "url": "https://www.youtube.com/watch?v=V-0ExE6imTg",
+    "title": "Should I Build My AI Agents with n8n or Python?",
+    "published": "2025-10-19",
+    "duration": "0:16:01",
+    "recency_rank": 61
+  },
+  {
+    "slug": "claude-codes-real-purpose-its-bigger-than-you-think",
+    "youtube_id": "j2tI3YGVEz0",
+    "url": "https://www.youtube.com/watch?v=j2tI3YGVEz0",
+    "title": "Claude Code's Real Purpose (It's Bigger Than You Think)",
+    "published": "2025-10-15",
+    "duration": "0:21:31",
+    "recency_rank": 62
+  },
+  {
+    "slug": "the-official-archon-guide-10x-your-ai-coding-workflow",
+    "youtube_id": "DMXyDpnzNpY",
+    "url": "https://www.youtube.com/watch?v=DMXyDpnzNpY",
+    "title": "The OFFICIAL Archon Guide - 10x Your AI Coding Workflow",
+    "published": "2025-10-11",
+    "duration": "0:23:19",
+    "recency_rank": 63
+  },
+  {
+    "slug": "docker-just-made-using-mcp-servers-100x-easier-one-click-installs",
+    "youtube_id": "TxlVdB2gmGE",
+    "url": "https://www.youtube.com/watch?v=TxlVdB2gmGE",
+    "title": "Docker Just Made Using MCP Servers 100x Easier (One Click Installs!)",
+    "published": "2025-10-08",
+    "duration": "0:23:07",
+    "recency_rank": 64
+  },
+  {
+    "slug": "build-your-first-voice-ai-agent-in-20-minutes-with-livekit-open-source",
+    "youtube_id": "TXVyxJdlzQs",
+    "url": "https://www.youtube.com/watch?v=TXVyxJdlzQs",
+    "title": "Build Your First Voice AI Agent in 20 Minutes with LiveKit (Open Source)",
+    "published": "2025-10-04",
+    "duration": "0:19:01",
+    "recency_rank": 65
+  },
+  {
+    "slug": "turn-any-file-into-llm-knowledge-in-seconds",
+    "youtube_id": "fg0_0M8kZ8g",
+    "url": "https://www.youtube.com/watch?v=fg0_0M8kZ8g",
+    "title": "Turn ANY File into LLM Knowledge in SECONDS",
+    "published": "2025-10-01",
+    "duration": "0:21:22",
+    "recency_rank": 66
+  },
+  {
+    "slug": "claude-sonnet-45-the-new-coding-king-sonnet-45-vs-gpt-5-codex",
+    "youtube_id": "P-0fm8ljl0I",
+    "url": "https://www.youtube.com/watch?v=P-0fm8ljl0I",
+    "title": "Claude Sonnet 4.5 - The New Coding King? (Sonnet 4.5 vs. GPT 5 Codex)",
+    "published": "2025-09-29",
+    "duration": "0:11:15",
+    "recency_rank": 67
+  },
+  {
+    "slug": "the-true-power-of-ai-coding-build-your-own-workflows-full-guide",
+    "youtube_id": "mHBk8Z7Exag",
+    "url": "https://www.youtube.com/watch?v=mHBk8Z7Exag",
+    "title": "The True Power of AI Coding - Build Your OWN Workflows (Full Guide)",
+    "published": "2025-09-24",
+    "duration": "0:26:04",
+    "recency_rank": 68
+  },
+  {
+    "slug": "knowledge-graphs-in-n8n-are-finally-here",
+    "youtube_id": "NQ3vJ8iZPaQ",
+    "url": "https://www.youtube.com/watch?v=NQ3vJ8iZPaQ",
+    "title": "Knowledge Graphs in n8n are FINALLY Here!",
+    "published": "2025-09-23",
+    "duration": "0:18:55",
+    "recency_rank": 69
+  },
+  {
+    "slug": "the-future-of-ai-and-saas-is-agentic-experiences-heres-how-to-build-them",
+    "youtube_id": "BcvjGTxzK40",
+    "url": "https://www.youtube.com/watch?v=BcvjGTxzK40",
+    "title": "The Future of AI and SaaS is Agentic Experiences (Here's How to Build Them)",
+    "published": "2025-09-17",
+    "duration": "0:20:46",
+    "recency_rank": 70
+  },
+  {
+    "slug": "this-new-protocol-will-change-ai-coding-forever-acp",
+    "youtube_id": "5gUR55_gbzc",
+    "url": "https://www.youtube.com/watch?v=5gUR55_gbzc",
+    "title": "This New Protocol Will Change AI Coding Forever (ACP)",
+    "published": "2025-09-10",
+    "duration": "0:22:35",
+    "recency_rank": 71
+  },
+  {
+    "slug": "your-ultimate-n8n-rag-ai-agent-template-just-got-a-massive-upgrade",
+    "youtube_id": "iV5RZ_XKXBc",
+    "url": "https://www.youtube.com/watch?v=iV5RZ_XKXBc",
+    "title": "Your ULTIMATE n8n RAG AI Agent Template just got a Massive Upgrade",
+    "published": "2025-09-03",
+    "duration": "0:19:20",
+    "recency_rank": 72
+  },
+  {
+    "slug": "i-built-my-claude-code-subagents-dream-team-to-create-any-ai-agent",
+    "youtube_id": "HJ9VvIG3Rps",
+    "url": "https://www.youtube.com/watch?v=HJ9VvIG3Rps",
+    "title": "I Built My Claude Code Subagents DREAM TEAM to Create Any AI Agent",
+    "published": "2025-08-27",
+    "duration": "0:26:36",
+    "recency_rank": 73
+  },
+  {
+    "slug": "my-top-20-lessons-from-building-100s-of-ai-agents-super-actionable",
+    "youtube_id": "OFfwN23hR8U",
+    "url": "https://www.youtube.com/watch?v=OFfwN23hR8U",
+    "title": "My Top 20 Lessons from Building 100s of AI Agents (Super Actionable)",
+    "published": "2025-08-20",
+    "duration": "1:03:34",
+    "recency_rank": 74
+  },
+  {
+    "slug": "archon-beta-launch-livestream-what-you-missed",
+    "youtube_id": "yAFzPzpzJHU",
+    "url": "https://www.youtube.com/watch?v=yAFzPzpzJHU",
+    "title": "Archon Beta Launch Livestream - What You Missed!",
+    "published": "2025-08-17",
+    "duration": "",
+    "recency_rank": 75
+  },
+  {
+    "slug": "introducing-archon-the-revolutionary-operating-system-for-ai-coding",
+    "youtube_id": "8pRc_s2VQIo",
+    "url": "https://www.youtube.com/watch?v=8pRc_s2VQIo",
+    "title": "Introducing Archon - The Revolutionary Operating System for AI Coding",
+    "published": "2025-08-13",
+    "duration": "0:28:46",
+    "recency_rank": 76
+  },
+  {
+    "slug": "a-complete-guide-to-claude-code-here-are-all-the-best-strategies",
+    "youtube_id": "amEUIuBKwvg",
+    "url": "https://www.youtube.com/watch?v=amEUIuBKwvg",
+    "title": "A Complete Guide to Claude Code - Here are ALL the Best Strategies",
+    "published": "2025-08-06",
+    "duration": "0:50:18",
+    "recency_rank": 77
+  },
+  {
+    "slug": "why-is-everyone-missing-this-with-ai-agents-memory-tools-that-scale",
+    "youtube_id": "F1I9JN0z0w0",
+    "url": "https://www.youtube.com/watch?v=F1I9JN0z0w0",
+    "title": "Why is Everyone Missing This with AI Agents?! (Memory + Tools that Scale)",
+    "published": "2025-07-30",
+    "duration": "0:28:03",
+    "recency_rank": 78
+  },
+  {
+    "slug": "build-any-ai-agent-with-this-context-engineering-blueprint",
+    "youtube_id": "ni8Xl0ANx0E",
+    "url": "https://www.youtube.com/watch?v=ni8Xl0ANx0E",
+    "title": "Build ANY AI Agent with this Context Engineering Blueprint",
+    "published": "2025-07-23",
+    "duration": "0:24:52",
+    "recency_rank": 79
+  },
+  {
+    "slug": "context-engineering-101-the-simple-strategy-to-100x-ai-coding",
+    "youtube_id": "Mk87sFlUG28",
+    "url": "https://www.youtube.com/watch?v=Mk87sFlUG28",
+    "title": "Context Engineering 101 - The Simple Strategy to 100x AI Coding",
+    "published": "2025-07-16",
+    "duration": "0:37:46",
+    "recency_rank": 80
+  },
+  {
+    "slug": "build-and-ship-any-mcp-server-in-minutes-full-guide",
+    "youtube_id": "Zw3sfAIpeH8",
+    "url": "https://www.youtube.com/watch?v=Zw3sfAIpeH8",
+    "title": "Build and Ship Any MCP Server in MINUTES (Full Guide)",
+    "published": "2025-07-09",
+    "duration": "0:31:01",
+    "recency_rank": 81
+  },
+  {
+    "slug": "context-engineering-is-the-new-vibe-coding-learn-this-now",
+    "youtube_id": "Egeuql3Lrzg",
+    "url": "https://www.youtube.com/watch?v=Egeuql3Lrzg",
+    "title": "Context Engineering is the New Vibe Coding (Learn this Now)",
+    "published": "2025-07-02",
+    "duration": "0:22:57",
+    "recency_rank": 82
+  },
+  {
+    "slug": "introducing-rag-20-agentic-rag-knowledge-graphs-free-template",
+    "youtube_id": "p0FERNkpyHE",
+    "url": "https://www.youtube.com/watch?v=p0FERNkpyHE",
+    "title": "Introducing RAG 2.0: Agentic RAG + Knowledge Graphs (FREE Template)",
+    "published": "2025-06-25",
+    "duration": "0:38:49",
+    "recency_rank": 83
+  },
+  {
+    "slug": "ai-code-that-fixes-itself-an-mcp-you-can-try-now",
+    "youtube_id": "8Mib-hb6Fcg",
+    "url": "https://www.youtube.com/watch?v=8Mib-hb6Fcg",
+    "title": "AI Code That Fixes Itself (An MCP You Can Try Now)",
+    "published": "2025-06-18",
+    "duration": "0:23:28",
+    "recency_rank": 84
+  },
+  {
+    "slug": "the-ultimate-guide-to-local-ai-and-ai-agents-the-future-is-here",
+    "youtube_id": "mNcXue7X8H0",
+    "url": "https://www.youtube.com/watch?v=mNcXue7X8H0",
+    "title": "The Ultimate Guide to Local AI and AI Agents (The Future is Here)",
+    "published": "2025-06-11",
+    "duration": "",
+    "recency_rank": 85
+  },
+  {
+    "slug": "ive-been-holding-back-on-youtube-but-not-anymore",
+    "youtube_id": "3Yw_Q5fd8XY",
+    "url": "https://www.youtube.com/watch?v=3Yw_Q5fd8XY",
+    "title": "I've Been Holding Back on YouTube... But Not Anymore",
+    "published": "2025-06-08",
+    "duration": "0:07:40",
+    "recency_rank": 86
+  },
+  {
+    "slug": "all-the-best-rag-strategies-in-one-mcp-for-ai-coding-assistants",
+    "youtube_id": "BdZ_GOaaz7M",
+    "url": "https://www.youtube.com/watch?v=BdZ_GOaaz7M",
+    "title": "All the BEST RAG Strategies in ONE MCP for AI Coding Assistants",
+    "published": "2025-06-04",
+    "duration": "0:21:10",
+    "recency_rank": 87
+  },
+  {
+    "slug": "make-rag-100x-better-with-real-time-knowledge-graphs",
+    "youtube_id": "PxcOIINgiaA",
+    "url": "https://www.youtube.com/watch?v=PxcOIINgiaA",
+    "title": "Make RAG 100x Better with Real-Time Knowledge Graphs",
+    "published": "2025-05-28",
+    "duration": "0:26:41",
+    "recency_rank": 88
+  },
+  {
+    "slug": "how-id-learn-ai-agents-fast-if-i-had-to-start-over-full-roadmap",
+    "youtube_id": "k-Cj6H6Zwos",
+    "url": "https://www.youtube.com/watch?v=k-Cj6H6Zwos",
+    "title": "How I'd Learn AI Agents FAST if I Had to Start Over (Full Roadmap)",
+    "published": "2025-05-25",
+    "duration": "0:20:30",
+    "recency_rank": 89
+  },
+  {
+    "slug": "ag-ui-just-released-the-new-wave-of-ai-agent-apps",
+    "youtube_id": "BFWviieMyGw",
+    "url": "https://www.youtube.com/watch?v=BFWviieMyGw",
+    "title": "AG-UI Just Released: The NEW WAVE of AI Agent Apps",
+    "published": "2025-05-21",
+    "duration": "0:21:40",
+    "recency_rank": 90
+  },
+  {
+    "slug": "google-anthropic-and-openais-guides-to-ai-agents-all-in-18-minutes",
+    "youtube_id": "TlbcAphLGSc",
+    "url": "https://www.youtube.com/watch?v=TlbcAphLGSc",
+    "title": "Google, Anthropic, and OpenAI's Guides to AI Agents ALL in 18 Minutes",
+    "published": "2025-05-18",
+    "duration": "0:18:02",
+    "recency_rank": 91
+  },
+  {
+    "slug": "the-3-must-have-mcp-servers-for-any-ai-coding-and-how-to-use-them",
+    "youtube_id": "MBaTuJfICP4",
+    "url": "https://www.youtube.com/watch?v=MBaTuJfICP4",
+    "title": "The 3 MUST Have MCP Servers for Any AI Coding (and How to Use Them)",
+    "published": "2025-05-14",
+    "duration": "0:19:57",
+    "recency_rank": 92
+  },
+  {
+    "slug": "give-me-28-minutes-and-ill-completely-change-the-way-you-build-ai-agents",
+    "youtube_id": "TV8SyEuSMIA",
+    "url": "https://www.youtube.com/watch?v=TV8SyEuSMIA",
+    "title": "Give Me 28 Minutes and I'll Completely Change the Way You Build AI Agents",
+    "published": "2025-05-11",
+    "duration": "0:28:21",
+    "recency_rank": 93
+  },
+  {
+    "slug": "the-easiest-possible-strategy-for-accurate-rag-step-by-step-guide",
+    "youtube_id": "z_LGan-t2Mo",
+    "url": "https://www.youtube.com/watch?v=z_LGan-t2Mo",
+    "title": "The EASIEST Possible Strategy for Accurate RAG (Step by Step Guide)",
+    "published": "2025-05-07",
+    "duration": "0:26:23",
+    "recency_rank": 94
+  },
+  {
+    "slug": "i-built-the-ultimate-rag-mcp-server-for-ai-coding-better-than-context7",
+    "youtube_id": "ZoyPqXvnnZ8",
+    "url": "https://www.youtube.com/watch?v=ZoyPqXvnnZ8",
+    "title": "I Built the Ultimate RAG MCP Server for AI Coding (Better than Context7)",
+    "published": "2025-05-04",
+    "duration": "0:28:24",
+    "recency_rank": 95
+  },
+  {
+    "slug": "turn-any-website-into-llm-knowledge-in-seconds-evolved",
+    "youtube_id": "FQlCWrsUpHo",
+    "url": "https://www.youtube.com/watch?v=FQlCWrsUpHo",
+    "title": "Turn ANY Website into LLM Knowledge in Seconds - EVOLVED",
+    "published": "2025-04-30",
+    "duration": "0:26:39",
+    "recency_rank": 96
+  },
+  {
+    "slug": "if-youre-serious-about-building-ai-agents-this-is-your-secret-weapon",
+    "youtube_id": "DpPVEw4dd0w",
+    "url": "https://www.youtube.com/watch?v=DpPVEw4dd0w",
+    "title": "If You’re Serious About Building AI Agents, This is Your Secret Weapon",
+    "published": "2025-04-23",
+    "duration": "0:27:50",
+    "recency_rank": 97
+  },
+  {
+    "slug": "this-mcp-server-for-ai-coding-assistants-will-10x-your-productivity",
+    "youtube_id": "G7gK8H6u7Rs",
+    "url": "https://www.youtube.com/watch?v=G7gK8H6u7Rs",
+    "title": "This MCP Server for AI Coding Assistants Will 10x Your Productivity",
+    "published": "2025-04-20",
+    "duration": "0:15:33",
+    "recency_rank": 98
+  },
+  {
+    "slug": "google-is-quietly-revolutionizing-ai-agents-this-is-huge",
+    "youtube_id": "ywMWpmOOaSo",
+    "url": "https://www.youtube.com/watch?v=ywMWpmOOaSo",
+    "title": "Google is Quietly Revolutionizing AI Agents (This is HUGE)",
+    "published": "2025-04-16",
+    "duration": "0:23:22",
+    "recency_rank": 99
+  },
+  {
+    "slug": "the-ultimate-guide-to-building-your-own-mcp-servers-free-template",
+    "youtube_id": "lbyPJqCI-tw",
+    "url": "https://www.youtube.com/watch?v=lbyPJqCI-tw",
+    "title": "The ULTIMATE Guide to Building Your Own MCP Servers (Free Template)",
+    "published": "2025-04-13",
+    "duration": "0:27:54",
+    "recency_rank": 100
+  },
+  {
+    "slug": "build-a-chatgpt-style-app-for-your-n8n-ai-agents-in-minutes",
+    "youtube_id": "6zn8vVTeFE0",
+    "url": "https://www.youtube.com/watch?v=6zn8vVTeFE0",
+    "title": "Build a ChatGPT Style App for Your n8n AI Agents in MINUTES",
+    "published": "2025-04-09",
+    "duration": "0:22:03",
+    "recency_rank": 101
+  },
+  {
+    "slug": "the-proven-solution-for-unbelievable-rag-performance-lightrag-guide",
+    "youtube_id": "Fx3J8k--U3E",
+    "url": "https://www.youtube.com/watch?v=Fx3J8k--U3E",
+    "title": "The PROVEN Solution for Unbelievable RAG Performance (LightRAG Guide)",
+    "published": "2025-04-06",
+    "duration": "0:23:05",
+    "recency_rank": 102
+  },
+  {
+    "slug": "brand-new-stealth-llm-released-on-openrouter-its-a-beast",
+    "youtube_id": "nCzDnpWSiro",
+    "url": "https://www.youtube.com/watch?v=nCzDnpWSiro",
+    "title": "BRAND NEW \\\"Stealth\\\" LLM Released on OpenRouter (It's a BEAST)",
+    "published": "2025-04-03",
+    "duration": "0:14:42",
+    "recency_rank": 103
+  },
+  {
+    "slug": "build-an-army-of-ai-agents-on-autopilot-with-archon-heres-how",
+    "youtube_id": "-Fpp4CBo14g",
+    "url": "https://www.youtube.com/watch?v=-Fpp4CBo14g",
+    "title": "Build an ARMY of AI Agents on Autopilot with Archon, Here's How",
+    "published": "2025-04-02",
+    "duration": "0:19:46",
+    "recency_rank": 104
+  },
+  {
+    "slug": "code-100x-faster-with-ai-heres-how-no-hype-full-process",
+    "youtube_id": "SS5DYx6mPw8",
+    "url": "https://www.youtube.com/watch?v=SS5DYx6mPw8",
+    "title": "Code 100x Faster with AI, Here's How (No Hype, FULL Process)",
+    "published": "2025-03-30",
+    "duration": "0:32:10",
+    "recency_rank": 105
+  },
+  {
+    "slug": "the-mcp-integration-everyone-is-sleeping-on-mcp-custom-ai-agents",
+    "youtube_id": "soC4n-nKWF8",
+    "url": "https://www.youtube.com/watch?v=soC4n-nKWF8",
+    "title": "The MCP Integration EVERYONE is Sleeping On (MCP + Custom AI Agents)",
+    "published": "2025-03-26",
+    "duration": "0:21:29",
+    "recency_rank": 106
+  },
+  {
+    "slug": "10x-your-ai-agents-with-this-one-agent-architecture",
+    "youtube_id": "AgN3RHSZGwI",
+    "url": "https://www.youtube.com/watch?v=AgN3RHSZGwI",
+    "title": "10x Your AI Agents with this ONE Agent Architecture",
+    "published": "2025-03-23",
+    "duration": "0:41:36",
+    "recency_rank": 107
+  },
+  {
+    "slug": "claude-mcp-has-changed-ai-forever-heres-what-you-need-to-know",
+    "youtube_id": "v_6EXt6T83I",
+    "url": "https://www.youtube.com/watch?v=v_6EXt6T83I",
+    "title": "Claude MCP has Changed AI Forever - Here's What You NEED to Know",
+    "published": "2025-03-19",
+    "duration": "0:24:27",
+    "recency_rank": 108
+  },
+  {
+    "slug": "openais-brand-new-agents-sdk-crash-course",
+    "youtube_id": "e7qvd2bOITc",
+    "url": "https://www.youtube.com/watch?v=e7qvd2bOITc",
+    "title": "OpenAI’s BRAND NEW Agents SDK (Crash Course)",
+    "published": "2025-03-16",
+    "duration": "0:31:19",
+    "recency_rank": 109
+  },
+  {
+    "slug": "create-your-own-private-local-ai-cloud-stack-in-under-20-minutes",
+    "youtube_id": "hKrl5Gr7hM0",
+    "url": "https://www.youtube.com/watch?v=hKrl5Gr7hM0",
+    "title": "Create Your Own Private Local AI Cloud Stack in Under 20 Minutes",
+    "published": "2025-03-12",
+    "duration": "0:16:51",
+    "recency_rank": 110
+  },
+  {
+    "slug": "build-ai-agents-that-evolve-over-time",
+    "youtube_id": "iOZpiXLT7iY",
+    "url": "https://www.youtube.com/watch?v=iOZpiXLT7iY",
+    "title": "Build AI Agents that EVOLVE Over Time",
+    "published": "2025-03-09",
+    "duration": "0:25:06",
+    "recency_rank": 111
+  },
+  {
+    "slug": "the-ultimate-n8n-rag-ai-agent-template-local-ai-edition",
+    "youtube_id": "T2QWhXpnT5I",
+    "url": "https://www.youtube.com/watch?v=T2QWhXpnT5I",
+    "title": "The ULTIMATE n8n RAG AI Agent Template - Local AI Edition",
+    "published": "2025-03-05",
+    "duration": "0:32:41",
+    "recency_rank": 112
+  },
+  {
+    "slug": "introducing-archon-an-ai-agent-that-builds-ai-agents",
+    "youtube_id": "GjR5UsVGE60",
+    "url": "https://www.youtube.com/watch?v=GjR5UsVGE60",
+    "title": "Introducing Archon - an AI Agent that BUILDS AI Agents",
+    "published": "2025-03-02",
+    "duration": "0:21:56",
+    "recency_rank": 113
+  },
+  {
+    "slug": "i-built-the-ultimate-n8n-rag-ai-agent-template",
+    "youtube_id": "mQt1hOjBH9o",
+    "url": "https://www.youtube.com/watch?v=mQt1hOjBH9o",
+    "title": "I Built the ULTIMATE n8n RAG AI Agent Template",
+    "published": "2025-02-26",
+    "duration": "0:34:03",
+    "recency_rank": 114
+  },
+  {
+    "slug": "are-you-building-real-ai-agents-or-just-using-llms",
+    "youtube_id": "GYFTQU2iV4A",
+    "url": "https://www.youtube.com/watch?v=GYFTQU2iV4A",
+    "title": "Are You Building REAL AI Agents or Just Using LLMs?",
+    "published": "2025-02-23",
+    "duration": "0:18:29",
+    "recency_rank": 115
+  },
+  {
+    "slug": "coding-subagents-the-next-evolution-of-ai-ides",
+    "youtube_id": "Ri3iyi3qFlI",
+    "url": "https://www.youtube.com/watch?v=Ri3iyi3qFlI",
+    "title": "Coding Subagents - The Next Evolution of AI IDEs",
+    "published": "2025-02-19",
+    "duration": "0:26:59",
+    "recency_rank": 116
+  },
+  {
+    "slug": "run-supabase-100-locally-for-your-ai-agents",
+    "youtube_id": "pOsO40HSbOo",
+    "url": "https://www.youtube.com/watch?v=pOsO40HSbOo",
+    "title": "Run Supabase 100% LOCALLY for Your AI Agents",
+    "published": "2025-02-16",
+    "duration": "0:29:37",
+    "recency_rank": 117
+  },
+  {
+    "slug": "this-is-hands-down-the-best-way-to-build-ai-agents",
+    "youtube_id": "U6LbW2IFUQw",
+    "url": "https://www.youtube.com/watch?v=U6LbW2IFUQw",
+    "title": "This is Hands Down the BEST Way to Build AI Agents",
+    "published": "2025-02-12",
+    "duration": "0:51:25",
+    "recency_rank": 118
+  },
+  {
+    "slug": "lets-settle-the-o3-mini-vs-r1-debate-for-coding-once-and-for-all",
+    "youtube_id": "xfFyAumTjT0",
+    "url": "https://www.youtube.com/watch?v=xfFyAumTjT0",
+    "title": "Let's Settle the o3-mini Vs. R1 Debate for Coding ONCE and for ALL",
+    "published": "2025-02-05",
+    "duration": "0:19:14",
+    "recency_rank": 119
+  },
+  {
+    "slug": "you-have-to-try-agentic-rag-with-deepseek-r1-insane-results",
+    "youtube_id": "uWDocIoiaXE",
+    "url": "https://www.youtube.com/watch?v=uWDocIoiaXE",
+    "title": "You HAVE to Try Agentic RAG with DeepSeek R1 (Insane Results)",
+    "published": "2025-02-02",
+    "duration": "0:22:20",
+    "recency_rank": 120
+  },
+  {
+    "slug": "deploying-billions-of-ai-agents-is-easier-than-you-think",
+    "youtube_id": "2Ai7_5G70xY",
+    "url": "https://www.youtube.com/watch?v=2Ai7_5G70xY",
+    "title": "Deploying Billions of AI Agents is Easier than You Think",
+    "published": "2025-01-29",
+    "duration": "0:19:40",
+    "recency_rank": 121
+  },
+  {
+    "slug": "n8n-crawl4ai-scrape-any-website-in-minutes-with-no-code",
+    "youtube_id": "c5dw_jsGNBk",
+    "url": "https://www.youtube.com/watch?v=c5dw_jsGNBk",
+    "title": "n8n + Crawl4AI - Scrape ANY Website in Minutes with NO Code",
+    "published": "2025-01-26",
+    "duration": "0:33:47",
+    "recency_rank": 122
+  },
+  {
+    "slug": "deepseek-r1-just-revolutionized-ai-forever",
+    "youtube_id": "-GmEIqi0yNE",
+    "url": "https://www.youtube.com/watch?v=-GmEIqi0yNE",
+    "title": "DeepSeek R1 Just Revolutionized AI Forever",
+    "published": "2025-01-22",
+    "duration": "0:21:08",
+    "recency_rank": 123
+  },
+  {
+    "slug": "insane-new-strategy-for-building-ai-agent-apps",
+    "youtube_id": "yRIEpNlacd0",
+    "url": "https://www.youtube.com/watch?v=yRIEpNlacd0",
+    "title": "INSANE New Strategy for Building AI Agent Apps",
+    "published": "2025-01-19",
+    "duration": "0:27:02",
+    "recency_rank": 124
+  },
+  {
+    "slug": "the-future-of-rag-is-agentic-learn-this-strategy-now",
+    "youtube_id": "_R-ff4ZMLC8",
+    "url": "https://www.youtube.com/watch?v=_R-ff4ZMLC8",
+    "title": "The Future of RAG is Agentic - Learn this Strategy NOW",
+    "published": "2025-01-15",
+    "duration": "0:45:50",
+    "recency_rank": 125
+  },
+  {
+    "slug": "turn-any-website-into-llm-knowledge-in-seconds",
+    "youtube_id": "JWfNLF_g_V0",
+    "url": "https://www.youtube.com/watch?v=JWfNLF_g_V0",
+    "title": "Turn ANY Website into LLM Knowledge in SECONDS",
+    "published": "2025-01-12",
+    "duration": "0:18:46",
+    "recency_rank": 126
+  },
+  {
+    "slug": "the-glow-up-every-ai-agent-needs",
+    "youtube_id": "7XZbI_ez8_U",
+    "url": "https://www.youtube.com/watch?v=7XZbI_ez8_U",
+    "title": "The GLOW-UP Every AI Agent Needs",
+    "published": "2025-01-08",
+    "duration": "0:31:12",
+    "recency_rank": 127
+  },
+  {
+    "slug": "pydantic-ai-deepseek-v3-the-best-ai-agent-combo",
+    "youtube_id": "zf_D2Eafvk0",
+    "url": "https://www.youtube.com/watch?v=zf_D2Eafvk0",
+    "title": "Pydantic AI + DeepSeek V3 - The BEST AI Agent Combo",
+    "published": "2025-01-05",
+    "duration": "0:29:21",
+    "recency_rank": 128
+  },
+  {
+    "slug": "how-to-dominate-with-ai-in-2025",
+    "youtube_id": "wAzBl6xllzE",
+    "url": "https://www.youtube.com/watch?v=wAzBl6xllzE",
+    "title": "How to DOMINATE with AI in 2025",
+    "published": "2025-01-01",
+    "duration": "0:28:50",
+    "recency_rank": 129
+  },
+  {
+    "slug": "im-hosting-a-huge-ai-hackathon-competition",
+    "youtube_id": "29pxyXAk_lU",
+    "url": "https://www.youtube.com/watch?v=29pxyXAk_lU",
+    "title": "I'm Hosting a HUGE AI Hackathon Competition",
+    "published": "2024-12-25",
+    "duration": "0:06:58",
+    "recency_rank": 130
+  },
+  {
+    "slug": "revealing-my-complete-ai-agent-blueprint",
+    "youtube_id": "FGeB9w1ZeHE",
+    "url": "https://www.youtube.com/watch?v=FGeB9w1ZeHE",
+    "title": "Revealing my COMPLETE AI Agent Blueprint",
+    "published": "2024-12-22",
+    "duration": "0:14:40",
+    "recency_rank": 131
+  },
+  {
+    "slug": "boltdiy-the-future-of-open-source-ai-coding-whats-next",
+    "youtube_id": "aZn8PhqUZVU",
+    "url": "https://www.youtube.com/watch?v=aZn8PhqUZVU",
+    "title": "bolt.diy: The Future of Open Source AI Coding - What's Next?",
+    "published": "2024-12-18",
+    "duration": "0:20:48",
+    "recency_rank": 132
+  },
+  {
+    "slug": "i-created-the-best-ai-agent-platform-in-just-2-months",
+    "youtube_id": "WU8aa4YanA4",
+    "url": "https://www.youtube.com/watch?v=WU8aa4YanA4",
+    "title": "I Created the BEST AI Agent Platform in Just 2 MONTHS!",
+    "published": "2024-12-15",
+    "duration": "0:13:18",
+    "recency_rank": 133
+  },
+  {
+    "slug": "breaking-news-ottodev-is-now-the-official-open-source-boltnew",
+    "youtube_id": "p8BTuuTr5iU",
+    "url": "https://www.youtube.com/watch?v=p8BTuuTr5iU",
+    "title": "BREAKING NEWS: oTToDev is Now the OFFICIAL Open Source Bolt.new",
+    "published": "2024-12-11",
+    "duration": "0:11:45",
+    "recency_rank": 134
+  },
+  {
+    "slug": "weve-been-building-ai-agents-wrong-until-now",
+    "youtube_id": "pC17ge_2n0Q",
+    "url": "https://www.youtube.com/watch?v=pC17ge_2n0Q",
+    "title": "We've Been Building AI Agents WRONG Until Now",
+    "published": "2024-12-08",
+    "duration": "0:19:53",
+    "recency_rank": 135
+  },
+  {
+    "slug": "flowise-n8n-the-best-no-code-local-ai-agent-combo",
+    "youtube_id": "23s2N3ug8B8",
+    "url": "https://www.youtube.com/watch?v=23s2N3ug8B8",
+    "title": "Flowise + n8n - The BEST No Code + Local AI Agent Combo",
+    "published": "2024-12-04",
+    "duration": "0:29:13",
+    "recency_rank": 136
+  },
+  {
+    "slug": "our-boltnew-forks-most-requested-feature-is-finally-here",
+    "youtube_id": "nkqQfABopyc",
+    "url": "https://www.youtube.com/watch?v=nkqQfABopyc",
+    "title": "Our Bolt.new Fork's Most Requested Feature is FINALLY Here",
+    "published": "2024-12-01",
+    "duration": "0:15:25",
+    "recency_rank": 137
+  },
+  {
+    "slug": "im-addicted-to-windsurf-send-help",
+    "youtube_id": "ukhe1013Jpk",
+    "url": "https://www.youtube.com/watch?v=ukhe1013Jpk",
+    "title": "I'm Addicted to Windsurf, Send Help",
+    "published": "2024-11-27",
+    "duration": "0:19:33",
+    "recency_rank": 138
+  },
+  {
+    "slug": "claude-computer-use-boltnew-the-ultimate-ai-coding-combo",
+    "youtube_id": "R6AYmqcOXaw",
+    "url": "https://www.youtube.com/watch?v=R6AYmqcOXaw",
+    "title": "Claude Computer Use + Bolt.new - The ULTIMATE AI Coding Combo?!",
+    "published": "2024-11-24",
+    "duration": "0:10:31",
+    "recency_rank": 139
+  },
+  {
+    "slug": "10-n8n-tips-in-10-minutes-to-10x-your-ai-automations",
+    "youtube_id": "Nsu9BzQv5C4",
+    "url": "https://www.youtube.com/watch?v=Nsu9BzQv5C4",
+    "title": "10 n8n Tips in 10 Minutes to 10x Your AI Automations",
+    "published": "2024-11-20",
+    "duration": "0:11:11",
+    "recency_rank": 140
+  },
+  {
+    "slug": "ottodev-is-becoming-the-best-open-source-ai-coding-assistant",
+    "youtube_id": "5I9VgwauuzU",
+    "url": "https://www.youtube.com/watch?v=5I9VgwauuzU",
+    "title": "oTToDev is Becoming the BEST Open Source AI Coding Assistant",
+    "published": "2024-11-17",
+    "duration": "0:14:55",
+    "recency_rank": 141
+  },
+  {
+    "slug": "turn-any-ai-agent-into-a-live-person-voice-chat-setup-in-minutes",
+    "youtube_id": "L9JqdwdCiyE",
+    "url": "https://www.youtube.com/watch?v=L9JqdwdCiyE",
+    "title": "Turn ANY AI Agent into a Live Person - Voice Chat Setup in Minutes",
+    "published": "2024-11-15",
+    "duration": "0:16:24",
+    "recency_rank": 142
+  },
+  {
+    "slug": "qwen-just-casually-started-the-local-ai-revolution",
+    "youtube_id": "y6Wh4SpRoao",
+    "url": "https://www.youtube.com/watch?v=y6Wh4SpRoao",
+    "title": "Qwen Just Casually Started the Local AI Revolution",
+    "published": "2024-11-13",
+    "duration": "0:16:06",
+    "recency_rank": 143
+  },
+  {
+    "slug": "the-king-of-no-code-ai-agent-builders",
+    "youtube_id": "0c05ijEmk2g",
+    "url": "https://www.youtube.com/watch?v=0c05ijEmk2g",
+    "title": "The KING of No Code AI Agent Builders?!",
+    "published": "2024-11-08",
+    "duration": "0:19:16",
+    "recency_rank": 144
+  },
+  {
+    "slug": "how-to-use-boltnew-for-free-with-local-llms-and-no-rate-limits",
+    "youtube_id": "8ommGcs_-VU",
+    "url": "https://www.youtube.com/watch?v=8ommGcs_-VU",
+    "title": "How to Use Bolt.new for FREE with Local LLMs (And NO Rate Limits)",
+    "published": "2024-11-06",
+    "duration": "0:16:10",
+    "recency_rank": 145
+  },
+  {
+    "slug": "were-taking-this-ai-coding-assistant-to-the-moon-plus-installation-instructions",
+    "youtube_id": "31ivQdydmGg",
+    "url": "https://www.youtube.com/watch?v=31ivQdydmGg",
+    "title": "We're Taking this AI Coding Assistant to the MOON [Plus Installation Instructions!]",
+    "published": "2024-11-03",
+    "duration": "0:13:10",
+    "recency_rank": 146
+  },
+  {
+    "slug": "ollama-openais-swarm-easily-run-ai-agents-locally",
+    "youtube_id": "8jpVeUTNExI",
+    "url": "https://www.youtube.com/watch?v=8jpVeUTNExI",
+    "title": "Ollama + OpenAI's Swarm - EASILY Run AI Agents Locally",
+    "published": "2024-10-30",
+    "duration": "0:20:05",
+    "recency_rank": 147
+  },
+  {
+    "slug": "this-boltnew-fork-is-exploding-dont-miss-out-on-whats-happening",
+    "youtube_id": "jm007pw2v1A",
+    "url": "https://www.youtube.com/watch?v=jm007pw2v1A",
+    "title": "This Bolt.new Fork is EXPLODING - Don't Miss out on What's Happening!",
+    "published": "2024-10-27",
+    "duration": "0:16:47",
+    "recency_rank": 148
+  },
+  {
+    "slug": "stop-paying-for-gpt-claude-other-llms-get-them-all-in-one-place",
+    "youtube_id": "0SrxPa210sU",
+    "url": "https://www.youtube.com/watch?v=0SrxPa210sU",
+    "title": "STOP Paying for GPT, Claude, & Other LLMs - Get them ALL in One Place",
+    "published": "2024-10-25",
+    "duration": "0:10:15",
+    "recency_rank": 149
+  },
+  {
+    "slug": "use-open-webui-with-your-n8n-ai-agents-voice-chat-included",
+    "youtube_id": "E2GIZrsDvuM",
+    "url": "https://www.youtube.com/watch?v=E2GIZrsDvuM",
+    "title": "Use Open WebUI with Your N8N AI Agents - Voice Chat Included!",
+    "published": "2024-10-23",
+    "duration": "0:26:08",
+    "recency_rank": 150
+  },
+  {
+    "slug": "im-building-the-best-open-source-ai-coding-assistant-with-your-help",
+    "youtube_id": "p1YvKuRfEhg",
+    "url": "https://www.youtube.com/watch?v=p1YvKuRfEhg",
+    "title": "I'm Building the BEST Open Source AI Coding Assistant with YOUR Help",
+    "published": "2024-10-20",
+    "duration": "0:16:22",
+    "recency_rank": 151
+  },
+  {
+    "slug": "openais-swarm-a-game-changer-for-ai-agents",
+    "youtube_id": "q7_5eCmu0MY",
+    "url": "https://www.youtube.com/watch?v=q7_5eCmu0MY",
+    "title": "OpenAI's Swarm - a GAME CHANGER for AI Agents",
+    "published": "2024-10-16",
+    "duration": "0:20:49",
+    "recency_rank": 152
+  },
+  {
+    "slug": "i-forked-boltnew-and-made-it-way-better",
+    "youtube_id": "3PFcAu_oU80",
+    "url": "https://www.youtube.com/watch?v=3PFcAu_oU80",
+    "title": "I Forked Bolt.new and Made it WAY Better",
+    "published": "2024-10-13",
+    "duration": "0:19:30",
+    "recency_rank": 153
+  },
+  {
+    "slug": "get-qualified-leads-while-you-sleep-with-ai",
+    "youtube_id": "1I0PvfHjaRE",
+    "url": "https://www.youtube.com/watch?v=1I0PvfHjaRE",
+    "title": "Get Qualified Leads While you Sleep with AI",
+    "published": "2024-10-11",
+    "duration": "0:18:38",
+    "recency_rank": 154
+  },
+  {
+    "slug": "effortless-rag-in-n8n-use-all-your-files-pdfs-excel-and-more",
+    "youtube_id": "T1ZKEmDN8AA",
+    "url": "https://www.youtube.com/watch?v=T1ZKEmDN8AA",
+    "title": "Effortless RAG in n8n - Use ALL Your Files (PDFs, Excel, and More)",
+    "published": "2024-10-09",
+    "duration": "0:18:18",
+    "recency_rank": 155
+  },
+  {
+    "slug": "deploy-any-ai-app-to-the-cloud-fast",
+    "youtube_id": "259KgP3GbdE",
+    "url": "https://www.youtube.com/watch?v=259KgP3GbdE",
+    "title": "Deploy ANY AI App to the Cloud FAST",
+    "published": "2024-10-06",
+    "duration": "0:21:20",
+    "recency_rank": 156
+  },
+  {
+    "slug": "this-slack-ai-personal-assistant-is-better-than-a-real-person",
+    "youtube_id": "oMwipO6cmPQ",
+    "url": "https://www.youtube.com/watch?v=oMwipO6cmPQ",
+    "title": "This Slack AI Personal Assistant is Better than a Real Person",
+    "published": "2024-10-04",
+    "duration": "0:12:24",
+    "recency_rank": 157
+  },
+  {
+    "slug": "build-a-full-stack-app-for-your-n8n-ai-agent-in-20-minutes",
+    "youtube_id": "JyolNYRbAcs",
+    "url": "https://www.youtube.com/watch?v=JyolNYRbAcs",
+    "title": "Build a FULL Stack App for your n8n AI Agent in 20 Minutes",
+    "published": "2024-10-02",
+    "duration": "0:20:27",
+    "recency_rank": 158
+  },
+  {
+    "slug": "llama-32-is-insane-but-does-it-beat-gpt-as-an-ai-agent",
+    "youtube_id": "E3jO8YLc_CI",
+    "url": "https://www.youtube.com/watch?v=E3jO8YLc_CI",
+    "title": "Llama 3.2 is INSANE - But Does it Beat GPT as an AI Agent?",
+    "published": "2024-09-29",
+    "duration": "0:16:31",
+    "recency_rank": 159
+  },
+  {
+    "slug": "i-built-a-full-rag-ai-agent-with-no-code-in-4-minutes-with-vectorshift",
+    "youtube_id": "ieLdMih5_V0",
+    "url": "https://www.youtube.com/watch?v=ieLdMih5_V0",
+    "title": "I Built a FULL RAG AI Agent with No Code in 4 Minutes with VectorShift",
+    "published": "2024-09-27",
+    "duration": "0:10:07",
+    "recency_rank": 160
+  },
+  {
+    "slug": "the-hard-truth-about-hosting-your-own-llms",
+    "youtube_id": "EMuBqcO048E",
+    "url": "https://www.youtube.com/watch?v=EMuBqcO048E",
+    "title": "The HARD Truth About Hosting Your Own LLMs",
+    "published": "2024-09-25",
+    "duration": "0:14:45",
+    "recency_rank": 161
+  },
+  {
+    "slug": "dont-sleep-on-the-ultimate-ai-agent-combo-n8n-langchain-python",
+    "youtube_id": "8hAMASB-RpM",
+    "url": "https://www.youtube.com/watch?v=8hAMASB-RpM",
+    "title": "Don't Sleep on the ULTIMATE AI Agent Combo (n8n, LangChain, Python)",
+    "published": "2024-09-22",
+    "duration": "0:24:58",
+    "recency_rank": 162
+  },
+  {
+    "slug": "bubble-is-my-biggest-regret-for-no-code-ai-apps-what-i-use-instead",
+    "youtube_id": "rbVp40BIBBs",
+    "url": "https://www.youtube.com/watch?v=rbVp40BIBBs",
+    "title": "Bubble is My BIGGEST Regret for No Code AI Apps - What I Use Instead",
+    "published": "2024-09-20",
+    "duration": "0:12:02",
+    "recency_rank": 163
+  },
+  {
+    "slug": "openais-o1-is-barely-usable-but-i-fixed-it",
+    "youtube_id": "IsxXO3EbIqc",
+    "url": "https://www.youtube.com/watch?v=IsxXO3EbIqc",
+    "title": "OpenAI's o1 is Barely Usable, but I Fixed it...",
+    "published": "2024-09-18",
+    "duration": "0:24:47",
+    "recency_rank": 164
+  },
+  {
+    "slug": "run-all-your-ai-locally-in-minutes-llms-rag-and-more",
+    "youtube_id": "V_0dNE-H2gw",
+    "url": "https://www.youtube.com/watch?v=V_0dNE-H2gw",
+    "title": "Run ALL Your AI Locally in Minutes (LLMs, RAG, and more)",
+    "published": "2024-09-15",
+    "duration": "0:20:21",
+    "recency_rank": 165
+  },
+  {
+    "slug": "local-vs-cloud-llmsrag-lets-finally-end-this-debate",
+    "youtube_id": "W5X34-QmdEQ",
+    "url": "https://www.youtube.com/watch?v=W5X34-QmdEQ",
+    "title": "Local vs. Cloud LLMs/RAG - Let's FINALLY End this Debate",
+    "published": "2024-09-11",
+    "duration": "0:10:15",
+    "recency_rank": 166
+  },
+  {
+    "slug": "v0-claude-a-game-changer-for-building-ai-apps",
+    "youtube_id": "BpVuhKbSVS4",
+    "url": "https://www.youtube.com/watch?v=BpVuhKbSVS4",
+    "title": "V0 + Claude: A GAME CHANGER for Building AI Apps",
+    "published": "2024-09-08",
+    "duration": "0:21:40",
+    "recency_rank": 167
+  },
+  {
+    "slug": "this-rag-ai-agent-with-n8n-supabase-is-the-real-deal",
+    "youtube_id": "PEI_ePNNfJQ",
+    "url": "https://www.youtube.com/watch?v=PEI_ePNNfJQ",
+    "title": "This RAG AI Agent with n8n + Supabase is the Real Deal",
+    "published": "2024-09-04",
+    "duration": "0:16:28",
+    "recency_rank": 168
+  },
+  {
+    "slug": "complete-guide-to-langserve-make-your-ai-agent-actually-useful",
+    "youtube_id": "qgH_KFSFMUE",
+    "url": "https://www.youtube.com/watch?v=qgH_KFSFMUE",
+    "title": "COMPLETE Guide to LangServe - Make Your AI Agent Actually Useful",
+    "published": "2024-09-01",
+    "duration": "0:17:18",
+    "recency_rank": 169
+  },
+  {
+    "slug": "i-found-the-limits-of-the-most-popular-llms",
+    "youtube_id": "uIWNzcqHQ58",
+    "url": "https://www.youtube.com/watch?v=uIWNzcqHQ58",
+    "title": "I Found the Limits of the Most Popular LLMs",
+    "published": "2024-08-28",
+    "duration": "0:32:41",
+    "recency_rank": 170
+  },
+  {
+    "slug": "no-code-rag-agents-you-have-to-check-out-n8n-langchain",
+    "youtube_id": "Xifzdn7zW3A",
+    "url": "https://www.youtube.com/watch?v=Xifzdn7zW3A",
+    "title": "No Code RAG Agents? You HAVE to Check out n8n + LangChain",
+    "published": "2024-08-25",
+    "duration": "0:17:47",
+    "recency_rank": 171
+  },
+  {
+    "slug": "the-most-profitable-ai-niche-no-one-is-talking-about",
+    "youtube_id": "1lvAvLXXA10",
+    "url": "https://www.youtube.com/watch?v=1lvAvLXXA10",
+    "title": "The MOST Profitable AI Niche NO ONE is Talking About",
+    "published": "2024-08-21",
+    "duration": "0:16:22",
+    "recency_rank": 172
+  },
+  {
+    "slug": "youre-wasting-time-coding-your-ai-agents",
+    "youtube_id": "VxTw9tzzlbc",
+    "url": "https://www.youtube.com/watch?v=VxTw9tzzlbc",
+    "title": "You're WASTING TIME Coding Your AI Agents",
+    "published": "2024-08-18",
+    "duration": "0:11:36",
+    "recency_rank": 173
+  },
+  {
+    "slug": "build-a-chatbot-for-your-website-in-4-minutes-no-code",
+    "youtube_id": "ceQcKm061aU",
+    "url": "https://www.youtube.com/watch?v=ceQcKm061aU",
+    "title": "Build a Chatbot for Your Website in 4 Minutes (No Code)",
+    "published": "2024-08-14",
+    "duration": "0:03:59",
+    "recency_rank": 174
+  },
+  {
+    "slug": "the-best-tool-for-ai-agent-workflows-langgraph-full-guide",
+    "youtube_id": "w_HeP0A2MF8",
+    "url": "https://www.youtube.com/watch?v=w_HeP0A2MF8",
+    "title": "THE BEST Tool for AI Agent Workflows - LangGraph FULL Guide",
+    "published": "2024-08-11",
+    "duration": "0:24:08",
+    "recency_rank": 175
+  },
+  {
+    "slug": "prompt-engineering-is-a-bunch-of-bs-heres-the-5-of-it-to-learn",
+    "youtube_id": "XIIIXd5VqO0",
+    "url": "https://www.youtube.com/watch?v=XIIIXd5VqO0",
+    "title": "\\\"Prompt Engineering\\\" is a Bunch of BS - Here's the 5% of it to Learn",
+    "published": "2024-08-07",
+    "duration": "0:04:47",
+    "recency_rank": 176
+  },
+  {
+    "slug": "this-ai-agent-with-rag-manages-my-life",
+    "youtube_id": "7dKQPbSXiB8",
+    "url": "https://www.youtube.com/watch?v=7dKQPbSXiB8",
+    "title": "This AI Agent with RAG Manages MY LIFE",
+    "published": "2024-08-04",
+    "duration": "0:10:53",
+    "recency_rank": 177
+  },
+  {
+    "slug": "ai-is-too-expensive-if-you-dont-do-this",
+    "youtube_id": "ZzRCrhA3JUQ",
+    "url": "https://www.youtube.com/watch?v=ZzRCrhA3JUQ",
+    "title": "AI is TOO EXPENSIVE if You Don't Do This",
+    "published": "2024-07-31",
+    "duration": "0:11:26",
+    "recency_rank": 178
+  },
+  {
+    "slug": "the-most-value-packed-rag-guide-on-youtube-feat-llama-31-405b",
+    "youtube_id": "BrUW8_cCTew",
+    "url": "https://www.youtube.com/watch?v=BrUW8_cCTew",
+    "title": "The Most Value Packed RAG Guide on YouTube (Feat. Llama 3.1 405B!)",
+    "published": "2024-07-28",
+    "duration": "0:11:33",
+    "recency_rank": 179
+  },
+  {
+    "slug": "ai-agents-the-future-of-ai-or-a-passing-fad",
+    "youtube_id": "gp452XlJSb4",
+    "url": "https://www.youtube.com/watch?v=gp452XlJSb4",
+    "title": "AI Agents: The Future of AI or a Passing Fad?",
+    "published": "2024-07-24",
+    "duration": "0:11:42",
+    "recency_rank": 180
+  },
+  {
+    "slug": "new-llama-3-model-beats-gpt-and-claude-with-function-calling",
+    "youtube_id": "RtEzpBhQWIc",
+    "url": "https://www.youtube.com/watch?v=RtEzpBhQWIc",
+    "title": "New Llama 3 Model BEATS GPT and Claude with Function Calling!?",
+    "published": "2024-07-21",
+    "duration": "0:14:06",
+    "recency_rank": 181
+  },
+  {
+    "slug": "build-a-hilarious-ai-game-from-scratch-in-10-minutes",
+    "youtube_id": "BZJBDYkUDf0",
+    "url": "https://www.youtube.com/watch?v=BZJBDYkUDf0",
+    "title": "Build a Hilarious AI Game from SCRATCH in 10 Minutes",
+    "published": "2024-07-17",
+    "duration": "0:13:07",
+    "recency_rank": 182
+  },
+  {
+    "slug": "i-finally-built-an-ai-agent-to-organize-my-life-ai-agents-masterclass-4",
+    "youtube_id": "s3SY_2a3Woo",
+    "url": "https://www.youtube.com/watch?v=s3SY_2a3Woo",
+    "title": "I FINALLY Built an AI Agent to Organize my Life - AI Agents Masterclass #4",
+    "published": "2024-07-14",
+    "duration": "0:13:20",
+    "recency_rank": 183
+  },
+  {
+    "slug": "function-calling-with-any-llm-for-local-ai-agents-feat-langchain-huggingface-and-llama-3",
+    "youtube_id": "PPDsrvuPhWQ",
+    "url": "https://www.youtube.com/watch?v=PPDsrvuPhWQ",
+    "title": "Function Calling with ANY LLM for Local AI Agents (Feat. LangChain, HuggingFace, and Llama 3)",
+    "published": "2024-07-10",
+    "duration": "0:15:57",
+    "recency_rank": 184
+  },
+  {
+    "slug": "ai-agents-just-got-sexy-ai-agents-masterclass-3",
+    "youtube_id": "ft9Z67d1wik",
+    "url": "https://www.youtube.com/watch?v=ft9Z67d1wik",
+    "title": "AI Agents Just Got Sexy - AI Agents Masterclass #3",
+    "published": "2024-07-07",
+    "duration": "0:16:18",
+    "recency_rank": 185
+  },
+  {
+    "slug": "i-made-a-custom-ai-chatbot-site-in-47-lines-of-code",
+    "youtube_id": "blQAUBtCgdc",
+    "url": "https://www.youtube.com/watch?v=blQAUBtCgdc",
+    "title": "I Made a Custom AI Chatbot Site in 47 Lines of Code",
+    "published": "2024-07-03",
+    "duration": "0:08:46",
+    "recency_rank": 186
+  },
+  {
+    "slug": "the-secret-sauce-for-simple-powerful-ai-apps-ai-agents-masterclass-2",
+    "youtube_id": "hA_D9FywKgA",
+    "url": "https://www.youtube.com/watch?v=hA_D9FywKgA",
+    "title": "The Secret Sauce for SIMPLE + POWERFUL AI Apps - AI Agents Masterclass #2",
+    "published": "2024-06-30",
+    "duration": "0:13:17",
+    "recency_rank": 187
+  },
+  {
+    "slug": "the-only-ai-developer-roadmap-you-need-in-2024",
+    "youtube_id": "2NjuPJjx3zI",
+    "url": "https://www.youtube.com/watch?v=2NjuPJjx3zI",
+    "title": "The ONLY AI Developer Roadmap You Need in 2024",
+    "published": "2024-06-26",
+    "duration": "0:15:53",
+    "recency_rank": 188
+  },
+  {
+    "slug": "developers-this-is-how-you-stay-relevant-with-ai-ai-agents-masterclass-1",
+    "youtube_id": "zaNIvRllycM",
+    "url": "https://www.youtube.com/watch?v=zaNIvRllycM",
+    "title": "Developers, THIS is How you Stay Relevant with AI - AI Agents Masterclass #1",
+    "published": "2024-06-23",
+    "duration": "0:16:55",
+    "recency_rank": 189
+  },
+  {
+    "slug": "introducing-trainers-ally-nvidia-ai-agents-competition-submission",
+    "youtube_id": "9JFK3xVrDCA",
+    "url": "https://www.youtube.com/watch?v=9JFK3xVrDCA",
+    "title": "Introducing Trainer's Ally - Nvidia AI Agents Competition Submission",
+    "published": "2024-06-17",
+    "duration": "0:01:31",
+    "recency_rank": 190
+  },
+  {
+    "slug": "i-will-win-the-nvidia-ai-agents-developer-contest",
+    "youtube_id": "zjtDBaIPnTQ",
+    "url": "https://www.youtube.com/watch?v=zjtDBaIPnTQ",
+    "title": "I Will Win the Nvidia AI Agents Developer Contest",
+    "published": "2024-06-09",
+    "duration": "0:06:53",
+    "recency_rank": 191
+  },
+  {
+    "slug": "chatgpt-teaches-the-secrets-to-financial-freedom",
+    "youtube_id": "OLJ9FYd9H1Y",
+    "url": "https://www.youtube.com/watch?v=OLJ9FYd9H1Y",
+    "title": "ChatGPT Teaches the Secrets to Financial Freedom!?",
+    "published": "2023-06-18",
+    "duration": "0:14:50",
+    "recency_rank": 192
+  },
+  {
+    "slug": "3-most-important-prompt-engineering-techniques-you-need-to-know",
+    "youtube_id": "yo5liQr6Wy4",
+    "url": "https://www.youtube.com/watch?v=yo5liQr6Wy4",
+    "title": "3 MOST Important Prompt Engineering Techniques you NEED to know!",
+    "published": "2023-05-28",
+    "duration": "0:10:46",
+    "recency_rank": 193
+  },
+  {
+    "slug": "chatgpt-users-be-aware-of-this-major-weakness",
+    "youtube_id": "uB9cgB6Of9k",
+    "url": "https://www.youtube.com/watch?v=uB9cgB6Of9k",
+    "title": "ChatGPT Users BE AWARE of this Major Weakness",
+    "published": "2023-05-22",
+    "duration": "0:09:32",
+    "recency_rank": 194
+  },
+  {
+    "slug": "use-chatgpt-in-two-clicks-on-any-website-with-a-custom-chrome-extension",
+    "youtube_id": "3kI14Jpzj_E",
+    "url": "https://www.youtube.com/watch?v=3kI14Jpzj_E",
+    "title": "Use ChatGPT in Two Clicks on ANY website with a Custom Chrome Extension",
+    "published": "2023-05-09",
+    "duration": "0:21:56",
+    "recency_rank": 195
+  },
+  {
+    "slug": "you-need-these-5-tools-for-coding-better-than-chatgpt",
+    "youtube_id": "nK6kMbZWqV8",
+    "url": "https://www.youtube.com/watch?v=nK6kMbZWqV8",
+    "title": "You NEED These 5 Tools For Coding!! (Better Than ChatGPT)",
+    "published": "2023-04-29",
+    "duration": "0:12:50",
+    "recency_rank": 196
+  },
+  {
+    "slug": "chatgpt-is-the-gift-that-keeps-on-giving-introducing-auto-gpt",
+    "youtube_id": "JeHObBsyKKM",
+    "url": "https://www.youtube.com/watch?v=JeHObBsyKKM",
+    "title": "ChatGPT is the GIFT that keeps on GIVING - Introducing Auto-GPT",
+    "published": "2023-04-18",
+    "duration": "0:16:48",
+    "recency_rank": 197
+  },
+  {
+    "slug": "how-to-use-gpt4-to-grow-on-twitter-the-right-way",
+    "youtube_id": "0bSppwVxVr4",
+    "url": "https://www.youtube.com/watch?v=0bSppwVxVr4",
+    "title": "How to Use GPT4 To Grow on Twitter The Right Way",
+    "published": "2023-04-05",
+    "duration": "0:11:21",
+    "recency_rank": 198
+  }
+]
