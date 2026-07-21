@@ -44,4 +44,4 @@ Pick the theme your question is about and open the hub concepts; each links onwa
 
 ---
 
-_Maintained per [SCHEMA.md](SCHEMA.md). Validate with `python lint.py`. Ingestion history in [log.md](log.md); scope in [roadmap.md](roadmap.md)._
+_Maintained per [SCHEMA.md](SCHEMA.md). Validate with `python lint.py`. Ingestion history in [log.md](log.md); scope in [roadmap.md](roadmap.md). How this was built: [docs/MAKING-OF.md](docs/MAKING-OF.md)._

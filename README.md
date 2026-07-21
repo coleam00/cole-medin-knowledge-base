@@ -50,6 +50,8 @@ Use the Cole Medin AI Knowledge Base as a reference:
 4. **Write & link.** Concept/entity/source pages are written and cross-linked with typed relationship headings.
 5. **Validate.** `python scripts/build_indexes.py` regenerates the indexes; `python lint.py` gates conformance, link integrity, index coverage, and orphans.
 
+For the full story - the two-pass agent architecture, the tooling, and the validation results (citation integrity, adversarial QA, recall) - see [`docs/MAKING-OF.md`](docs/MAKING-OF.md) and [`tools/`](tools).
+
 See [`SCHEMA.md`](SCHEMA.md) for the full contract and [`docs/ingestion-workflow.md`](docs/ingestion-workflow.md) for the step-by-step. Coverage and growth model are in [`roadmap.md`](roadmap.md).
 
 ## License / provenance
