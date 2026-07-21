@@ -20,15 +20,18 @@ Cole frames Postman around two shifts. First, **git-native APIs as agent-friendl
 
 Second, **Postman as a place to build and host agents, not just test APIs.** He highlights that "they are now helping you build APIs for your AI agents" and that the platform ships an agent builder: "They have an AI agent builder ... here we can build productionready AI agents sitting behind the Postman API infrastructure." The pitch is an end-to-end API lifecycle, design, spec, test, and now an agent mode across it, with production agents running on the same API plumbing teams already trust. Cole's angle is characteristically pragmatic: whichever model you choose ([model selection](../../concepts/model-selection.md) is orthogonal), a git-native, agent-aware API tool removes friction that used to keep the API layer walled off from the coding agent.
 
+## Works with
+
+- [GitHub](./github.md) - the version-control substrate a git-native Postman rides on.
+
 ## Related
 
-- [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) - git-native specs join the agentic coding loop
-- [The PIV Loop](../../concepts/the-piv-loop.md) - plan/implement/validate extended to the API layer
-- [Code Execution](../../concepts/code-execution.md) - specs and tests as editable local files
-- [Human in the Loop](../../concepts/human-in-the-loop.md) - reviewing agent-authored API changes
-- [Model Selection](../../concepts/model-selection.md)
-- [Progressive Disclosure](../../concepts/progressive-disclosure.md)
-- [GitHub](./github.md) - the version-control substrate a git-native Postman rides on
+- [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) - git-native specs join the agentic coding loop in isolated worktrees.
+- [The PIV Loop](../../concepts/the-piv-loop.md) - plan/implement/validate extended to the API layer.
+- [Code Execution](../../concepts/code-execution.md) - specs and tests as editable local files an agent can read and run.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - reviewing agent-authored API changes at the approval gate.
+- [Model Selection](../../concepts/model-selection.md) - the orthogonal choice of which LLM drives the API-aware coding agent.
+- [Progressive Disclosure](../../concepts/progressive-disclosure.md) - loading the API surface into context only when a task needs it.
 
 ## Sources
 

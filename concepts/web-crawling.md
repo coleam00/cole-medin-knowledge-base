@@ -23,7 +23,7 @@ Two disciplines keep ingestion healthy. First, crawl ethically: "there are a lot
 
 ## Contrasts with
 
-- [No-Code vs. Code](./no-code-vs-code.md) - the ingestion path is a classic tradeoff: n8n "does not work very well for large files... I have had N8N choke, even with 20 megabyte PDF files" [0:08:40], while in Python "you can handle tens hundreds of gigabytes easily... as long as you have the memory in your machine" [0:09:16].
+- [No-Code vs. Code](./no-code-vs-code.md) - the ingestion path is a classic tradeoff: n8n "does not work very well for large files... I have had n8n choke, even with 20 megabyte PDF files" [0:08:40], while in Python "you can handle tens hundreds of gigabytes easily... as long as you have the memory in your machine" [0:09:16].
 - [Structured vs. Unstructured Data](./structured-vs-unstructured-data.md) - crawling turns messy, unstructured HTML into cleaner text that downstream steps can structure.
 
 ## Implemented by

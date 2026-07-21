@@ -14,30 +14,39 @@ updated: 2026-07-21
 
 Claude Code is Anthropic's terminal-based agentic coding assistant, and it is the recurring protagonist of Cole's catalog. "Claude Code was made generally available May 22nd of last year along with the release of Claude 4," he notes, and "I have used the tool for over 2,000 hours now." Elsewhere he is blunter: "I live and breathe in this terminal," calling it "the best of the best by far" and "still my primary driver."
 
-What makes it stand apart, in Cole's telling, is how [agentic](../../concepts/agentic-coding.md) its loop is. Instead of a vector database it leans on [agentic search](../../concepts/agentic-search.md): "there is no vector database, no traditional rag, and it gives me a fantastic overview at the end." It is the surface where he practices [context engineering](../../concepts/context-engineering.md), keeps a lightweight `CLAUDE.md` as his [global rules](../../concepts/global-rules.md), and drops in [skills](../../concepts/skills.md) that "drive most of the capability." It also pioneered features other agents copied: "Cloud code was the first coding agent to introduce sub agents," it added [hooks](../../concepts/claude-code-hooks.md), and Git worktrees are "supported natively." Agent teams arrived "with the release of Opus 4.6."
+What makes it stand apart, in Cole's telling, is how [agentic](../../concepts/agentic-coding.md) its loop is. Instead of a vector database it leans on [agentic search](../../concepts/agentic-search.md): "there is no vector database, no traditional rag, and it gives me a fantastic overview at the end." It is the surface where he practices [context engineering](../../concepts/context-engineering.md), keeps a lightweight `CLAUDE.md` as his [global rules](../../concepts/global-rules.md), and drops in [skills](../../concepts/skills.md) that "drive most of the capability." It also pioneered features other agents copied: "Claude Code was the first coding agent to introduce subagents," it added [hooks](../../concepts/claude-code-hooks.md), and Git worktrees are "supported natively." Agent teams arrived "with the release of Opus 4.6."
 
 [Model selection](../../concepts/model-selection.md) happens inline ("just do slash model"), sub-agents can be pinned to Haiku or Sonnet, and Opus now runs with a one-million-token window. It connects to an MCP server with "a single command," and Cole leans on its [human-in-the-loop](../../concepts/human-in-the-loop.md) affordances like the ask-user-question tool plus [validation](../../concepts/validation.md) commands to catch mistakes. He also stresses it is bigger than code: "you can use Claude Code for a lot more than just coding," from second brains to YouTube scripting to diagrams and full video generation. It is the foundation the Claude Agent SDK exposes programmatically. The main critique is feature bloat: "there's so many features, bugs being introduced all the time," which is exactly what pushed some engineers toward leaner harnesses.
 
+## Realizes
+
+- [Agentic Coding](../../concepts/agentic-coding.md) - Letting an AI agent drive software development end-to-end, from planning through implementation and validation, with human steering.
+- [Agentic Search](../../concepts/agentic-search.md) - An agent answering a question by reasoning across multiple search tools and full-document fallbacks instead of relying on a single retrieval call.
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
+- [Skills](../../concepts/skills.md) - Reusable, model-invoked capability packages that load specialized instructions and tools on demand to extend an agent.
+- [Global Rules](../../concepts/global-rules.md) - Persistent project- or user-level rule files that inject standing context and conventions into every agent run.
+- [Claude Code Hooks](../../concepts/claude-code-hooks.md) - Lifecycle hooks that run deterministic code at defined points in a Claude Code session to enforce behavior the model can't be trusted to.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+
+## Contrasts with
+
+- [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
+- [Cursor](./cursor.md) - AI coding assistant that can consume AG-UI's llms.txt docs to help build with the protocol.
+- [Windsurf](./windsurf.md) - AI coding IDE Cole used to build the Python AG-UI backend and consume the protocol docs.
+- [Pi](./pi-coding-agent.md) - A minimalistic, open-source coding agent cited as another example of a company-built harness around a model.
+- [Gemini CLI](./gemini-cli.md) - Google's coding CLI, where subagent support is experimental and which has a direct integration with the Agent Client Protocol.
+
+## Works with
+
+- [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Git Worktrees](./git-worktree.md) - Git feature that duplicates the codebase across isolated branches so multiple coding agents can run in parallel without collisions.
+
 ## Related
 
-- [Agentic Search](../../concepts/agentic-search.md)
-- [Context Engineering](../../concepts/context-engineering.md)
-- [Skills](../../concepts/skills.md)
-- [Global Rules](../../concepts/global-rules.md)
-- [Claude Code Hooks](../../concepts/claude-code-hooks.md)
-- [Human in the Loop](../../concepts/human-in-the-loop.md)
-- [Validation](../../concepts/validation.md)
-- [Model Selection](../../concepts/model-selection.md)
-- [Agentic Coding](../../concepts/agentic-coding.md)
-- [Claude](./claude.md)
-- [Claude Desktop](./claude-desktop.md)
-- [Codex](./codex.md)
-- [Cursor](./cursor.md)
-- [Windsurf](./windsurf.md)
-- [Pi](./pi-coding-agent.md)
-- [Archon](./archon.md)
-- [Git Worktrees](./git-worktree.md)
-- [Gemini CLI](./gemini-cli.md)
+- [Claude](./claude.md) - Named as an example of a large language model that can be turned into an agent.
+- [Claude Desktop](./claude-desktop.md) - The MCP client used to demo connecting to the server, configured via developer settings and mcp-remote pointed at the streamable HTTP endpoint.
 
 ## Sources
 
@@ -53,26 +62,26 @@ What makes it stand apart, in Cole's telling, is how [agentic](../../concepts/ag
 - [Anthropic Just Dropped a Masterclass on Building Agent Harnesses (for Large Codebases)](../../sources/anthropic-just-dropped-a-masterclass-on-building-agent-harnesses-for-large-codebases.md)
 - [Build + Render ENTIRE Videos with Claude Code (Full Workflow)](../../sources/build-render-entire-videos-with-claude-code-full-workflow.md)
 - [AI YouTube Is Only Claude Hype Now](../../sources/ai-youtube-is-only-claude-hype-now.md)
-- [FULL Guide to Becoming a Principled Agentic Engineer (Build Anything with AI)](../../sources/full-guide-to-becoming-a-principled-agentic-engineer-build-anything-with-ai.md) - "[0:03:15] I'm going to be using cloud code for our event here just because that is my favorite AI coding assistant at least right now."
-- [Parallel Claude Code + Git Worktrees: This Setup Will Change How You Ship](../../sources/parallel-claude-code-git-worktrees-this-setup-will-change-how-you-ship.md) - "[0:05:07] work trees are supported natively in claude code. So I can do claude and then it's d-worktree or you can just do dashw"
-- [Pi Coding Agent + Archon: Build ANY AI Coding Workflow (No Claude Code Bloat)](../../sources/pi-coding-agent-archon-build-any-ai-coding-workflow-no-claude-code-bloat.md) - "[0:02:52] Enthropic has not stopped shipping features. And so it's gotten to the point where this is what claude code looks like now. There's so many features, bugs being introduced all the time."
+- [FULL Guide to Becoming a Principled Agentic Engineer (Build Anything with AI)](../../sources/full-guide-to-becoming-a-principled-agentic-engineer-build-anything-with-ai.md) - "[0:03:15] I'm going to be using Claude Code for our event here just because that is my favorite AI coding assistant at least right now."
+- [Parallel Claude Code + Git Worktrees: This Setup Will Change How You Ship](../../sources/parallel-claude-code-git-worktrees-this-setup-will-change-how-you-ship.md) - "[0:05:07] worktrees are supported natively in claude code. So I can do claude and then it's d-worktree or you can just do dashw"
+- [Pi Coding Agent + Archon: Build ANY AI Coding Workflow (No Claude Code Bloat)](../../sources/pi-coding-agent-archon-build-any-ai-coding-workflow-no-claude-code-bloat.md) - "[0:02:52] Anthropic has not stopped shipping features. And so it's gotten to the point where this is what claude code looks like now. There's so many features, bugs being introduced all the time."
 - [I'm Building an AI Dark Factory That Ships Its Own Code (Public Experiment)](../../sources/im-building-an-ai-dark-factory-that-ships-its-own-code-public-experiment.md)
 - [The Next Evolution of AI Coding Is Harnesses - Here's How to Build Them](../../sources/the-next-evolution-of-ai-coding-is-harnesses-heres-how-to-build-them.md)
 - [I Built Self-Evolving Claude Code Memory w/ Karpathy's LLM Knowledge Bases](../../sources/i-built-self-evolving-claude-code-memory-w-karpathys-llm-knowledge-bases.md)
 - [Full Guide - Build Your Own AI Second Brain with Claude Code](../../sources/full-guide-build-your-own-ai-second-brain-with-claude-code.md)
 - [Coding Agent Reliability EXPLODES When They Argue (New Adversarial Dev Technique)](../../sources/coding-agent-reliability-explodes-when-they-argue-new-adversarial-dev-technique.md)
 - [Everything You Thought About Building AI Agents is Wrong](../../sources/everything-you-thought-about-building-ai-agents-is-wrong.md)
-- [You're Hardly Using What Claude Code Has to Offer, it's Insane](../../sources/youre-hardly-using-what-claude-code-has-to-offer-its-insane.md) - "[0:00:00] Cloud Code has been shipping features at a ridiculous pace recently."
-- [The Subagent Era Is Officially Here - Learn this Now](../../sources/the-subagent-era-is-officially-here-learn-this-now.md) - "[0:05:32] Cloud code was the first coding agent to introduce sub agents but even they have had a lot of recent changes adding support for building custom hooks per sub agent."
+- [You're Hardly Using What Claude Code Has to Offer, it's Insane](../../sources/youre-hardly-using-what-claude-code-has-to-offer-its-insane.md) - "[0:00:00] Claude Code has been shipping features at a ridiculous pace recently."
+- [The Subagent Era Is Officially Here - Learn this Now](../../sources/the-subagent-era-is-officially-here-learn-this-now.md) - "[0:05:32] Claude Code was the first coding agent to introduce subagents but even they have had a lot of recent changes adding support for building custom hooks per subagent."
 - [I've Used Claude Code for 2,000+ Hours - Here's How I Build Anything With It](../../sources/ive-used-claude-code-for-2000-hours-heres-how-i-build-anything-with-it.md) - "[0:00:00] Claude Code was made generally available May 22nd of last year along with the release of Claude 4."
 - [Stripe's Coding Agents Ship 1,300 PRs EVERY Week - Here's How They Do It](../../sources/stripes-coding-agents-ship-1300-prs-every-week-heres-how-they-do-it.md)
 - [Build BEAUTIFUL Diagrams with Claude Code (Full Workflow)](../../sources/build-beautiful-diagrams-with-claude-code-full-workflow.md)
 - [This One Command Makes Coding Agents Find All Their Mistakes (Use it Now)](../../sources/this-one-command-makes-coding-agents-find-all-their-mistakes-use-it-now.md)
 - [My COMPLETE Agentic Coding Workflow to Build Anything (No Fluff or Overengineering)](../../sources/my-complete-agentic-coding-workflow-to-build-anything-no-fluff-or-overengineering.md)
 - [Why the Best AI Coding Tools Abandoned RAG (And What They Use Instead)](../../sources/why-the-best-ai-coding-tools-abandoned-rag-and-what-they-use-instead.md) - "[0:07:19] So, the best example of this is Claude Code."
-- [How to Properly Use Claude Code Agent Teams (FULL LIVE BUILD)](../../sources/how-to-properly-use-claude-code-agent-teams-full-live-build.md) - "[0:01:30] this is a feature that was just released to Cloud Code uh with the release of Opus 4.6."
+- [How to Properly Use Claude Code Agent Teams (FULL LIVE BUILD)](../../sources/how-to-properly-use-claude-code-agent-teams-full-live-build.md) - "[0:01:30] this is a feature that was just released to Claude Code uh with the release of Opus 4.6."
 - [I Built a Safer OpenClaw Alternative Using Claude Code](../../sources/i-built-a-safer-openclaw-alternative-using-claude-code.md)
-- [Claude Code's Agent Teams Are Insane - Multiple AI Agents Coding Together in Real Time](../../sources/claude-codes-agent-teams-are-insane-multiple-ai-agents-coding-together-in-real-time.md) - "[0:00:00] I have four instances of Claude code working at the exact same time together to perform a code review on my codebase. And this is all thanks to the new agents teams feature that Enthropic has built into cloud code."
+- [Claude Code's Agent Teams Are Insane - Multiple AI Agents Coding Together in Real Time](../../sources/claude-codes-agent-teams-are-insane-multiple-ai-agents-coding-together-in-real-time.md) - "[0:00:00] I have four instances of Claude code working at the exact same time together to perform a code review on my codebase. And this is all thanks to the new agents teams feature that Anthropic has built into Claude Code."
 - [Turn Claude Code into Your Full Engineering Team with Subagents](../../sources/turn-claude-code-into-your-full-engineering-team-with-subagents.md)
 - [Claude Skills Aren't Just for Claude - Here's How to Build Them for ANY Agent](../../sources/claude-skills-arent-just-for-claude-heres-how-to-build-them-for-any-agent.md)
 - [I Built My Second Brain with Claude Code + Obsidian + Skills (Here's How)](../../sources/i-built-my-second-brain-with-claude-code-obsidian-skills-heres-how.md)

@@ -24,15 +24,29 @@ Langfuse is a fixed part of his stack across n8n-vs-Python discussions ("you hav
 
 ## Contrasts with
 
-Cole singles out [LangSmith](./langsmith.md) as the closed counterpoint: Langfuse "is completely open source unlike a lot of its competitors like Langsmith. And so I'm going to keep focusing on this as my observability platform" [0:27:33].
+Cole singles out [LangSmith](./langsmith.md) as the closed counterpoint: Langfuse "is completely open source unlike a lot of its competitors like LangSmith. And so I'm going to keep focusing on this as my observability platform" [0:27:33].
+
+## Realizes
+
+- [Agent Observability](../../concepts/agent-observability.md) - Instrumenting agents with tracing, logging, and cost/token metrics so you can see and debug what they actually did.
+
+## Works with
+
+- [Logfire](./logfire.md) - Observability tool by the Pydantic team that instruments Pydantic AI agents to send traces, token usage, and cost as telemetry for local and production debugging.
+- [Sentry](./sentry.md) - Application monitoring platform (the video sponsor) that makes it easy to add tracing, logs, and error alerting to MCP servers in production.
+- [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
+
+## Contrasts with
+
+- [LangSmith](./langsmith.md) - A competing observability platform Cole contrasts against Langfuse, faulting it for not being fully open-source.
 
 ## Related
 
-- [Agent Observability](../../concepts/agent-observability.md) - the capability Langfuse realizes.
-- [Agent Deployment](../../concepts/agent-deployment.md) - traces matter most once an agent is live.
-- [Guardrails](../../concepts/guardrails.md) and [Memory Systems](../../concepts/memory-systems.md) - behaviors Cole inspects through its traces.
-- [Local & Self-Hosted AI](../../concepts/local-ai.md) and [Rapid Prototyping](../../concepts/rapid-prototyping.md) - its open-source nature suits both.
-- Sibling tools: [Logfire](./logfire.md), [LangSmith](./langsmith.md), [Sentry](./sentry.md), [Pydantic AI](./pydantic-ai.md).
+- [Agent Deployment](../../concepts/agent-deployment.md) - Getting agents to production, containerizing, networking, reverse-proxying, and choosing a provider-agnostic, cost-predictable host.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Guardrails](../../concepts/guardrails.md) - Constraints and checks that keep agents from hallucinating, going off the rails, or emitting unsafe output.
+- [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
+- [Rapid Prototyping](../../concepts/rapid-prototyping.md) - Building a fast proof of concept with managed services first, then hardening only what proves out, instead of over-engineering up front.
 
 ## Sources
 
@@ -42,5 +56,5 @@ Cole singles out [LangSmith](./langsmith.md) as the closed counterpoint: Langfus
 - [Build and Ship Any MCP Server in MINUTES (Full Guide)](../../sources/build-and-ship-any-mcp-server-in-minutes-full-guide.md) - "[0:23:12] I use Langfuse as my platform more specifically to monitor agents, but then my whole like backend infrastructure and rag pipelines, Sentry is a great option."
 - [Should I Build My AI Agents with n8n or Python?](../../sources/should-i-build-my-ai-agents-with-n8n-or-python.md) - "[0:11:08] you have tools like Langfuse for tracing. So you can get a lot of visibility and sort of a visualization into what is going on"
 - [My Top 20 Lessons from Building 100s of AI Agents (Super Actionable)](../../sources/my-top-20-lessons-from-building-100s-of-ai-agents-super-actionable.md) - "[0:29:40] Langfuse is a really good one for sure... tools like Langfuse are also fantastic."
-- [How I'd Learn AI Agents FAST if I Had to Start Over (Full Roadmap)](../../sources/how-id-learn-ai-agents-fast-if-i-had-to-start-over-full-roadmap.md) - "[0:14:26] there are a lot of good options for agent observability like Langfuse Helicone Langsmith Logfire"
+- [How I'd Learn AI Agents FAST if I Had to Start Over (Full Roadmap)](../../sources/how-id-learn-ai-agents-fast-if-i-had-to-start-over-full-roadmap.md) - "[0:14:26] there are a lot of good options for agent observability like Langfuse Helicone LangSmith Logfire"
 - [Revealing my COMPLETE AI Agent Blueprint](../../sources/revealing-my-complete-ai-agent-blueprint.md) - "[0:11:51] Langfuse which is an open source LLM observability platform that's super awesome"

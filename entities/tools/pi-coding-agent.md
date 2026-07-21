@@ -16,21 +16,31 @@ Pi is a minimalistic, open-source coding agent built to be the opposite of the h
 
 ## How Cole uses it
 
-Pi is Cole's preferred driver for orchestrated workflows. He runs it against non-Anthropic models to keep his stack provider-flexible: "I'm driving everything with Pi. So I'm actually using my Kimi subscription with Kimi K 2.7 to drive all of these workflows" ([0:19:04]), a direct expression of deliberate [Model Selection](../../concepts/model-selection.md). Because Pi exposes an API layer, it slots into larger systems: "It'll connect to the backend with the API that I have running with PI" ([0:22:05]). In [Archon](./archon.md) it became "the third coding agent supported," giving Cole a lean alternative to the bigger agents when doing [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md). Pi is also a recurring member of the "you name the millions of coding agents out there" list ([0:01:56]) alongside [Claude Code](./claude-code.md) and [Codex](./codex.md), and it can be pointed at a local model through meta-harnesses: "if I even wanted to use PI with Olama for some local development, I can even do that" ([0:05:23]) via [Ollama](./ollama.md). Cole has flagged the Pi Agent SDK as a coding assistant he wants to wire into his own harnesses next.
+Pi is Cole's preferred driver for orchestrated workflows. He runs it against non-Anthropic models to keep his stack provider-flexible: "I'm driving everything with Pi. So I'm actually using my Kimi subscription with Kimi K 2.7 to drive all of these workflows" ([0:19:04]), a direct expression of deliberate [Model Selection](../../concepts/model-selection.md). Because Pi exposes an API layer, it slots into larger systems: "It'll connect to the backend with the API that I have running with Pi" ([0:22:05]). In [Archon](./archon.md) it became "the third coding agent supported," giving Cole a lean alternative to the bigger agents when doing [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md). Pi is also a recurring member of the "you name the millions of coding agents out there" list ([0:01:56]) alongside [Claude Code](./claude-code.md) and [Codex](./codex.md), and it can be pointed at a local model through meta-harnesses: "if I even wanted to use Pi with Ollama for some local development, I can even do that" ([0:05:23]) via [Ollama](./ollama.md). Cole has flagged the Pi Agent SDK as a coding assistant he wants to wire into his own harnesses next.
 
-## Related
+## Realizes
 
-- [AI Coding Harness](../../concepts/ai-coding-harness.md) - Pi is a minimal, self-modifying harness core.
-- [Model Selection](../../concepts/model-selection.md) - Pi is driven by Kimi K2.7 to stay off Anthropic.
-- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Pi drives multi-step orchestrated workflows.
-- [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) and [Context Isolation](../../concepts/context-isolation.md) - how Pi sessions are run without stepping on each other.
-- [Human in the Loop](../../concepts/human-in-the-loop.md) - the oversight posture around Pi-driven builds.
-- Sibling agents: [Claude Code](./claude-code.md), [Codex](./codex.md), [Archon](./archon.md), [Ollama](./ollama.md).
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) - Dispatching agents to background tasks in isolated git worktrees, each fed repo context and returning a reviewable PR.
+- [Context Isolation](../../concepts/context-isolation.md) - Giving each agent or subagent its own clean context window so unrelated tokens never dilute the task at hand.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+
+## Works with
+
+- [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
+
+## Contrasts with
+
+- [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
+- [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
 
 ## Sources
 
 - [Pi Coding Agent + Archon: Build ANY AI Coding Workflow (No Claude Code Bloat)](../../sources/pi-coding-agent-archon-build-any-ai-coding-workflow-no-claude-code-bloat.md) - "[0:00:00] Pi is a minimalistic open-source coding agent, and minimalistic is really important here because Pi is fighting the bloat that we see with so many other coding agents right now."
 - [The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!](../../sources/the-creators-of-claude-code-and-openclaw-dont-prompt-their-agents-anymore.md) - "[0:19:04] I'm driving everything with Pi. So I'm actually using my Kimi subscription with Kimi K 2.7 to drive all of these workflows."
-- [Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More](../../sources/omnigent-the-new-meta-harness-for-every-coding-agent-claude-code-codex-pi-more.md) - "[0:05:23] if I even wanted to use PI with Olama for some local development, I can even do that with Omni Agent."
-- [Harness Engineering: What Separates Top Agentic Engineers Right Now](../../sources/harness-engineering-what-separates-top-agentic-engineers-right-now.md) - "[0:01:56] Claude Code, Codeex, Pi, you name the millions of coding agents out there."
+- [Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More](../../sources/omnigent-the-new-meta-harness-for-every-coding-agent-claude-code-codex-pi-more.md) - "[0:05:23] if I even wanted to use Pi with Ollama for some local development, I can even do that with Omni Agent."
+- [Harness Engineering: What Separates Top Agentic Engineers Right Now](../../sources/harness-engineering-what-separates-top-agentic-engineers-right-now.md) - "[0:01:56] Claude Code, Codex, Pi, you name the millions of coding agents out there."
 - [The Next Evolution of AI Coding Is Harnesses - Here's How to Build Them](../../sources/the-next-evolution-of-ai-coding-is-harnesses-heres-how-to-build-them.md) - "[0:12:08] we want to add in other coding assistants later, like the Pi Agent SDK and Open Code."

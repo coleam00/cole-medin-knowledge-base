@@ -20,15 +20,28 @@ grep is the workhorse of [agentic search](../../concepts/agentic-search.md) and 
 
 But Cole is careful not to oversell it. grep has a scaling ceiling: "Grep by itself is going to be slow and really token inefficient as you're trying to navigate through a codebase" ([0:20:48]) once the repo grows past six figures of lines, because the agent burns context reading noisy match output and re-searching. That limitation is the motivation for pairing grep with structured tools, the [Language Server Protocol](../../concepts/language-server-protocol.md) in particular, which lets the agent jump to definitions and references semantically instead of scanning text. The practical takeaway across these videos: grep is the right default for small-to-medium codebases and the entry point of the harness, but on large codebases it becomes a supplement to LSP-driven navigation rather than the whole answer.
 
+## Realizes
+
+- [Agentic Search](../../concepts/agentic-search.md) - An agent answering a question by reasoning across multiple search tools and full-document fallbacks instead of relying on a single retrieval call.
+
+## Contrasts with
+
+- [When RAG Is (and Isn't) Dead](../../concepts/when-rag-is-dead.md) - The argument that for code, agents navigating files directly often beats indexed RAG, and when traditional retrieval still earns its place.
+- [Codebase Indexing](../../concepts/codebase-indexing.md) - Building a searchable index or map of a codebase so the agent can retrieve the right files instead of scanning everything.
+- [Language Server Protocol](../../concepts/language-server-protocol.md) - Using LSP to give agents precise code navigation (definitions, references, symbols) instead of guessing from text.
+- [Keyword Search](../../concepts/keyword-search.md) - Exact-term (lexical) search that complements semantic search, especially for identifiers and rare tokens.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+
+## Works with
+
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+- [Skills](../../concepts/skills.md) - Reusable, model-invoked capability packages that load specialized instructions and tools on demand to extend an agent.
+- [Subagents Pattern](../../concepts/subagents-pattern.md) - Delegating scoped tasks to isolated subagents to parallelize work and protect the main agent's context window.
+
 ## Related
 
-- [Agentic Search](../../concepts/agentic-search.md) - grep is the canonical primitive that makes agentic (search-as-you-go) navigation work.
-- [When RAG Is (and Isn't) Dead](../../concepts/when-rag-is-dead.md) - the argument that coding agents replaced vector retrieval with command-line search.
-- [AI Coding Harness](../../concepts/ai-coding-harness.md) - grep and glob are the built-in tools the harness gives the agent.
-- [Codebase Indexing](../../concepts/codebase-indexing.md) and [Language Server Protocol](../../concepts/language-server-protocol.md) - the structured alternatives that pick up where grep gets slow on large repos.
-- [Keyword Search](../../concepts/keyword-search.md) and [RAG](../../concepts/rag.md) - the retrieval approaches grep is defined against.
-- [Skills](../../concepts/skills.md) and [Subagents Pattern](../../concepts/subagents-pattern.md) - the wider harness capabilities grep-based navigation feeds into.
-- Sibling tools: [Brave Search API](./brave-search.md) and [SearXNG](./searxng.md) (search the web rather than a local codebase).
+- [Brave Search API](./brave-search.md) - Web search API wired up as the single example tool giving the template agent the ability to search the web.
+- [SearXNG](./searxng.md) - Local, private metasearch engine added for web search (with Redis for caching); kept private since it isn't password protected.
 
 ## Sources
 

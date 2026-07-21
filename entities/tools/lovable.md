@@ -18,16 +18,22 @@ Cole's most common pattern is to use Lovable as the starting point of a build an
 
 Against [bolt.new](./bolt-new.md) and [bolt.diy](./bolt-diy.md), Cole finds the tools "pretty comparable" but with distinct strengths: Lovable "does a bit better" on certain app-style builds, while bolt is stronger at landing pages. One concrete [deployment](../../concepts/agent-deployment.md) advantage: chatting with a local agent "will not work within bolt. new or bolt. DIY because the web container actually blocks requests to the localhost agents, so lovable is a bit better in this way." He notes its output does not always "look the best" out of the box, a reminder that generated front-ends still need iteration.
 
+## Realizes
+
+- [Rapid Prototyping](../../concepts/rapid-prototyping.md) - building a fast proof of concept with managed services first, then hardening only what proves out; Lovable is Cole's front-end prototyping benchmark.
+- [Agent Development Lifecycle](../../concepts/agent-development-lifecycle.md) - a repeatable blueprint from planning and a minimal proof-of-concept through database, code, UI, testing, and deployment.
+
+## Contrasts with
+
+- [bolt.new](./bolt-new.md) - StackBlitz's commercial AI coding platform that generates entire full-stack applications; Cole finds the two comparable but with distinct strengths.
+- [bolt.diy](./bolt-diy.md) - the open fork Cole hands Lovable builds off to for further improvements.
+
 ## Related
 
-- [Model Selection](../../concepts/model-selection.md)
-- [Agent Deployment](../../concepts/agent-deployment.md)
-- [Agent Security](../../concepts/agent-security.md)
-- [Agent Protocols](../../concepts/agent-protocols.md)
-- [Agent Development Lifecycle](../../concepts/agent-development-lifecycle.md)
-- [Rapid Prototyping](../../concepts/rapid-prototyping.md)
-- [bolt.new](./bolt-new.md)
-- [bolt.diy](./bolt-diy.md)
+- [Model Selection](../../concepts/model-selection.md) - choosing the right LLM per task; an earlier Lovable build is his baseline for judging new models.
+- [Agent Deployment](../../concepts/agent-deployment.md) - getting agents to production, where Lovable's ability to reach localhost agents is an edge over bolt.
+- [Agent Security](../../concepts/agent-security.md) - sandboxing agents, scoping permissions, and keeping secrets out of the model.
+- [Agent Protocols](../../concepts/agent-protocols.md) - emerging standards that let agents interoperate and be called across clients.
 
 ## Sources
 

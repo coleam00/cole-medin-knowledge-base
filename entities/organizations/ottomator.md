@@ -18,14 +18,23 @@ Its flagship was the **Live Agent Studio**, a public gallery where community mem
 
 In the arc of Cole's channel, oTTomator is the predecessor that seeded the community model he scaled up in [Dynamous](./dynamous.md): a place to gather early adopters, run events, and turn scattered experimentation into shared, reusable agent building.
 
+## Realizes
+
+- [Community-Driven Development](../../concepts/community-driven-development.md) - Building products and open source in public with a community, using a public roadmap and shared learning.
+- [What Is an AI Agent](../../concepts/what-is-an-ai-agent.md) - An AI agent is a large language model given tools to interact with the outside world and take actions, making it far more capable than the LLM alone.
+- [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+- [Chat Interfaces](../../concepts/chat-interfaces.md) - Wrapping agents in chat surfaces (websites, DMs, platforms) with adapters, a shared message format, and durable history.
+- [Streaming Responses](../../concepts/streaming-responses.md) - Streaming tokens and intermediate agent output to the user in real time instead of waiting for the full response.
+- [Agentic RAG](../../concepts/agentic-rag.md) - Giving an agent retrieval as a tool so it decides when and how to search a knowledge base, picking strategies and issuing follow-up queries instead of a single static lookup.
+
+## Works with
+
+- [Live Agent Studio](../tools/live-agent-studio.md) - Cole's community-driven open-source AI agent platform, host of a $5,000 agent hackathon in partnership with Voiceflow and n8n.
+
 ## Related
 
-- [Community-Driven Development](../../concepts/community-driven-development.md): the open, contributor-first ethos oTTomator was built around.
-- [Chat Interfaces](../../concepts/chat-interfaces.md), [Streaming Responses](../../concepts/streaming-responses.md), and [Agentic RAG](../../concepts/agentic-rag.md): patterns the Live Agent Studio agents exercised.
-- [What Is an AI Agent](../../concepts/what-is-an-ai-agent.md) and [Provider Independence](../../concepts/provider-independence.md): the studio as a concrete, vendor-agnostic answer.
-- [Live Agent Studio](../tools/live-agent-studio.md): the community's public agent gallery.
-- [Dynamous](./dynamous.md): the successor community that scaled the model.
-- [Cole Medin](../people/cole-medin.md): founder.
+- [Dynamous](./dynamous.md) - Cole's community for early AI adopters, home of the Agentic Coding course, weekly workshops, and the shared Context Engineering Hub.
+- [Cole Medin](../people/cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
 
 ## Sources
 

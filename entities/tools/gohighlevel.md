@@ -20,14 +20,17 @@ GoHighLevel is Cole's worked example of a lucrative, underserved AI-agent busine
 
 The second reason Cole highlights it is its open extension model. GoHighLevel actively invites developers to build on top of it: "go high level makes it possible to create custom apps very easily with their app Marketplace so they're literally encouraging us developers to build these kinds of things" ([0:01:53]). That marketplace is a distribution channel for agent products, which is why Cole frames the niche as one "no one is talking about."
 
+## Realizes
+
+- [AI Agent Business Niches](../../concepts/ai-agent-business-niches.md) - Productizing AI agents for concrete business use cases such as lead-generation and nurturing chatbots, underserved platforms, and reusable open-source agents.
+- [Extending a Platform via API + Marketplace](../../concepts/extend-the-platform.md) - A strong developer-first API plus an app marketplace creates a profitable niche: extend an existing SaaS platform's functionality with AI instead of building from scratch.
+- [Community-Driven Development](../../concepts/community-driven-development.md) - Building products and open source in public with a community, using a public roadmap and shared learning.
+
 ## Related
 
-- [AI Agent Business Niches](../../concepts/ai-agent-business-niches.md) - GoHighLevel is Cole's flagship example of an under-served, high-value niche.
-- [Extending a Platform via API + Marketplace](../../concepts/extend-the-platform.md) - the app-marketplace model that makes it a build target.
-- [Community-Driven Development](../../concepts/community-driven-development.md) - the developer ecosystem the marketplace encourages.
-- [Memory Systems](../../concepts/memory-systems.md) - the CRM database as the agent's durable state store.
-- [Agent Teams](../../concepts/agent-teams.md) - coordinating multiple agents across a client's lead pipeline.
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - grounding an agent in a client's own CRM records.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Agent Teams](../../concepts/agent-teams.md) - Coordinating multiple specialized agents, via orchestrators, routers, and handoffs, to solve a task no single agent handles well.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 
 ## Sources
 

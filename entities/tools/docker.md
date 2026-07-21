@@ -18,15 +18,28 @@ The dominant pattern in his videos is `docker compose`, a single command that pu
 
 Docker is also his default recommendation for running [MCP](../../concepts/mcp.md) servers, both via Docker Desktop's MCP toolkit ("the only thing you have to do is install Docker Desktop") and the Docker MCP gateway that his [LiveKit](../../sources/build-your-first-voice-ai-agent-in-20-minutes-with-livekit-open-source.md) voice agent connects to over streamable HTTP. For production, he recommends containerizing every agent because it makes deployment identical and scalable: "it's all running the same Docker container that is the beauty of Docker and what makes it so scalable and so easy to deploy" ([0:09:29](../../sources/deploying-billions-of-ai-agents-is-easier-than-you-think.md)). He adds a coding-workflow reason too: LLMs write Docker configs well "just because it's been around for so long. There's so many examples of it on the internet."
 
+## Realizes
+
+- [Containerization & Docker Networking](../../concepts/containerization.md) - Running each service and your own agent as Docker containers in one stack so they communicate over a private network by service name, and exposing a tool as a Dockerized HTTP API when it can't be installed natively.
+
+## Works with
+
+- [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
+- [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
+- [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
+- [Crawl4AI](./crawl4ai.md) - The open-source crawling library powering Cole's RAG MCP server, handling llms.txt, sitemaps, and recursive scraping.
+- [Render](./render.md) - The cloud deployment platform (used on its free tier) that auto-builds and deploys staging on push and production on commit to main.
+- [RunPod](./runpod.md) - GPU cloud recommended when you need a powerful high-VRAM machine to run large language models like Llama 3.2 90B.
+
 ## Related
 
-- [Containerization & Docker Networking](../../concepts/containerization.md) - the concept Docker realizes
-- [Agent Deployment](../../concepts/agent-deployment.md) - Docker is Cole's default packaging step for shipping agents
-- [Local & Self-Hosted AI](../../concepts/local-ai.md) - his local stacks are compose files of Docker services
-- [Model Context Protocol (MCP)](../../concepts/mcp.md) - his preferred way to run and manage MCP servers
-- [Provider Independence](../../concepts/provider-independence.md) - containers keep the stack portable across hosts
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - RAG services (Crawl4AI, vector DBs) ship as containers
-- Sibling tools: [Archon](./archon.md), [Supabase](./supabase.md), [Ollama](./ollama.md), [n8n](./n8n.md), [Crawl4AI](./crawl4ai.md), [Render](./render.md), [RunPod](./runpod.md)
+- [Agent Deployment](../../concepts/agent-deployment.md) - Getting agents to production, containerizing, networking, reverse-proxying, and choosing a provider-agnostic, cost-predictable host.
+- [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
+- [Model Context Protocol (MCP)](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
+- [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
 
 ## Sources
 

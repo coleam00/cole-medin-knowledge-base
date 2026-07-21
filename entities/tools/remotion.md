@@ -18,15 +18,23 @@ The reason Remotion matters here is the pattern it demonstrated rather than the 
 
 In his full video-rendering workflow, though, Cole is candid that reliability is the deciding factor, and there Remotion lost ground to HyperFrames. The takeaway across both videos is consistent: Remotion earns the historical credit for making Claude Code generate video at all, while day-to-day production work migrated to a more dependable option. Pairing that video generation with narration from a TTS tool like [ElevenLabs](./elevenlabs.md) is what closes the loop on a fully agent-produced video.
 
+## Realizes
+
+- [Skills](../../concepts/skills.md) - reusable, model-invoked capability packages that load specialized instructions and tools on demand; Remotion reached Cole as a Claude Code skill.
+- [Generative UI](../../concepts/generative-ui.md) - code-defined, generated visual output; Remotion defines and renders videos from React code in the same family.
+
+## Works with
+
+- [ElevenLabs](./elevenlabs.md) - the paid text-to-speech provider used for high-quality narration that pairs with Remotion over generated video.
+
 ## Related
 
-- [Skills](../../concepts/skills.md) - Remotion reached Cole as a Claude Code skill; it realizes the skills pattern
-- [Effective Prompting](../../concepts/effective-prompting.md) and [Prompt Engineering](../../concepts/prompt-engineering.md) - the prompts that drive generated video
-- [Generative UI](../../concepts/generative-ui.md) - code-defined, generated visual output in the same family
-- [Adversarial Agents](../../concepts/adversarial-agents.md) - quality-checking patterns in the automated-media workflow
-- [Voice Agents](../../concepts/voice-agents.md) - related voice-and-media agent work
-- [ElevenLabs](./elevenlabs.md) - pairs with Remotion for narration over generated video
-- [Aqua Voice](./aqua-voice.md) and [Vapi](./vapi.md) - sibling voice-and-media tools
+- [Effective Prompting](../../concepts/effective-prompting.md) - keeping prompts simple, specific, and high-quality; the prompts that drive generated video.
+- [Prompt Engineering](../../concepts/prompt-engineering.md) - the craft of wording and structuring a prompt so an LLM reliably produces the output you want.
+- [Adversarial Agents](../../concepts/adversarial-agents.md) - pitting a generator against an adversarial critic; quality-checking patterns in the automated-media workflow.
+- [Voice Agents](../../concepts/voice-agents.md) - real-time voice-to-voice agents built from speech-to-text and text-to-speech pipelines.
+- [Aqua Voice](./aqua-voice.md) - speech-to-text platform Cole uses to dictate into any text box; a sibling voice-and-media tool.
+- [Vapi](./vapi.md) - no-code voice AI platform cited as easy but a black box; a sibling voice-and-media tool.
 
 ## Sources
 

@@ -16,7 +16,7 @@ Hierarchical RAG retrieves in levels: it first zooms out to find the right docum
 
 The design resolves the classic chunk-size dilemma. Small chunks match queries precisely but return too little context; large chunks carry context but match noisily. Hierarchical RAG has it both ways by "balancing precision, you know, searching small with context, returning big." The parent-child links live in chunk metadata, so once a small child chunk matches, the pipeline can hand the model the larger parent it belongs to. This makes RAG accurate enough "so we can rely on just a little bit of information we pull through a few chunks" rather than dumping many marginal chunks into context.
 
-Cole positions it as closely related to letting an agent drive retrieval: "you could argue that hierarchical rag is sort of a subset of a gentic rag," since choosing to expand from child to parent is itself a retrieval decision.
+Cole positions it as closely related to letting an agent drive retrieval: "you could argue that hierarchical rag is sort of a subset of agentic rag," since choosing to expand from child to parent is itself a retrieval decision.
 
 ## Builds on
 
@@ -24,7 +24,7 @@ Cole positions it as closely related to letting an agent drive retrieval: "you c
 
 ## Part of
 
-- [Agentic RAG](./agentic-rag.md) - Cole frames hierarchical RAG as "sort of a subset of a gentic rag," one strategy an agent can employ.
+- [Agentic RAG](./agentic-rag.md) - Cole frames hierarchical RAG as "sort of a subset of agentic rag," one strategy an agent can employ.
 
 ## Related
 
@@ -34,5 +34,5 @@ Cole positions it as closely related to letting an agent drive retrieval: "you c
 
 ## Sources
 
-- [Every RAG Strategy Explained in 13 Minutes (No Fluff)](../sources/every-rag-strategy-explained-in-13-minutes-no-fluff.md) - "[0:09:25] we're balancing precision, you know, searching small with context, returning big. And you could argue that hierarchical rag is sort of a subset of a gentic rag."
+- [Every RAG Strategy Explained in 13 Minutes (No Fluff)](../sources/every-rag-strategy-explained-in-13-minutes-no-fluff.md) - "[0:09:25] we're balancing precision, you know, searching small with context, returning big. And you could argue that hierarchical rag is sort of a subset of agentic rag."
 - [Why the Best AI Coding Tools Abandoned RAG (And What They Use Instead)](../sources/why-the-best-ai-coding-tools-abandoned-rag-and-what-they-use-instead.md) - "[0:12:59] I want to cover more like hierarchical rag to actually make rag really accurate so we can rely on just a little bit of information we pull through a few chunks."

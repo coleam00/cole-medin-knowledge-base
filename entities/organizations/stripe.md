@@ -18,12 +18,21 @@ What makes the example convincing is the difficulty of the target. Stripe's code
 
 Stripe plays a second, unrelated role: the stand-in external API in agent demos. Cole uses it as the example service an agent calls ("use the stripe API to fetch an expense," [0:04:12]), as the integration target in a head-to-head build ("build a Stripe integration into an existing agentic application," [0:02:20]) that ends at a real "Stripe checkout" ([0:06:31]), and as the obvious way to monetize a tool ("integrate it with something like stripe for credit card payments," [0:21:00]).
 
+## Realizes
+
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [Deterministic Workflows](../../concepts/deterministic-workflows.md) - Encoding known steps as fixed code paths and reserving the LLM for the genuinely fuzzy decisions, trading autonomy for reliability.
+
 ## Related
 
-- [AI Coding Harness](../../concepts/ai-coding-harness.md), [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md), and [Deterministic Workflows](../../concepts/deterministic-workflows.md) - Stripe Minions is Cole's flagship harness example.
-- [Validation](../../concepts/validation.md), [Human in the Loop](../../concepts/human-in-the-loop.md), and [The PIV Loop](../../concepts/the-piv-loop.md) - the review and checking discipline behind Stripe's 1,300 PRs a week.
-- [Dark Factory](../../concepts/dark-factory.md), [StrongDM](./strongdm.md), and [Shopify](./shopify.md) - peer companies running high-autonomy or homegrown-workflow-engine setups.
-- [Model Selection](../../concepts/model-selection.md) - Stripe integrations serve as the benchmark task in Cole's model comparisons.
+- [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [The PIV Loop](../../concepts/the-piv-loop.md) - Cole's core agentic-coding cycle of Plan, Implement, Validate that structures every unit of AI-driven work.
+- [Dark Factory](../../concepts/dark-factory.md) - A self-evolving codebase where autonomous workflows build and improve a product with minimal human touch.
+- [StrongDM](./strongdm.md) - Company that went viral for running a dark factory shipping thousands of lines of production code no human writes or reviews; source of the hold-out pattern Cole adopts for reliability.
+- [Shopify](./shopify.md) - E-commerce platform whose CEO Toby Lütke framed context engineering vs. prompt engineering (a framing Karpathy endorsed); also built its own AI workflow engine, Roast.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
 
 ## Sources
 

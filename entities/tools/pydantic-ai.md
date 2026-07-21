@@ -12,38 +12,50 @@ updated: 2026-07-21
 
 # Pydantic AI
 
-Pydantic AI is an open-source Python framework for building production-grade AI agents, and it is the tool Cole reaches for more than any other: "Pidantic AI has been my favorite AI agent framework for a long time now" [0:00:00]. Across dozens of videos it is his default for individual agents, chosen because it makes agents easy to build while keeping full control. As he puts it, "it is a python agent framework that makes it super easy to build AI agents while still giving us all of the customizability and control that we need" [0:01:52]. The name is deliberate: the team "have validation at the core of what they believe in" [0:02:44], so structured, type-validated inputs and outputs are the foundation rather than an afterthought.
+Pydantic AI is an open-source Python framework for building production-grade AI agents, and it is the tool Cole reaches for more than any other: "Pydantic AI has been my favorite AI agent framework for a long time now" [0:00:00]. Across dozens of videos it is his default for individual agents, chosen because it makes agents easy to build while keeping full control. As he puts it, "it is a python agent framework that makes it super easy to build AI agents while still giving us all of the customizability and control that we need" [0:01:52]. The name is deliberate: the team "have validation at the core of what they believe in" [0:02:44], so structured, type-validated inputs and outputs are the foundation rather than an afterthought.
 
-Cole's mental model for the framework is a repeatable three-part shape. "you can think of building pantic AI agents as building three distinct parts" [0:08:20]: first the dependencies, "things like the API keys and database connections that your agent tools need" [0:08:37]; then the agent definition itself with its model and system prompt; then the tools, where "this doc string that you have at the start of a function is how you tell the agent when and how to use this tool" [0:30:56]. This is the concrete realization of [agent dependency injection](../../concepts/agent-dependencies.md), [docstrings as tool descriptions](../../concepts/docstrings-as-tool-descriptions.md), and the general [agent core components](../../concepts/agent-core-components.md) pattern. He builds [RAG](../../concepts/rag.md) and [agentic RAG](../../concepts/agentic-rag.md) agents on it constantly, injecting vector stores and knowledge-graph clients as runtime dependencies.
+Cole's mental model for the framework is a repeatable three-part shape. "you can think of building Pydantic AI agents as building three distinct parts" [0:08:20]: first the dependencies, "things like the API keys and database connections that your agent tools need" [0:08:37]; then the agent definition itself with its model and system prompt; then the tools, where "this doc string that you have at the start of a function is how you tell the agent when and how to use this tool" [0:30:56]. This is the concrete realization of [agent dependency injection](../../concepts/agent-dependencies.md), [docstrings as tool descriptions](../../concepts/docstrings-as-tool-descriptions.md), and the general [agent core components](../../concepts/agent-core-components.md) pattern. He builds [RAG](../../concepts/rag.md) and [agentic RAG](../../concepts/agentic-rag.md) agents on it constantly, injecting vector stores and knowledge-graph clients as runtime dependencies.
 
-Why it keeps winning: it stays fast and provider-flexible while adopting new standards early. "Pyantic AI is constantly supporting new protocols like MCP when that first came out, A2A for UI event streams" [0:07:23], it supports OpenAI-compatible endpoints for [local models](../../concepts/local-ai.md), it has retry logic and built-in evaluation, and it wires cleanly into observability through Logfire. The 2.0 release reframed everything around "a single primitive called the capability" [0:00:17], composing agents from reusable capabilities. Cole pairs it with LangGraph for multi-agent orchestration and increasingly weighs it against coding-agent SDKs for personal agents, where he still favors a framework for sub-second, scalable production work.
+Why it keeps winning: it stays fast and provider-flexible while adopting new standards early. "Pydantic AI is constantly supporting new protocols like MCP when that first came out, A2A for UI event streams" [0:07:23], it supports OpenAI-compatible endpoints for [local models](../../concepts/local-ai.md), it has retry logic and built-in evaluation, and it wires cleanly into observability through Logfire. The 2.0 release reframed everything around "a single primitive called the capability" [0:00:17], composing agents from reusable capabilities. Cole pairs it with LangGraph for multi-agent orchestration and increasingly weighs it against coding-agent SDKs for personal agents, where he still favors a framework for sub-second, scalable production work.
 
-## Related
+## Realizes
 
-- [Pydantic AI Three-Part Agent Architecture](../../concepts/agent-core-components.md) - the dependencies, agent, tools shape Cole codes against.
+- [The Core Components of an Agent](../../concepts/agent-core-components.md) - the dependencies, agent, tools shape Cole codes against.
 - [Agent Dependency Injection](../../concepts/agent-dependencies.md) - runtime dependencies (API keys, DB connections, vector stores) injected into the agent.
 - [Docstrings as Tool Descriptions](../../concepts/docstrings-as-tool-descriptions.md) - how a tool function's docstring tells the agent when to call it.
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) and [Agentic RAG](../../concepts/agentic-rag.md) - the most common agents Cole builds on Pydantic AI.
-- [Memory Systems](../../concepts/memory-systems.md) - Mem0 and Graphiti wired in as agent tools/dependencies.
-- [Human in the Loop](../../concepts/human-in-the-loop.md) and [Context Engineering](../../concepts/context-engineering.md) - patterns layered onto Pydantic AI agents.
-- [Provider Independence](../../concepts/provider-independence.md) - swap the model with one line, a core reason Cole favors it.
-- [SDK vs. Framework Decision](../../concepts/sdk-vs-framework-decision.md) - Pydantic AI is the "framework" side of that fork.
+
+## Works with
+
 - [LangGraph](./langgraph.md) - the multi-agent orchestrator Cole pairs it with; Pydantic AI builds the individual agents.
 - [Logfire](./logfire.md) - the observability library Pydantic AI uses under the hood.
 - [MCP](./mcp.md) - Pydantic AI adopted MCP-server tool integration early.
-- [Claude Agent SDK](./claude-agent-sdk.md) and [Codex](./codex.md) - the coding-agent SDKs he contrasts with a framework for personal agents.
 - [Archon](./archon.md) - curates Pydantic AI documentation so coding assistants produce correct agent code.
+
+## Contrasts with
+
+- [Claude Agent SDK](./claude-agent-sdk.md) - the coding-agent SDK he weighs against a framework for personal agents.
+- [Codex](./codex.md) - another coding-agent SDK contrasted with a framework for personal agents.
 - [CrewAI](./crewai.md) - a sibling framework named as an interchangeable AG-UI backend.
+- [SDK vs. Framework Decision](../../concepts/sdk-vs-framework-decision.md) - Pydantic AI is the "framework" side of that fork.
+
+## Related
+
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - the most common agents Cole builds on Pydantic AI.
+- [Agentic RAG](../../concepts/agentic-rag.md) - retrieval wired in as an agent tool on top of Pydantic AI.
+- [Memory Systems](../../concepts/memory-systems.md) - Mem0 and Graphiti wired in as agent tools/dependencies.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - a review gate layered onto Pydantic AI agents.
+- [Context Engineering](../../concepts/context-engineering.md) - curating exactly what each agent's prompt receives.
+- [Provider Independence](../../concepts/provider-independence.md) - swap the model with one line, a core reason Cole favors it.
 
 ## Sources
 
-- [Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities](../../sources/pydantic-ai-20-the-new-best-way-to-build-ai-agents-is-composing-capabilities.md) - "[0:00:00] Pidantic AI has been my favorite AI agent framework for a long time now."
+- [Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities](../../sources/pydantic-ai-20-the-new-best-way-to-build-ai-agents-is-composing-capabilities.md) - "[0:00:00] Pydantic AI has been my favorite AI agent framework for a long time now."
 - [Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities](../../sources/pydantic-ai-20-the-new-best-way-to-build-ai-agents-is-composing-capabilities.md) - "[0:00:17] They just put out their 2.0 release and this is a big evolution in the way that we build AI agents. This version of the framework centers around a single primitive called the capability."
-- [10x Your AI Agents with this ONE Agent Architecture](../../sources/10x-your-ai-agents-with-this-one-agent-architecture.md) - "[0:08:20] you can think of building pantic AI agents as building three distinct parts"
+- [10x Your AI Agents with this ONE Agent Architecture](../../sources/10x-your-ai-agents-with-this-one-agent-architecture.md) - "[0:08:20] you can think of building Pydantic AI agents as building three distinct parts"
 - [10x Your AI Agents with this ONE Agent Architecture](../../sources/10x-your-ai-agents-with-this-one-agent-architecture.md) - "[0:08:37] the first component is defining the dependencies these are things like the API keys and database connections that your agent tools need"
 - [This is Hands Down the BEST Way to Build AI Agents](../../sources/this-is-hands-down-the-best-way-to-build-ai-agents.md) - "[0:01:52] it is a python agent framework that makes it super easy to build AI agents while still giving us all of the customizability and control that we need"
-- [The Future of RAG is Agentic - Learn this Strategy NOW](../../sources/the-future-of-rag-is-agentic-learn-this-strategy-now.md) - "[0:30:56] in pantic AI this doc string that you have at the start of a function is how you tell the agent when and how to use this tool"
-- [The ONLY AI Tech Stack You Need in 2026](../../sources/the-only-ai-tech-stack-you-need-in-2026.md) - "[0:07:23] Pyantic AI is constantly supporting new protocols like MCP when that first came out, A2A for UI event streams."
-- [If You're Serious About Building AI Agents, This is Your Secret Weapon](../../sources/if-youre-serious-about-building-ai-agents-this-is-your-secret-weapon.md) - "[0:11:36] Right now, Pyantic AI is my favorite AI agent framework. They just do everything so well, including logging and monitoring because Pantic AI uses a library called Logfire under the hood."
-- [We've Been Building AI Agents WRONG Until Now](../../sources/weve-been-building-ai-agents-wrong-until-now.md) - "[0:02:44] this team is who are going ahead and making pantic AI... because they have validation at the core of what they believe in"
-- [Everything You Thought About Building AI Agents is Wrong](../../sources/everything-you-thought-about-building-ai-agents-is-wrong.md) - "[0:07:59] I'm still using Pideantki all of the time. Building with these frameworks is what's going to allow you to build agents with sub-second response times"
+- [The Future of RAG is Agentic - Learn this Strategy NOW](../../sources/the-future-of-rag-is-agentic-learn-this-strategy-now.md) - "[0:30:56] in Pydantic AI this doc string that you have at the start of a function is how you tell the agent when and how to use this tool"
+- [The ONLY AI Tech Stack You Need in 2026](../../sources/the-only-ai-tech-stack-you-need-in-2026.md) - "[0:07:23] Pydantic AI is constantly supporting new protocols like MCP when that first came out, A2A for UI event streams."
+- [If You're Serious About Building AI Agents, This is Your Secret Weapon](../../sources/if-youre-serious-about-building-ai-agents-this-is-your-secret-weapon.md) - "[0:11:36] Right now, Pydantic AI is my favorite AI agent framework. They just do everything so well, including logging and monitoring because Pydantic AI uses a library called Logfire under the hood."
+- [We've Been Building AI Agents WRONG Until Now](../../sources/weve-been-building-ai-agents-wrong-until-now.md) - "[0:02:44] this team is who are going ahead and making Pydantic AI... because they have validation at the core of what they believe in"
+- [Everything You Thought About Building AI Agents is Wrong](../../sources/everything-you-thought-about-building-ai-agents-is-wrong.md) - "[0:07:59] I'm still using Pydantic AI all of the time. Building with these frameworks is what's going to allow you to build agents with sub-second response times"

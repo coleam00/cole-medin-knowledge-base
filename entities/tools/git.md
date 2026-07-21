@@ -18,14 +18,23 @@ The idea is that commits and the git log become durable, external memory that su
 
 Git also gives the harness a safety net. Because every step is committed, "we can automatically roll back like when we have git integrated with a coding harness" ([0:22:33](../../sources/are-agent-harnesses-bringing-back-vibe-coding.md)). When an agent goes down a bad path, the harness reverts to the last good commit instead of leaving the codebase broken. This makes Git foundational to the [AI coding harness](../../concepts/ai-coding-harness.md) as Cole describes it, and part of why harnesses represent an evolution in how AI writes code: the version-control layer turns risky autonomous edits into checkpointed, reversible progress.
 
+## Realizes
+
+- [Git as Long-Term Memory](../../concepts/git-as-long-term-memory.md) - Treating git history and versioned files as durable, inspectable memory for agents, the pattern Git realizes inside a harness.
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The scaffolding that turns a raw model into a reliable coding system, of which Git is a core memory-and-rollback component.
+
+## Works with
+
+- [Claude Code](./claude-code.md) - Anthropic's terminal coding agent that commits progress to Git as it works.
+- [Archon](./archon.md) - Cole's harness builder that leans on Git for checkpointed, reversible agent runs.
+
 ## Related
 
-- [Git as Long-Term Memory](../../concepts/git-as-long-term-memory.md) - the pattern Git realizes inside a harness
-- [AI Coding Harness](../../concepts/ai-coding-harness.md) - Git is a core component of the harness memory and rollback loop
-- [Context Reset](../../concepts/context-reset.md) - the git log lets a fresh session rebuild state after a reset
-- [Context Rot](../../concepts/context-rot.md) - committing progress keeps state out of the degrading window
-- [Context Engineering](../../concepts/context-engineering.md), [The Evolution of AI Coding](../../concepts/the-evolution-of-ai-coding.md), [The AI Layer](../../concepts/the-ai-layer.md) - surrounding frames
-- Sibling tools: [Claude Code](./claude-code.md), [Archon](./archon.md)
+- [Context Reset](../../concepts/context-reset.md) - Clearing an agent's context between phases; the git log lets a fresh session rebuild state afterward.
+- [Context Rot](../../concepts/context-rot.md) - The degradation of output as context fills; committing progress keeps state out of the window.
+- [Context Engineering](../../concepts/context-engineering.md) - Curating what goes into the context window, letting the repo carry state instead.
+- [The Evolution of AI Coding](../../concepts/the-evolution-of-ai-coding.md) - How AI coding assistants moved from novelty to daily driver.
+- [The AI Layer](../../concepts/the-ai-layer.md) - The rules, commands, skills, and context you own on top of a codebase.
 
 ## Sources
 

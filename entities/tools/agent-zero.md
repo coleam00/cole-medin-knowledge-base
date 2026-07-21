@@ -20,13 +20,22 @@ Agent Zero is the front-end half of Cole's frontend-agnostic pattern: the agent 
 
 Beyond local testing, Cole uses it as a deployment on-ramp: after validating an agent through Agent Zero he moves on to hosting the front-end (for example on Render), so the same tool spans prototype chat and production deployment.
 
+## Realizes
+
+- [Frontend-Agnostic Agents](../../concepts/frontend-agnostic-agent.md) - decouple the agent backend from any specific UI so the same agent can power any frontend.
+- [Agent as an API Endpoint](../../concepts/agent-as-api-endpoint.md) - wrapping an agent in a web API turns it into a deployable service any frontend can call; the contract Agent Zero consumes.
+
+## Works with
+
+- [Live Agent Studio](./live-agent-studio.md) - Cole's community-driven open-source AI agent platform that hosts Agent Zero.
+- [Render](./render.md) - the cloud deployment platform Cole moves the front-end to after local validation.
+- [Archon](./archon.md) - Cole's open-source agent that builds agents; he wires the agent army into Agent Zero.
+
 ## Related
 
-- [Agent as an API Endpoint](../../concepts/agent-as-api-endpoint.md) - the contract Agent Zero consumes to talk to any backend agent.
-- [Frontend-Agnostic Agents](../../concepts/frontend-agnostic-agent.md) - the decoupling pattern Agent Zero embodies.
-- [Agent Deployment](../../concepts/agent-deployment.md) - hosting the front-end after local validation.
+- [Agent Deployment](../../concepts/agent-deployment.md) - getting agents to production with a provider-agnostic, cost-predictable host.
 - [Agent Security](../../concepts/agent-security.md) - securing the endpoint the front-end connects to.
-- [Memory Systems](../../concepts/memory-systems.md) - the conversation history Agent Zero persists.
+- [Memory Systems](../../concepts/memory-systems.md) - the conversation history Agent Zero persists across sessions and users.
 - [Context Engineering](../../concepts/context-engineering.md) - managing what each hooked-in agent carries between turns.
 
 ## Sources

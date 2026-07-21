@@ -10,7 +10,7 @@ updated: 2026-07-21
 
 # Machines Paying Machines
 
-Machines paying machines is the near-future pattern where autonomous agents transact directly with one another, paying for services with minimal human involvement. Cole calls it out as a coming shift and points to concrete infrastructure already forming: "machines paying machines is going to become a very big thing. And Coinbase recently released a protocol for this called X42." The premise is that agents will increasingly need capabilities they do not have themselves, and rather than a human brokering each purchase, one agent will simply pay another agent's service to get the job done.
+Machines paying machines is the near-future pattern where autonomous agents transact directly with one another, paying for services with minimal human involvement. Cole calls it out as a coming shift and points to concrete infrastructure already forming: "machines paying machines is going to become a very big thing. And Coinbase recently released a protocol for this called x402." The premise is that agents will increasingly need capabilities they do not have themselves, and rather than a human brokering each purchase, one agent will simply pay another agent's service to get the job done.
 
 The economic implication is a marketplace of agent-exposed capabilities. If your agent offers something valuable through an API, other people's agents can pay to use it: "we can make money with our agents assuming it exposes capabilities that other people want to leverage through their AI agents." This reframes an agent from a personal tool into a potential revenue-generating service. The prerequisite is that the agent is reachable and its capabilities are cleanly exposed, which is why this pattern sits downstream of turning agents into callable endpoints and standardizing how they are invoked.
 
@@ -25,5 +25,5 @@ The enabling layer is a payment protocol built for autonomous, machine-speed tra
 
 ## Sources
 
-- [The Way We Use AI Will Completely Change in 2026 (Hot Takes)](../sources/the-way-we-use-ai-will-completely-change-in-2026-hot-takes.md) - "[0:11:50] machines paying machines is going to become a very big thing. And Coinbase recently released a protocol for this called X42."
+- [The Way We Use AI Will Completely Change in 2026 (Hot Takes)](../sources/the-way-we-use-ai-will-completely-change-in-2026-hot-takes.md) - "[0:11:50] machines paying machines is going to become a very big thing. And Coinbase recently released a protocol for this called x402."
 - [The Way We Use AI Will Completely Change in 2026 (Hot Takes)](../sources/the-way-we-use-ai-will-completely-change-in-2026-hot-takes.md) - "[0:12:24] we can make money with our agents assuming it exposes capabilities that other people want to leverage through their AI agents."

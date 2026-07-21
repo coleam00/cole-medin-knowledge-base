@@ -14,27 +14,43 @@ updated: 2026-07-21
 
 MCP is Anthropic's open standard for handing tools and data to a large language model in a uniform way. Cole frames it plainly: "the model context protocol has everyone fired up including me because of the way that it standardizes giving tools to llm" ([0:00:00]). Launched by Anthropic in November 2024, it "become the go-to way for us to connect our agents to our tools and data" ([0:00:00], *The BIG Problem with MCP Servers*), and it does for tool wiring what a common port does for hardware: any MCP-compatible client can connect to any MCP server without bespoke glue. It rides a JSON-RPC transport, and "HTTP streamable is the de facto standard protocol for MCP" ([0:19:00]) alongside the older stdio and SSE transports.
 
-Across the catalog MCP is Cole's default connective tissue for agentic coding. Any MCP-compatible assistant (Claude Code, Cursor, Windsurf, Cline) plugs in through "the exact same JSON configuration as something like claw desktop" ([0:18:03]). He attaches [Archon](./archon.md) as an MCP server so [Claude Code](./claude-code.md) can search task and doc context, wires [Supabase](./supabase.md) so an agent can manage a database in natural language, runs the Puppeteer server so an agent can "actually go and verify that things are working on the website" ([0:15:20]), and uses [Context7](./context7.md), Brave, Slack, Jira, and the sequential-thinking server for extra reasoning tokens. In the harness-engineering framing, MCP servers sit in "that higher level AI layer" ([0:04:02]) beside skills, rules, and hooks.
+Across the catalog MCP is Cole's default connective tissue for agentic coding. Any MCP-compatible assistant (Claude Code, Cursor, Windsurf, Cline) plugs in through "the exact same JSON configuration as something like Claude Desktop" ([0:18:03]). He attaches [Archon](./archon.md) as an MCP server so [Claude Code](./claude-code.md) can search task and doc context, wires [Supabase](./supabase.md) so an agent can manage a database in natural language, runs the Puppeteer server so an agent can "actually go and verify that things are working on the website" ([0:15:20]), and uses [Context7](./context7.md), Brave, Slack, Jira, and the sequential-thinking server for extra reasoning tokens. In the harness-engineering framing, MCP servers sit in "that higher level AI layer" ([0:04:02]) beside skills, rules, and hooks.
 
 Cole also stresses MCP's limits and its place in a larger stack. It is "the layer above MCP servers... a packaging of tools" ([0:02:11]) that [capabilities-over-tools](../../concepts/capabilities-over-tools.md) supersets, and it can be "incredibly token inefficient and rigid" ([0:00:58]), which is why he now points to [code execution](../../concepts/code-execution.md) as the emerging answer. In late 2025 Anthropic donated MCP to a "directed fund under the Linux Foundation" ([0:14:32]), the Agentic AI Foundation. He compares it repeatedly to sibling protocols: OKF is "what MCP did for agentto tool communication... for agent to knowledgebased communication" ([0:09:36]), [AG-UI](./ag-ui.md) is MCP but for connecting agents to front ends, and A2A is complementary ("you can use MCP and A2A together" [0:10:57]).
 
+## Realizes
+
+- [Model Context Protocol (MCP)](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
+- [Tool Standardization](../../concepts/tool-standardization.md) - MCP standardizes how tools are exposed to LLMs, like a USB-C port for AI, so the same tools can be reused identically across any agent framework or host instead of hand-coding every capability.
+
 ## Contrasts with
 
-- [Code Execution](../../concepts/code-execution.md) - positioned as the fix for MCP's token-inefficiency and rigidity.
-- [The Problems With MCP Servers](../../concepts/mcp-problems.md) - the token cost and brittleness of loading many servers.
+- [Code Execution](../../concepts/code-execution.md) - Giving agents a sandbox to write and run code as a general-purpose tool rather than exposing many narrow tools.
+- [The Problems With MCP Servers](../../concepts/mcp-problems.md) - MCP's practical failure modes, tool overload and context/token bloat that overwhelm LLMs, JSON setup friction, and early production gaps like missing built-in auth and security.
+- [Capabilities Over Tools](../../concepts/capabilities-over-tools.md) - Framing skills as composable capabilities the model can combine, rather than a flat list of rigid tools.
+
+## Works with
+
+- [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
+- [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
+- [Docker](./docker.md) - Containerization prerequisite; a single docker compose command spins up Archon's four containers (agents, MCP server, UI, API server).
+- [Context7](./context7.md) - A hosted MCP RAG server for 8,000+ library docs; impressive but too broad, can't include private repos, and its core logic is closed-source.
+- [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
+- [AG-UI](./ag-ui.md) - Open protocol (by the CopilotKit team) that standardizes connecting AI agents to front ends via emitted events; ~16 event types.
 
 ## Related
 
-- [Model Context Protocol (MCP)](../../concepts/mcp.md) - the concept page: what MCP is and why it matters.
-- [MCP Server & Client Architecture](../../concepts/mcp-architecture.md) - how servers and clients talk.
-- [Build Your Own MCP Server](../../concepts/build-your-own-mcp-server.md) - building and shipping custom servers.
-- [MCP with Custom Agents](../../concepts/mcp-with-custom-agents.md) - using MCP outside coding assistants.
-- [Capabilities Over Tools](../../concepts/capabilities-over-tools.md) - the layer above raw MCP servers.
-- [Agent Protocols](../../concepts/agent-protocols.md) - MCP among the standardizing protocols.
-- [Agent Client Protocol (ACP)](../../concepts/agent-client-protocol.md) - a sibling JSON-RPC protocol.
-- [Context Engineering](../../concepts/context-engineering.md) - MCP as a context source.
-- [Global Rules](../../concepts/global-rules.md), [Agentic Coding](../../concepts/agentic-coding.md), [Subagents Pattern](../../concepts/subagents-pattern.md), [Human in the Loop](../../concepts/human-in-the-loop.md).
-- Tools: [Archon](./archon.md), [Claude Code](./claude-code.md), [Supabase](./supabase.md), [Docker](./docker.md), [Context7](./context7.md), [Pydantic AI](./pydantic-ai.md), [AG-UI](./ag-ui.md).
+- [MCP Server & Client Architecture](../../concepts/mcp-architecture.md) - The structural foundations of the Model Context Protocol: how servers expose tools to clients, server lifespan and state management, containerized one-click installs, aggregating many servers, and registering tools dynamically.
+- [Build Your Own MCP Server](../../concepts/build-your-own-mcp-server.md) - Standing up custom MCP servers (often with LLM help) to expose tools to any client over a standard transport.
+- [MCP with Custom Agents](../../concepts/mcp-with-custom-agents.md) - Integrating MCP servers directly into agents you build yourself, so you control the front end, tool selection, and how the tools are used.
+- [Agent Protocols](../../concepts/agent-protocols.md) - Emerging standards (A2A, agent cards, discovery) that let agents interoperate and be called across clients.
+- [Agent Client Protocol (ACP)](../../concepts/agent-client-protocol.md) - An open standard for connecting any coding agent to any code editor, the agent-to-editor analog of MCP.
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window, to avoid overload and keep outputs sharp.
+- [Global Rules](../../concepts/global-rules.md) - Persistent project- or user-level rule files that inject standing context and conventions into every agent run.
+- [Agentic Coding](../../concepts/agentic-coding.md) - Letting an AI agent drive software development end-to-end, from planning through implementation and validation, with human steering.
+- [Subagents Pattern](../../concepts/subagents-pattern.md) - Delegating scoped tasks to isolated subagents to parallelize work and protect the main agent's context window.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
 
 ## Sources
 
@@ -43,7 +59,7 @@ Cole also stresses MCP's limits and its place in a larger stack. It is "the laye
 - [The MCP Integration EVERYONE is Sleeping On](../../sources/the-mcp-integration-everyone-is-sleeping-on-mcp-custom-ai-agents.md) - "[0:00:00] the model context protocol has everyone fired up including me because of the way that it standardizes giving tools to llm."
 - [Docker Just Made Using MCP Servers 100x Easier](../../sources/docker-just-made-using-mcp-servers-100x-easier-one-click-installs.md) - "[0:19:00] HTTP streamable is the de facto standard protocol for MCP."
 - [Pydantic AI 2.0: Composing Capabilities](../../sources/pydantic-ai-20-the-new-best-way-to-build-ai-agents-is-composing-capabilities.md) - "[0:02:11] it's also useful to think about capabilities as the layer above MCP servers... MCP is a packaging of tools that you can hand to your AI agent."
-- [Build and Ship Any MCP Server in MINUTES](../../sources/build-and-ship-any-mcp-server-in-minutes-full-guide.md) - "[0:00:16] When Enthropic launched the model context protocol last November, it was genuinely impressive."
+- [Build and Ship Any MCP Server in MINUTES](../../sources/build-and-ship-any-mcp-server-in-minutes-full-guide.md) - "[0:00:16] When Anthropic launched the model context protocol last November, it was genuinely impressive."
 - [AI Exploded in 2025](../../sources/ai-exploded-in-2025-heres-everything-that-happened.md) - "[0:14:32] they announced that they're donating MCP as a part of establishing the Agentic AI Foundation. This is a directed fund under the Linux Foundation."
 - [Harness Engineering](../../sources/harness-engineering-what-separates-top-agentic-engineers-right-now.md) - "[0:04:02] This is where we start to get into that higher level AI layer where we get to define things like the MCP servers we use, the skills that we build."
 - [I Forced Claude to Code for 24 Hours NONSTOP](../../sources/i-forced-claude-to-code-for-24-hours-nonstop-heres-what-happened.md) - "[0:15:20] We have the Puppeteer MCP server attached to the coding assistant... So it can actually go and verify that things are working on the website."
@@ -51,22 +67,22 @@ Cole also stresses MCP's limits and its place in a larger stack. It is "the laye
 - [Anthropic Just Dropped a Masterclass on Agent Harnesses](../../sources/anthropic-just-dropped-a-masterclass-on-building-agent-harnesses-for-large-codebases.md) - "[0:20:34] That's an example of using an MCP server to expose a language server protocol."
 - [Google is Quietly Revolutionizing AI Agents](../../sources/google-is-quietly-revolutionizing-ai-agents-this-is-huge.md) - "[0:10:57] you can use MCP and A2A together. They are very complimentary to each other."
 - [Finally, an Open Standard for the Karpathy LLM Wiki](../../sources/finally-an-open-standard-for-the-karpathy-llm-wiki-is-here.md) - "[0:09:36] It's like what MCP did for agentto tool communication, this OKF is doing for agent to knowledgebased communication."
-- [I Built My Second Brain with Claude Code + Obsidian + Skills](../../sources/i-built-my-second-brain-with-claude-code-obsidian-skills-heres-how.md) - "[0:18:03] this is just the exact same JSON configuration as something like claw desktop."
+- [I Built My Second Brain with Claude Code + Obsidian + Skills](../../sources/i-built-my-second-brain-with-claude-code-obsidian-skills-heres-how.md) - "[0:18:03] this is just the exact same JSON configuration as something like Claude Desktop."
 - [This MCP Server Will 10x Your Productivity](../../sources/this-mcp-server-for-ai-coding-assistants-will-10x-your-productivity.md) - "[0:05:29] The first one is a tool to resolve a library ID... then it can call the get library docs function."
 - [The ULTIMATE Guide to Building Your Own MCP Servers](../../sources/the-ultimate-guide-to-building-your-own-mcp-servers-free-template.md) - "[0:01:06] The three main resources I use to learn about MCP are the official docs, a list of existing MCP servers on GitHub, and Anthropic's official MCP Python SDK repo."
-- [A Complete Guide to Claude Code](../../sources/a-complete-guide-to-claude-code-here-are-all-the-best-strategies.md) - "[0:14:26] MCP is our way to connect Cloud Code to those external tools."
+- [A Complete Guide to Claude Code](../../sources/a-complete-guide-to-claude-code-here-are-all-the-best-strategies.md) - "[0:14:26] MCP is our way to connect Claude Code to those external tools."
 - [Build an ARMY of AI Agents with Archon](../../sources/build-an-army-of-ai-agents-on-autopilot-with-archon-heres-how.md) - "[0:10:16] you can add 10 12 15 20 MCP servers and you're not going to overwhelm your system."
 - [This Completely Changes Production AI Agents (Vercel Eve)](../../sources/this-completely-changes-the-way-we-build-production-ai-agents-vercel-eve.md) - "[0:07:12] We have the Vercel MCP for deploying connected here, so it makes it really easy to bring our agent into production."
 - [I Love the Karpathy LLM Wiki but it Doesn't Scale](../../sources/i-love-the-karpathy-llm-wiki-but-it-doesnt-scale-heres-what-does.md) - "[0:05:03] This is how we allow our agent to understand and search through our data through an MCP server."
 - [Google Just Dropped a Masterclass on Agentic Engineering](../../sources/google-just-dropped-a-masterclass-on-agentic-engineering-its-so-good.md) - "[0:08:39] So you have your instructions MCP servers guardrails and hooks."
 - [FULL Guide to Becoming a Principled Agentic Engineer](../../sources/full-guide-to-becoming-a-principled-agentic-engineer-build-anything-with-ai.md) - "[0:34:48] it's using the create issue MCP tool. It's got my ID, the project, all the things we specified as parameters."
 - [The Way We Use AI Will Completely Change in 2026](../../sources/the-way-we-use-ai-will-completely-change-in-2026-hot-takes.md) - "[0:08:28] They talk all about the problem with tools in MCP and how code execution is the solution."
-- [GitHub is the Future of AI Coding](../../sources/github-is-the-future-of-ai-coding-heres-why.md) - "[0:15:51] it's actually hard to see MCP usage in GitHub action logs, but we can see it beautifully in Cloud Desktop."
+- [GitHub is the Future of AI Coding](../../sources/github-is-the-future-of-ai-coding-heres-why.md) - "[0:15:51] it's actually hard to see MCP usage in GitHub action logs, but we can see it beautifully in Claude Desktop."
 - [Learn 90% of Building AI Agents in 30 Minutes](../../sources/learn-90-of-building-ai-agents-in-30-minutes.md) - "[0:12:47] MCP servers are a great way to find prepackaged sets of tools you can bring into your agent."
 - [Claude Code's Real Purpose](../../sources/claude-codes-real-purpose-its-bigger-than-you-think.md) - "[0:12:09] This is a standard IO server I use quite a bit called sequential thinking... I just get more thinking tokens out of my LLM."
 - [Build Your First Voice AI Agent with LiveKit](../../sources/build-your-first-voice-ai-agent-in-20-minutes-with-livekit-open-source.md) - "[0:11:53] There's no authentication. I just have to give the URL to my MCP server. It is that easy."
 - [Knowledge Graphs in n8n are FINALLY Here](../../sources/knowledge-graphs-in-n8n-are-finally-here.md) - "[0:01:50] I built up this knowledge graph in the rag pipeline now using an MCP server."
-- [The Future of AI and SaaS is Agentic Experiences](../../sources/the-future-of-ai-and-saas-is-agentic-experiences-heres-how-to-build-them.md) - "[0:10:24] this is a remote MCP server completely free to use. Now Claude Code is able to search the C-pilot kit documentation."
+- [The Future of AI and SaaS is Agentic Experiences](../../sources/the-future-of-ai-and-saas-is-agentic-experiences-heres-how-to-build-them.md) - "[0:10:24] this is a remote MCP server completely free to use. Now Claude Code is able to search the CopilotKit documentation."
 - [This New Protocol Will Change AI Coding Forever (ACP)](../../sources/this-new-protocol-will-change-ai-coding-forever-acp.md) - "[0:07:28] it's following a JSON RPC protocol just like MCP does."
 - [I Built My Claude Code Subagents DREAM TEAM](../../sources/i-built-my-claude-code-subagents-dream-team-to-create-any-ai-agent.md) - "[0:19:13] It's starting by checking Archon. We are successfully connected to the Archon MCP."
 - [My Top 20 Lessons from Building 100s of AI Agents](../../sources/my-top-20-lessons-from-building-100s-of-ai-agents-super-actionable.md) - "[0:13:24] it's using the MCP protocol to work with some external tools."
@@ -82,7 +98,7 @@ Cole also stresses MCP's limits and its place in a larger stack. It is "the laye
 - [The EASIEST Strategy for Accurate RAG](../../sources/the-easiest-possible-strategy-for-accurate-rag-step-by-step-guide.md) - "[0:17:31] they even have an MCP server... you can with natural language manage your database."
 - [If You're Serious About Building AI Agents](../../sources/if-youre-serious-about-building-ai-agents-this-is-your-secret-weapon.md) - "[0:12:50] I have built an agent that uses the Brave MCP server. So it's an agent with web search."
 - [BRAND NEW Stealth LLM on OpenRouter](../../sources/brand-new-stealth-llm-released-on-openrouter-its-a-beast.md) - "[0:05:13] a bunch of agents all connected to MCP servers to do different things like air table Brave fir craw."
-- [Code 100x Faster with AI](../../sources/code-100x-faster-with-ai-heres-how-no-hype-full-process.md) - "[0:07:16] we're using MCP as a connector... to connect to Superbase so that it has tools to do things in our database."
+- [Code 100x Faster with AI](../../sources/code-100x-faster-with-ai-heres-how-no-hype-full-process.md) - "[0:07:16] we're using MCP as a connector... to connect to Supabase so that it has tools to do things in our database."
 - [OpenAI's BRAND NEW Agents SDK](../../sources/openais-brand-new-agents-sdk-crash-course.md) - "[0:09:45] MCP is anthropics model context protocol; it gives AI access to specialized tools."
 - [Introducing Archon - an AI Agent that BUILDS AI Agents](../../sources/introducing-archon-an-ai-agent-that-builds-ai-agents.md) - "[0:02:11] this is using the model context protocol from Claude; I literally have archon as a tool for wind surf."
 - [Coding Subagents - The Next Evolution of AI IDEs](../../sources/coding-subagents-the-next-evolution-of-ai-ides.md) - "[0:12:20] a protocol developed by Claude to standardize the use of tools with large language models."

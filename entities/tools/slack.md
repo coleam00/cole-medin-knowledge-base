@@ -22,18 +22,27 @@ Second, **Slack as the way to talk to and supervise agents**, a [human-in-the-lo
 
 Third, **Slack as a stock connector to set up.** He repeatedly walks through the auth: Docker's one-click MCP install still needs you to "create a Slack app and hook in the bot token here," and n8n's Slack credentials are "a little bit trickier ... you actually want to go to ooth and permissions." However it is wired, Slack is the reliable output/notification channel of these builds. Cole notes the same slot could be filled by [Telegram](./telegram.md).
 
+## Realizes
+
+- [Chat Interfaces](../../concepts/chat-interfaces.md) - Wrapping agents in chat surfaces (websites, DMs, platforms) with adapters, a shared message format, and durable history.
+
+## Works with
+
+- [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
+- [Docker](./docker.md) - Containerization prerequisite; a single docker compose command spins up Archon's four containers (agents, MCP server, UI, API server).
+- [Zapier](./zapier.md) - Automation platform whose MCP server connects agents to 8,000+ apps (video sponsor).
+
+## Contrasts with
+
+- [Telegram](./telegram.md) - The messaging app Cole integrates Codex into via the Telegraf library, letting him trigger remote coding jobs from his phone.
+
 ## Related
 
-- [Chat Interfaces](../../concepts/chat-interfaces.md) - Slack as the conversational front end to an agent
-- [Human in the Loop](../../concepts/human-in-the-loop.md) - approval buttons and progress pings in-channel
-- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Slack as the alerting and reporting node
-- [Tool Calling](../../concepts/tool-use.md) - "send a Slack message" as the real-world action
-- [Memory Systems](../../concepts/memory-systems.md) - the second brain Cole talks to in Slack
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md)
-- [n8n](./n8n.md) - the workflow builder wiring Slack credentials
-- [Telegram](./telegram.md) - the interchangeable messaging surface
-- [Docker](./docker.md) - one-click MCP install for the Slack server
-- [Zapier](./zapier.md) - connects a second brain to Slack read-only
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [Tool Calling](../../concepts/tool-use.md) - Letting an LLM invoke external functions and APIs so it can take actions and fetch data beyond its parametric knowledge.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
 
 ## Sources
 
@@ -43,7 +52,7 @@ Third, **Slack as a stock connector to set up.** He repeatedly walks through the
 - [Turn Claude Code into Your Full Engineering Team with Subagents](../../sources/turn-claude-code-into-your-full-engineering-team-with-subagents.md) - "[0:04:48] We're providing updates in Slack ... I just have it message me after the first and second sessions."
 - [10 n8n Tips in 10 Minutes to 10x Your AI Automations](../../sources/10-n8n-tips-in-10-minutes-to-10x-your-ai-automations.md) - "[0:08:25] send a slack message with the error details so that you know to go and handle whatever went wrong within your workflow"
 - [Docker Just Made Using MCP Servers 100x Easier (One Click Installs!)](../../sources/docker-just-made-using-mcp-servers-100x-easier-one-click-installs.md) - "[0:09:00] you just have to create a Slack app and hook in the bot token here."
-- [Don't Sleep on the ULTIMATE AI Agent Combo (n8n, LangChain, Python)](../../sources/dont-sleep-on-the-ultimate-ai-agent-combo-n8n-langchain-python.md) - "[0:06:43] setting up the slack credentials is a little bit trickier in NN ... you actually want to go to ooth and permissions"
+- [Don't Sleep on the ULTIMATE AI Agent Combo (n8n, LangChain, Python)](../../sources/dont-sleep-on-the-ultimate-ai-agent-combo-n8n-langchain-python.md) - "[0:06:43] setting up the slack credentials is a little bit trickier in n8n ... you actually want to go to ooth and permissions"
 - [Flowise + n8n - The BEST No Code + Local AI Agent Combo](../../sources/flowise-n8n-the-best-no-code-local-ai-agent-combo.md) - "[0:27:50] let's have it send a slack message with this link and the summary of its findings"
 - [The KING of No Code AI Agent Builders?!](../../sources/the-king-of-no-code-ai-agent-builders.md) - "[0:14:30] if we go into my slack Channel there we go it sent test message so everything is working good for the connection"
 - [This Slack AI Personal Assistant is Better than a Real Person](../../sources/this-slack-ai-personal-assistant-is-better-than-a-real-person.md) - "[0:08:02] I want to do is invite run bear into this channel"

@@ -12,7 +12,7 @@ updated: 2026-07-21
 
 # GitHub
 
-GitHub is the remote hosting platform for Git repositories that, across Cole's catalog, does double duty: it is where nearly every project he demos lives (the "link in the description" repo), and, increasingly, it is the *control surface* an agent operates through. The load-bearing piece for agentic coding is the `gh` command-line tool. As Cole puts it, "now that you have GH in your development environment, you have the GitHub CLI command. Cloud code can start using this to operate on your remote GitHub repository." Because the CLI is text-in, text-out and already authenticated, Claude Code and Codex can read issues, open pull requests, comment, and tag agents without any bespoke integration, the platform every developer already uses becomes the agent's API.
+GitHub is the remote hosting platform for Git repositories that, across Cole's catalog, does double duty: it is where nearly every project he demos lives (the "link in the description" repo), and, increasingly, it is the *control surface* an agent operates through. The load-bearing piece for agentic coding is the `gh` command-line tool. As Cole puts it, "now that you have GH in your development environment, you have the GitHub CLI command. Claude Code can start using this to operate on your remote GitHub repository." Because the CLI is text-in, text-out and already authenticated, Claude Code and Codex can read issues, open pull requests, comment, and tag agents without any bespoke integration, the platform every developer already uses becomes the agent's API.
 
 ## How Cole uses it
 
@@ -20,23 +20,26 @@ Two roles recur. First, **GitHub as the agent's inbox and entry point.** In the 
 
 Second, **GitHub as version control that doubles as agent memory.** Cole leans on the fact that "everyone's already using Git and GitHub for version control. And so we can take advantage of a tool that we're already using to provide long-term memory to our agent." Commit history and PRs give the agent durable, inspectable state for free. On top of that sit **GitHub Actions** for CI/CD ("It's the tooling for CI and CD built right into GitHub, which is freaking awesome") and GitHub OAuth for authenticating MCP servers and remote agent containers, where "you grab your GitHub token just going to this URL." The bulk of the remaining videos use GitHub in its plainest role: the public repo cloned to follow along, which keeps the whole teaching catalog reproducible.
 
-## Related
+## Realizes
 
-- [Issue Is the Spec](../../concepts/issue-is-the-spec.md) - the GitHub issue as the scoped unit of agentic work
-- [Git as Long-Term Memory](../../concepts/git-as-long-term-memory.md) - version history as durable agent state
-- [Agent Deployment](../../concepts/agent-deployment.md) - pulling code from GitHub to build and serve agents
-- [Context Engineering](../../concepts/context-engineering.md)
-- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md)
-- [Human-in-the-Loop](../../concepts/human-in-the-loop.md) - PR review as the approval gate
-- [Model Selection](../../concepts/model-selection.md)
-- [Global Rules](../../concepts/global-rules.md)
-- [Provider Independence](../../concepts/provider-independence.md)
-- [Git](./git.md) - the version control system GitHub hosts
-- [Git Worktree](./git-worktree.md) - parallel branches driving parallel PRs
-- [Claude Code](./claude-code.md) - the primary agent driving `gh`
-- [Codex](./codex.md) - remote agent operating through the GitHub CLI
-- [Archon](./archon.md) - workflow engine that fixes GitHub issues end to end
-- [Docker](./docker.md) - containers authed with a GitHub token
+- [The Issue Is the Spec](../../concepts/issue-is-the-spec.md) - Treating a well-written ticket or issue as the complete specification the agent implements against.
+- [Git as Long-Term Memory](../../concepts/git-as-long-term-memory.md) - Treating the git history and versioned files as durable, inspectable memory for agents instead of opaque model state.
+- [Agent Deployment](../../concepts/agent-deployment.md) - Getting agents to production, containerizing, networking, reverse-proxying, and choosing a provider-agnostic, cost-predictable host.
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Global Rules](../../concepts/global-rules.md) - Persistent project- or user-level rule files that inject standing context and conventions into every agent run.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost.
+- [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+
+## Works with
+
+- [Git](./git.md) - Version control used as a core part of harness memory: commits and the git log let fresh sessions reconstruct progress, and enable automatic rollback.
+- [Git Worktree](./git-worktree.md) - Git feature that duplicates the codebase across isolated branches so multiple coding agents can run in parallel without collisions.
+- [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant, the primary agent driving `gh`.
+- [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
+- [Archon](./archon.md) - Cole's free, open-source AI command center and harness builder for AI coding that fixes GitHub issues end to end.
+- [Docker](./docker.md) - Containerization prerequisite; containers authenticated with a GitHub token pull code to build and serve agents.
 
 ## Sources
 
@@ -64,7 +67,7 @@ Second, **GitHub as version control that doubles as agent memory.** Cole leans o
 - [The True Power of AI Coding - Build Your OWN Workflows (Full Guide)](../../sources/the-true-power-of-ai-coding-build-your-own-workflows-full-guide.md)
 - [I Built My Claude Code Subagents DREAM TEAM to Create Any AI Agent](../../sources/i-built-my-claude-code-subagents-dream-team-to-create-any-ai-agent.md)
 - [Introducing Archon - The Revolutionary Operating System for AI Coding](../../sources/introducing-archon-the-revolutionary-operating-system-for-ai-coding.md)
-- [A Complete Guide to Claude Code - Here are ALL the Best Strategies](../../sources/a-complete-guide-to-claude-code-here-are-all-the-best-strategies.md) - "[0:33:58] now that you have GH in your development environment, you have the GitHub CLI command. Cloud code can start using this to operate on your remote GitHub repository."
+- [A Complete Guide to Claude Code - Here are ALL the Best Strategies](../../sources/a-complete-guide-to-claude-code-here-are-all-the-best-strategies.md) - "[0:33:58] now that you have GH in your development environment, you have the GitHub CLI command. Claude Code can start using this to operate on your remote GitHub repository."
 - [Build and Ship Any MCP Server in MINUTES (Full Guide)](../../sources/build-and-ship-any-mcp-server-in-minutes-full-guide.md)
 - [Context Engineering is the New Vibe Coding (Learn this Now)](../../sources/context-engineering-is-the-new-vibe-coding-learn-this-now.md)
 - [AI Code That Fixes Itself (An MCP You Can Try Now)](../../sources/ai-code-that-fixes-itself-an-mcp-you-can-try-now.md)

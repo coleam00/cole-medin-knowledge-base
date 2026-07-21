@@ -20,16 +20,24 @@ Gemini 2.0 Flash is Cole's default "just build it" model in agent tutorials, cho
 
 Beyond prototyping, his [model selection](../../concepts/model-selection.md) heuristic routes creative work to Gemini: "Gemini 2.5 Pro I find works better for more of my creative agents like they need kind of like writing assistant" [0:32:45]. He also builds Gemini support into his open-source coding assistant ("an integration with Gemini so for both Gemini 1.5 Flash and pro") and shows it doing agentic web research inside a unified LLM platform.
 
+## Contrasts with
+
+- [Claude](./claude.md) - Named as an example of a large language model that can be turned into an agent, a sibling frontier model.
+- [GPT-4](./gpt-4.md) - OpenAI's model cited as strong enough that it reasons step by step without being told to.
+- [DeepSeek V3](./deepseek-v3.md) - Open model Cole cites as evidence the local-vs-closed gap is closing fast.
+
+## Works with
+
+- [Gemini CLI](./gemini-cli.md) - Google's terminal-based coding agent running on the same Gemini model line.
+
 ## Related
 
-- [Model Selection](../../concepts/model-selection.md) - Gemini for creative agents, its free tier for prototyping
-- [Agentic Coding](../../concepts/agentic-coding.md) - Gemini as a coding-assistant backend
-- [Context Engineering](../../concepts/context-engineering.md) - Gemini 2.5's long-context strength
-- [RAG](../../concepts/rag.md) - Gemini as the generation model
-- [Memory Systems](../../concepts/memory-systems.md) - upgrading a Gemini chatbot into a stateful agent
-- [Vibe Coding](../../concepts/vibe-coding.md)
-- [Gemini CLI](./gemini-cli.md) - Google's terminal agent on the same model line
-- [Claude](./claude.md), [GPT-4](./gpt-4.md), [DeepSeek V3](./deepseek-v3.md) - sibling models
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task; Cole routes creative agents to Gemini and prototypes on its free tier.
+- [Context Engineering](../../concepts/context-engineering.md) - Curating the context window, where Gemini 2.5's long-context strength shines.
+- [Agentic Coding](../../concepts/agentic-coding.md) - Letting an AI agent drive development, with Gemini as a coding-assistant backend.
+- [RAG](../../concepts/rag.md) - Grounding answers with retrieved documents, with Gemini as the generation model.
+- [Memory Systems](../../concepts/memory-systems.md) - Durable agent memory, upgrading a Gemini chatbot into a stateful agent.
+- [Vibe Coding](../../concepts/vibe-coding.md) - Building software by conversationally prompting an AI without closely reading the code.
 
 ## Sources
 

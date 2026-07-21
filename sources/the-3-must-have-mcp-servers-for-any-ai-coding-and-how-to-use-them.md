@@ -57,7 +57,7 @@ The agent reads the planning and task files, fires multiple RAG queries against 
 - **[0:03:41]** Server 3, web search via Brave MCP, used in tandem with RAG for supplemental resources
 - **[0:05:16]** Configuring MCP servers in Windsurf's cascade JSON; all three have generous free tiers
 - **[0:06:54]** DataButton sponsor segment
-- **[0:08:34]** Live build setup: workspace rules, planning file (made with Claude desktop), task file
+- **[0:08:34]** Live build setup: workspace rules, planning file (made with Claude Desktop), task file
 - **[0:10:39]** Walkthrough of the kickoff prompt, read planning/task first, give examples, use MCP servers at the start
 - **[0:13:05]** Agent runs: reads planning/tasks, performs multiple RAG queries, uses Brave for integration examples, scaffolds the app
 - **[0:15:57]** Post-build fixes: had to re-ask for the Supabase migration; fixed chunker/ingestion; Pydantic/Supabase code was error-free

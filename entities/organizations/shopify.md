@@ -18,12 +18,19 @@ Shopify also shows up as one of the companies that, like [Stripe](./stripe.md), 
 
 A third, lighter role: Shopify is a common integration target for the business automations Cole demos, alongside WordPress and Wix ([0:13:13]). Here it is just an external commerce backend an agent workflow plugs into, not a subject in itself.
 
+## Realizes
+
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [Deterministic Workflows](../../concepts/deterministic-workflows.md) - Encoding known steps as fixed code paths and reserving the LLM for the genuinely fuzzy decisions, trading autonomy for reliability.
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+
 ## Related
 
-- [Context Engineering](../../concepts/context-engineering.md) - Toby Lütke's tweet, endorsed by [Andrej Karpathy](../people/andrej-karpathy.md), is Cole's anchor for the term.
-- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) and [Deterministic Workflows](../../concepts/deterministic-workflows.md) - Shopify's Roast is a structured AI workflow engine, a peer to Cole's [AI Coding Harness](../../concepts/ai-coding-harness.md) framing.
-- [Stripe](./stripe.md) - the other big company cited for building its own workflow engine rather than buying one.
-- [RAG](../../concepts/rag.md) and [Validation](../../concepts/validation.md) - the curation and checking layers a structured workflow engine relies on.
+- [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+- [RAG](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Andrej Karpathy](../people/andrej-karpathy.md) - AI engineer who coined 'vibe coding' in February 2025 and popularized the LLM-built personal knowledge base (the 'Karpathy LLM Wiki').
+- [Stripe](./stripe.md) - Payments company that is Cole's headline example of an AI coding harness at scale (1,300 AI-generated PRs per week via Stripe Minions); also the external payments API agents integrate and call.
 
 ## Sources
 

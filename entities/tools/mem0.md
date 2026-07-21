@@ -22,17 +22,27 @@ Two things make it his pick. First, storage flexibility: "I love Mem Zero becaus
 
 Cole is not uncritical. When he built his own [MCP](../../concepts/mcp.md) server around Mem0, he noted the vendor's own release fell short: "Mem also did actually release their own MCP server... you can clearly see that they didn't quite understand how MCP really works. It only supports one transport" - ["The ULTIMATE Guide to Building Your Own MCP Servers"](../../sources/the-ultimate-guide-to-building-your-own-mcp-servers-free-template.md) [0:09:12]. Its docs also land in his [Knowledge Bases](../../concepts/knowledge-bases.md) for coding assistants alongside Pydantic AI and LangGraph.
 
+## Realizes
+
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+
+## Works with
+
+- [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
+- [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
+- [MCP](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
+
+## Contrasts with
+
+- [Graphiti](./graphiti.md) - A knowledge-graph tool Cole names as a candidate for a future agentic-RAG-with-knowledge-graphs strategy.
+
 ## Related
 
-- [Memory Systems](../../concepts/memory-systems.md) - Mem0 is the library that realizes agent long-term memory.
-- [Knowledge Bases](../../concepts/knowledge-bases.md) - its docs are ingested as agent context.
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - memory add/search is RAG over a per-user store.
-- [Knowledge Graphs](../../concepts/knowledge-graphs.md) - Mem0 can extend storage into a graph of entities and relations.
-- [MCP](../../concepts/mcp.md) - Cole wraps Mem0 in a custom MCP server.
-- [Human in the Loop](../../concepts/human-in-the-loop.md) / [Planning with AI](../../concepts/planning-with-ai.md) - memory feeds the context these patterns depend on.
-- [Pydantic AI](./pydantic-ai.md) - an agent framework Mem0 plugs into.
-- [Supabase](./supabase.md) - pgvector backend Mem0 can write to directly.
-- [Graphiti](./graphiti.md) - a graph-native alternative for temporal memory.
+- [Knowledge Bases](../../concepts/knowledge-bases.md) - Curated bodies of knowledge an agent can retrieve from, distinct from raw model weights, that ground responses in trusted source material.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Knowledge Graphs](../../concepts/knowledge-graphs.md) - Structuring knowledge as entities and relationships (often temporal) so agents can traverse connections a vector store can't express.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Planning with AI](../../concepts/planning-with-ai.md) - Using the AI to produce a detailed plan before implementation so execution follows a reviewed blueprint instead of improvising.
 
 ## Sources
 
@@ -44,4 +54,4 @@ Cole is not uncritical. When he built his own [MCP](../../concepts/mcp.md) serve
 - [The ULTIMATE Guide to Building Your Own MCP Servers (Free Template)](../../sources/the-ultimate-guide-to-building-your-own-mcp-servers-free-template.md) - "[0:09:12] Mem also did actually release their own MCP server... you can clearly see that they didn't quite understand how MCP really works. It only supports one transport."
 - [Why is Everyone Missing This with AI Agents?! (Memory + Tools that Scale)](../../sources/why-is-everyone-missing-this-with-ai-agents-memory-tools-that-scale.md) - "[0:23:27] You could also integrate with me zero, which is a long-term memory solution that's open source and I've covered on my channel a lot."
 - [The OFFICIAL Archon Guide - 10x Your AI Coding Workflow](../../sources/the-official-archon-guide-10x-your-ai-coding-workflow.md) - "[0:16:16] mem zero for example, which is a tool for agentic memory. They have a sitemap. And so I can do just/sitemap.xml."
-- [Introducing Archon - The Revolutionary Operating System for AI Coding](../../sources/introducing-archon-the-revolutionary-operating-system-for-ai-coding.md) - "[0:07:30] I've got the documentation for Pantic AI, mezzero, langraph, and then cloud code."
+- [Introducing Archon - The Revolutionary Operating System for AI Coding](../../sources/introducing-archon-the-revolutionary-operating-system-for-ai-coding.md) - "[0:07:30] I've got the documentation for Pydantic AI, mezzero, LangGraph, and then Claude Code."

@@ -10,7 +10,7 @@ updated: 2026-07-21
 
 # Production-Grade Agents
 
-A production-grade agent is one built with the scaffolding that keeps it reliable under real traffic: validation, error handling, testing, structured output, logging, observability, and monitoring, not merely an LLM wired to a few tools. Cole names Pydantic AI as a framework aimed squarely at this bar: "pantic AI is an open-source python agent framework that makes it a lot less painful to develop truly production grade agents" [0:00:19]. The gap between a working demo and a production agent is precisely these often-overlooked features: "truly understand what goes into making them production grade there are so many features with pantic AI specifically that are crucial and often overlooked" [0:19:22].
+A production-grade agent is one built with the scaffolding that keeps it reliable under real traffic: validation, error handling, testing, structured output, logging, observability, and monitoring, not merely an LLM wired to a few tools. Cole names Pydantic AI as a framework aimed squarely at this bar: "Pydantic AI is an open-source python agent framework that makes it a lot less painful to develop truly production grade agents" [0:00:19]. The gap between a working demo and a production agent is precisely these often-overlooked features: "truly understand what goes into making them production grade there are so many features with Pydantic AI specifically that are crucial and often overlooked" [0:19:22].
 
 ## How it works
 
@@ -36,6 +36,6 @@ Testing is the load-bearing discipline. Cole is emphatic: "you do not want to sk
 
 ## Sources
 
-- [We've Been Building AI Agents WRONG Until Now](../sources/weve-been-building-ai-agents-wrong-until-now.md) - "[0:00:19] pantic AI is an open-source python agent framework that makes it a a lot less painful to develop truly production grade agents"
+- [We've Been Building AI Agents WRONG Until Now](../sources/weve-been-building-ai-agents-wrong-until-now.md) - "[0:00:19] Pydantic AI is an open-source python agent framework that makes it a a lot less painful to develop truly production grade agents"
 - [Revealing my COMPLETE AI Agent Blueprint](../sources/revealing-my-complete-ai-agent-blueprint.md) - "[0:09:43] you do not want to skimp out on testing your agents extensively because this is the way that you make sure you cover all your edge cases"
 - [The KING of No Code AI Agent Builders?!](../sources/the-king-of-no-code-ai-agent-builders.md) - "[0:15:43] give me a debug version of the agent where it is going to tell me all of the intents all the decisions it makes and all the variables that it sets behind the scenes"

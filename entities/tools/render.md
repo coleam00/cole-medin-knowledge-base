@@ -18,13 +18,27 @@ What makes Render more than a one-shot host is its git-driven CI/CD. Cole wires 
 
 The through-line across his videos is that Render exists to erase deployment as a bottleneck. Where [Docker](./docker.md) guarantees the artifact runs the same everywhere, Render is the cheapest, fastest place he has found to actually run that artifact in the cloud, exposed as a live [agent deployment](../../concepts/agent-deployment.md).
 
+## Realizes
+
+- [Agent Deployment](../../concepts/agent-deployment.md) - Getting agents to production, containerizing, networking, reverse-proxying, and choosing a provider-agnostic, cost-predictable host.
+- [Agent as an API Endpoint](../../concepts/agent-as-api-endpoint.md) - Wrapping an AI agent in a web API (typically FastAPI) turns it from a terminal-bound script into a deployable, scalable service any frontend, SaaS, or client can call remotely.
+
+## Works with
+
+- [Docker](./docker.md) - Containerization prerequisite; a single docker compose command spins up Archon's four containers (agents, MCP server, UI, API server).
+
+## Contrasts with
+
+- [RunPod](./runpod.md) - GPU cloud recommended when you need a powerful high-VRAM machine to run large language models like Llama 3.2 90B.
+- [Netlify](./netlify.md) - Deployment target on the roadmap for a one-click deploy from bolt.diy.
+
 ## Related
 
-- [Agent Deployment](../../concepts/agent-deployment.md) - Render is Cole's low-friction target for shipping agents to the cloud
-- [Agent as an API Endpoint](../../concepts/agent-as-api-endpoint.md) - what a Render deploy exposes
-- [Agent Development Lifecycle](../../concepts/agent-development-lifecycle.md) - its git-driven CI/CD closes the build-to-production loop
-- [AI Coding Harness](../../concepts/ai-coding-harness.md), [Agent Protocols](../../concepts/agent-protocols.md), [Agent Security](../../concepts/agent-security.md), [Everyday AI Coding Use Cases](../../concepts/ai-coding-use-cases.md) - surrounding topics in the deployment videos
-- Sibling tools: [Docker](./docker.md), [RunPod](./runpod.md), [Netlify](./netlify.md)
+- [Agent Development Lifecycle](../../concepts/agent-development-lifecycle.md) - A repeatable blueprint for taking an agent from planning and a minimal proof-of-concept through database, code, UI, testing, deployment, and evaluation.
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+- [Agent Protocols](../../concepts/agent-protocols.md) - Emerging standards (A2A, agent cards, discovery) that let agents interoperate and be called across clients.
+- [Agent Security](../../concepts/agent-security.md) - Sandboxing agents, scoping permissions, and keeping secrets out of the model to limit blast radius and prevent abuse.
+- [Everyday AI Coding Use Cases](../../concepts/ai-coding-use-cases.md) - Delegating tedious, low-satisfaction dev work - debugging, documentation, tests, and infra config - to an AI assistant.
 
 ## Sources
 

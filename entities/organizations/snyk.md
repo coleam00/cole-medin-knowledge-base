@@ -14,19 +14,32 @@ updated: 2026-07-21
 
 Snyk (rendered phonetically as "Sneak" in the transcripts) is a developer-security company that Cole positions as the safety layer for AI-generated code: "Sneak, a company that is trusted for securing AI generated code, is hosting a free live webinar... covering the OWASP top 10 for LLMs" ([0:08:34]). Its recurring theme across the videos is that code shipped fast by agents carries a distinct class of vulnerabilities, and that catching them should be automated rather than left to manual review.
 
-The concrete integration Cole leans on is Snyk's [MCP](../../concepts/mcp.md) server, which wires vulnerability scanning directly into a coding agent: "Sneak Studio is one that I've been leaning on a lot recently. And they also have an MCP server within the studio to help us handle vulnerability detection automatically" ([0:17:04]). He connects it into his agent after CLI authentication: "I have the Sneak MCP server connected directly to my cloud code after I went through the Sneak authentication process in the CLI" ([0:18:23]). That makes Snyk a working example of [Agent Security](../../concepts/agent-security.md) and [Validation](../../concepts/validation.md) delivered as a tool an agent calls, complementary to [Global Rules](../../concepts/global-rules.md) and other [Guardrails](../../concepts/guardrails.md).
+The concrete integration Cole leans on is Snyk's [MCP](../../concepts/mcp.md) server, which wires vulnerability scanning directly into a coding agent: "Sneak Studio is one that I've been leaning on a lot recently. And they also have an MCP server within the studio to help us handle vulnerability detection automatically" ([0:17:04]). He connects it into his agent after CLI authentication: "I have the Sneak MCP server connected directly to my Claude Code after I went through the Sneak authentication process in the CLI" ([0:18:23]). That makes Snyk a working example of [Agent Security](../../concepts/agent-security.md) and [Validation](../../concepts/validation.md) delivered as a tool an agent calls, complementary to [Global Rules](../../concepts/global-rules.md) and other [Guardrails](../../concepts/guardrails.md).
 
 Snyk also appears as a sponsor of Cole's Archon beta launch recap, bringing a free webinar: "The sponsor of this live stream recap is Sneak and they're bringing us a free webinar... Securing Vibe Coding, addressing the security challenges of AI generated code" ([0:11:30]). The pairing is deliberate: fast [PRD-First Development](../../concepts/prd-first-development.md) and [Planning with AI](../../concepts/planning-with-ai.md) accelerate output, and Snyk is the counterweight that keeps the accelerated code safe.
 
+## Realizes
+
+- [MCP](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
+- [Agent Security](../../concepts/agent-security.md) - Sandboxing agents, scoping permissions, and keeping secrets out of the model to limit blast radius and prevent abuse.
+- [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+- [Guardrails](../../concepts/guardrails.md) - Constraints and checks that keep agents from hallucinating, going off the rails, or emitting unsafe output.
+
+## Works with
+
+- [Claude Code](../tools/claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
+- [Archon](../tools/archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+
 ## Related
 
-- [MCP](../../concepts/mcp.md) - Snyk ships an MCP server that plugs vulnerability detection into a coding agent.
-- [Agent Security](../../concepts/agent-security.md), [Validation](../../concepts/validation.md), and [Guardrails](../../concepts/guardrails.md) - Snyk is the automated security-review layer for AI-generated code.
-- [Global Rules](../../concepts/global-rules.md) and [PRD-First Development](../../concepts/prd-first-development.md) - the disciplined setup Snyk secures on the output side.
-- [Claude Code](../tools/claude-code.md) and [Archon](../tools/archon.md) - where Cole connected the Snyk MCP server and ran the sponsored recap.
+- [Global Rules](../../concepts/global-rules.md) - Persistent project- or user-level rule files that inject standing context and conventions into every agent run.
+- [PRD-First Development](../../concepts/prd-first-development.md) - Starting every build from a written product requirements document that becomes the contract the agent implements against.
+- [Planning with AI](../../concepts/planning-with-ai.md) - Using the AI to produce a detailed plan before implementation so execution follows a reviewed blueprint instead of improvising.
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
+- [Subagents Pattern](../../concepts/subagents-pattern.md) - Delegating scoped tasks to isolated subagents to parallelize work and protect the main agent's context window.
 
 ## Sources
 
-- [Learn 90% of Building AI Agents in 30 Minutes](../../sources/learn-90-of-building-ai-agents-in-30-minutes.md) - "[0:18:23] I have the Sneak MCP server connected directly to my cloud code after I went through the Sneak authentication process in the CLI."
-- [Context Engineering is the New Vibe Coding (Learn this Now)](../../sources/context-engineering-is-the-new-vibe-coding-learn-this-now.md) - "[0:08:34] Sneak, a company that is trusted for securing AI generated code, is hosting a free live webinar... covering the OASP top 10 for LLMs."
+- [Learn 90% of Building AI Agents in 30 Minutes](../../sources/learn-90-of-building-ai-agents-in-30-minutes.md) - "[0:18:23] I have the Sneak MCP server connected directly to my Claude Code after I went through the Sneak authentication process in the CLI."
+- [Context Engineering is the New Vibe Coding (Learn this Now)](../../sources/context-engineering-is-the-new-vibe-coding-learn-this-now.md) - "[0:08:34] Sneak, a company that is trusted for securing AI generated code, is hosting a free live webinar... covering the OWASP top 10 for LLMs."
 - [Archon Beta Launch Livestream - What You Missed!](../../sources/archon-beta-launch-livestream-what-you-missed.md) - "[0:11:30] The sponsor of this live stream recap is Sneak and they're bringing us a free webinar... Securing Vibe Coding, addressing the security challenges of AI generated code."

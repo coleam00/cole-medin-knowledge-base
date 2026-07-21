@@ -14,7 +14,7 @@ Iterative prompting is the practice of building complex software incrementally, 
 
 The method is a sequence, not a single big prompt. You "start with a very basic example and then we'll build on this with prompts as we go to make it the fully robust application with authentication that I described at the start," then progressively "get a little more complicated with the requests" to improve the UI and add features like auth. Starting simple is a hallucination-control strategy: "start really simple and iteratively get more complicated to avoid the most amount of hallucinations possible and make sure that you don't have something that's broken right out the gate." Each accepted step becomes a known-good foundation, so a broken change is easy to spot and revert instead of hiding inside a large tangled diff.
 
-Cole stresses this holds regardless of model strength. It is not a crutch for weak local models: "even with larger models like if you're using Cloud 3.5 Sonet on the commercial bolt.new this is still a good strategy to develop very complex applications by starting really simple." The technique is model-agnostic and pairs naturally with browser-based and no-code coding tools where each prompt visibly extends a running app.
+Cole stresses this holds regardless of model strength. It is not a crutch for weak local models: "even with larger models like if you're using Claude 3.5 Sonnet on the commercial bolt.new this is still a good strategy to develop very complex applications by starting really simple." The technique is model-agnostic and pairs naturally with browser-based and no-code coding tools where each prompt visibly extends a running app.
 
 ## Builds on
 

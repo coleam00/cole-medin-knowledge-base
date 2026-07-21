@@ -14,7 +14,7 @@ Role prompting is telling the model who it is before you tell it what to do. You
 
 ## Why it works
 
-Naming a role loads the model with the right context and register in one line. "this is the first key point with prompt engineering you want to always tell chat GPT what it is" [0:04:27], because "you're setting the stage for what kind of reply you were expecting by telling it what kind of quote-unquote person it is" [0:04:43]. A "critic who specializes in critiquing tweets" produces sharper, more critical output than a blank assistant; a "financial expert" answers with different priorities than a generalist. The persona is a compact way to steer both tone and the depth of expertise the model draws on, which is why Cole frames it as the wrapper around the other techniques rather than a standalone tip.
+Naming a role loads the model with the right context and register in one line. "this is the first key point with prompt engineering you want to always tell ChatGPT what it is" [0:04:27], because "you're setting the stage for what kind of reply you were expecting by telling it what kind of quote-unquote person it is" [0:04:43]. A "critic who specializes in critiquing tweets" produces sharper, more critical output than a blank assistant; a "financial expert" answers with different priorities than a generalist. The persona is a compact way to steer both tone and the depth of expertise the model draws on, which is why Cole frames it as the wrapper around the other techniques rather than a standalone tip.
 
 ## Part of
 

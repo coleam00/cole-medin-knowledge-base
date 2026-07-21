@@ -12,20 +12,32 @@ updated: 2026-07-21
 
 # StackBlitz
 
-StackBlitz is the company behind [bolt.new](../tools/bolt-new.md), the commercial browser-based AI coding product, and the corporate partner that formalized its relationship with the open-source fork Cole helped grow. Its defining role in these videos is throwing its weight behind community contribution: "we're going to be working with stack Blitz to do things like host events with prizes cash prizes to incentivize contributions to bolt. DIY" ([0:03:01]). That partnership turned a volunteer fork into an officially backed project with real incentives, an example of [Community-Driven Development](../../concepts/community-driven-development.md) getting corporate support.
+StackBlitz is the company behind [bolt.new](../tools/bolt-new.md), the commercial browser-based AI coding product, and the corporate partner that formalized its relationship with the open-source fork Cole helped grow. Its defining role in these videos is throwing its weight behind community contribution: "we're going to be working with StackBlitz to do things like host events with prizes cash prizes to incentivize contributions to bolt.diy" ([0:03:01]). That partnership turned a volunteer fork into an officially backed project with real incentives, an example of [Community-Driven Development](../../concepts/community-driven-development.md) getting corporate support.
 
-The relationship became official when the fork (originally oTToDev, then [bolt.diy](../tools/bolt-diy.md)) moved under StackBlitz's own GitHub organization: "our repository for bolt. DIY is going to move it's going to go into the stack Blitz lab organization and GitHub but the repo itself will still be the same" ([0:09:06]). StackBlitz kept the open-source project's identity intact while giving it an institutional home, blessing the fork as the [open-source](../../concepts/open-source-ai-coding.md) counterpart to its commercial bolt.new.
+The relationship became official when the fork (originally oTToDev, then [bolt.diy](../tools/bolt-diy.md)) moved under StackBlitz's own GitHub organization: "our repository for bolt.diy is going to move it's going to go into the StackBlitz lab organization and GitHub but the repo itself will still be the same" ([0:09:06]). StackBlitz kept the open-source project's identity intact while giving it an institutional home, blessing the fork as the [open-source](../../concepts/open-source-ai-coding.md) counterpart to its commercial bolt.new.
 
 Across Cole's bolt.diy coverage, StackBlitz is the reason the fork could pursue features its community wanted, from [Local AI](../../concepts/local-ai.md) and [Provider Independence](../../concepts/provider-independence.md) across many models to better [Planning with AI](../../concepts/planning-with-ai.md). The company is the bridge between a commercial [AI Coding Assistant](../../concepts/ai-coding-assistant.md) and an open community building around it.
 
+## Realizes
+
+- [Community-Driven Development](../../concepts/community-driven-development.md) - Building products and open source in public with a community, using a public roadmap and shared learning.
+- [Open-Source & Local AI Coding](../../concepts/open-source-ai-coding.md) - Community-maintained, self-hostable AI coding tools and local models that dodge API costs and rate limits.
+
+## Works with
+
+- [bolt.new](../tools/bolt-new.md) - StackBlitz's commercial AI coding platform that generates entire full-stack applications; the stable product bolt.DIY forks from.
+- [bolt.diy](../tools/bolt-diy.md) - Front-end build tools cited as examples of domains that already have strong built-in self-correction, so the knowledge-graph MCP isn't needed there.
+
 ## Related
 
-- [bolt.new](../tools/bolt-new.md) and [bolt.diy](../tools/bolt-diy.md) - StackBlitz's commercial product and the community fork it partnered with and hosts.
-- [Community-Driven Development](../../concepts/community-driven-development.md) and [Open-Source & Local AI Coding](../../concepts/open-source-ai-coding.md) - StackBlitz backed the fork with prize events and a repo home.
-- [Local AI](../../concepts/local-ai.md), [Provider Independence](../../concepts/provider-independence.md), and [Model Selection](../../concepts/model-selection.md) - directions the community pushed bolt.diy that the partnership enabled.
-- [AI Coding Assistant](../../concepts/ai-coding-assistant.md) and [Browser-Based AI Coding Tools](../../concepts/browser-based-ai-coding.md) - the category bolt.new and bolt.diy belong to.
+- [Local AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
+- [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [AI Coding Assistant](../../concepts/ai-coding-assistant.md) - A tool that generates or completes code from short prompts, applying targeted edits and offloading low-leverage software work.
+- [Browser-Based AI Coding Tools](../../concepts/browser-based-ai-coding.md) - In-browser coding tools that import git repos and local projects to get you started fast, but stall on directed refinement vs AI IDEs.
+- [Planning with AI](../../concepts/planning-with-ai.md) - Using the AI to produce a detailed plan before implementation so execution follows a reviewed blueprint instead of improvising.
 
 ## Sources
 
-- [bolt.diy: The Future of Open Source AI Coding - What's Next?](../../sources/boltdiy-the-future-of-open-source-ai-coding-whats-next.md) - "[0:03:01] we're going to be working with stack Blitz to do things like host events with prizes cash prizes to incentivize contributions to bolt. DIY."
-- [BREAKING NEWS: oTToDev is Now the OFFICIAL Open Source Bolt.new](../../sources/breaking-news-ottodev-is-now-the-official-open-source-boltnew.md) - "[0:09:06] our repository for bolt. DIY is going to move it's going to go into the stack Blitz lab organization and GitHub but the repo itself will still be the same."
+- [bolt.diy: The Future of Open Source AI Coding - What's Next?](../../sources/boltdiy-the-future-of-open-source-ai-coding-whats-next.md) - "[0:03:01] we're going to be working with StackBlitz to do things like host events with prizes cash prizes to incentivize contributions to bolt.diy."
+- [BREAKING NEWS: oTToDev is Now the OFFICIAL Open Source Bolt.new](../../sources/breaking-news-ottodev-is-now-the-official-open-source-boltnew.md) - "[0:09:06] our repository for bolt.diy is going to move it's going to go into the StackBlitz lab organization and GitHub but the repo itself will still be the same."

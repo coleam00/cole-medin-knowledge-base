@@ -16,26 +16,44 @@ Archon is Cole's flagship free, open-source project: an AI command center for co
 
 ## The evolution (narrated, not contradictory)
 
-Archon's identity has deliberately shifted over time. It launched as "an open-source AI agent that literally builds other AI agents" ([0:00:00]), powered by "a combination of my two favorite Frameworks pantic Ai and Lang graph" ([0:06:22]), linking it to [Pydantic AI](./pydantic-ai.md) and [LangGraph](./langgraph.md). It then became a knowledge-and-task backbone exposed over [MCP](./mcp.md): "you instantly give it access through the MCP to search all of the documentation that you've curated and manage the same projects and tasks in this canban board" ([0:00:18]), an application of [RAG](../../concepts/rag.md) and [Context Engineering](../../concepts/context-engineering.md) for coding assistants. Cole later cooled on naive [RAG](../../concepts/rag.md) for codebases ("the chunks... just kind of confuses the LLM more than it helps," [0:09:29]) and pivoted Archon toward harness building. Today it centers on [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md): "This is a workflow that takes all of these skills, and it combines it together into a single execution" ([0:03:54]), with a workflow builder he calls "the N8 for AI coding," inviting comparison to [n8n](./n8n.md).
+Archon's identity has deliberately shifted over time. It launched as "an open-source AI agent that literally builds other AI agents" ([0:00:00]), powered by "a combination of my two favorite Frameworks Pydantic AI and LangGraph" ([0:06:22]), linking it to [Pydantic AI](./pydantic-ai.md) and [LangGraph](./langgraph.md). It then became a knowledge-and-task backbone exposed over [MCP](./mcp.md): "you instantly give it access through the MCP to search all of the documentation that you've curated and manage the same projects and tasks in this Kanban board" ([0:00:18]), an application of [RAG](../../concepts/rag.md) and [Context Engineering](../../concepts/context-engineering.md) for coding assistants. Cole later cooled on naive [RAG](../../concepts/rag.md) for codebases ("the chunks... just kind of confuses the LLM more than it helps," [0:09:29]) and pivoted Archon toward harness building. Today it centers on [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md): "This is a workflow that takes all of these skills, and it combines it together into a single execution" ([0:03:54]), with a workflow builder he calls "the n8n for AI coding," inviting comparison to [n8n](./n8n.md).
 
 ## How Cole uses it / why it matters
 
 Archon is the orchestration backbone across Cole's builds. It ships default workflows ("Let's take a look at fix GitHub issue for example," [0:09:42]), supports [Git Worktrees](./git-worktree.md) and [Context Isolation](../../concepts/context-isolation.md) for [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) "at extreme scale" ([0:02:24]), and mixes deterministic and agentic nodes so a workflow can enforce [Validation](../../concepts/validation.md) and [Human in the Loop](../../concepts/human-in-the-loop.md) gates. As of the Pi release, "we've officially added it as the third coding agent supported in Archon" ([0:00:34]), a nod to [Model Selection](../../concepts/model-selection.md) and provider flexibility across [Claude Code](./claude-code.md), [Codex](./codex.md), and [Pi](./pi-coding-agent.md). It is the chosen backbone for Cole's Dark Factory experiment because "I define the process" ([0:15:45]).
 
+## Realizes
+
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+
+## Works with
+
+- [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
+- [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
+- [Pi](./pi-coding-agent.md) - A minimalistic, open-source coding agent cited as another example of a company-built harness around a model.
+- [Git Worktrees](./git-worktree.md) - Git feature that duplicates the codebase across isolated branches so multiple coding agents can run in parallel without collisions.
+- [MCP (Model Context Protocol)](./mcp.md) - The protocol used to connect Claude Code to external tools and servers.
+- [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
+- [LangGraph](./langgraph.md) - The orchestration framework wiring agents into a stateful graph of nodes and edges, used here to run agents in parallel and add human-in-the-loop.
+
 ## Related
 
-- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) and [AI Coding Harness](../../concepts/ai-coding-harness.md) - Archon is a harness/workflow builder.
-- [RAG](../../concepts/rag.md) and [Context Engineering](../../concepts/context-engineering.md) - its knowledge and task-management layer.
-- [Validation](../../concepts/validation.md) and [Human in the Loop](../../concepts/human-in-the-loop.md) - deterministic and agentic nodes with review gates.
-- [Model Selection](../../concepts/model-selection.md) and [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) - orchestrating many agents and models at once.
-- Realizes / wraps: [Claude Code](./claude-code.md), [Codex](./codex.md), [Pi](./pi-coding-agent.md), [Git Worktrees](./git-worktree.md), [MCP](./mcp.md), [Pydantic AI](./pydantic-ai.md), [LangGraph](./langgraph.md), and is compared to [n8n](./n8n.md).
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
+- [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [Parallel Agentic Coding](../../concepts/parallel-agentic-coding.md) - Dispatching agents to background tasks in isolated git worktrees, each fed repo context and returning a reviewable PR.
+- [Context Isolation](../../concepts/context-isolation.md) - Giving each agent or subagent its own clean context window so unrelated tokens never dilute the task at hand.
+- [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
 
 ## Sources
 
 - [The Next Evolution of AI Coding Is Harnesses - Here's How to Build Them](../../sources/the-next-evolution-of-ai-coding-is-harnesses-heres-how-to-build-them.md) - "[0:00:00] I am unveiling the new Archon, a massive overhaul of the AI command center... It is now the first open-source harness builder for AI coding."
 - [The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!](../../sources/the-creators-of-claude-code-and-openclaw-dont-prompt-their-agents-anymore.md) - "[0:08:57] Archon is my harness builder. Allows us to build workflows that orchestrate many coding agent sessions to handle larger tasks."
-- [Introducing Archon - an AI Agent that BUILDS AI Agents](../../sources/introducing-archon-an-ai-agent-that-builds-ai-agents.md) - "[0:06:22] archon uses a combination of my two favorite Frameworks pantic Ai and Lang graph for this agentic workflow that can intelligently build agents"
-- [The OFFICIAL Archon Guide - 10x Your AI Coding Workflow](../../sources/the-official-archon-guide-10x-your-ai-coding-workflow.md) - "[0:00:18] for the AI coding assistant, it is an MCP server... And then you instantly give it access through the MCP to search all of the documentation that you've curated and manage the same projects and tasks in this canban board."
+- [Introducing Archon - an AI Agent that BUILDS AI Agents](../../sources/introducing-archon-an-ai-agent-that-builds-ai-agents.md) - "[0:06:22] archon uses a combination of my two favorite Frameworks Pydantic AI and LangGraph for this agentic workflow that can intelligently build agents"
+- [The OFFICIAL Archon Guide - 10x Your AI Coding Workflow](../../sources/the-official-archon-guide-10x-your-ai-coding-workflow.md) - "[0:00:18] for the AI coding assistant, it is an MCP server... And then you instantly give it access through the MCP to search all of the documentation that you've curated and manage the same projects and tasks in this Kanban board."
 - [Why the Best AI Coding Tools Abandoned RAG (And What They Use Instead)](../../sources/why-the-best-ai-coding-tools-abandoned-rag-and-what-they-use-instead.md) - "[0:09:29] I've seen it where the chunks that you get back from your knowledge base for your codebase, it just kind of confuses the LLM more than it helps."
 - [Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends](../../sources/claude-plans-gemini-designs-the-workflow-to-build-beautiful-frontends.md) - "[0:03:54] Archon is my open source harness builder. This is a workflow that takes all of these skills, and it combines it together into a single execution."
 - [Pi Coding Agent + Archon: Build ANY AI Coding Workflow (No Claude Code Bloat)](../../sources/pi-coding-agent-archon-build-any-ai-coding-workflow-no-claude-code-bloat.md) - "[0:00:34] we've officially added it as the third coding agent supported in Archon."

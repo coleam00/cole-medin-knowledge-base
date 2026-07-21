@@ -22,16 +22,26 @@ At its core Browserbase is "a platform for running these remote browser sessions
 
 Browserbase is Cole's escalation path above [Playwright](./playwright.md). Playwright remains his deterministic default, but its silent failures, where an action quietly does not work with no error raised, are exactly what Browserbase's self-correcting agents are built to handle. He uses it for live agent-driven validation, for example when an AI coding agent checks a deployed website through a watchable remote session. This makes it a key building block for "code that fixes itself," where an agent observes the browser, notices something is wrong, and retries. Cole has a partnership with Browserbase, which he discloses.
 
+## Realizes
+
+- [Self-Correcting Agents](../../concepts/self-correction.md) - Feeding tool errors and results back to the model so it can reason about mistakes, avoid repeating calls, and retry until it gets the action right.
+
 ## Contrasts with
 
-[Playwright](./playwright.md) - Browserbase adds self-correction and live remote sessions on top of the deterministic automation Playwright provides, and Stagehand builds on Playwright under the hood.
+- [Playwright](./playwright.md) - Cole's deterministic multi-browser web automation tool, whose MCP server lets coding assistants visually validate frontend changes.
+
+## Works with
+
+- [Codex](./codex.md) - OpenAI's cloud-based software-engineering agent integrated with GitHub, plus a Codex CLI.
+- [QA Tech](./qa-tech.md) - AI testing platform whose agents crawl your deployed site and generate/evolve regression test cases as the codebase grows (has a free tier).
 
 ## Related
 
-- [Self-Correcting Agents](../../concepts/self-correction.md) - the capability Browserbase adds over deterministic scripting.
-- [Validation](../../concepts/validation.md) and [Guardrails](../../concepts/guardrails.md) - live browser sessions verify and constrain agent work.
-- [Memory Systems](../../concepts/memory-systems.md), [Knowledge Graphs](../../concepts/knowledge-graphs.md), [Codebase Indexing](../../concepts/codebase-indexing.md) - adjacent pieces of the agent stacks it plugs into.
-- Sibling tools: [Playwright](./playwright.md), [Codex](./codex.md), [QA Tech](./qa-tech.md).
+- [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+- [Guardrails](../../concepts/guardrails.md) - Constraints and checks that keep agents from hallucinating, going off the rails, or emitting unsafe output.
+- [Knowledge Graphs](../../concepts/knowledge-graphs.md) - Structuring knowledge as entities and relationships (often temporal) so agents can traverse connections a vector store can't express.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Codebase Indexing](../../concepts/codebase-indexing.md) - Building a searchable index or map of a codebase so the agent can retrieve the right files instead of scanning everything.
 
 ## Sources
 

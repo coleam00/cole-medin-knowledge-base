@@ -22,7 +22,7 @@ Multi-user memory must never leak across people, and the user ID is the key: "we
 
 ## Externalizing memory for coding agents
 
-Coding harnesses externalize memory into files that survive a context reset, so a fresh window can catch up: progress files, decision logs, and handoffs. "you have like a handoff.md or a to-do.md communicating between different sub aents or agent teams." - ["I've Used Claude Code for 2,000+ Hours"](../sources/ive-used-claude-code-for-2000-hours-heres-how-i-build-anything-with-it.md) [0:09:56]. The Ralph loop keeps an activity file as "long-term memory for the loop" - ["I Was Wrong About Ralph Wiggum"](../sources/i-was-wrong-about-ralph-wiggum.md) [0:06:17].
+Coding harnesses externalize memory into files that survive a context reset, so a fresh window can catch up: progress files, decision logs, and handoffs. "you have like a handoff.md or a to-do.md communicating between different subagents or agent teams." - ["I've Used Claude Code for 2,000+ Hours"](../sources/ive-used-claude-code-for-2000-hours-heres-how-i-build-anything-with-it.md) [0:09:56]. The Ralph loop keeps an activity file as "long-term memory for the loop" - ["I Was Wrong About Ralph Wiggum"](../sources/i-was-wrong-about-ralph-wiggum.md) [0:06:17].
 
 ## Builds on
 
@@ -56,7 +56,7 @@ Coding harnesses externalize memory into files that survive a context reset, so 
 
 - [Google, Anthropic, and OpenAI's Guides to AI Agents ALL in 18 Minutes](../sources/google-anthropic-and-openais-guides-to-ai-agents-all-in-18-minutes.md) - "[0:05:19] This is going to be both for short-term memory conversation history, and long-term memory. So our agent can remember our goals and preferences and instructions between conversations."
 - [My Top 20 Lessons from Building 100s of AI Agents (Super Actionable)](../sources/my-top-20-lessons-from-building-100s-of-ai-agents-super-actionable.md) - "[0:37:36] long-term memory for your agents is just another rag. Like that's literally all it is."
-- [The ONLY AI Tech Stack You Need in 2026](../sources/the-only-ai-tech-stack-you-need-in-2026.md) - "[0:14:57] I can search for memories inject them into the system prompt and then extract memories after. So I can kind of just sandwich my agent no matter how I build it with mem zero."
+- [The ONLY AI Tech Stack You Need in 2026](../sources/the-only-ai-tech-stack-you-need-in-2026.md) - "[0:14:57] I can search for memories inject them into the system prompt and then extract memories after. So I can kind of just sandwich my agent no matter how I build it with Mem0."
 - [I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.](../sources/i-love-the-karpathy-llm-wiki-but-it-doesnt-scale-heres-what-does.md) - "[0:14:40] Redis Iris, with their agent memory, automatically is running a background process that is extracting the key information from the short-term memory to promote it to long-term memory."
 - [Build AI Agents that EVOLVE Over Time](../sources/build-ai-agents-that-evolve-over-time.md) - "[0:07:54] we have to find a way to segregate the memories between users and the user ID is the way to do that."
 - [This Completely Changes the Way We Build Production AI Agents (Vercel Eve)](../sources/this-completely-changes-the-way-we-build-production-ai-agents-vercel-eve.md) - "[0:03:54] every session is a checkpointed workflow that survives crashes and redeploys... every single turn and tool call, all of that is stored"
@@ -73,7 +73,7 @@ Coding harnesses externalize memory into files that survive a context reset, so 
 - [I Built a Safer OpenClaw Alternative Using Claude Code](../sources/i-built-a-safer-openclaw-alternative-using-claude-code.md) - "[0:06:04] there's also a SQLite database with a very light implementation of rag built in as well. So again, super elegant but super simple."
 - [Are Agent Harnesses Bringing Back Vibe Coding?](../sources/are-agent-harnesses-bringing-back-vibe-coding.md) - "[0:17:14] we also have the claude progress text file. This is the core file for handoffs."
 - [How I'd Learn AI Agents FAST if I Had to Start Over (Full Roadmap)](../sources/how-id-learn-ai-agents-fast-if-i-had-to-start-over-full-roadmap.md) - "[0:11:30] we also have other components like memory systems for long-term memory, guard rails for input and output, fallback mechanisms"
-- [10x Your AI Agents with this ONE Agent Architecture](../sources/10x-your-ai-agents-with-this-one-agent-architecture.md) - "[0:35:41] you can set up a SQL light or a postgress memory saver if you want to use superbase or something to store all this state"
+- [10x Your AI Agents with this ONE Agent Architecture](../sources/10x-your-ai-agents-with-this-one-agent-architecture.md) - "[0:35:41] you can set up a SQL light or a Postgres memory saver if you want to use Supabase or something to store all this state"
 - [The Ultimate Guide to Local AI and AI Agents (The Future is Here)](../sources/the-ultimate-guide-to-local-ai-and-ai-agents-the-future-is-here.md)
 - [Claude Code Web JUST Dropped but I Already Built Something BETTER (with Codex!)](../sources/claude-code-web-just-dropped-but-i-already-built-something-better-with-codex.md)
 - [The PROVEN Solution for Unbelievable RAG Performance (LightRAG Guide)](../sources/the-proven-solution-for-unbelievable-rag-performance-lightrag-guide.md)

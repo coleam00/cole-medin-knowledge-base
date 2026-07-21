@@ -18,12 +18,20 @@ The product Cole highlights is SonarQube Advanced Security, positioned as a safe
 
 Sonar is also an event host and sponsor. Cole took part in its first global virtual conference: "It is the Sonar Summit, which is Sonar's first ever global virtual event. And I'm doing a fireside chat on building self-validation and guardrails into AI coding systems" ([0:08:15]). The talk topic, self-validation and guardrails, is the same thread that runs through his coverage of the company.
 
+## Realizes
+
+- [Validation](../../concepts/validation.md) - Building explicit checks into agentic workflows so the AI verifies its own output against real success criteria before moving on.
+- [Guardrails](../../concepts/guardrails.md) - Constraints and checks that keep agents from hallucinating, going off the rails, or emitting unsafe output.
+- [End-to-End Validation](../../concepts/end-to-end-validation.md) - Validating the whole system through its real interface (not just unit-level checks) so the agent proves the feature actually works.
+
 ## Related
 
-- [Validation](../../concepts/validation.md), [Guardrails](../../concepts/guardrails.md), and [End-to-End Validation](../../concepts/end-to-end-validation.md) - SonarQube Advanced Security is the circuit-breaker gate in Cole's workflow.
-- [Planning with AI](../../concepts/planning-with-ai.md) and [Human in the Loop](../../concepts/human-in-the-loop.md) - Sonar's guide/verify/solve lifecycle mirrors Cole's plan-then-verify posture.
-- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md), [Context Isolation](../../concepts/context-isolation.md), and [Skills](../../concepts/skills.md) - the surrounding practices Sonar's checks sit inside.
-- [Cole Medin](../people/cole-medin.md) - gave the Sonar Summit fireside chat on self-validation and guardrails.
+- [Planning with AI](../../concepts/planning-with-ai.md) - Using the AI to produce a detailed plan before implementation so execution follows a reviewed blueprint instead of improvising.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [Context Isolation](../../concepts/context-isolation.md) - Giving each agent or subagent its own clean context window so unrelated tokens never dilute the task at hand.
+- [Skills](../../concepts/skills.md) - Reusable, model-invoked capability packages that load specialized instructions and tools on demand to extend an agent.
+- [Cole Medin](../people/cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
 
 ## Sources
 

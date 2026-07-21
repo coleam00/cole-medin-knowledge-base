@@ -18,16 +18,21 @@ Cole treats fast, accurate dictation as an underrated productivity lever for AI 
 
 Aqua has also sponsored Cole's content, and in that read he highlights two differentiators: it is "an insanely powerful and accurate AI voice system that works on any application" [0:09:30], and it ships a "feature called deep context where it can view your screen to understand what you're currently working on" [0:10:22]. That screen-aware deep-context feature is the interesting technical wrinkle, transcription accuracy improves when the tool can see the surrounding application state, so dictating a command into an agent editor or a [RAG](../../concepts/rag.md) knowledge tool comes out cleaner than blind transcription would.
 
+## Works with
+
+- [ElevenLabs](./elevenlabs.md) - the mirror-image sibling: text-to-speech rather than speech-to-text.
+- [Vapi](./vapi.md) - no-code voice AI platform; a sibling voice tool in Cole's stack.
+- [Remotion](./remotion.md) - sibling media-generation tool in Cole's voice-and-media set.
+
 ## Related
 
-- [Effective Prompting](../../concepts/effective-prompting.md) - dictation makes writing detailed prompts frictionless
-- [Global Rules](../../concepts/global-rules.md) - dictate the standing instructions agents load every session
-- [Capabilities Over Tools](../../concepts/capabilities-over-tools.md) - Aqua is a capability layered on top of any app, not a walled tool
-- [Learn by Building](../../concepts/learn-by-building.md) - lowering input friction speeds hands-on iteration
-- [Agent Teams](../../concepts/agent-teams.md) and [Agents vs. Workflows](../../concepts/agents-vs-workflows.md) - the agent contexts he dictates into
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - dictating queries and content into knowledge tools
-- [ElevenLabs](./elevenlabs.md) - the mirror-image sibling: text-to-speech rather than speech-to-text
-- [Vapi](./vapi.md) and [Remotion](./remotion.md) - sibling voice-and-media tools
+- [Effective Prompting](../../concepts/effective-prompting.md) - dictation makes writing the detailed, specific prompts effective prompting demands frictionless.
+- [Capabilities Over Tools](../../concepts/capabilities-over-tools.md) - Aqua is a capability layered on top of any app, not a walled tool.
+- [Learn by Building](../../concepts/learn-by-building.md) - lowering input friction speeds hands-on iteration.
+- [Global Rules](../../concepts/global-rules.md) - dictate the standing instructions agents load every session.
+- [Agent Teams](../../concepts/agent-teams.md) - coordinating multiple specialized agents, one of the contexts he dictates into.
+- [Agents vs. Workflows](../../concepts/agents-vs-workflows.md) - the agent-vs-workflow contexts he dictates into.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - dictating queries and content into knowledge tools.
 
 ## Sources
 

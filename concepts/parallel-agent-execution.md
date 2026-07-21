@@ -14,7 +14,7 @@ Parallel agent execution means dispatching several agents, or several branches o
 
 ## How it works
 
-The distinction Cole draws is between *true* concurrency and the appearance of it. In a code-based framework you can genuinely launch N agents on N threads or async tasks and collect their results; the wall-clock cost collapses to roughly the single slowest branch. He contrasts this sharply with visual no-code tools: "in N there isn't actually the idea of parallel execution... these will end up running simultaneously" is the promise, but he is clear it does not hold. "You can't do this in NAND. It's just not possible" [0:12:24]. The practical upshot is that when a task decomposes into independent sub-tasks (multiple research queries, multiple tool calls, multiple document reads) parallelism is close to free speed, and it is one of the strongest arguments for building agents in real code when latency matters.
+The distinction Cole draws is between *true* concurrency and the appearance of it. In a code-based framework you can genuinely launch N agents on N threads or async tasks and collect their results; the wall-clock cost collapses to roughly the single slowest branch. He contrasts this sharply with visual no-code tools: "in n8n there isn't actually the idea of parallel execution... these will end up running simultaneously" is the promise, but he is clear it does not hold. "You can't do this in n8n. It's just not possible" [0:12:24]. The practical upshot is that when a task decomposes into independent sub-tasks (multiple research queries, multiple tool calls, multiple document reads) parallelism is close to free speed, and it is one of the strongest arguments for building agents in real code when latency matters.
 
 ## Contrasts with
 
@@ -32,4 +32,4 @@ The distinction Cole draws is between *true* concurrency and the appearance of i
 
 ## Sources
 
-- [Should I Build My AI Agents with n8n or Python?](../sources/should-i-build-my-ai-agents-with-n8n-or-python.md) - "[0:12:24] it kicks off all of these specialized research agents at exactly the same time... And you can't do this in NAND. It's just not possible."
+- [Should I Build My AI Agents with n8n or Python?](../sources/should-i-build-my-ai-agents-with-n8n-or-python.md) - "[0:12:24] it kicks off all of these specialized research agents at exactly the same time... And you can't do this in n8n. It's just not possible."

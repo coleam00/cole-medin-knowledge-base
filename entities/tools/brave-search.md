@@ -22,13 +22,23 @@ Second, it is his default single tool when scaffolding a new agent, the smallest
 
 Brave is a cloud, hosted service. When Cole wants the same web-search capability fully local and private, he swaps it for [SearXNG](./searxng.md) instead.
 
+## Realizes
+
+- [Model Context Protocol (MCP)](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
+- [MCP with Custom Agents](../../concepts/mcp-with-custom-agents.md) - Integrating MCP servers directly into agents you build yourself, so you control the front end, tool selection, and how the tools are used.
+
+## Contrasts with
+
+- [SearXNG](./searxng.md) - Local, private metasearch engine added for web search (with Redis for caching); kept private since it isn't password protected.
+- [grep (command-line search)](./ripgrep.md) - The default CLI search Claude Code uses for agentic navigation; the local counterpart for searching a codebase rather than the web.
+
 ## Related
 
-- [Model Context Protocol (MCP)](../../concepts/mcp.md) - Brave is delivered as one of Cole's three must-have MCP servers.
-- [MCP with Custom Agents](../../concepts/mcp-with-custom-agents.md) - the example tool he adds to prove out tool calling in a fresh agent.
-- [Context Engineering](../../concepts/context-engineering.md) and [Memory Systems](../../concepts/memory-systems.md) - live web results are the freshest external context an agent can pull.
-- [Human in the Loop](../../concepts/human-in-the-loop.md) and [Global Rules](../../concepts/global-rules.md) - governance around when an agent is allowed to reach out to the web.
-- Sibling tools: [SearXNG](./searxng.md) (the local, private alternative for web search) and [grep](./ripgrep.md) (the local counterpart for searching a codebase rather than the web).
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window to avoid overload and keep outputs sharp.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Global Rules](../../concepts/global-rules.md) - Persistent project- or user-level rule files that inject standing context and conventions into every agent run.
+- [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
 
 ## Sources
 

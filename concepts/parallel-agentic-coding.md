@@ -10,7 +10,7 @@ updated: 2026-07-21
 
 # Parallel Agentic Coding
 
-Parallel agentic coding is running many coding agents at the same time, each on its own task in its own isolated copy of the codebase, so you multiply throughput instead of waiting on one agent at a time. The whole point is output: "why not go for parallel agents to 10x your output or even beyond that?" [0:00:32]. The catch, and the reason this needs real machinery, is collision: "it's also definitely not enough to just spin up five instances of cloud code or codecs or whatever because... they're going to step on each other's toes."
+Parallel agentic coding is running many coding agents at the same time, each on its own task in its own isolated copy of the codebase, so you multiply throughput instead of waiting on one agent at a time. The whole point is output: "why not go for parallel agents to 10x your output or even beyond that?" [0:00:32]. The catch, and the reason this needs real machinery, is collision: "it's also definitely not enough to just spin up five instances of Claude Code or Codex or whatever because... they're going to step on each other's toes."
 
 ## How it works
 
@@ -44,7 +44,7 @@ Orchestration is the other half. A harness like Archon dispatches worktree-isola
 
 ## Sources
 
-- [Parallel Claude Code + Git Worktrees: This Setup Will Change How You Ship](../sources/parallel-claude-code-git-worktrees-this-setup-will-change-how-you-ship.md) - "[0:01:23] it's also definitely not enough to just spin up five instances of cloud code or codecs or whatever because... they're going to step on each other's toes"
+- [Parallel Claude Code + Git Worktrees: This Setup Will Change How You Ship](../sources/parallel-claude-code-git-worktrees-this-setup-will-change-how-you-ship.md) - "[0:01:23] it's also definitely not enough to just spin up five instances of Claude Code or Codex or whatever because... they're going to step on each other's toes"
 - [You're Hardly Using What Claude Code Has to Offer, it's Insane](../sources/youre-hardly-using-what-claude-code-has-to-offer-its-insane.md) - "[0:03:47] the native support for Git work trees. And this is a big deal because it allows us to very easily work with multiple copies of our codebase with claude at the exact same time."
 - [A Complete Guide to Claude Code - Here are ALL the Best Strategies](../sources/a-complete-guide-to-claude-code-here-are-all-the-best-strategies.md) - "[0:44:22] we can use parallel agents to implement the same feature many different times. So we can pick the best implementation."
 - [The Next Evolution of AI Coding Is Harnesses - Here's How to Build Them](../sources/the-next-evolution-of-ai-coding-is-harnesses-heres-how-to-build-them.md) - "[0:25:52] we can invoke a ton of workflows in parallel... use Archon to fix GitHub issues 5 7 8 9 10 and 11."
@@ -52,7 +52,7 @@ Orchestration is the other half. A harness like Archon dispatches worktree-isola
 - [Stripe's Coding Agents Ship 1,300 PRs EVERY Week - Here's How They Do It](../sources/stripes-coding-agents-ship-1300-prs-every-week-heres-how-they-do-it.md) - "[0:11:46] A single engineer... oftentimes has many of these minions running at the exact same time."
 - [The Way We Use AI Will Completely Change in 2026 (Hot Takes)](../sources/the-way-we-use-ai-will-completely-change-in-2026-hot-takes.md) - "[0:01:03] we're moving towards more of an agent manager interface where we can kick off agents in parallel to work on different features in a codebase or even work on different projects at the exact same time"
 - [I Turned Claude Code Into a Complete Video Generation System (with Archon)](../sources/i-turned-claude-code-into-a-complete-video-generation-system-with-archon.md) - "[0:03:02] we have a parallel fan out of agents that are generating videos to drain the queue of products that need them."
-- [GitHub is the Future of AI Coding (Here's Why)](../sources/github-is-the-future-of-ai-coding-heres-why.md) - "[0:20:30] because each of them suffix the branch with their name like claude or cursor or codeex, there's going to be no conflicts."
+- [GitHub is the Future of AI Coding (Here's Why)](../sources/github-is-the-future-of-ai-coding-heres-why.md) - "[0:20:30] because each of them suffix the branch with their name like claude or cursor or Codex, there's going to be no conflicts."
 - [Claude Code's Agent Teams Are Insane - Multiple AI Agents Coding Together in Real Time](../sources/claude-codes-agent-teams-are-insane-multiple-ai-agents-coding-together-in-real-time.md) - "[0:11:04] With agent teams, we still have a primary agent spinning off these subprocesses, but the difference here is they're actually talking to each other."
 - [I'm Building an AI Dark Factory That Ships Its Own Code (Public Experiment)](../sources/im-building-an-ai-dark-factory-that-ships-its-own-code-public-experiment.md) - "[0:20:47] Archon gives us the work tree and isolation support so that we can manage all of these different implementations at the exact same time"
 - [Pi Coding Agent + Archon: Build ANY AI Coding Workflow (No Claude Code Bloat)](../sources/pi-coding-agent-archon-build-any-ai-coding-workflow-no-claude-code-bloat.md) - "[0:01:00] reusable workflows that you can execute in parallel to handle all of your AI coding tasks at scale."

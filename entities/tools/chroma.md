@@ -22,13 +22,30 @@ Speed is the other reason Cole likes it. Paired with [Crawl4AI](./crawl4ai.md), 
 
 Notably, Cole also cites the **company** Chroma as a research publisher. His single most-recommended reading on [context rot](../../concepts/context-rot.md) is theirs: "my favorite, this is the most practical and probably most popular as well, is the Chroma technical report covering how increasing input tokens impacts LLM performance" ([0:02:52]) - the empirical grounding for why he keeps retrieved context tight.
 
+## Realizes
+
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Vector Embeddings](../../concepts/vector-embeddings.md) - Numeric representations of text that enable semantic similarity search, stored and managed in a vector database for retrieval.
+- [Semantic Search](../../concepts/semantic-search.md) - Retrieving content by embedding-based similarity so results match on meaning rather than exact keywords.
+
+## Contrasts with
+
+- [Qdrant](./qdrant.md) - Vector database with an MCP server that lets agents do RAG without implementing custom retrieval tools.
+- [Pinecone](./pinecone.md) - Vector database used optionally by Auto-GPT to provide long-term memory.
+- [LightRAG](./lightrag.md) - A knowledge-graph RAG solution Cole previously covered; suited to static document summarization but slower to build and query than Graphiti.
+
+## Works with
+
+- [Crawl4AI](./crawl4ai.md) - The open-source crawling library powering Cole's RAG MCP server, handling llms.txt, sitemaps, and recursive scraping.
+
 ## Related
 
-- [RAG](../../concepts/rag.md), [Agentic RAG](../../concepts/agentic-rag.md), [Traditional RAG](../../concepts/traditional-rag.md) - Chroma is the local vector store in these pipelines.
-- [Vector Embeddings](../../concepts/vector-embeddings.md), [Semantic Search](../../concepts/semantic-search.md), [Chunking](../../concepts/chunking.md) - what it stores and searches.
-- [Context Rot](../../concepts/context-rot.md) - Chroma's technical report is Cole's go-to source on it.
-- [Local & Self-Hosted AI](../../concepts/local-ai.md) - it runs fully local, in-memory or on disk.
-- Sibling tools: [Qdrant](./qdrant.md), [Pinecone](./pinecone.md), [Crawl4AI](./crawl4ai.md), [LightRAG](./lightrag.md).
+- [Agentic RAG](../../concepts/agentic-rag.md) - Giving an agent retrieval as a tool so it decides when and how to search a knowledge base instead of a single static lookup.
+- [Traditional RAG](../../concepts/traditional-rag.md) - The classic one-shot, static RAG pipeline that embeds a query, runs a single vector similarity search, and stuffs the top chunks into the prompt.
+- [Chunking](../../concepts/chunking.md) - Splitting source documents into appropriately sized, embeddable segments, the foundational preprocessing step that determines RAG retrieval quality.
+- [Context Rot](../../concepts/context-rot.md) - The degradation of an agent's output quality as its context window fills with stale, irrelevant, or accumulated information over a long session.
+- [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost.
 
 ## Sources
 

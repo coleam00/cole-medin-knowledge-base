@@ -20,16 +20,22 @@ The defining move is **Linear as the harness's source of truth**. Rather than le
 
 The second theme is **Linear as the input into implementation**, the same point Cole makes about [Jira](./jira.md): "if you're using some kind of task management platform like Linear or Jira, the ticket is going to be the input into the implementation." A well-formed ticket is the spec ([The Issue Is the Spec](../../concepts/issue-is-the-spec.md)) and the context boundary ([Context Isolation](../../concepts/context-isolation.md)) that keeps each agent, often a [subagent](../../concepts/subagents-pattern.md), focused on one slice of work. He is explicit that the MCP integration is the plumbing: "you're going to use the GitHub CLI to create issues instead of the Jira MCP server or you're going to use the linear MCP server." The larger idea is [The AI Layer](../../concepts/the-ai-layer.md), agents that meet a team inside the tools it already runs rather than forcing new ones.
 
+## Realizes
+
+- [The Issue Is the Spec](../../concepts/issue-is-the-spec.md) - Treating a well-written ticket or issue as the complete specification the agent implements against.
+- [The AI Layer](../../concepts/the-ai-layer.md) - The layer of rules, commands, skills, and context you own on top of a codebase that makes AI coding effective and portable.
+
+## Contrasts with
+
+- [Jira](./jira.md) - Example issue tracker whose scoped tickets tell the engineer (and agent) which slice of the codebase to work in.
+- [GitHub](./github.md) - The gh command-line tool that lets Claude Code manage issues and pull requests directly on a remote GitHub repository.
+
 ## Related
 
-- [The Issue Is the Spec](../../concepts/issue-is-the-spec.md) - a Linear ticket is the scoped unit of agentic work
-- [Context Isolation](../../concepts/context-isolation.md) - the ticket bounds the agent's working set
-- [The AI Layer](../../concepts/the-ai-layer.md) - tracking progress where the team already works
-- [Subagents Pattern](../../concepts/subagents-pattern.md) - one ticket feeding one parallel agent
-- [PRD-First Development](../../concepts/prd-first-development.md)
-- [Context Engineering](../../concepts/context-engineering.md)
-- [Jira](./jira.md) - the interchangeable tracker in the same role
-- [GitHub](./github.md) - GitHub issues as the alternate ticket source
+- [Context Isolation](../../concepts/context-isolation.md) - Giving each agent or subagent its own clean context window so unrelated tokens never dilute the task at hand.
+- [Subagents Pattern](../../concepts/subagents-pattern.md) - Delegating scoped tasks to isolated subagents to parallelize work and protect the main agent's context window.
+- [PRD-First Development](../../concepts/prd-first-development.md) - Starting every build from a written product requirements document that becomes the contract the agent implements against.
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
 
 ## Sources
 

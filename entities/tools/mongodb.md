@@ -16,13 +16,23 @@ MongoDB is a NoSQL database that Cole reaches for when a RAG stack needs both do
 
 The reason Cole picks it specifically for hybrid retrieval is a preview feature that fuses keyword and semantic result rankings directly inside the database: "this is something that's in preview right now, but MongoDB is working on building directly into the platform. So, we can include Rank Fusion in our pipelines" (the-simplest-rag-stack, 0:21:34). That pushes Reciprocal Rank Fusion into the query layer instead of application code, making MongoDB act as document store and vector database at once. It stands apart from Cole's usual Postgres-family defaults by handling keyword search, semantic search, and their fusion natively in one aggregation pipeline.
 
+## Realizes
+
+- [Hybrid Search](../../concepts/hybrid-search.md) - Combining keyword (BM25) and semantic vector search so retrieval catches both exact-term and meaning-based matches.
+- [Reciprocal Rank Fusion](../../concepts/reciprocal-rank-fusion.md) - A ranking method that merges results from multiple retrievers (e.g. keyword + semantic) into one fused ordering.
+
+## Contrasts with
+
+- [Postgres + pgvector](./postgres-pgvector.md) - A Postgres extension for storing vector embeddings, used within Supabase as a production-ready vector store for RAG.
+- [Qdrant](./qdrant.md) - Vector database with an MCP server that lets agents do RAG without implementing custom retrieval tools.
+- [Pinecone](./pinecone.md) - Vector database used optionally by Auto-GPT to provide long-term memory.
+
 ## Related
 
-- [Hybrid Search](../../concepts/hybrid-search.md) is the retrieval pattern MongoDB is chosen to serve.
-- [Keyword Search](../../concepts/keyword-search.md) and [Semantic Search](../../concepts/semantic-search.md) are the two signals MongoDB combines.
-- [Reciprocal Rank Fusion](../../concepts/reciprocal-rank-fusion.md) is the Rank Fusion mechanism MongoDB builds into its pipelines.
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) and [Agentic RAG](../../concepts/agentic-rag.md) are the workloads this stack supports.
-- [Postgres + pgvector](./postgres-pgvector.md), [Qdrant](./qdrant.md), and [Pinecone](./pinecone.md) are the vector-store alternatives MongoDB competes with here.
+- [Keyword Search](../../concepts/keyword-search.md) - Exact-term (lexical) search that complements semantic search, especially for identifiers and rare tokens.
+- [Semantic Search](../../concepts/semantic-search.md) - Retrieving content by embedding-based similarity so results match on meaning rather than exact keywords.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Agentic RAG](../../concepts/agentic-rag.md) - Giving an agent retrieval as a tool so it decides when and how to search a knowledge base, picking strategies and issuing follow-up queries instead of a single static lookup.
 
 ## Sources
 

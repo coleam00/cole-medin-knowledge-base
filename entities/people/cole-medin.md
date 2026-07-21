@@ -18,13 +18,26 @@ His central teaching is a repeatable process he returns to constantly: "This is 
 
 Cole is also a builder in public. He created his own [Second Brain](../../concepts/second-brain.md) on top of [Andrej Karpathy](./andrej-karpathy.md)'s LLM-wiki idea, ran the [Dark Factory](../../concepts/dark-factory.md) experiment, and packaged his workflow into [Archon](../tools/archon.md) and harnesses he open-sources. Much of his deeper teaching lives in [Dynamous](../organizations/dynamous.md), his community and agentic-coding course, and he increasingly frames his content around real engineering over news: "showing you the real systems and real engineering principles of AI coding, not just the news" ([0:00:31]).
 
+## Works with
+
+- [Archon](../tools/archon.md) - Cole's free, open-source AI command center and harness builder for AI coding; started as an AI agent that builds other AI agents.
+- [Claude Code](../tools/claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
+- [Pydantic AI](../tools/pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
+
 ## Related
 
-- [Planning with AI](../../concepts/planning-with-ai.md), [Human in the Loop](../../concepts/human-in-the-loop.md), and [Context Engineering](../../concepts/context-engineering.md): the PIV loop and the disciplines he teaches around it.
-- [Model Selection](../../concepts/model-selection.md), [RAG](../../concepts/rag.md), [Memory Systems](../../concepts/memory-systems.md), and [Provider Independence](../../concepts/provider-independence.md): recurring themes across his catalog.
-- [Second Brain](../../concepts/second-brain.md) and [Dark Factory](../../concepts/dark-factory.md): flagship systems he built and documented publicly.
-- [Archon](../tools/archon.md), [Claude Code](../tools/claude-code.md), and [Pydantic AI](../tools/pydantic-ai.md): the tool he built and his primary drivers.
-- [Andrej Karpathy](./andrej-karpathy.md), [Dynamous](../organizations/dynamous.md), and [oTTomator](../organizations/ottomator.md): the ideas he extends and the communities he founded.
+- [Planning with AI](../../concepts/planning-with-ai.md) - Using the AI to produce a detailed plan before implementation so execution follows a reviewed blueprint instead of improvising.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Context Engineering](../../concepts/context-engineering.md) - The deliberate practice of curating exactly what goes into an LLM's limited context window - system messages, schemas, chat history, and dynamic variables - to avoid overload and keep outputs sharp.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [RAG](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+- [Second Brain](../../concepts/second-brain.md) - A personal, always-on AI system that captures, recalls, and acts on your knowledge and daily context.
+- [Dark Factory](../../concepts/dark-factory.md) - A self-evolving codebase where autonomous workflows build and improve a product with minimal human touch.
+- [Andrej Karpathy](./andrej-karpathy.md) - AI engineer who coined 'vibe coding' in February 2025 and popularized the LLM-built personal knowledge base (the 'Karpathy LLM Wiki').
+- [Dynamous](../organizations/dynamous.md) - Cole's community for early AI adopters, home of the Agentic Coding course, weekly workshops, and the shared Context Engineering Hub.
+- [oTTomator](../organizations/ottomator.md) - Cole's earlier open-source AI community (ottomator.ai), pitched as a one-stop shop for AI tools, networking, and knowledge; home of the Live Agent Studio.
 
 ## Sources
 

@@ -17,11 +17,13 @@ That self-driving-levels model is why Dan sits behind Cole's central caution tha
 
 ## Related
 
-- [Dark Factory](../../concepts/dark-factory.md) - the term he applied to codebases and generative AI.
-- [Human in the Loop](../../concepts/human-in-the-loop.md) and [Deterministic Workflows](../../concepts/deterministic-workflows.md) - the "don't max out autonomy" reading of his levels analogy.
-- [AI Coding Harness](../../concepts/ai-coding-harness.md) and [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - where the levels model becomes a design dial.
-- [The Evolution of AI Coding](../../concepts/the-evolution-of-ai-coding.md) - autonomy read as graduated levels.
-- [Cole Medin](./cole-medin.md) - built the Dark Factory experiment on Dan's framing.
+- [Dark Factory](../../concepts/dark-factory.md) - A self-evolving codebase where autonomous workflows build and improve a product with minimal human touch.
+- [The Evolution of AI Coding](../../concepts/the-evolution-of-ai-coding.md) - How AI coding assistants moved from novelty to daily driver, and where the landscape, adoption, and commentary are heading.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - Keeping a human as the approver and steerer of agentic work rather than fully automating, so AI augments engineers instead of replacing them.
+- [Deterministic Workflows](../../concepts/deterministic-workflows.md) - Encoding known steps as fixed code paths and reserving the LLM for the genuinely fuzzy decisions, trading autonomy for reliability.
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+- [Agentic Workflow Engineering](../../concepts/agentic-workflow-engineering.md) - Designing repeatable AI workflows as engineered systems with defined steps, orchestration, and background execution rather than ad-hoc prompting.
+- [Cole Medin](./cole-medin.md) - AI engineer and educator whose YouTube channel and Dynamous community teach agentic coding; creator of Archon and the source of this entire knowledge base.
 
 ## Sources
 

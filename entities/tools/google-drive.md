@@ -22,20 +22,23 @@ Beyond n8n, Drive shows up as the **plug-in knowledge source** in no-code and vo
 
 ## Related
 
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Drive is the document source feeding retrieval
-- [Knowledge Bases](../../concepts/knowledge-bases.md) - a Drive folder as the ingestible corpus
-- [Chunking](../../concepts/chunking.md) - files pulled from Drive are chunked before embedding
-- [Vector Embeddings](../../concepts/vector-embeddings.md)
-- [Memory Systems](../../concepts/memory-systems.md)
-- [No-Code Automation](../../concepts/no-code-automation.md) - the Drive trigger in visual pipelines
-- [n8n](./n8n.md) - where the Google Drive trigger node lives
-- [Slack](./slack.md) - the companion output channel in these workflows
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Knowledge Bases](../../concepts/knowledge-bases.md) - Curated bodies of knowledge an agent can retrieve from, distinct from raw model weights, that ground responses in trusted source material.
+- [Chunking](../../concepts/chunking.md) - Splitting source documents into appropriately sized, embeddable segments, the foundational preprocessing step that determines RAG retrieval quality.
+- [Vector Embeddings](../../concepts/vector-embeddings.md) - Numeric representations of text that enable semantic similarity search, stored and managed in a vector database for retrieval.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [No-Code Automation](../../concepts/no-code-automation.md) - Building agent workflows visually in tools like n8n, trading raw flexibility for speed and accessibility.
+
+## Works with
+
+- [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications, where the Google Drive trigger node lives.
+- [Slack](./slack.md) - Messaging platform used as an alerting destination for error workflows and scheduled report notifications, and as the chat surface for talking to agents.
 
 ## Sources
 
 - [Your ULTIMATE n8n RAG AI Agent Template just got a Massive Upgrade](../../sources/your-ultimate-n8n-rag-ai-agent-template-just-got-a-massive-upgrade.md) - "[0:05:55] our document store, which in my case is Google Drive. You can easily update this though to be something like Dropbox or SharePoint instead."
 - [I Built the ULTIMATE n8n RAG AI Agent Template](../../sources/i-built-the-ultimate-n8n-rag-ai-agent-template.md) - "[0:16:02] there isn't a trigger to watch for files that are deleted unfortunately it's kind of a big bummer"
-- [Run ALL Your AI Locally in Minutes (LLMs, RAG, and more)](../../sources/run-all-your-ai-locally-in-minutes-llms-rag-and-more.md) - "[0:12:47] whenever a file is created in a specific folder in Google Drive or if a file is updated in that same folder we want to run this pipeline to download the file and put it into our quadrant Vector database"
+- [Run ALL Your AI Locally in Minutes (LLMs, RAG, and more)](../../sources/run-all-your-ai-locally-in-minutes-llms-rag-and-more.md) - "[0:12:47] whenever a file is created in a specific folder in Google Drive or if a file is updated in that same folder we want to run this pipeline to download the file and put it into our Qdrant Vector database"
 - [10 n8n Tips in 10 Minutes to 10x Your AI Automations](../../sources/10-n8n-tips-in-10-minutes-to-10x-your-ai-automations.md) - "[0:03:33] I reference the file ID and MIM type output from the previous node right here which is the Google Drive trigger that I have"
 - [Turn ANY AI Agent into a Live Person - Voice Chat Setup in Minutes](../../sources/turn-any-ai-agent-into-a-live-person-voice-chat-setup-in-minutes.md) - "[0:02:11] hook in your Google Drive and then you can select any folder that you want to ingest into the knowledge base here"
 - [Llama 3.2 is INSANE - But Does it Beat GPT as an AI Agent?](../../sources/llama-32-is-insane-but-does-it-beat-gpt-as-an-ai-agent.md) - "[0:06:01] for Google Drive we can search for files we can create files download files all that just pretty much everything that you want to do for crud in Google Drive"

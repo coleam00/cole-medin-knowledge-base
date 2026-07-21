@@ -18,27 +18,42 @@ Cole's dominant use of n8n is [rapid prototyping](../../concepts/rapid-prototypi
 
 He is candid about its limits. n8n has no single node to extract text from any file type, there is no native Langfuse integration (you must hardcode auth keys in a code node), credentials get baked into individual nodes, and the built-in chat UI is weak, so he pairs it with Open WebUI or custom [ChatGPT-style frontends](../../concepts/chat-interfaces.md). Compared with pure Python, n8n has "a steeper learning curve... especially when building your AI agents," and complex looping or multi-select logic is hard to express. On scaling and [deployment](../../concepts/agent-deployment.md), though, "for a no-code platform, N8N scales extremely well because of something called Queue mode," and a workflow exposed as a webhook becomes a clean agent [API endpoint](../../concepts/agent-as-api-endpoint.md).
 
+## Realizes
+
+- [No-Code AI Agents](../../concepts/no-code-agents.md) - Building functional AI agents by wiring nodes on a visual canvas instead of writing code, trading some control for much faster build and debug time.
+- [Rapid Prototyping](../../concepts/rapid-prototyping.md) - Building a fast proof of concept with managed services first, then hardening only what proves out, instead of over-engineering up front.
+
+## Contrasts with
+
+- [Flowise](./flowise.md) - Low-code LLM app / agent builder included and exposed in the stack.
+- [Voiceflow](./voiceflow.md) - A conversational-AI builder cited as a comparable node-based workflow platform.
+- [Vector Shift](./vector-shift.md) - A visual AI-workflow builder cited as a comparable node-based platform.
+- [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around three parts: dependencies, the agent definition, and tools.
+
+## Works with
+
+- [LangChain](./langchain.md) - The framework used in prior masterclass videos to build the Asana agent; its message objects and invoke/stream methods underpin the chatbot logic.
+- [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
+- [Ollama](./ollama.md) - Local LLM runtime; works with a locally-run bolt.diy but can't be reached by a self-hosted (remote) instance.
+- [MCP](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
+
 ## Related
 
-- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md)
-- [Memory Systems](../../concepts/memory-systems.md)
-- [Local & Self-Hosted AI](../../concepts/local-ai.md)
-- [Model Selection](../../concepts/model-selection.md)
-- [Agent Deployment](../../concepts/agent-deployment.md)
-- [Vector Embeddings](../../concepts/vector-embeddings.md)
-- [Flowise](./flowise.md)
-- [Voiceflow](./voiceflow.md)
-- [LangChain](./langchain.md)
-- [Pydantic AI](./pydantic-ai.md)
-- [Supabase](./supabase.md)
-- [Ollama](./ollama.md)
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Memory Systems](../../concepts/memory-systems.md) - Giving agents durable short- and long-term memory so conversations, user context, and facts persist across sessions and users.
+- [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost, often routing easy requests to cheap models and hard ones to expensive models.
+- [Agent Deployment](../../concepts/agent-deployment.md) - Getting agents to production, containerizing, networking, reverse-proxying, and choosing a provider-agnostic, cost-predictable host.
+- [Vector Embeddings](../../concepts/vector-embeddings.md) - Numeric representations of text that enable semantic similarity search, stored and managed in a vector database for retrieval.
+- [Chat Interfaces](../../concepts/chat-interfaces.md) - Wrapping agents in chat surfaces (websites, DMs, platforms) with adapters, a shared message format, and durable history.
+- [Agent as an API Endpoint](../../concepts/agent-as-api-endpoint.md) - Wrapping an AI agent in a web API (typically FastAPI) turns it from a terminal-bound script into a deployable, scalable service any frontend, SaaS, or client can call remotely.
 
 ## Sources
 
 - [Everything You Thought About Building AI Agents is Wrong](../../sources/everything-you-thought-about-building-ai-agents-is-wrong.md)
 - [The ONLY AI Tech Stack You Need in 2026](../../sources/the-only-ai-tech-stack-you-need-in-2026.md) - "[0:05:44] N8N for me is where it's at... I'll use it as a tool to quickly prototype ideas, validate the tools I'm giving my agents and system prompts"
 - [Learn 90% of Building AI Agents in 30 Minutes](../../sources/learn-90-of-building-ai-agents-in-30-minutes.md)
-- [Should I Build My AI Agents with n8n or Python?](../../sources/should-i-build-my-ai-agents-with-n8n-or-python.md) - "[0:04:48] for a noode platform, N8N scales extremely well because of something called Q mode"
+- [Should I Build My AI Agents with n8n or Python?](../../sources/should-i-build-my-ai-agents-with-n8n-or-python.md) - "[0:04:48] for a no-code platform, n8n scales extremely well because of something called Q mode"
 - [Docker Just Made Using MCP Servers 100x Easier (One Click Installs!)](../../sources/docker-just-made-using-mcp-servers-100x-easier-one-click-installs.md)
 - [Knowledge Graphs in n8n are FINALLY Here!](../../sources/knowledge-graphs-in-n8n-are-finally-here.md)
 - [Your ULTIMATE n8n RAG AI Agent Template just got a Massive Upgrade](../../sources/your-ultimate-n8n-rag-ai-agent-template-just-got-a-massive-upgrade.md)
@@ -51,9 +66,9 @@ He is candid about its limits. n8n has no single node to extract text from any f
 - [Give Me 28 Minutes and I'll Completely Change the Way You Build AI Agents](../../sources/give-me-28-minutes-and-ill-completely-change-the-way-you-build-ai-agents.md)
 - [The EASIEST Possible Strategy for Accurate RAG (Step by Step Guide)](../../sources/the-easiest-possible-strategy-for-accurate-rag-step-by-step-guide.md)
 - [I Built the Ultimate RAG MCP Server for AI Coding (Better than Context7)](../../sources/i-built-the-ultimate-rag-mcp-server-for-ai-coding-better-than-context7.md)
-- [If You're Serious About Building AI Agents, This is Your Secret Weapon](../../sources/if-youre-serious-about-building-ai-agents-this-is-your-secret-weapon.md) - "[0:26:42] the biggest downside to all this is that you have to hardcode your Langfuse authentication keys in the code node in N8N. So it's really not an ideal solution."
+- [If You're Serious About Building AI Agents, This is Your Secret Weapon](../../sources/if-youre-serious-about-building-ai-agents-this-is-your-secret-weapon.md) - "[0:26:42] the biggest downside to all this is that you have to hardcode your Langfuse authentication keys in the code node in n8n. So it's really not an ideal solution."
 - [The ULTIMATE Guide to Building Your Own MCP Servers (Free Template)](../../sources/the-ultimate-guide-to-building-your-own-mcp-servers-free-template.md)
-- [Build a ChatGPT Style App for Your n8n AI Agents in MINUTES](../../sources/build-a-chatgpt-style-app-for-your-n8n-ai-agents-in-minutes.md) - "[0:00:47] I absolutely love N8N. In my mind, it is the best no code tool for building automations and AI agents. But clearly for their UI, there could be something much much better."
+- [Build a ChatGPT Style App for Your n8n AI Agents in MINUTES](../../sources/build-a-chatgpt-style-app-for-your-n8n-ai-agents-in-minutes.md) - "[0:00:47] I absolutely love n8n. In my mind, it is the best no-code tool for building automations and AI agents. But clearly for their UI, there could be something much much better."
 - [Claude MCP has Changed AI Forever - Here's What You NEED to Know](../../sources/claude-mcp-has-changed-ai-forever-heres-what-you-need-to-know.md)
 - [Create Your Own Private Local AI Cloud Stack in Under 20 Minutes](../../sources/create-your-own-private-local-ai-cloud-stack-in-under-20-minutes.md)
 - [The ULTIMATE n8n RAG AI Agent Template - Local AI Edition](../../sources/the-ultimate-n8n-rag-ai-agent-template-local-ai-edition.md)

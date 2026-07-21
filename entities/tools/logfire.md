@@ -22,12 +22,26 @@ Logfire works by instrumentation: it hooks into an agent's execution and emits t
 
 Cole's key architectural insight is that Logfire is not necessarily the final destination for the data. It speaks OpenTelemetry, which lets it act as the bridge between the agent and a higher-level dashboard. He wires it into [Langfuse](./langfuse.md) exactly this way: "Langfuse can directly integrate with Logfire under the hood using open telemetry" [0:12:08], so that "Logfire is our connection between Pydantic AI, our agent, and Langfuse" [0:13:18]. Logfire becomes the instrumentation layer, Langfuse the viewing layer. This makes Logfire a foundational piece for anyone building [production-grade agents](../../concepts/production-grade-agents.md) on Pydantic AI, and it supports [agent evaluation](../../concepts/agent-evaluation.md) by making each run measurable.
 
+## Realizes
+
+- [Agent Observability](../../concepts/agent-observability.md) - instrumenting agents with tracing, logging, and cost/token metrics so you can see and debug what they actually did; the capability Logfire realizes at the instrumentation layer.
+
+## Works with
+
+- [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents, structured around dependencies, the agent definition, and tools; the agent Logfire instruments.
+- [Langfuse](./langfuse.md) - the platform Cole uses to monitor AI agents in production; Logfire feeds it over OpenTelemetry as the viewing layer.
+
+## Contrasts with
+
+- [LangSmith](./langsmith.md) - a competing observability platform Cole contrasts against Langfuse, faulting it for not being fully open-source.
+
 ## Related
 
-- [Agent Observability](../../concepts/agent-observability.md) - the capability Logfire realizes at the instrumentation layer.
-- [Agent Evaluation](../../concepts/agent-evaluation.md) and [Production-Grade Agents](../../concepts/production-grade-agents.md) - supported by its per-run telemetry.
-- [Agent Deployment](../../concepts/agent-deployment.md), [Local & Self-Hosted AI](../../concepts/local-ai.md), [Model Selection](../../concepts/model-selection.md) - decisions its traces inform.
-- Sibling tools: [Pydantic AI](./pydantic-ai.md) (the agent it instruments), [Langfuse](./langfuse.md) (the dashboard it feeds), [LangSmith](./langsmith.md).
+- [Agent Evaluation](../../concepts/agent-evaluation.md) - systematically scoring agent behavior with evals and benchmarks, supported by Logfire's per-run telemetry.
+- [Production-Grade Agents](../../concepts/production-grade-agents.md) - real agents need validation, error handling, testing, logging, observability, and monitoring rather than just an LLM plus tools.
+- [Agent Deployment](../../concepts/agent-deployment.md) - getting agents to production, a decision its traces inform.
+- [Local & Self-Hosted AI](../../concepts/local-ai.md) - running open-weight models on your own hardware, debuggable through the same telemetry.
+- [Model Selection](../../concepts/model-selection.md) - choosing the right LLM per task, guided by the cost and token metrics Logfire captures.
 
 ## Sources
 

@@ -16,13 +16,21 @@ Firebase is Google's app-development platform that Cole uses as the backend scaf
 
 Cole also reaches for Firebase when a project needs authentication without building it from scratch. For a custom Chrome extension he notes you can bolt on identity with a managed provider: "you're also going to have to include authentication for this extension using a tool like Firebase for example" (use-chatgpt-in-two-clicks, 0:20:46). This mirrors how he uses Supabase auth elsewhere, Firebase is the equivalent within the Google Cloud ecosystem for standing up user accounts quickly. It sits on the backend/deployment side of Cole's stack rather than the RAG or vector-store side.
 
+## Realizes
+
+- [Securing Agent APIs](../../concepts/api-security.md) - Protecting agent endpoints and secrets, handled out of the box by Firebase's managed authentication.
+- [Agent Deployment](../../concepts/agent-deployment.md) - Getting agents to production and choosing a host, where the Google Cloud Functions plus Firebase structure fits.
+
+## Contrasts with
+
+- [Supabase](./supabase.md) - A single platform providing Postgres plus a pgvector store, Cole's more frequent backend and auth choice outside the Google ecosystem.
+
 ## Related
 
-- [Chat Interfaces](../../concepts/chat-interfaces.md) are the front ends a Firebase-backed function serves.
-- [Securing Agent APIs](../../concepts/api-security.md) is addressed by Firebase's managed authentication.
-- [Agent Deployment](../../concepts/agent-deployment.md) is where the Google Cloud Functions plus Firebase structure fits.
-- [AI Agent Business Niches](../../concepts/ai-agent-business-niches.md) and [Community-Driven Development](../../concepts/community-driven-development.md) are the contexts where Cole builds these client-facing backends.
-- [Supabase](./supabase.md) is Cole's more frequent authentication and backend choice outside the Google ecosystem.
+- [Chat Interfaces](../../concepts/chat-interfaces.md) - Wrapping agents in chat surfaces with adapters and durable history, the front ends a Firebase-backed function serves.
+- [AI Agent Business Niches](../../concepts/ai-agent-business-niches.md) - Productizing AI agents for concrete business use cases, the context where Cole builds these client-facing backends.
+- [Community-Driven Development](../../concepts/community-driven-development.md) - Building products and open source in public with a community and a shared roadmap.
+- [Tool Design](../../concepts/tool-design.md) - Designing agent tools to be few, single-purpose, and well-described so the model uses them reliably.
 
 ## Sources
 

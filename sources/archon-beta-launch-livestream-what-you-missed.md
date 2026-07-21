@@ -57,7 +57,7 @@ Along the way Cole surfaces recurring lessons: coding assistants love to overeng
 
 ## Key moments
 
-- **[0:00:30]** Intro: condensed recap of the 3-hour beta-launch stream; goal is to show Archon working with existing context-engineering strategies like BMAD, PRP, cloud flow, spec-driven
+- **[0:00:30]** Intro: condensed recap of the 3-hour beta-launch stream; goal is to show Archon working with existing context-engineering strategies like BMAD, PRP, Claude Flow, spec-driven
 - **[0:04:00]** What Archon is: 'the operating system for AI coding' - UI command center for humans + MCP server for coding assistants over shared context
 - **[0:05:30]** Setup walkthrough: Docker Desktop, Supabase (use the service-role key, not anon), migrations SQL, docker compose, four containers, OpenAI/Gemini/Ollama support
 - **[0:09:00]** Build target defined: a Next.js UI to spin up and manage multiple Claude Code instances via the Claude Code SDK

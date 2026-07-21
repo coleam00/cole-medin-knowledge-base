@@ -15,3 +15,5 @@ scripts/slug_index.json
 scripts/aggregate_candidates.py
 scripts/build_manifest.py
 scripts/fan_out.py
+scripts/authored_pages.txt
+scripts/entity_pages.txt

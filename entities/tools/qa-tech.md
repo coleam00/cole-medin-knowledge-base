@@ -22,12 +22,26 @@ QA Tech's agents crawl a deployed site and generate end-to-end test cases agains
 
 Cole places QA Tech at the outer edge of his agentic build workflow, as the layer that verifies the whole application keeps working as agents ship feature after feature. It complements the tighter, per-change validation done by tools like [Playwright](./playwright.md): where Playwright validates a single frontend change in the moment, QA Tech maintains the accumulating suite of end-to-end cases across the [AI Layer](../../concepts/the-ai-layer.md) of the app. It fits his emphasis on reducing risk when moving fast, and it pairs naturally with practices like [PRD-first development](../../concepts/prd-first-development.md) and [clarifying questions](../../concepts/clarifying-questions.md) that pin down what "working" actually means before agents build it.
 
+## Realizes
+
+- [Context Isolation](../../concepts/context-isolation.md) - giving each agent or subagent its own clean context window so unrelated tokens never dilute the task at hand.
+- [Subagents Pattern](../../concepts/subagents-pattern.md) - delegating scoped tasks to isolated subagents to parallelize work and protect the main agent's context window.
+
+## Works with
+
+- [The AI Layer](../../concepts/the-ai-layer.md) - the layer of rules, commands, skills, and context you own on top of a codebase that makes AI coding effective and portable.
+- [Playwright](./playwright.md) - Cole's deterministic multi-browser web automation tool, whose MCP server lets coding assistants visually validate frontend changes.
+
+## Contrasts with
+
+- [Browserbase](./browserbase.md) - browser-automation company Cole partnered with; its Stagehand framework and Director platform bring self-correcting web automation on top of Playwright.
+- [CodeRabbit](./code-rabbit.md) - AI code review tool that automatically and thoroughly reviews every pull request, free for open-source repos, with security vulnerability detection.
+
 ## Related
 
-- [The AI Layer](../../concepts/the-ai-layer.md) - the application surface QA Tech keeps covered as it grows.
-- [PRD-First Development](../../concepts/prd-first-development.md), [Reduce Assumptions](../../concepts/reduce-assumptions.md), [Clarifying Questions](../../concepts/clarifying-questions.md) - practices that define the behavior its tests protect.
-- [Context Isolation](../../concepts/context-isolation.md), [Subagents Pattern](../../concepts/subagents-pattern.md) - patterns behind its evolving testing agents.
-- Sibling tools: [Playwright](./playwright.md), [Browserbase](./browserbase.md), [CodeRabbit](./code-rabbit.md).
+- [PRD-First Development](../../concepts/prd-first-development.md) - starting every build from a written product requirements document that becomes the contract the agent implements against.
+- [Reduce Assumptions](../../concepts/reduce-assumptions.md) - write explicit, unambiguous, non-contradictory prompts so the LLM has to guess as little as possible.
+- [Clarifying Questions](../../concepts/clarifying-questions.md) - having the agent ask targeted questions up front to infer intent and reduce assumptions before it plans or builds.
 
 ## Sources
 

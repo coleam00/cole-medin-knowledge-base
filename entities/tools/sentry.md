@@ -22,12 +22,26 @@ Sentry turns each interaction with a system into an inspectable trace. Describin
 
 Cole's headline claim is that Sentry is uniquely good at the MCP use case: "Sentry really is the best platform. It's really the only one that I know of that makes it super easy to integrate application monitoring with MCP server specifically" [0:20:44]. In his build-and-ship walkthrough he wires it into a Cloudflare Workers deployment, and the integration is concrete: "You just want to search for Cloudflare workers JavaScript. That's the type that you create for Sentry. You'll get that DSN which you use as your environment variable" [0:21:16]. He splits responsibilities cleanly across his stack: "I use Langfuse as my platform more specifically to monitor agents, but then my whole backend infrastructure and rag pipelines, Sentry is a great option." Sentry was also the sponsor of the video where he demonstrates it, which he discloses.
 
+## Realizes
+
+- [Agent Observability](../../concepts/agent-observability.md) - Instrumenting agents with tracing, logging, and cost/token metrics so you can see and debug what they actually did.
+
+## Works with
+
+- [Model Context Protocol (MCP)](../../concepts/mcp.md) - An open protocol for packaging tools, data, and RAG capabilities as servers that any AI coding assistant or agent can connect to and call with a standard interface.
+
+## Contrasts with
+
+- [Langfuse](./langfuse.md) - The platform Cole uses specifically to monitor AI agents in production, distinct from Sentry which he uses for backend/RAG infrastructure.
+- [Logfire](./logfire.md) - Observability tool by the Pydantic team that instruments Pydantic AI agents to send traces, token usage, and cost as telemetry for local and production debugging.
+
 ## Related
 
-- [Model Context Protocol (MCP)](../../concepts/mcp.md) - the deployment target Sentry is uniquely good at monitoring.
-- [Agent Observability](../../concepts/agent-observability.md) - the capability it provides for backend and RAG infrastructure.
-- [AI Coding Harness](../../concepts/ai-coding-harness.md), [Agentic Coding](../../concepts/agentic-coding.md), [Second Brain](../../concepts/second-brain.md), [Provider Independence](../../concepts/provider-independence.md) - systems Cole instruments with it.
-- Sibling tools: [Langfuse](./langfuse.md) (agent-side counterpart), [Logfire](./logfire.md), [Claude Code](./claude-code.md).
+- [AI Coding Harness](../../concepts/ai-coding-harness.md) - The surrounding scaffolding (prompts, tools, rules, validation) that turns a raw model into a reliable coding system.
+- [Agentic Coding](../../concepts/agentic-coding.md) - Letting an AI agent drive software development end-to-end, from planning through implementation and validation, with human steering.
+- [Second Brain](../../concepts/second-brain.md) - A personal, always-on AI system that captures, recalls, and acts on your knowledge and daily context.
+- [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+- [Claude Code](./claude-code.md) - Anthropic's terminal-based agentic coding assistant that is the subject of this complete-guide walkthrough.
 
 ## Sources
 

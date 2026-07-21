@@ -18,14 +18,25 @@ Cole treats Caddy as the networking layer that turns a private box full of [Dock
 
 Where [Docker](./docker.md) gives Cole reproducible packaging, Caddy gives him secure exposure. The two compose together: the same `docker compose` file that defines his services also runs Caddy, which reads its routing rules and issues certificates on startup. This keeps the whole self-hosted deployment declarative and repeatable, which is the point of running a personal AI cloud that behaves like a real one.
 
+## Realizes
+
+- [Reverse Proxy](../../concepts/reverse-proxy.md) - A server (Nginx or Caddy) that receives requests at a public URL and routes them behind the scenes to internal services by port or subdomain, keeping backend services private and centralizing HTTPS.
+
+## Works with
+
+- [Docker](./docker.md) - Containerization prerequisite; the same docker compose file that defines the services also runs Caddy at the edge.
+- [n8n](./n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
+- [Supabase](./supabase.md) - A single platform providing Postgres for scalable chat memory plus the pgvector store for RAG embeddings, recommended over in-memory alternatives.
+- [Ollama](./ollama.md) - Local LLM runtime; one of the self-hosted services Caddy exposes over an encrypted endpoint.
+
 ## Related
 
-- [Reverse Proxy](../../concepts/reverse-proxy.md) - the concept Caddy realizes at the edge of the stack
-- [Local & Self-Hosted AI](../../concepts/local-ai.md) - Caddy secures the endpoints of a self-hosted AI stack
-- [Provider Independence](../../concepts/provider-independence.md) - owning the ingress layer keeps deployments portable
-- [Model Quantization](../../concepts/model-quantization.md) - a sibling concern when self-hosting the models behind these endpoints
-- [Model Selection](../../concepts/model-selection.md), [Fine-Tuning](../../concepts/fine-tuning.md), [Context Window Limits](../../concepts/context-window-limits.md) - related local-AI trade-offs covered alongside Caddy
-- Sibling tools: [Docker](./docker.md), [n8n](./n8n.md), [Supabase](./supabase.md), [Ollama](./ollama.md)
+- [Local & Self-Hosted AI](../../concepts/local-ai.md) - Running open-weight models on your own hardware or cloud for privacy, cost control, and independence from API providers.
+- [Provider Independence](../../concepts/provider-independence.md) - Architecting agents so the underlying model, framework, or client can be swapped without a rewrite, avoiding lock-in through low-level abstractions.
+- [Model Quantization](../../concepts/model-quantization.md) - Compressing model weights to lower precision so large models fit and run on limited local hardware.
+- [Model Selection](../../concepts/model-selection.md) - Choosing the right LLM per task by trading off quality, speed, and cost.
+- [Fine-Tuning](../../concepts/fine-tuning.md) - Adapting a base model to a task or domain via additional training, weighed against just prompting a stronger general model.
+- [Context Window Limits](../../concepts/context-window-limits.md) - Managing finite context by summarizing, compacting, and sizing what you load so the model stays sharp on long tasks.
 
 ## Sources
 

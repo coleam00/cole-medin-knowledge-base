@@ -26,12 +26,24 @@ Playwright is Cole's long-standing default for browser automation, and he is can
 
 [Browserbase](./browserbase.md) - Cole moves from Playwright to Browserbase when silent failures need self-correction and live remote sessions.
 
+## Realizes
+
+- [Validation](../../concepts/validation.md) - Playwright lets an agent visually confirm the frontend changes it just made before moving on.
+- [Model Context Protocol (MCP)](../../concepts/mcp.md) - the Playwright MCP server is its highest-leverage form in Cole's stack, letting a coding assistant see the page.
+
+## Works with
+
+- [Crawl4AI](./crawl4ai.md) - installs and drives Playwright under the hood as its website-scraping engine.
+- [QA Tech](./qa-tech.md) - the AI testing platform Cole pairs with deterministic Playwright checks.
+- [Claude Code](./claude-code.md) - the coding assistant that pops up a Playwright browser to validate its own code.
+
 ## Related
 
-- [Validation](../../concepts/validation.md) - Playwright lets agents visually confirm frontend changes.
-- [Model Context Protocol (MCP)](../../concepts/mcp.md) - the Playwright MCP server is its highest-leverage form in Cole's stack.
-- [Web Crawling & Ingestion](../../concepts/web-crawling.md), [Knowledge Bases](../../concepts/knowledge-bases.md), [RAG](../../concepts/rag.md), [Vector Embeddings](../../concepts/vector-embeddings.md), [Progressive Disclosure](../../concepts/progressive-disclosure.md) - it powers the scraping stage feeding these.
-- Sibling tools: [Browserbase](./browserbase.md), [Crawl4AI](./crawl4ai.md), [QA Tech](./qa-tech.md), [Claude Code](./claude-code.md).
+- [Web Crawling & Ingestion](../../concepts/web-crawling.md) - the scraping stage Playwright powers underneath Cole's knowledge pipelines.
+- [Knowledge Bases](../../concepts/knowledge-bases.md) - the curated corpora those crawls feed.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - what the ingested, embedded content ultimately serves.
+- [Vector Embeddings](../../concepts/vector-embeddings.md) - the representations built from crawled pages.
+- [Progressive Disclosure](../../concepts/progressive-disclosure.md) - loading page context on demand during validation.
 
 ## Sources
 

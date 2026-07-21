@@ -20,16 +20,31 @@ React is the "application built with something like React" that sits on the clie
 
 The other recurring use is as a direct client for the agent. In the CopilotKit + Pydantic AI RAG build, Cole notes "we can access and interact with our direct to LLM agents directly from React components," so a [RAG](../../concepts/rag.md) agent's retrieval and source-validation results stream straight into React state. This only works because the agent lives behind a stable interface: React talks to a [frontend-agnostic agent](../../concepts/frontend-agnostic-agent.md) over [agent protocols](../../concepts/agent-protocols.md) like AG-UI, which is a [contract-first](../../concepts/contract-first.md) arrangement where the UI and the agent are decoupled by an agreed schema.
 
-React is also, plainly, Cole's preferred framework. In his developer-roadmap video he calls it out directly: "you got Frameworks like react which is my favorite because of nextjs" - the library he likes precisely because of the [Next.js](./nextjs.md) full-stack framework built on top of it.
+React is also, plainly, Cole's preferred framework. In his developer-roadmap video he calls it out directly: "you got Frameworks like react which is my favorite because of Next.js" - the library he likes precisely because of the [Next.js](./nextjs.md) full-stack framework built on top of it.
+
+## Realizes
+
+- [Generative UI](../../concepts/generative-ui.md) - interfaces the agent generates or drives at runtime, streaming tool activity and reasoning into a live, stateful UI.
+- [Human in the Loop](../../concepts/human-in-the-loop.md) - keeping a human as the approver and steerer of agentic work, where a rendered component pauses the agent and hands the decision back to the user.
+
+## Works with
+
+- [Next.js](./nextjs.md) - React framework hosting the demo's CopilotKit runtime API route for the agent.
+- [CopilotKit](./copilotkit.md) - open-source front-end library providing React components to wire agents into a UI.
+- [AG-UI](./ag-ui.md) - open protocol that standardizes connecting AI agents to front ends via emitted events.
+- [Vercel AI SDK](./vercel-ai-sdk.md) - the front-end AI library whose llms.txt documentation Cole crawls as a demo knowledge base and uses to build a chat UI.
+- [Pydantic AI](./pydantic-ai.md) - Cole's framework for the individual agents that sit behind the endpoint React talks to.
 
 ## Related
 
-- Realizes [generative UI](../../concepts/generative-ui.md) and [human in the loop](../../concepts/human-in-the-loop.md); connects to agents via [agent protocols](../../concepts/agent-protocols.md) and a [contract-first](../../concepts/contract-first.md), [frontend-agnostic](../../concepts/frontend-agnostic-agent.md) boundary.
-- Composed with [Next.js](./nextjs.md), [CopilotKit](./copilotkit.md), [AG-UI](./ag-ui.md), the [Vercel AI SDK](./vercel-ai-sdk.md), and [Pydantic AI](./pydantic-ai.md) agents behind the endpoint.
+- [Agent Protocols](../../concepts/agent-protocols.md) - emerging standards that let agents interoperate and be called across clients.
+- [Contract-First Development](../../concepts/contract-first.md) - define the shared interface between an agent's frontend and backend before building either side.
+- [Frontend-Agnostic Agents](../../concepts/frontend-agnostic-agent.md) - decouple the agent backend from any specific UI by emitting standardized events, so the same agent can power any frontend.
+- [Retrieval-Augmented Generation (RAG)](../../concepts/rag.md) - a RAG agent's retrieval and source-validation results stream straight into React state.
 
 ## Sources
 
 - [AI Agents Can Now Build Their Own UI in Real Time (Personalized to You)](../../sources/ai-agents-can-now-build-their-own-ui-in-real-time-personalized-to-you.md) - "[0:13:12] It really is just a basic React component, but it's the agent that decides when we render this. And it decides all the values."
 - [Build a RAG AI Agent with REAL-TIME Source Validation (CopilotKit + Pydantic AI)](../../sources/build-a-rag-ai-agent-with-real-time-source-validation-copilotkit-pydantic-ai.md) - "[0:04:57] we can access and interact with our direct to LLM agents directly from React components."
 - [AG-UI Just Released: The NEW WAVE of AI Agent Apps](../../sources/ag-ui-just-released-the-new-wave-of-ai-agent-apps.md) - "[0:01:21] our application built with something like React"
-- [The ONLY AI Developer Roadmap You Need in 2024](../../sources/the-only-ai-developer-roadmap-you-need-in-2024.md) - "[0:12:37] you got Frameworks like react which is my favorite because of nextjs"
+- [The ONLY AI Developer Roadmap You Need in 2024](../../sources/the-only-ai-developer-roadmap-you-need-in-2024.md) - "[0:12:37] you got Frameworks like react which is my favorite because of Next.js"

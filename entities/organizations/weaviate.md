@@ -18,12 +18,19 @@ The company's real function here is pedagogical. Cole uses the Weaviate article 
 
 Because it is introduced as "a vector database platform," Weaviate also stands in for the storage-and-retrieval layer beneath RAG generally, the place where [Vector Embeddings](../../concepts/vector-embeddings.md) of [Chunking](../../concepts/chunking.md) output live and get searched. It sits in the same category as vector stores like [Chroma](../tools/chroma.md), and its material shows up in Cole's [n8n](../tools/n8n.md) RAG template walkthrough as the reference explanation for how retrieval works.
 
+## Realizes
+
+- [RAG](../../concepts/rag.md) - Grounding an LLM's answers by retrieving relevant documents from an external knowledge base and injecting them into the prompt at query time.
+- [Traditional RAG](../../concepts/traditional-rag.md) - The classic one-shot, static RAG pipeline that embeds a query, runs a single vector similarity search, and stuffs the top chunks into the prompt.
+- [Agentic RAG](../../concepts/agentic-rag.md) - Giving an agent retrieval as a tool so it decides when and how to search a knowledge base, picking strategies and issuing follow-up queries instead of a single static lookup.
+
 ## Related
 
-- [RAG](../../concepts/rag.md), [Traditional RAG](../../concepts/traditional-rag.md), and [Agentic RAG](../../concepts/agentic-rag.md) - Weaviate's article and its two diagrams are Cole's canonical explainer for the contrast.
-- [Vector Embeddings](../../concepts/vector-embeddings.md), [Chunking](../../concepts/chunking.md), and [Structured vs. Unstructured Data](../../concepts/structured-vs-unstructured-data.md) - the retrieval fundamentals a vector database like Weaviate serves.
-- [Chroma](../tools/chroma.md) - a peer vector store in the same category.
-- [n8n](../tools/n8n.md) - the RAG template video where Cole leans on the Weaviate explanation.
+- [Vector Embeddings](../../concepts/vector-embeddings.md) - Numeric representations of text that enable semantic similarity search, stored and managed in a vector database for retrieval.
+- [Chunking](../../concepts/chunking.md) - Splitting source documents into appropriately sized, embeddable segments, the foundational preprocessing step that determines RAG retrieval quality.
+- [Structured vs. Unstructured Data](../../concepts/structured-vs-unstructured-data.md) - Choosing the right representation for RAG, keeping tabular data queryable as SQL while formatting prose as markdown, rather than forcing everything through vector search.
+- [Chroma](../tools/chroma.md) - Publisher of the technical report on context rot that Cole cites as the most practical treatment of how input tokens degrade LLM performance.
+- [n8n](../tools/n8n.md) - A no-code AI automation platform for building agents and workflows that integrate with 500+ applications.
 
 ## Sources
 

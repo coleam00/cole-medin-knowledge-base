@@ -59,7 +59,7 @@ The reliability layer is guardrails and safety, because LLMs will always halluci
 - **[0:00:16]** Names the three source guides: Google's agent white paper, Anthropic's Building Effective Agents, OpenAI's agent guide (14,000+ words combined)
 - **[0:01:17]** Shared definition of an agent: an LLM that reasons and decides to take actions in a reason-act-observe loop
 - **[0:02:38]** When to build an agent vs when it's overengineering (traditional workflow suffices)
-- **[0:03:04]** N8N demo contrasting a linear LLM workflow with a true reasoning agent
+- **[0:03:04]** n8n demo contrasting a linear LLM workflow with a true reasoning agent
 - **[0:05:04]** The four components of any agent: LLM, tools, instructions (system prompt), memory
 - **[0:06:20]** Reasoning patterns: ReAct (standard), chain-of-thought, tree-of-thought
 - **[0:07:20]** Augment Code sponsor segment on codebase indexing for AI coding

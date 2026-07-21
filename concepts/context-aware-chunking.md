@@ -41,7 +41,7 @@ There are several flavors along a cost-versus-power spectrum. The simplest is st
 
 ## Sources
 
-- [Every RAG Strategy Explained in 13 Minutes (No Fluff)](../sources/every-rag-strategy-explained-in-13-minutes-no-fluff.md) - "[0:08:09] dockling is a library that I use in Python that makes it very easy to implement hybrid chunking, which is a form of contextaware chunking"
+- [Every RAG Strategy Explained in 13 Minutes (No Fluff)](../sources/every-rag-strategy-explained-in-13-minutes-no-fluff.md) - "[0:08:09] Docling is a library that I use in Python that makes it very easy to implement hybrid chunking, which is a form of contextaware chunking"
 - [Turn ANY File into LLM Knowledge in SECONDS](../sources/turn-any-file-into-llm-knowledge-in-seconds.md) - "[0:13:35] We are letting the embedding model decide what goes into each bite-sized piece of information to keep all the similar ideas together."
 - [Your ULTIMATE n8n RAG AI Agent Template just got a Massive Upgrade](../sources/your-ultimate-n8n-rag-ai-agent-template-just-got-a-massive-upgrade.md) - "[0:08:44] I tried semantic chunking which is actually using embedding models instead of large language models... But man, agentic chunking is just the most flexible and the most powerful."
 - [The Future of RAG is Agentic - Learn this Strategy NOW](../sources/the-future-of-rag-is-agentic-learn-this-strategy-now.md) - "[0:13:07] if we have to split a document at any given point we don't want to split it in the middle of a paragraph or the middle of a sentence or a code example we want it to preserve that"

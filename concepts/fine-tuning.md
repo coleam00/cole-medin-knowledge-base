@@ -16,7 +16,7 @@ Fine-tuning is taking an existing model and training it further on your own data
 
 At the data level, fine-tuning is supervised training on curated examples, often question/answer pairs: "you can actually give your own key value pairs like here's a question here's an answer and you could take like the entire documentation for discord.js version 14 and have questions and answers based on that documentation to actually train GPT your own custom model" [0:05:03]. The result is a new set of weights, not a new prompt.
 
-A powerful special case is **distillation**, where a smaller model is fine-tuned on outputs from a larger one. DeepSeek did exactly this with R1: "they took their competitors quen and llama and they made smaller versions of R1 based on those models" [0:03:42], "basically fine-tuned added in all the R1 reasoning to these models like quen and llama so you can download these yourself" [0:03:57]. The payoff is dramatic compression of capability: "even their 14 billion parameter model right here their quen version is on par with 01 mini which is incredible" [0:04:12].
+A powerful special case is **distillation**, where a smaller model is fine-tuned on outputs from a larger one. DeepSeek did exactly this with R1: "they took their competitors Qwen and Llama and they made smaller versions of R1 based on those models" [0:03:42], "basically fine-tuned added in all the R1 reasoning to these models like Qwen and Llama so you can download these yourself" [0:03:57]. The payoff is dramatic compression of capability: "even their 14 billion parameter model right here their Qwen version is on par with 01 mini which is incredible" [0:04:12].
 
 ## Contrasts with
 
@@ -39,7 +39,7 @@ A powerful special case is **distillation**, where a smaller model is fine-tuned
 ## Sources
 
 - [The Ultimate Guide to Local AI and AI Agents (The Future is Here)](../sources/the-ultimate-guide-to-local-ai-and-ai-agents-the-future-is-here.md) - "[0:09:00] you can take any open-source large language model and add additional training on top with your own data. Basically making it a domain expert on your business"
-- [DeepSeek R1 Just Revolutionized AI Forever](../sources/deepseek-r1-just-revolutionized-ai-forever.md) - "[0:03:57] basically fine-tuned added in all the R1 reasoning to these models like quen and llama so you can download these yourself"
+- [DeepSeek R1 Just Revolutionized AI Forever](../sources/deepseek-r1-just-revolutionized-ai-forever.md) - "[0:03:57] basically fine-tuned added in all the R1 reasoning to these models like Qwen and Llama so you can download these yourself"
 - [How to DOMINATE with AI in 2025](../sources/how-to-dominate-with-ai-in-2025.md) - "[0:14:24] fine-tuning that I already mentioned being able to take a large language model and train it on your own data so it can perform better on your use case"
 - [The ONLY AI Developer Roadmap You Need in 2024](../sources/the-only-ai-developer-roadmap-you-need-in-2024.md) - "[0:14:00] fine-tuning large language models which is basically using a little bit of your own data to take a general AI like GPT and make it work even better on your use case"
 - [ChatGPT Users BE AWARE of this Major Weakness](../sources/chatgpt-users-be-aware-of-this-major-weakness.md) - "[0:05:03] you can actually give your own key value pairs like here's a question here's an answer and you could take like the entire documentation for discord.js version 14 and have questions and answers based on that documentation to actually train GPT your own custom model"

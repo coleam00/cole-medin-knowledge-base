@@ -30,4 +30,4 @@ In conventional chunking, each chunk is embedded in isolation, so a chunk that s
 ## Sources
 
 - [Every RAG Strategy Explained in 13 Minutes (No Fluff)](../sources/every-rag-strategy-explained-in-13-minutes-no-fluff.md) - "[0:08:34] we apply the embedding model onto the document before we chunk it, unlike most chunking strategies. And then we're going to chunk up the token embeddings."
-- [I Built the Ultimate RAG MCP Server for AI Coding (Better than Context7)](../sources/i-built-the-ultimate-rag-mcp-server-for-ai-coding-better-than-context7.md) - "[0:15:52] We could implement things like contextual retrieval which was released recently by Anthropic or late chunking or a gentic rag like I've covered on my channel."
+- [I Built the Ultimate RAG MCP Server for AI Coding (Better than Context7)](../sources/i-built-the-ultimate-rag-mcp-server-for-ai-coding-better-than-context7.md) - "[0:15:52] We could implement things like contextual retrieval which was released recently by Anthropic or late chunking or agentic RAG like I've covered on my channel."
