@@ -42,6 +42,25 @@ Use the Cole Medin AI Knowledge Base as a reference:
    of guessing.
 ```
 
+## Build your own (from any YouTube channel)
+
+Three Claude Code skills are included that replicate the full pipeline - just point them at a channel. Each fetches transcripts using a different method, then walks you through the extract-canonicalize-write process described below.
+
+| Skill | Method | API Key | Cost | Best for |
+|-------|--------|---------|------|----------|
+| `/channel-to-kb` | pytubefix + youtube_transcript_api | None | Free | Quick setup, local machines |
+| `/channel-to-kb-ytdlp` | yt-dlp | None | Free | Most reliable, captures publish dates |
+| `/channel-to-kb-supadata` | Supadata API | Required | $17+/mo | No IP issues, AI fallback for uncaptioned videos |
+
+```bash
+# Example: build a KB from 3blue1brown's channel using yt-dlp
+/channel-to-kb-ytdlp @3blue1brown
+```
+
+Each skill fetches all transcripts as `raw/*.md` files, then guides Claude through the same pipeline used to build this bundle: extract concepts from each transcript, canonicalize (merge duplicates into single canonical pages), write cross-linked concept/entity/source pages, and validate with `lint.py`. The full pipeline reference is at `.claude/references/pipeline-guide.md`.
+
+For small channels (under ~30 videos), the whole build fits in one Claude Code session. For larger channels, the skill batches the work and you can resume across sessions.
+
 ## How it was built (reproducible)
 
 1. **Source.** Full transcripts for every long-form video are pulled from the source database and written as immutable `raw/<slug>.md` files (timestamped), plus `raw/manifest.json`.
