@@ -119,6 +119,8 @@ updated: 2026-07-21
 
 **Raw transcript** (`raw/<slug>.md`): `type: raw-transcript`, `immutable: true` - machine-written from the source database; never hand-edited.
 
+**Raw markdown source** (`raw/<slug>.md`): `type: raw-source`, `immutable: true` - ingested verbatim from an existing markdown file (course export, docs, blog archive, wiki dump). Carries `source_type: markdown` plus `origin` (original relative path), and optionally `source_name` / `source_url` for citation. Produced by the `markdown-to-kb` skill; the rest of the pipeline (extract -> canonicalize -> write -> index) is identical to the YouTube path.
+
 ## 5. Linking & typed edges (the load-bearing discipline)
 
 Relationships are what make this a wiki instead of a folder of notes. Rules:
