@@ -51,6 +51,7 @@ Three Claude Code skills are included that replicate the full pipeline - just po
 | `/channel-to-kb` | pytubefix + youtube_transcript_api | None | Free | Quick setup, local machines |
 | `/channel-to-kb-ytdlp` | yt-dlp | None | Free | Most reliable, captures publish dates |
 | `/channel-to-kb-supadata` | Supadata API | Required | $17+/mo | No IP issues, AI fallback for uncaptioned videos |
+| `/obsidian-vault-to-kb` | Local Obsidian vault | None | Free | Personal note vaults; resolves `[[wikilinks]]` to OKF-legal relative links |
 
 ```bash
 # Example: build a KB from 3blue1brown's channel using yt-dlp
